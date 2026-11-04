@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="KALE modül kartları">
+<rect width="1200" height="500" rx="24" fill="#0c161c"/>
+<text x="44" y="62" font-size="32" fill="#f2d69b" font-family="Arial" font-weight="bold">KALE v1.8 · MODÜL GÖRÜNÜMÜ</text>
+<g font-family="Arial" text-anchor="middle" fill="#edf1ea">
+<rect x="40" y="105" width="345" height="135" rx="16" fill="#17343b" stroke="#558878" stroke-width="2"/><text x="212" y="155" font-size="26" font-weight="bold">AFET REHBERİ</text><text x="212" y="196" font-size="19" fill="#a6d3bf">146 içerik</text>
+<rect x="425" y="105" width="345" height="135" rx="16" fill="#17343b" stroke="#558878" stroke-width="2"/><text x="598" y="155" font-size="26" font-weight="bold">İLAÇ ARŞİVİ</text><text x="598" y="196" font-size="19" fill="#a6d3bf">707 onaysız taslak</text>
+<rect x="810" y="105" width="345" height="135" rx="16" fill="#17343b" stroke="#558878" stroke-width="2"/><text x="983" y="155" font-size="26" font-weight="bold">İLK YARDIM</text><text x="983" y="196" font-size="19" fill="#a6d3bf">24 kart</text>
+<rect x="40" y="280" width="345" height="135" rx="16" fill="#22323c" stroke="#b99e73" stroke-width="2"/><text x="212" y="330" font-size="26" font-weight="bold">ENVANTER</text><text x="212" y="371" font-size="19" fill="#e4c58e">Gıda · Su · Ekipman</text>
+<rect x="425" y="280" width="345" height="135" rx="16" fill="#22323c" stroke="#b99e73" stroke-width="2"/><text x="598" y="330" font-size="26" font-weight="bold">DOĞA GÜVENLİĞİ</text><text x="598" y="371" font-size="19" fill="#e4c58e">Bitki · Mantar</text>
+<rect x="810" y="280" width="345" height="135" rx="16" fill="#22323c" stroke="#b99e73" stroke-width="2"/><text x="983" y="330" font-size="26" font-weight="bold">YEDEKLEME</text><text x="983" y="371" font-size="19" fill="#e4c58e">JSON · ZIP · Raspberry Pi</text>
+</g><text x="40" y="470" fill="#9cb3b1" font-size="15" font-family="Arial">Şematik tanıtım görselidir; uygulamanın birebir ekran görüntüsü değildir.</text>
+</svg>
