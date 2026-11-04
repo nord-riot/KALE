@@ -1,0 +1,73 @@
+name: Publish KALE source tree
+
+on:
+  push:
+    paths:
+      - 'releases/KALE-v1.8-source.zip'
+      - '.github/workflows/publish-source.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Validate archive and publish source files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import shutil, zipfile
+
+          archive = Path("releases/KALE-v1.8-source.zip")
+          if not archive.is_file():
+              raise SystemExit("KALE archive is missing")
+          count = 0
+          with zipfile.ZipFile(archive) as z:
+              if z.testzip() is not None:
+                  raise SystemExit("Corrupt archive")
+              for m in z.infolist():
+                  if m.is_dir():
+                      continue
+                  parts = PurePosixPath(m.filename).parts
+                  if len(parts)<2 or parts[0] != "KALE-v1.8":
+                      raise SystemExit("Invalid root: " + m.filename)
+                  if any(part in ("", ".", "..") for part in parts):
+                      raise SystemExit("Unsafe path")
+                  rel = Path(*parts[1:])
+                  if str(rel) == "README.md":
+                      rel = Path("docs/README-V1.8-original.md")
+                  if any(p in (".git", "backups", "__pycache__") for p in rel.parts):
+                      raise SystemExit("Forbidden path")
+                  dst = Path.cwd() / rel
+                  dst.parent.mkdir(parents=True, exist_ok=True)
+                  with z.open(m, "r") as src, dst.open("wb") as output:
+                      shutil.copyfileobj(src, output)
+                  count+=1
+          print(f"Published {count} files from v1.8 source archive")
+          PY
+
+      - name: Run selftest and Python unit suite
+        run: |
+          python3 server.py --selftest
+          python3 -W ignore::ResourceWarning -m unittest discover -s tests -q
+          python3 tools/offline_audit.py
+
+      - name: Commit extracted source
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "feat: publish KALE v1.8 application source and screenshots"
+            git push
+          fi
