@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" role="img" aria-label="Az ışıkla güvenli hareket aşama şeması">
+ <rect width="680" height="290" fill="#0f222b" rx="16"/><path d="M0 50H680M0 247H680" stroke="#415862"/>
+ <text x="24" y="32" fill="#bcd0d5" font-family="Arial" font-size="14" letter-spacing="2">K.A.L.E. / YÖN / İLETİŞİM</text>
+ <text x="24" y="72" fill="#f2e9d9" font-family="Arial" font-size="22" font-weight="bold">Az ışıkla güvenli hareket</text>
+ <g stroke="#a1d3bd" fill="none" stroke-width="3" stroke-linejoin="round"><rect x="32" y="104" width="180" height="112" rx="14"/><rect x="251" y="104" width="180" height="112" rx="14"/><rect x="470" y="104" width="180" height="112" rx="14"/>
+ <path d="M218 157h26m-8-8 8 8-8 8M437 157h26m-8-8 8 8-8 8"/></g>
+ <g font-family="Arial" fill="#a1d3bd" text-anchor="middle" font-weight="bold" font-size="42"><text x="122" y="168">01</text><text x="341" y="168">02</text><text x="560" y="168">03</text></g>
+ <g font-family="Arial" fill="#dbe8e5" text-anchor="middle" font-size="13"><text x="122" y="196">KONTROL ET</text><text x="341" y="196">GÜVENLİ UYGULA</text><text x="560" y="196">YENİDEN DEĞERLENDİR</text></g>
+ <text x="25" y="266" fill="#aebec4" font-family="Arial" font-size="12">ŞEMATİK AKIŞ · FOTOĞRAF / UZMAN ONAYI DEĞİL</text>
+ </svg>

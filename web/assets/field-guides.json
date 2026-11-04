@@ -1,0 +1,587 @@
+{
+  "format": "KALE-field-guides-v1",
+  "guides": [
+    {
+      "id": 1,
+      "title": "Deprem sonrası ilk kontrol",
+      "category": "Acil durum",
+      "diagram": "/assets/diagrams/afad.svg",
+      "steps": [
+        "Sarsıntı bitene kadar bulunduğun yerde güvenliğini koru; hasarlı bölümlerden uzak dur.",
+        "Sarsıntı bittikten sonra kendi güvenliğini ve çevrendeki yaralanmaları değerlendir.",
+        "Gaz kokusu, yangın, yapısal hasar ve artçı tehlikesine dikkat et; hasarlı binaya geri girme.",
+        "Güvenli şekilde tahliye edip önceden belirlenmiş buluşma noktasına git."
+      ],
+      "warning": "Ağır hasarlı yapılara kesinlikle girmeyin. Acil yardım için Türkiye’de 112.",
+      "sources": [
+        {
+          "url": "https://www.afad.gov.tr/deprem-oncesi-ani-ve-sonrasi-alabileceginiz-onlemleri-biliyor-musunuz",
+          "title": "AFAD — Deprem öncesi, anı ve sonrası"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 2,
+      "title": "72 saatlik afet çantası",
+      "category": "Hazırlık",
+      "diagram": "/assets/diagrams/cantasi.svg",
+      "steps": [
+        "Her aile üyesinin ihtiyacına uygun erişilebilir çanta hazırla.",
+        "Su, dayanıklı gıda, ışık, pil, radyo, düdük ve ilk yardım malzemelerini yerleştir.",
+        "Kişisel ilaçlar, reçeteler, temel belgeler ve özel gereksinimleri unutma.",
+        "Son kullanma tarihlerini ve pil durumunu düzenli kontrol et."
+      ],
+      "warning": "Çantayı erişilemeyecek bir yere koyma; ilaçları saklama koşullarına uygun tut.",
+      "sources": [
+        {
+          "url": "https://sirnak.afad.gov.tr/afet-cantani-hazirla-ki-canin-sag-olsun",
+          "title": "AFAD — Afet çantası ve içeriği"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 3,
+      "title": "Şüpheli suyu güvenli değerlendirme",
+      "category": "Su",
+      "diagram": "/assets/diagrams/su.svg",
+      "steps": [
+        "Öncelikle kapalı şişe içme suyu veya yetkililerin güvenli ilan ettiği suyu tercih et.",
+        "Yakıt, pestisit veya başka kimyasal kirlilik şüphesi varsa suyu kullanma; kaynatma bunu gidermez.",
+        "Mikrobiyolojik kirlilik şüphesinde berrak suyu kaynama noktasında 1 dakika kaynat; yaklaşık 2.000 m üstü irtifada 3 dakika.",
+        "Suyu soğutup temiz ve kapaklı kapta sakla."
+      ],
+      "warning": "Bilinmeyen filtre kimyasal zehri güvenle gidermez. Kaynak kuşkuluysa başka su ara.",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/",
+          "title": "CDC — Acil durumda su güvenliği"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 4,
+      "title": "Jeneratör ve karbonmonoksit",
+      "category": "Enerji",
+      "diagram": "/assets/diagrams/karbonmonoksit.svg",
+      "steps": [
+        "Jeneratör, mangal ve kamp ocağını evde, garajda, araçta veya çadırda çalıştırma.",
+        "Jeneratörü açık havada, pencere, kapı ve hava girişlerinden en az yaklaşık 6 metre uzakta konumlandır.",
+        "Kapalı alanlarda yakıtla çalışan ısıtıcı yerine güvenli barınma ve elektrikli seçenekler kullan.",
+        "Baş ağrısı, sersemlik, bulantı, bilinç bulanıklığında ortamdan güvenle uzaklaşıp acil yardım iste."
+      ],
+      "warning": "Karbonmonoksit kokusuz ve renksizdir; hissedememeniz ortamın güvenli olduğu anlamına gelmez.",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+          "title": "CDC — Karbonmonoksitten korunma"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 5,
+      "title": "Geçici barınak yeri seçimi",
+      "category": "Barınak",
+      "diagram": "/assets/diagrams/barinak.svg",
+      "steps": [
+        "Önce yapısal çökme, düşen cisimler ve hava koşullarından kaynaklanan riskleri değerlendir.",
+        "Su yatağı, sel birikme alanı, heyelan eğimi ve devrilme riski olan cisimlerden uzak dur.",
+        "Mümkünse kuru, nispeten düz ve havalandırması iyi alan belirle.",
+        "Barınakta yalıtım ve su tahliyesini planla; yakıtlı soba veya mangalı çadır içinde kullanma."
+      ],
+      "warning": "Yerel sel, yangın ve toprak kayması uyarıları önceliklidir. Bu kart yer seçimi için ön kontrol listesidir.",
+      "sources": [
+        {
+          "url": "https://www.afad.gov.tr/deprem-oncesi-ani-ve-sonrasi-alabileceginiz-onlemleri-biliyor-musunuz",
+          "title": "AFAD — Genel afet güvenliği"
+        },
+        {
+          "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html",
+          "title": "CDC — Kapalı alanda yakıtlı cihaz kullanımı"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 6,
+      "title": "Aile haberleşme ve buluşma planı",
+      "category": "Hazırlık",
+      "diagram": "/assets/diagrams/aile.svg",
+      "steps": [
+        "Evden uzak bir buluşma noktası ve alternatif güvenli nokta kararlaştır.",
+        "Acil durum irtibat kişilerini kâğıda yaz; elektronik cihazlara bağımlı kalma.",
+        "Her aile üyesinin özel sağlık, ilaç ve ulaşım gereksinimini plana ekle.",
+        "Planı gözden geçir, erişilebilir çantana bir kopyasını koy."
+      ],
+      "warning": "Afet anında güncel resmî tahliye talimatları önceliklidir.",
+      "sources": [
+        {
+          "url": "https://sirnak.afad.gov.tr/afet-cantani-hazirla-ki-canin-sag-olsun",
+          "title": "AFAD — Acil durum hazırlığı"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 7,
+      "title": "Koordinatı doğru kaydetme",
+      "category": "Navigasyon",
+      "diagram": "/assets/diagrams/konum.svg",
+      "steps": [
+        "Harita ya da cihazda enlem ve boylamı ondalık derece olarak bul.",
+        "Önce enlem, sonra boylam yaz; örnek: 39.00000, 35.00000 (temsili).",
+        "Koordinatın yanında tarih, yer adı ve erişim açıklamasını not et.",
+        "Telefon/batarya kaybına karşı koordinatları kâğıda da yaz."
+      ],
+      "warning": "Örnek koordinat acil konum değildir; gerçek konumu cihazından doğrula.",
+      "sources": [],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 8,
+      "title": "Güç kaynağı ve kablo güvenliği",
+      "category": "Enerji",
+      "diagram": "/assets/diagrams/elektrik.svg",
+      "steps": [
+        "Cihazın giriş voltajını ve güç gereksinimini etiketinden doğrula.",
+        "Akü, şarj cihazı ve güneş panelinde uyumlu regülatör ve sigorta kullan.",
+        "Hasarlı, şişmiş veya aşırı ısınan bataryayı kullanmayı durdur.",
+        "Kabloları su ve sıcak yüzeylerden uzak tut; profesyonel destek olmadan şebeke tesisatına müdahale etme."
+      ],
+      "warning": "Yanlış batarya bağlantısı yangına yol açabilir. Bu rehber kablolama şeması veya montaj talimatı değildir.",
+      "sources": [],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Suyu kaynatarak mikroplardan arındırma",
+      "category": "Su",
+      "steps": [
+        "Önce ambalajlı, güvenilir içme suyu veya resmî olarak güvenli ilan edilen bir kaynağı tercih et.",
+        "Su bulanıksa temiz bez/kahve filtresinden geçirerek tortuyu uzaklaştır; bu işlem tek başına dezenfeksiyon değildir.",
+        "Berrak suyu güçlü kaynama noktasına getir; en az 1 dakika, 2.000 metreden yüksek rakımda 3 dakika kaynat.",
+        "Temiz, kapaklı bir kapta soğut ve güvenli depola."
+      ],
+      "warning": "Yakıt, pestisit, ağır metal veya radyoaktif kirlilik şüphesi varsa kaynatmak güvenli içme suyu oluşturmaz.",
+      "sources": [
+        {
+          "title": "CDC — Acil durumlarda güvenli su",
+          "url": "https://www.cdc.gov/water-emergency/about/"
+        }
+      ],
+      "id": 9,
+      "diagram": "/assets/diagrams/guide-09.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Kimyasal kirlilik şüphesinde su kararı",
+      "category": "Su",
+      "steps": [
+        "Suyun yakınında sanayi tesisi, yakıt döküntüsü, tarım ilacı veya sel nedeniyle kimyasal kirlenme ihtimalini değerlendir.",
+        "Kirlilik şüphesi varsa suyu içme, yemek ve bebek maması için kullanma.",
+        "Kaynatma, bez filtre veya sıradan dezenfeksiyonla kimyasal kirlenmeyi giderdiğini varsayma.",
+        "Ambalajlı su veya yetkililerin güvenli olduğunu belirttiği başka kaynak kullan."
+      ],
+      "warning": "Kimyasal kirli suya güvenliymiş gibi görünüm/koku testi uygulama; bazen hiçbir belirti olmaz.",
+      "sources": [
+        {
+          "title": "CDC — Kimyasallarla kirlenmiş su",
+          "url": "https://www.cdc.gov/water-emergency/about/"
+        }
+      ],
+      "id": 10,
+      "diagram": "/assets/diagrams/guide-10.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Güvenli su saklama ve stok kontrolü",
+      "category": "Su",
+      "steps": [
+        "İçme suyu için daha önce gıda amaçlı kullanılmış temiz, sağlam ve kapaklı kapları ayır.",
+        "Su ile yakıt veya temizlik kimyasalı kaplarını kesinlikle karıştırma.",
+        "Her kabın tarihini ve kaynağını not et; kapakları kapalı tut.",
+        "Su stoğunu kişi sayısına ve özel gereksinimlere göre düzenli gözden geçir."
+      ],
+      "warning": "Eski kimyasal kapları iyice yıkansa bile içme suyu için kullanma.",
+      "sources": [
+        {
+          "title": "CDC — Afetlerde su güvenliği",
+          "url": "https://www.cdc.gov/water-emergency/about/"
+        }
+      ],
+      "id": 11,
+      "diagram": "/assets/diagrams/guide-11.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Yağmur suyunu toplarken dikkat",
+      "category": "Su",
+      "steps": [
+        "Kap/oluk/giriş yüzeylerinin temizliğini ve önceki kullanımını kontrol et.",
+        "Çatıdaki kuş dışkısı, toz ve metal kalıntılarının suyu kirletebileceğini hesaba kat.",
+        "Toplanan suyu otomatik olarak içilebilir sayma; önce kirlilik türünü değerlendir.",
+        "İçme suyu gerekiyorsa güvenilir kaynağı tercih et ve yerel sağlık uyarılarını izle."
+      ],
+      "warning": "Yağmur suyunu basit kaynatma ile her türlü kimyasal kirden temizleyemezsin.",
+      "sources": [
+        {
+          "title": "CDC — Su kaynaklarının güvenliği",
+          "url": "https://www.cdc.gov/water-emergency/about/"
+        }
+      ],
+      "id": 12,
+      "diagram": "/assets/diagrams/guide-12.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Zeminden gelen soğuktan korunma",
+      "category": "Barınak",
+      "steps": [
+        "Gecelemeye karar vermeden önce sel yatağı, yamaç düşmesi ve hasarlı yapı riskini kontrol et.",
+        "Vücudu ıslak zeminden ayıran kuru ve sağlam bir yalıtım tabakası hazırla.",
+        "Rüzgâr ve yağışa karşı barınağı güvenli şekilde konumlandır; çıkışını engelleme.",
+        "Islak giysileri mümkünse değiştir; titreme, bilinç bulanıklığı gibi ciddi soğuk belirtilerine dikkat et."
+      ],
+      "warning": "Kapalı çadırda veya derme çatma barınakta mangal, ateş ya da yakıtlı ocak çalıştırma.",
+      "sources": [
+        {
+          "title": "FEMA — Yakıtlı cihazların karbonmonoksit riski",
+          "url": "https://www.fema.gov/print/pdf/node/643989"
+        }
+      ],
+      "id": 13,
+      "diagram": "/assets/diagrams/guide-13.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Geçici barınakta havalandırma",
+      "category": "Barınak",
+      "steps": [
+        "Açık ve yapı güvenliği sağlanmış bir alan seç; tehlikeli çatlaklar ve duvarlardan uzak kal.",
+        "Yoğuşma ve nem birikimini azaltmak için kontrollü hava geçişi sağla.",
+        "Yanıcı malzemeleri ısı kaynaklarından uzaklaştır.",
+        "Tüm yakıtlı pişirme ve jeneratör işlemlerini açık havada, barınaktan uzakta gerçekleştir."
+      ],
+      "warning": "Karbonmonoksit renksiz ve kokusuzdur. Havalandırma açıklığı, iç mekânda jeneratör/ızgara kullanımını güvenli yapmaz.",
+      "sources": [
+        {
+          "title": "FEMA — Jeneratörü güvenli kullanma",
+          "url": "https://www.fema.gov/print/pdf/node/643989"
+        }
+      ],
+      "id": 14,
+      "diagram": "/assets/diagrams/guide-14.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Barınakta yangın çıkış planı",
+      "category": "Barınak",
+      "steps": [
+        "Her geçici barınaktan kaçış için aydınlatılmış, engelsiz bir çıkış belirle.",
+        "Kibrit, çakmak, ocak ve bataryaları çocukların ulaşamayacağı güvenli alanlarda sakla.",
+        "Barınakta yanıcı eşya biriktirme; uyku alanını açık alevden uzak tut.",
+        "Aile bireyleriyle kısa bir çıkış ve buluşma provası yap."
+      ],
+      "warning": "Duman, kıvılcım veya gaz kokusunda güvenli biçimde alanı terk et; kapalı alanda müdahale etmeye çalışma.",
+      "sources": [
+        {
+          "title": "FEMA — Yangın ve CO güvenliği",
+          "url": "https://www.fema.gov/print/pdf/node/643989"
+        }
+      ],
+      "id": 15,
+      "diagram": "/assets/diagrams/guide-15.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Jeneratörü bina dışında konumlandırma",
+      "category": "Enerji",
+      "steps": [
+        "Jeneratörün üretici kullanım kılavuzunu ve yakıt güvenliği uyarılarını kontrol et.",
+        "Cihazı sadece tamamen açık dış ortamda, kapı, pencere ve havalandırma açıklıklarından uzağa yerleştir.",
+        "Elektrik bağlantılarını kuru ve dış ortam kullanımına uygun tut; bina tesisatına doğrudan geri besleme yapma.",
+        "Karbonmonoksit alarmı kullan; baş ağrısı/baş dönmesi/bulantıda derhal temiz havaya çık ve yardım iste."
+      ],
+      "warning": "Garajda, balkonu kapalı alanda veya açık pencereli odada jeneratör çalıştırma.",
+      "sources": [
+        {
+          "title": "FEMA — Jeneratörü güvenli kullanma",
+          "url": "https://www.fema.gov/print/pdf/node/643989"
+        }
+      ],
+      "id": 16,
+      "diagram": "/assets/diagrams/guide-16.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Batarya ve kablo hasarı kontrolü",
+      "category": "Enerji",
+      "steps": [
+        "Şarj öncesinde kabloda kopuk, erime, yanık ve ıslaklık var mı bak.",
+        "Hasarlı, şişmiş veya aşırı ısınmış bataryayı kullanma ve şarj etme.",
+        "Şarjı yanmaz, kuru ve havadar yerde üretici talimatlarına uygun yap.",
+        "Uyumsuz batarya/hücreleri gelişigüzel seri veya paralel bağlama."
+      ],
+      "warning": "Kısa devre, yangın ve hücre patlaması tehlikesi nedeniyle doğaçlama pil paketleri yapma.",
+      "sources": [
+        {
+          "title": "AFAD — Afet çantası ve güvenli ekipman hazırlığı",
+          "url": "https://rize.afad.gov.tr/afet-ve-acil-durum-cantasi"
+        }
+      ],
+      "id": 17,
+      "diagram": "/assets/diagrams/guide-17.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Az ışıkla güvenli hareket",
+      "category": "Navigasyon",
+      "steps": [
+        "Hareket etmeden önce el feneri, yedek pil ve enerji durumunu kontrol et.",
+        "Hasarlı binalar, elektrik hatları, dik yamaçlar ve su basmış alanlardan uzak bir güzergâh seç.",
+        "Görüşün yetersizse hareketi durdur ve daha güvenli bir konumda kal.",
+        "Ailenin nerede olacağını önceden konuş; el fenerinin güç tasarruf ayarını kullan."
+      ],
+      "warning": "Karanlıkta hasarlı yapıya malzeme almak için geri girme.",
+      "sources": [
+        {
+          "title": "AFAD — Acil durum hazırlığı",
+          "url": "https://rize.afad.gov.tr/afet-ve-acil-durum-cantasi"
+        }
+      ],
+      "id": 18,
+      "diagram": "/assets/diagrams/guide-18.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Afet çantasında kişisel ihtiyaç kontrolü",
+      "category": "Hazırlık",
+      "steps": [
+        "Her hane üyesi için su, dayanıklı gıda, uygun giysi, ışık ve hijyen malzemelerini listele.",
+        "Bebek, yaşlı, engelli veya kronik hastalığı olan kişilerin özel ihtiyaçlarını ayrıca yaz.",
+        "Düzenli kullanılan reçeteli ilaçların erişim planını doktorla görüş; etiket ve son kullanma tarihini kontrol et.",
+        "Çantayı erişilebilir yerde tut ve en az altı ayda bir gözden geçir."
+      ],
+      "warning": "Acil çanta, hekim değerlendirmesi olmadan ilaç değişikliği veya saklanması gereken soğuk zincirin ihlali anlamına gelmez.",
+      "sources": [
+        {
+          "title": "AFAD — Acil durum çantası",
+          "url": "https://rize.afad.gov.tr/afet-ve-acil-durum-cantasi"
+        }
+      ],
+      "id": 19,
+      "diagram": "/assets/diagrams/guide-19.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Evcil hayvanlı aile için hazırlık",
+      "category": "Hazırlık",
+      "steps": [
+        "Evcil hayvan için su, uygun mama ve taşıma ekipmanı hazırla.",
+        "Kimlik, aşı ve veteriner belgelerinin kopyasını güvenli biçimde sakla.",
+        "Hayvanın ihtiyacı olan ilaçlar için veterinerle önceden acil durum planı oluştur.",
+        "Tahliye sırasında hayvanın kaçmasını veya kaybolmasını önleyecek güvenli taşıma hazırlığı yap."
+      ],
+      "warning": "İnsan ilaçlarını veteriner önerisi olmadan hayvanlara verme.",
+      "sources": [
+        {
+          "title": "AFAD — Aile afet çantası",
+          "url": "https://rize.afad.gov.tr/afet-ve-acil-durum-cantasi"
+        }
+      ],
+      "id": 20,
+      "diagram": "/assets/diagrams/guide-20.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Buluşma noktası ve kâğıt bilgi kartı",
+      "category": "İletişim",
+      "steps": [
+        "Aileyle ev yakınında ve mahalle dışında alternatif iki buluşma noktası kararlaştır.",
+        "Acil iletişim numaralarını ve önemli sağlık notlarını küçük bir kâğıda yaz.",
+        "Birbirine ulaşılmadığında kimin kime ve nasıl haber vereceğini belirle.",
+        "Planı tüm aile bireylerine öğret ve periyodik olarak güncelle."
+      ],
+      "warning": "Özel sağlık verilerini herkesin görebileceği yerlere asma; kartı kaybolmaya karşı koru.",
+      "sources": [
+        {
+          "title": "AFAD — Afet aile planı hazırlığı",
+          "url": "https://rize.afad.gov.tr/afet-ve-acil-durum-cantasi"
+        }
+      ],
+      "id": 21,
+      "diagram": "/assets/diagrams/guide-21.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Ellerin temizliği ve güvenli sanitasyon",
+      "category": "Hijyen",
+      "steps": [
+        "Tuvalet ve yemek hazırlama alanlarını birbirinden ayır.",
+        "Temiz su ve sabun varsa el temizliğini özellikle tuvalet sonrası ve yemek öncesi uygula.",
+        "Kirli yüzeyleri gıda ile temas ettirme; temiz ve kirli kapları ayır.",
+        "Atıkları çocuklardan, gıdadan ve su kaynaklarından uzak, kapalı biçimde topla."
+      ],
+      "warning": "Kirli suyla el yıkamak enfeksiyon riskini artırabilir; resmî içme/kullanma suyu uyarılarını takip et.",
+      "sources": [
+        {
+          "title": "CDC — Acil su ve hijyen",
+          "url": "https://www.cdc.gov/water-emergency/about/"
+        }
+      ],
+      "id": 22,
+      "diagram": "/assets/diagrams/guide-22.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Gıda bozulması şüphesinde karar",
+      "category": "Gıda",
+      "steps": [
+        "Sıcaklık kontrolü kaybolduysa özellikle et, süt ve hazır yemeklerin ne kadar süre uygunsuz koşulda kaldığını değerlendir.",
+        "Şüpheli gıdayı tat testine tabi tutma; koku veya görüntü güvenli olduğunu garanti etmez.",
+        "Kirli su değmiş gıda ambalajlarını güvenli kabul etme.",
+        "Mümkünse ambalajlı, dayanıklı ve son kullanma tarihi uygun gıdaya yönel."
+      ],
+      "warning": "Şüpheli gıda için “biraz ısıtınca düzelir” varsayımı tehlikelidir.",
+      "sources": [
+        {
+          "title": "CDC — Afetlerde güvenli su ve gıda",
+          "url": "https://www.cdc.gov/water-emergency/about/"
+        }
+      ],
+      "id": 23,
+      "diagram": "/assets/diagrams/guide-23.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "title": "Kötü hava koşullarında hareketi erteleme",
+      "category": "Navigasyon",
+      "steps": [
+        "Güncel hava uyarısı, sel, yıldırım ve görüş durumunu kontrol etme imkânın varsa değerlendir.",
+        "Sel yatağı, dere geçidi ve heyelan tehdidi altındaki rotalardan kaçın.",
+        "Görüş çok düşükse veya yer çok kaygansa güvenli bir yerde geçici barın.",
+        "Koordinatını ve planlanan hareket yönünü imkân varsa güvenilir kişiye bildir."
+      ],
+      "warning": "Su basmış yolda veya dere geçidinde akıntının derinliğini yürüyerek test etme.",
+      "sources": [
+        {
+          "title": "AFAD — Afet güvenliği",
+          "url": "https://rize.afad.gov.tr/afet-ve-acil-durum-cantasi"
+        }
+      ],
+      "id": 24,
+      "diagram": "/assets/diagrams/guide-24.svg",
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 25,
+      "title": "Yabani mantarın tehlike işaretleri değil, güvenlik kararı",
+      "category": "Doğa güvenliği",
+      "diagram": "/assets/diagrams/guide-25.svg",
+      "steps": [
+        "Şekil, renk, koku veya hayvanların yiyip yememesi güvenli tüketim ölçütü değildir.",
+        "Tehlikeli ve tehlikesiz türler birbirine çok benzeyebilir; telefondaki fotoğrafla teşhis ve uygulama tahmini yeterli değildir.",
+        "Kaynatma, kurutma veya pişirme tüm mantar toksinlerini etkisizleştirmez.",
+        "Yabani mantarı tüketme; gıda için etiketi ve son kullanma tarihi olan güvenilir kültür ürünü seç."
+      ],
+      "warning": "Yabani mantarlar için KALE hiçbir tüketim tavsiyesi vermez.",
+      "sources": [
+        {
+          "url": "https://www.saglik.gov.tr/TR-55310/mantar-zehirlenmeleri-uzerine-yapilan-basin-aciklamasi.html",
+          "title": "Sağlık Bakanlığı / Poison Control mantar zehirlenmesi bilgilendirmesi"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 26,
+      "title": "Şüpheli mantar yendiyse ilk bildirim",
+      "category": "Doğa güvenliği",
+      "diagram": "/assets/diagrams/guide-26.svg",
+      "steps": [
+        "Şüpheli mantar yenmişse belirti başlamasını beklemeden 112 ve 114 ile iletişime geç.",
+        "Yeme zamanı, miktar, etkilenen kişi sayısı ve mevcut belirtileri not al.",
+        "Kişiyi kusturmaya, evde panzehir veya bitkisel tedavi denemeye çalışma.",
+        "Kalan ürün veya fotoğraf varsa güvenli biçimde sağlık ekiplerine ilet."
+      ],
+      "warning": "Belirti olmaması güvenli olduğu anlamına gelmez; karaciğer ve böbrek hasarı gecikmeli görülebilir.",
+      "sources": [
+        {
+          "url": "https://www.saglik.gov.tr/TR-55310/mantar-zehirlenmeleri-uzerine-yapilan-basin-aciklamasi.html",
+          "title": "Sağlık Bakanlığı / Poison Control mantar zehirlenmesi bilgilendirmesi"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 27,
+      "title": "Çocuklar ve hayvanlar için yabani bitki önlemleri",
+      "category": "Doğa güvenliği",
+      "diagram": "/assets/diagrams/guide-27.svg",
+      "steps": [
+        "Bahçe ve oyun alanındaki tanınmayan mantarları küçük çocukların erişebileceği yerde bırakma.",
+        "Tanınmayan meyve, yaprak, tohum veya süs bitkilerini gıda olarak kullanma.",
+        "Temas ve olası tüketim olayında bitkinin fotoğrafı veya ambalaj bilgisi varsa kaydet.",
+        "Zehirlenme şüphesinde 112 veya 114 üzerinden profesyonel yardım iste."
+      ],
+      "warning": "Bitki veya mantarın “doğal” olması toksik olmadığını göstermez.",
+      "sources": [
+        {
+          "url": "https://www.poison.org/articles/wild-mushroom-warning",
+          "title": "Sağlık Bakanlığı / Poison Control mantar zehirlenmesi bilgilendirmesi"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    },
+    {
+      "id": 28,
+      "title": "Etiketli kültür mantarını güvenli değerlendirme",
+      "category": "Gıda",
+      "diagram": "/assets/diagrams/guide-28.svg",
+      "steps": [
+        "Yabani mantar yerine ambalajlı, etiketi bulunan kültür ürünlerini tercih et.",
+        "Ambalaj bütünlüğü ve son kullanma tarihini kontrol et; şüpheli ürünü kullanma.",
+        "Uygun saklama ve temiz gıda hazırlama kurallarına uy.",
+        "Şüpheli belirti varsa tüketimi durdur ve gerekirse sağlık desteği al."
+      ],
+      "warning": "Etiketli ürün bile bozulabilir; çiğ tüketim ve uygunsuz saklama gıda güvenliği riski yaratabilir.",
+      "sources": [
+        {
+          "url": "https://www.saglik.gov.tr/TR-55310/mantar-zehirlenmeleri-uzerine-yapilan-basin-aciklamasi.html",
+          "title": "Sağlık Bakanlığı / Poison Control mantar zehirlenmesi bilgilendirmesi"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK",
+      "updated": "2026-11-03"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "name":"Parasetamol", "generic_name":"Parasetamol (asetaminofen)", "active_ingredients":"Parasetamol", "category":"Ağrı kesici / ateş düşürücü",
+    "indications":"Hafif-orta şiddette ağrının ve ateşin giderilmesi için kullanılır.", "effects":"Ağrıyı azaltır ve ateşi düşürür.",
+    "side_effects":"Önerildiği şekilde kullanıldığında yan etkileri nadirdir. Ciddi alerjik reaksiyon ve karaciğer hasarı görülebilir; özellikle fazla miktar alınması tehlikelidir.",
+    "allergies":"Parasetamole veya kullanılan ürünün içindeki herhangi bir bileşene bilinen alerji varsa kullanılmamalıdır. Yardımcı maddeler marka ve forma göre farklıdır.",
+    "contraindications":"Ciddi karaciğer hastalığı, düzenli yoğun alkol kullanımı veya daha önce bu maddeyle ciddi reaksiyon öyküsünde sağlık profesyoneline danışılmalıdır.",
+    "warnings":"Birden çok soğuk algınlığı/ağrı ilacı aynı etken maddeyi içerebilir. Farkında olmadan toplam miktarı aşmak ölümcül karaciğer hasarına yol açabilir. Aşırı alım şüphesinde belirti beklemeden acil yardım gerekir.",
+    "interactions":"Warfarin gibi bazı ilaçlarla etkileşim olabilir. Kullanılan diğer ilaçlar ve aynı etken maddeyi içeren kombinasyon ürünleri kontrol edilmelidir.",
+    "source":"NHS + MedlinePlus / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/paracetamol-for-adults/"
+  },
+  {
+    "name":"İbuprofen", "generic_name":"İbuprofen (ibuprofen)", "active_ingredients":"İbuprofen", "category":"NSAİİ / ağrı ve iltihap",
+    "indications":"Ağrı, ateş ve iltihabi yakınmaların giderilmesinde kullanılır.", "effects":"Steroid olmayan antienflamatuvar ilaçtır; ağrı, iltihap ve ateşi azaltır.",
+    "side_effects":"Mide rahatsızlığı, bulantı; daha ciddi olarak mide-bağırsak kanaması, böbrek hasarı ve ciddi alerjik reaksiyon görülebilir.",
+    "allergies":"İbuprofen, aspirin veya diğer NSAİİ ilaçlarla alerjik reaksiyon geçirilmişse kullanılmamalıdır. Bazı astımlı kişilerde reaksiyon tetiklenebilir.",
+    "contraindications":"Mide ülseri/kanama, böbrek, karaciğer veya kalp hastalıkları, pıhtılaşma sorunları, inme öyküsü ve gebelikte uygun olmayabilir; hekim/eczacı değerlendirmesi gerekir.",
+    "warnings":"Kanama, böbrek ve kalp-damar riskleri vardır. Siyah dışkı, kan kusma, nefes darlığı veya ciddi alerji acil değerlendirme gerektirir.",
+    "interactions":"Warfarin/diğer kan sulandırıcılar, diğer NSAİİ ilaçlar, bazı antidepresanlar ve tansiyon ilaçlarıyla risk artabilir.",
+    "source":"NHS / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/ibuprofen-for-adults/"
+  },
+  {
+    "name":"Amoksisilin", "generic_name":"Amoksisilin", "active_ingredients":"Amoksisilin", "category":"Penisilin grubu antibiyotik",
+    "indications":"Duyarlı bakterilerin neden olduğu bazı enfeksiyonlarda hekim tarafından reçetelenir; viral soğuk algınlığı ve grip tedavisi değildir.",
+    "effects":"Bakterilerin büyümesini engelleyen penisilin grubu antibiyotiktir.",
+    "side_effects":"Bulantı, ishal ve deri döküntüsü görülebilir. Şiddetli alerjik reaksiyon ve ciddi, uzun süren veya kanlı ishal acil değerlendirme gerektirebilir.",
+    "allergies":"Penisilin grubuna veya amoksisiline bilinen ciddi alerji varsa kullanılmamalıdır. Geçmişteki alerji ayrıntısı bir sağlık uzmanıyla değerlendirilmelidir.",
+    "contraindications":"İlaç/penisilin alerjisi öyküsü ve bazı böbrek sorunlarında özel değerlendirme gerekir; enfeksiyon tipi bilinmeden başlanmamalıdır.",
+    "warnings":"Antibiyotikler rastgele kullanılmaz: yanlış kullanım etkisiz tedaviye, alerjiye ve antibiyotik direncine yol açabilir.",
+    "interactions":"Eş zamanlı ilaçlar ve özellikle diğer reçeteli tedaviler hekim/eczacı tarafından kontrol edilmelidir.",
+    "source":"MedlinePlus / Türkçe kaynak özeti", "source_url":"https://medlineplus.gov/druginfo/meds/a685001.html"
+  },
+  {
+    "name":"Metformin", "generic_name":"Metformin", "active_ingredients":"Metformin", "category":"Tip 2 diyabet ilacı",
+    "indications":"Tip 2 diyabette kan şekeri kontrolü için kullanılır; tip 1 diyabet için insülinin yerine geçmez.",
+    "effects":"Karaciğerin glukoz üretimini azaltmaya ve insüline yanıtı iyileştirmeye yardımcı olur.",
+    "side_effects":"Bulantı, karın rahatsızlığı, ishal görülebilir. Nadir fakat ciddi laktik asidoz riski vardır; uzun kullanımda B12 düzeyi etkilenebilir.",
+    "allergies":"Metformine veya kullanılan ürünün bir bileşenine bilinen ciddi alerji varsa kullanılmamalıdır; ürünün yardımcı maddeleri ayrıca kontrol edilmelidir.",
+    "contraindications":"Ciddi böbrek sorunları, ağır susuzluk, ciddi enfeksiyon, ciddi karaciğer sorunu veya belirli metabolik hastalıklar önemli risk oluşturabilir.",
+    "warnings":"Şiddetli kusma/ishal, sıvı kaybı ve ağır hastalık sırasında tedavi uygunluğu sağlık profesyoneli tarafından değerlendirilmelidir. Laktik asidoz ciddi acil durumdur.",
+    "interactions":"Diğer ilaçlar, kontrast maddeli tetkikler ve yoğun alkol kullanımı dâhil bütün riskler sağlık profesyoneli tarafından gözden geçirilmelidir.",
+    "source":"MedlinePlus / Türkçe kaynak özeti", "source_url":"https://medlineplus.gov/druginfo/meds/a696005.html"
+  },
+  {
+    "name":"Setirizin", "generic_name":"Setirizin", "active_ingredients":"Setirizin", "category":"Antihistaminik / alerji",
+    "indications":"Alerjik nezle ve kurdeşen gibi alerjik belirtilerin giderilmesinde kullanılır.",
+    "effects":"Histaminin etkisini azaltarak alerji belirtilerini hafifletir.",
+    "side_effects":"Uyku hâli, yorgunluk, baş ağrısı, ağız kuruluğu, bulantı ve baş dönmesi görülebilir.",
+    "allergies":"Setirizine veya ürünün yardımcı maddelerine karşı alerjik reaksiyon öyküsünde kullanılmamalıdır.",
+    "contraindications":"Böbrek yetmezliği, nöbet/epilepsi riski veya idrar yapma güçlüğü olanlarda doktor/eczacı değerlendirmesi gerekir.",
+    "warnings":"Uyku hâli yapabilir; sürüş ve dikkat gerektiren işlerde etkisi değerlendirilmelidir. Ani boğaz şişmesi veya nefes alma güçlüğü acildir.",
+    "interactions":"Uyku hâlini artıran ilaçlar ve alkol birlikte alındığında dikkat gerekir.",
+    "source":"NHS / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/cetirizine/"
+  },
+  {
+    "name":"Loratadin", "generic_name":"Loratadin", "active_ingredients":"Loratadin", "category":"Antihistaminik / alerji",
+    "indications":"Alerjik nezle ve ürtiker gibi alerjik yakınmalar için kullanılır.",
+    "effects":"Histaminin etkisini azaltarak hapşırma, kaşıntı gibi yakınmaları hafifletir.",
+    "side_effects":"Baş ağrısı, uyku hâli veya yorgunluk görülebilir; şiddetli alerjik reaksiyon nadirdir.",
+    "allergies":"Loratadine veya üründeki yardımcı maddelere bilinen alerji varsa kullanılmamalıdır.",
+    "contraindications":"Ciddi karaciğer sorunları, epilepsi/nöbet riski ve katkı maddelerine alerji öyküsünde sağlık profesyoneline danışılmalıdır.",
+    "warnings":"Alerji testleri öncesinde ilaç kullanımını ilgili sağlık personeline bildirin. Anafilaksinin acil tedavisi yerine geçmez.",
+    "interactions":"Diğer alerji ilaçları veya sedasyon yapan ürünler için eczacı görüşü alınmalıdır.",
+    "source":"NHS / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/loratadine/"
+  },
+  {
+    "name":"Omeprazol", "generic_name":"Omeprazol", "active_ingredients":"Omeprazol", "category":"Mide asidi azaltıcı / PPI",
+    "indications":"Mide ekşimesi, reflü ve belirli ülser hastalıklarında mide asidi üretimini azaltmak için kullanılır.",
+    "effects":"Proton pompasını baskılayarak mide asidi oluşumunu azaltır.",
+    "side_effects":"Baş ağrısı, karın ağrısı, bulantı, kabızlık veya ishal görülebilir. Uzun süreli tedavinin ek riskleri olabilir.",
+    "allergies":"Omeprazol veya diğer proton pompası inhibitörlerine karşı ciddi alerji/reaksiyon varsa kullanılmamalıdır.",
+    "contraindications":"Karaciğer/böbrek hastalıkları, osteoporoz ve daha önce ciddi PPI reaksiyonları varsa tedavi öncesi değerlendirme gerekir.",
+    "warnings":"Yutma güçlüğü, kanama, açıklanamayan kilo kaybı gibi belirtilerde yalnızca belirtileri baskılayarak değerlendirmeyi geciktirmeyin.",
+    "interactions":"Diğer reçeteli ilaçlarla ve bazı laboratuvar testleriyle etkileşebilir; eczacı/hekim kontrolü gerekir.",
+    "source":"NHS / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/omeprazole/"
+  },
+  {
+    "name":"Loperamid", "generic_name":"Loperamid", "active_ingredients":"Loperamid", "category":"İshal semptomu için bağırsak hareketi yavaşlatıcı",
+    "indications":"Bazı ishal durumlarında dışkılama sıklığını azaltmak için kullanılır; altta yatan enfeksiyonu tedavi etmez.",
+    "effects":"Bağırsak hareketlerini yavaşlatır.",
+    "side_effects":"Kabızlık, karın ağrısı veya bulantı görülebilir; ciddi kabızlık ve daha ciddi yan etkiler mümkündür.",
+    "allergies":"Loperamide veya ürünün herhangi bir içeriğine bilinen alerji varsa kullanılmamalıdır.",
+    "contraindications":"Kanlı ishal ve yüksek ateş, antibiyotik sonrası ağır ishal, inflamatuvar bağırsak hastalığı alevlenmesi, belirgin kabızlık veya karın şişliğinde uygun olmayabilir.",
+    "warnings":"İshalde sıvı kaybını önlemek önceliklidir. Küçük çocuklarda ve uzun süren ishalde uzman değerlendirmesi gerekir.",
+    "interactions":"Kalp ritmini etkileyebilen veya diğer ilaçlarla etkileşim riski taşıyan durumlarda sağlık profesyoneli kontrolü gerekir.",
+    "source":"NHS / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/loperamide/"
+  },
+  {
+    "name":"Salbutamol", "generic_name":"Salbutamol", "active_ingredients":"Salbutamol", "category":"Bronkodilatör / solunum",
+    "indications":"Astım ve KOAH gibi hastalıklarda bronş daralmasına bağlı belirtileri hafifletmek için reçetelenir.",
+    "effects":"Hava yollarındaki düz kasları gevşeterek nefes almayı kolaylaştırır.",
+    "side_effects":"Titreme, çarpıntı, baş ağrısı görülebilir. Ciddi ritim bozukluğu veya potasyum düşüklüğü nadiren gelişebilir.",
+    "allergies":"Salbutamole veya kullanılan inhalerin içeriğine bilinen alerji varsa sağlık profesyoneli değerlendirmesi gerekir.",
+    "contraindications":"Kalp hastalığı, tiroid fazlalığı, düşük potasyum veya diyabet varsa kullanım uygunluğu doktor tarafından değerlendirilmelidir.",
+    "warnings":"Yeni veya giderek kötüleşen nefes darlığı ve göğüs ağrısı acil durum belirtisidir. İnhaler tipi ve kullanım tekniği önemlidir.",
+    "interactions":"Kalp hızını etkileyen ilaçlar ve başka solunum ilaçlarıyla birlikte kullanım sağlık profesyoneli tarafından kontrol edilmelidir.",
+    "source":"NHS / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/salbutamol-inhaler/"
+  },
+  {
+    "name":"Warfarin", "generic_name":"Warfarin", "active_ingredients":"Warfarin", "category":"Antikoagülan / pıhtılaşmayı önleyici",
+    "indications":"Belirli pıhtılaşma sorunlarının önlenmesi veya tedavisinde hekim kontrolünde kullanılır.",
+    "effects":"Kan pıhtılaşmasını baskılar.",
+    "side_effects":"En önemli risk kanamadır; açıklanamayan morarma, idrarda/dışkıda kan, kan kusma ve şiddetli baş ağrısı ciddi işaretlerdir.",
+    "allergies":"Warfarine veya ürün bileşenlerine bilinen alerji öyküsünde kullanılmamalıdır.",
+    "contraindications":"Kanama eğilimi, aktif kanama, bazı karaciğer/böbrek sorunları, yakın zamanda geçirilmiş inme/cerrahi ve gebelik durumunda çok ciddi riskler vardır.",
+    "warnings":"Kişiye özel izlem (INR) zorunludur. Kontrolsüz başlanması, bırakılması veya doz değiştirilmesi hayati risk taşır. Düşme veya kafa travması acil değerlendirilmelidir.",
+    "interactions":"NSAİİ ağrı kesiciler, birçok antibiyotik, mantar ilaçları, bazı bitkisel ürünler ve K vitamini alımındaki büyük değişikliklerle etkileşebilir.",
+    "source":"NHS / Türkçe kaynak özeti", "source_url":"https://www.nhs.uk/medicines/warfarin/"
+  }
+]

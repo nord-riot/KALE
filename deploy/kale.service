@@ -1,0 +1,23 @@
+[Unit]
+Description=KALE Offline Disaster Knowledge Base
+After=network.target
+ConditionPathExists=/opt/kale/data/kale.db
+
+[Service]
+Type=simple
+User=kale
+Group=kale
+WorkingDirectory=/opt/kale
+EnvironmentFile=-/etc/default/kale
+ExecStart=/usr/bin/python3 /opt/kale/server.py
+Restart=on-failure
+RestartSec=4
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadOnlyPaths=/opt/kale
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

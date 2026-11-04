@@ -1,0 +1,619 @@
+{
+  "format": "KALE-SHELTER-WATER-v1",
+  "version": "1.4.0",
+  "review_status": "EDİTORYAL TASLAK",
+  "count": 18,
+  "cards": [
+    {
+      "id": "bs-01",
+      "slug": "yer",
+      "title": "Yer seçimi: güvenli alan",
+      "category": "barinak",
+      "kind": "risk",
+      "summary": "Kırmızı bayraklar varsa kuruluma başlamadan başka güvenli bölge değerlendir.",
+      "materials": [
+        "Çevreyi birkaç yönden gözlemleyebileceğin güvenli ve izinli alan",
+        "Kâğıt not / işaretleme malzemesi"
+      ],
+      "steps": [
+        "Dere yatağı, sel izi ve suyun toplanabileceği alçak noktaları ele.",
+        "Heyelan, kayalık düşmesi, zayıf duvar, elektrik hattı ve kuru-kırık dalları kontrol et.",
+        "Açık sırt ve tepeleri yıldırım riski açısından değerlendir; fırtınada çadıra güvenme.",
+        "Güvenli tahliye çıkışını ve gerekirse toplanma alanına ulaşımı planla."
+      ],
+      "stop": [
+        "Sel, heyelan veya yapısal çökme tehdidi varsa uzaklaş.",
+        "Yıldırım sırasında çadır güvenli sığınak değildir."
+      ],
+      "warning": "Şüpheli alanı yalnızca düz görünüyor diye güvenli sayma.",
+      "diagram": "/assets/diagrams/bs-01.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.ready.gov/floods",
+          "title": "www.ready.gov"
+        },
+        {
+          "url": "https://www.cdc.gov/lightning/safety/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-02",
+      "slug": "tente",
+      "title": "Basit tente: yağmurdan geçici korunma",
+      "category": "barinak",
+      "kind": "tarp",
+      "summary": "Taşıyıcı güvenliği kesinleşmeden altında uyuma veya ağır malzeme asma.",
+      "materials": [
+        "Sağlam ve yırtığı olmayan su geçirmez örtü",
+        "Üreticiye uygun bağ ve sağlam sabitleme noktası",
+        "Yalıtım sağlayan kuru zemin malzemesi"
+      ],
+      "steps": [
+        "Önce sel, rüzgâr, yıldırım ve düşen dal risklerinden uzak yer seç.",
+        "Örtüyü eğimli konumlandırarak suyun birikmeden dışarı akmasını sağla.",
+        "Düşük gerilimle güvenli bağlantı kur; gergin ipleri görünür kıl.",
+        "Rüzgârda bağlantıları ve örtünün birikinti yapıp yapmadığını kontrol et."
+      ],
+      "stop": [
+        "Çatıya, çatlak duvara veya tehlikeli ağaca yük bindirme.",
+        "Kuvvetli rüzgârda şemayı yeterli yapı güvenliği kabul etme."
+      ],
+      "warning": "Bu şema mühendislik hesaplı barınak projesi değildir.",
+      "diagram": "/assets/diagrams/bs-02.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.ready.gov/floods",
+          "title": "www.ready.gov"
+        },
+        {
+          "url": "https://www.cdc.gov/lightning/safety/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-03",
+      "slug": "cadir",
+      "title": "Çadır kurulumunda sabitleme kontrolü",
+      "category": "barinak",
+      "kind": "tent",
+      "summary": "Kuvvetli fırtınada veya yıldırımda çadırın koruma sağlayacağı varsayılmamalı.",
+      "materials": [
+        "Üreticinin çadır parçaları",
+        "Gergi ipleri ve uygun kazıklar",
+        "Reflektif ip işaretleri"
+      ],
+      "steps": [
+        "Üretici kurulum şemasını esas al.",
+        "Yer altı hatları ve zeminin güvenliğinden emin olmadığın alana kazık çakma.",
+        "Gergi iplerini yürüme yolunun dışına çıkar ve görünür kıl.",
+        "Yağış, rüzgâr ve gevşeme sonrası yeniden kontrol et."
+      ],
+      "stop": [
+        "Yıldırımda sert çatılı güvenli bina veya uygun kapalı araca geç.",
+        "Su yolu/taşkın yatağı çadır için uygun değildir."
+      ],
+      "warning": "Çadır tipi ve zemine göre üretici talimatı önceliklidir.",
+      "diagram": "/assets/diagrams/bs-03.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/lightning/safety/",
+          "title": "www.cdc.gov"
+        },
+        {
+          "url": "https://www.ready.gov/floods",
+          "title": "www.ready.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-04",
+      "slug": "yalitim",
+      "title": "Zemin yalıtımı ve kuru kalma",
+      "category": "barinak",
+      "kind": "layers",
+      "summary": "Islak zemin ısı kaybını artırabilir; kuru malzeme önemli.",
+      "materials": [
+        "Kapalı hücreli mat veya üretici önerili izolasyon malzemesi",
+        "Kuru giysi/örtü",
+        "Su geçişini azaltan uygun taban örtüsü"
+      ],
+      "steps": [
+        "Yağmur suyu akışından uzak, güvenli ve kuru yer seç.",
+        "Taban örtüsünü suyun içeri dolmasını artırmayacak biçimde düzenle.",
+        "Mat veya kuru katmanlarla vücudu doğrudan zeminden ayır.",
+        "Yoğuşma ve ıslanma açısından katmanları gün içinde kontrol et."
+      ],
+      "stop": [
+        "Aşırı üşüme, bilinç bulanıklığı veya konuşmada bozulma hipotermi belirtisi olabilir.",
+        "Islak giysileri mümkünse kuru olanla değiştir ve sağlık yardımı iste."
+      ],
+      "warning": "Yalıtım, tıbbi hipotermi tedavisinin yerini almaz.",
+      "diagram": "/assets/diagrams/bs-04.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-05",
+      "slug": "yagmur",
+      "title": "Barınakta yağmur suyu yönetimi",
+      "category": "barinak",
+      "kind": "rain",
+      "summary": "Barınağın altına akan su acil tahliyeye neden olabilir.",
+      "materials": [
+        "Dış örtü ve üreticiye uygun gergi sistemi",
+        "Su akışını gözlemek için güvenli işaretleme"
+      ],
+      "steps": [
+        "Kurulum öncesi yağmur suyu birikme belirtilerini ara.",
+        "Örtüyü birikinti değil dışa akış sağlayacak biçimde eğimli tut.",
+        "Örtünün kenarı, giriş ve ekipman çevresinde damlama kontrolü yap.",
+        "Şiddetli yağış ve yeni sel tehlikesinde tahliye seçeneğini gözden geçir."
+      ],
+      "stop": [
+        "Su yatağı veya potansiyel sel alanına drenaj kazıp yerleşme.",
+        "Akıntının derinliğini yürüyerek deneme."
+      ],
+      "warning": "Yer seçimi, örtüyle suyu yönlendirmekten daha kritiktir.",
+      "diagram": "/assets/diagrams/bs-05.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.ready.gov/floods",
+          "title": "www.ready.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-06",
+      "slug": "ruzgar",
+      "title": "Rüzgâr yönü ve güvenli bariyer",
+      "category": "barinak",
+      "kind": "wind",
+      "summary": "Gelişigüzel ağır duvar/istif yapma; devrilme riski oluşabilir.",
+      "materials": [
+        "Üreticiye uygun rüzgâr koruyucu örtü",
+        "Bağlantıların kontrol listesi"
+      ],
+      "steps": [
+        "Güncel rüzgâr durumunu ve çıkış yönünü değerlendir.",
+        "Barınağın girişini su ve rüzgâr birikiminden koruyacak şekilde düşün.",
+        "Devrilebilecek taş/ahşap yığınlarını bariyer gibi kullanma.",
+        "Rüzgâr şiddetlenince barınağı yeniden değerlendir ve gerekirse ayrıl."
+      ],
+      "stop": [
+        "Elektrik direği, ağaç ve zayıf duvar yanında rüzgâr koruması kurma."
+      ],
+      "warning": "Bariyer her fırtınaya dayanıklı olarak değerlendirilmemelidir.",
+      "diagram": "/assets/diagrams/bs-06.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.ready.gov/floods",
+          "title": "www.ready.gov"
+        },
+        {
+          "url": "https://www.cdc.gov/lightning/safety/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-07",
+      "slug": "havalandirma",
+      "title": "Yoğuşma ve temiz hava",
+      "category": "barinak",
+      "kind": "air",
+      "summary": "Havalandırma açıklığı, iç mekânda yakıt yakmayı güvenli hâle getirmez.",
+      "materials": [
+        "Hava giriş/çıkış açıklıkları bulunan uygun çadır/örtü",
+        "Nemli yüzeyleri kurutma malzemesi"
+      ],
+      "steps": [
+        "Hava girişleri kapanmadan üretici talimatına göre kurulum yap.",
+        "Yağmur önlemleri ile hava değişimini birlikte gözet.",
+        "İç yüzeylerde yoğuşma, ağır nem ve küf riskini izle.",
+        "Yakıtlı ocak, kömür ve jeneratörü barınak içinde kullanma."
+      ],
+      "stop": [
+        "Karbonmonoksit renksiz ve kokusuzdur.",
+        "CO şüphesinde hemen temiz havaya çık ve 112’yi ara."
+      ],
+      "warning": "Birkaç pencere açmak bile jeneratör/ızgarayı içeride güvenli yapmaz.",
+      "diagram": "/assets/diagrams/bs-07.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/carbon-monoxide/about/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-08",
+      "slug": "yakitsiz",
+      "title": "Yakıtlı ısıtıcı yerine güvenli alternatifler",
+      "category": "barinak",
+      "kind": "heat",
+      "summary": "Çadırda ateş, ızgara, mangal veya kamp ocağı kullanma.",
+      "materials": [
+        "Kuru ve mevsime uygun kıyafet",
+        "Yalıtım matı",
+        "Kuru battaniye veya uygun uyku tulumu"
+      ],
+      "steps": [
+        "Önce güvenli resmî barınma tesislerini değerlendir.",
+        "Yalıtım, kuru kıyafet ve korunmuş uyku alanına öncelik ver.",
+        "Karbonmonoksit alarmı gerekiyorsa üreticiye uygun ekipman kullan.",
+        "Belirgin titreme, dalgınlık, uyku hâli veya koordinasyon kaybında sağlık yardımı iste."
+      ],
+      "stop": [
+        "Yanlış ısıtıcı kullanımı ölümcül CO zehirlenmesine yol açabilir."
+      ],
+      "warning": "Sıcak kalmak için kapalı alanda yanma kullanma.",
+      "diagram": "/assets/diagrams/bs-08.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/carbon-monoxide/about/",
+          "title": "www.cdc.gov"
+        },
+        {
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-09",
+      "slug": "ayrilma",
+      "title": "Barınağı terk etme kriterleri",
+      "category": "barinak",
+      "kind": "exit",
+      "summary": "Konfor yerine acil tehlikeye ve resmî tahliye uyarısına öncelik ver.",
+      "materials": [
+        "Acil durum çantası",
+        "Aile buluşma planı",
+        "El feneri"
+      ],
+      "steps": [
+        "Resmî tahliye talimatlarını izle.",
+        "Sel suyu, heyelan hareketi, gaz kokusu ve ağır rüzgârı kırmızı bayrak kabul et.",
+        "Acil çıkış güzergâhını engelleme.",
+        "Güvenli konuma geçince aile üyelerinin durumunu teyit et."
+      ],
+      "stop": [
+        "Çadırı korumak için sel, ağaç devrilmesi veya elektrik riskine geri dönme."
+      ],
+      "warning": "Tehlike sürüyorsa barınağı toparlamaya çalışmadan uzaklaş.",
+      "diagram": "/assets/diagrams/bs-09.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.ready.gov/floods",
+          "title": "www.ready.gov"
+        },
+        {
+          "url": "https://www.cdc.gov/lightning/safety/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-10",
+      "slug": "hiyerarsi",
+      "title": "Su kaynağı seçimi: önce güvenli olan",
+      "category": "su",
+      "kind": "water",
+      "summary": "Kaynağın temiz görünmesi içilebilir olduğunu kanıtlamaz.",
+      "materials": [
+        "Etiketi sağlam ambalajlı içme suyu",
+        "Temiz gıda tipi kap",
+        "Kaynağın tarihini yazacak etiket"
+      ],
+      "steps": [
+        "Önce açılmamış ambalajlı içme suyu ve yetkililerin güvenli dediği kaynakları değerlendir.",
+        "Kuyudan, dere ve yağmurdan alınan suyu otomatik içilebilir varsayma.",
+        "Kimyasal kirlilik, sel ve kanalizasyon riski olan kaynaklardan uzak dur.",
+        "Kaynak belirsizse sağlık yetkililerinin yönlendirmesini ara."
+      ],
+      "stop": [
+        "Suyu yalnız berrak ve kokusuz olduğu için içme."
+      ],
+      "warning": "Bu akış güvenli içme suyu sertifikası değildir.",
+      "diagram": "/assets/diagrams/bs-10.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-11",
+      "slug": "kimyasal",
+      "title": "Kimyasal kirlenme: içme ve kaynatma",
+      "category": "su",
+      "kind": "hazard",
+      "summary": "Yakıt/pestisit/ağır metal/radyoaktif şüphesinde kaynatma suyu güvenli yapmaz.",
+      "materials": [
+        "Alternatif ambalajlı su",
+        "Güvenilir yerel resmî uyarı"
+      ],
+      "steps": [
+        "Yakıt, kimyasal, tarım ilacı, endüstri veya sel bulaşı şüphesini kontrol et.",
+        "Şüphe varsa o suyu içme veya yemek yapmada kullanma.",
+        "Kaynatma, bez süzme, güneşte bırakma veya sıradan filtrelemeyi çözüm kabul etme.",
+        "Güvenilir başka kaynak kullan; yerel sağlık biriminden tavsiye al."
+      ],
+      "stop": [
+        "Kokusu normal su bile kimyasal olarak kirlenmiş olabilir."
+      ],
+      "warning": "Hiçbir ev tipi karar ağacı kimyasal analiz yerine geçmez.",
+      "diagram": "/assets/diagrams/bs-11.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-12",
+      "slug": "tortu",
+      "title": "Bulanık suda çöktürme ve ön süzme",
+      "category": "su",
+      "kind": "settle",
+      "summary": "Tortu giderme mikropları veya kimyasalları güvenilir şekilde gidermez.",
+      "materials": [
+        "Temiz bekletme kabı",
+        "Temiz bez veya kahve filtresi",
+        "Temiz ikinci kap"
+      ],
+      "steps": [
+        "Bulanık suyu bekleterek büyük parçacıkların çökmesini sağla.",
+        "Üstteki daha berrak suyu dikkatle ikinci kaba aktar.",
+        "Temiz bez veya kahve filtresiyle kalan kaba tortuyu azalt.",
+        "Mikrobiyolojik risk için uygun ek işlem gerektiğini unutma."
+      ],
+      "stop": [
+        "Kimyasal kirlilik şüphesinde işlem yapma; başka kaynak kullan."
+      ],
+      "warning": "Bu işlem tek başına içme suyu üretmez.",
+      "diagram": "/assets/diagrams/bs-12.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-13",
+      "slug": "kaynat",
+      "title": "Kaynatma: mikrobiyolojik risk",
+      "category": "su",
+      "kind": "boil",
+      "summary": "Kaynama süresi: normalde 1 dakika; 2.000 m üzeri 3 dakika.",
+      "materials": [
+        "Temiz ısıya uygun kap",
+        "Güvenli dış ortamda uygun ocak/ısı kaynağı",
+        "Temiz kapaklı saklama kabı"
+      ],
+      "steps": [
+        "Yalnız kimyasal/radyoaktif kirlilik şüphesi olmayan su için düşün.",
+        "Su bulanıksa önce çöktür ve kaba tortuyu süz.",
+        "Berrak suyu güçlü biçimde kaynat: 1 dakika; 2.000 m üstü 3 dakika.",
+        "Soğut; temiz, kapaklı kapta ikincil kirlenmeden koru."
+      ],
+      "stop": [
+        "Kapalı barınak/çadırda yakıtla pişirme veya ısıtma yapma.",
+        "Yanık riskini gözet."
+      ],
+      "warning": "Bu mikrop azaltma işlemidir, kimyasal arıtma değildir.",
+      "diagram": "/assets/diagrams/bs-13.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/",
+          "title": "www.cdc.gov"
+        },
+        {
+          "url": "https://www.cdc.gov/carbon-monoxide/about/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-14",
+      "slug": "filtre",
+      "title": "Taşınabilir filtrenin sınırlarını anla",
+      "category": "su",
+      "kind": "filter",
+      "summary": "Filtre adı tek başına virüs veya kimyasal koruma garantisi değildir.",
+      "materials": [
+        "Markası/modeli bilinen, sağlam filtre",
+        "Ürün kullanım kılavuzu",
+        "Kaynak kaydı"
+      ],
+      "steps": [
+        "Filtrenin hangi kirleticileri azaltmak için test edildiğini üretici kılavuzundan doğrula.",
+        "Yırtık, don hasarı, kirli çıkış veya belirtilen kapasite aşımı olup olmadığını kontrol et.",
+        "Virüsler ve kimyasallar için sınırlamaları oku.",
+        "Kaynak şüpheliyse filtreye güvenerek suyu içilebilir ilan etme."
+      ],
+      "stop": [
+        "Aktif karbon, bez ve taş/sand filtreleri her tür toksini veya virüsü gidermez."
+      ],
+      "warning": "Filtrasyon bir ürün kapasitesi sorusudur, evrensel garanti değildir.",
+      "diagram": "/assets/diagrams/bs-14.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-15",
+      "slug": "sakla",
+      "title": "Güvenli suyu kapalı kapta saklama",
+      "category": "su",
+      "kind": "store",
+      "summary": "Eski yakıt/çamaşır suyu/pestisit kabını asla içme suyu için kullanma.",
+      "materials": [
+        "Gıda tipi sağlam kap",
+        "Sıkı kapak",
+        "Tarih/İÇME SUYU etiketi"
+      ],
+      "steps": [
+        "Gıda için uygun, temiz ve sıkı kapaklı kap seç.",
+        "Daha önce toksik kimyasal depolanmış kapları kullanma.",
+        "Suyu kapalı, serin ve doğrudan güneş almayan yerde tut.",
+        "Kabın ağzına el veya kirli bardak sokma; suyun tarihini etiketle."
+      ],
+      "stop": [
+        "Kapağı açık su ve kirli kepçe suyu yeniden kirletebilir."
+      ],
+      "warning": "Güvenli kaynak suyu bile uygunsuz depolamayla kirlenebilir.",
+      "diagram": "/assets/diagrams/bs-15.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/global-water-sanitation-hygiene/about/about-safe-water-storage.html",
+          "title": "www.cdc.gov"
+        },
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-16",
+      "slug": "yagmur-su",
+      "title": "Yağmur suyu toplama: risk ve ayrım",
+      "category": "su",
+      "kind": "rainwater",
+      "summary": "Çatıdan alınan suyu test/uygun işlem olmadan içme suyu sayma.",
+      "materials": [
+        "Gıda tipinde ayrı kap",
+        "Üstünü örtebilen toplama sistemi",
+        "Kaynak ve kullanım etiketi"
+      ],
+      "steps": [
+        "Çatı/oluk üzerinde kuş dışkısı, toz, boya ve kimyasal kaynakları düşün.",
+        "Toplama alanını elektrik ve düşme riski açısından değerlendir; güvensiz çatıya çıkma.",
+        "Topladığın suyu “içilebilir” diye işaretleme.",
+        "Su içme amacıyla kullanılacaksa resmî güvenlik veya uygun işlem bilgisi ara."
+      ],
+      "stop": [
+        "Kaynatmak bütün kimyasal kirleri gidermez.",
+        "Ağır su deposunu yapısal uygunluk olmadan çatıya koyma."
+      ],
+      "warning": "Toplanan suyun güvenliği kaynak/çevre analizine bağlıdır.",
+      "diagram": "/assets/diagrams/bs-16.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-17",
+      "slug": "ayir",
+      "title": "İşlem görmüş suyla ham suyu ayır",
+      "category": "su",
+      "kind": "separate",
+      "summary": "Temiz ve kirli kapları karıştırma.",
+      "materials": [
+        "İÇME SUYU etiketli kap",
+        "İŞLENMEMİŞ SU etiketli ayrı kap",
+        "Temiz dökme ağzı"
+      ],
+      "steps": [
+        "Güvenilir veya uygun işlem görmüş suyu ayrı kapta tut.",
+        "Ham su için ayrı kap ve alet belirle; etiketle.",
+        "Temiz su kabının iç kısmına elleri/ham su ekipmanını değdirme.",
+        "Kapağı her kullanımdan sonra kapat ve kirlenme olasılığını izle."
+      ],
+      "stop": [
+        "Etiket tek başına işlem yapıldığı anlamına gelmez."
+      ],
+      "warning": "Kirlilik türü bilinmiyorsa suyu içme suyu kabul etme.",
+      "diagram": "/assets/diagrams/bs-17.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/global-water-sanitation-hygiene/about/about-safe-water-storage.html",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    },
+    {
+      "id": "bs-18",
+      "slug": "stok",
+      "title": "Su stok planı ve özel ihtiyaçlar",
+      "category": "su",
+      "kind": "planning",
+      "summary": "Kişi ve sıcaklık farklılıkları için tek sabit litre hesabı yeterli değildir.",
+      "materials": [
+        "Kişi sayısı ve ihtiyaç notu",
+        "Tarihli içme suyu stoğu listesi",
+        "Gerekirse ayrı hayvan/ilaç kullanım planı"
+      ],
+      "steps": [
+        "Hane üyelerini ve bebek, hamile, hasta veya yaşlı ihtiyaçlarını listele.",
+        "İçme suyu ve temizlik suyu stokunu birbirinden ayır.",
+        "Sıcak hava ve fiziksel aktivite gibi tüketimi artıran koşulları not et.",
+        "Günlük yeniden hesapla, geçerli su kaynağı bilgisini kontrol et."
+      ],
+      "stop": [
+        "Günlük 2–3 litre gibi örnekler herkes için güvenli veya yeterli miktar değildir."
+      ],
+      "warning": "Su tüketimi kişiye/ortama bağlıdır; planlama matematiği tedavi önerisi değildir.",
+      "diagram": "/assets/diagrams/bs-18.svg",
+      "review_status": "EDİTORYAL TASLAK — SAHA UZMANI ONAYI BEKLİYOR",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "title": "www.cdc.gov"
+        }
+      ],
+      "updated": "2026-11-03"
+    }
+  ]
+}

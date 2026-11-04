@@ -1,0 +1,72 @@
+"""Chromium UI smoke of v1.5 using embedded JSON and local SVG fixtures; no external network."""
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+import json,base64
+R=Path(__file__).resolve().parents[1];WEB=R/'web'
+html=(WEB/'gida-enerji.html').read_text('utf8')
+css=(WEB/'assets/module.css').read_text('utf8')+'\n'+(WEB/'assets/food-energy.css').read_text('utf8')
+js=(WEB/'assets/food-energy.js').read_text('utf8')
+data=json.loads((WEB/'assets/food-energy-winter.json').read_text('utf8'))
+for row in data['cards']:
+ svg=(WEB/row['diagram'].lstrip('/')).read_bytes()
+ row['diagram']='data:image/svg+xml;base64,'+base64.b64encode(svg).decode('ascii')
+html=html.replace('<link rel="stylesheet" href="/assets/module.css">','').replace('<link rel="stylesheet" href="/assets/food-energy.css">','').replace('<script defer src="/assets/food-energy.js"></script>','')
+html=html.replace('</head>','<style>'+css+'</style></head>')
+fixture='window.fetch=async ()=>({ok:true,json:async()=>('+json.dumps(data,ensure_ascii=False)+')});'
+html=html.replace('</body>','<script>'+fixture+'</script><script>'+js+'</script></body>')
+with sync_playwright() as p:
+ browser=p.chromium.launch(headless=True,executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage'])
+ page=browser.new_page(viewport={'width':1260,'height':860},device_scale_factor=1)
+ errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ page.set_content(html,wait_until='load')
+ page.wait_for_function('document.querySelectorAll(".guide").length===24',timeout=10000)
+ print('ALL CARDS',page.locator('.guide').count())
+ for cat in ('gida','pisirme','enerji','kis'):
+  page.select_option('#guideCategory',cat)
+  assert page.locator('.guide').count()==6,(cat,page.locator('.guide').count())
+ page.select_option('#guideCategory','all')
+ page.fill('#guideSearch','hipotermi')
+ assert page.locator('.guide').count()>=1
+ page.fill('#guideSearch','')
+ page.select_option('#doorClosed','yes')
+ page.fill('#outageHours','6')
+ page.click('#foodForm button[type=submit]')
+ assert '4 SAATLİK' in page.locator('#foodResult').inner_text()
+ page.select_option('#foodKind','full')
+ page.fill('#outageHours','3')
+ page.click('#foodForm button[type=submit]')
+ assert 'tüketilebilir onayı verilemez' in page.locator('#foodResult').inner_text()
+ page.select_option('#foodVerified','warm')
+ page.click('#foodForm button[type=submit]')
+ assert 'DUR' in page.locator('#foodResult').inner_text()
+ page.click('#energyTab')
+ page.fill('#capacityWh','500')
+ page.fill('#loadW','25')
+ page.fill('#efficiency','80')
+ page.fill('#reserve','20')
+ page.click('#energyForm button[type=submit]')
+ assert '12,8 saat' in page.locator('#energyResult').inner_text(),page.locator('#energyResult').inner_text()
+ page.click('#winterTab')
+ page.locator('input[name="coldFlag"][value="confusion"]').check()
+ page.click('#winterForm button[type=submit]')
+ assert '112' in page.locator('#winterResult').inner_text()
+ page.locator('input[name="coldFlag"][value="confusion"]').uncheck()
+ page.locator('input[name="coldFlag"][value="frost"]').check()
+ page.click('#winterForm button[type=submit]')
+ assert 'DONMA ŞÜPHESİ' in page.locator('#winterResult').inner_text()
+ page.locator('input[name="coldFlag"][value="frost"]').uncheck()
+ page.locator('input[name="coldFlag"][value="wet"]').check()
+ page.click('#winterForm button[type=submit]')
+ assert 'SOĞUK MARUZİYETİ' in page.locator('#winterResult').inner_text()
+ page.locator('input[name="coldFlag"][value="wet"]').uncheck()
+ page.click('#winterForm button[type=submit]')
+ assert 'güvende' in page.locator('#winterResult').inner_text() or 'riskinin bulunmadığı' in page.locator('#winterResult').inner_text()
+ page.locator('.guide button').first.click()
+ assert page.locator('#guideDialog').evaluate('(e)=>e.open') is True
+ assert page.locator('#guideDetail li').count()>=8
+ page.locator('#closeGuide').click()
+ page.wait_for_function('Array.from(document.querySelectorAll(".guide img")).every(i=>i.complete&&i.naturalWidth>0)',timeout=10000)
+ page.screenshot(path='/mnt/data/KALE-v1.5-Gida-Enerji-Kis-Onizleme.png',full_page=True)
+ assert not errors,errors
+ print('BROWSER PASS: 24 cards, 4 filters, 3 screen inputs, details, images, no errors')
+ browser.close()

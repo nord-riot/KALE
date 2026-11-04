@@ -1,0 +1,839 @@
+{
+  "format": "KALE-FIRSTAID-1",
+  "version": "1.7.0",
+  "country": "TR",
+  "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+  "last_editorial_check": "2026-11-03",
+  "emergency_phones": {
+    "emergency": "112",
+    "poison": "114"
+  },
+  "cards": [
+    {
+      "id": "KALE-AY-01",
+      "title": "Yetişkin: tepkisiz ve normal nefes almıyor",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Tepki yok ve normal solunum yok ya da yalnız düzensiz iç çekme/gasping var."
+      ],
+      "steps": [
+        "Ortamın güvenli olduğundan emin ol; kişiye seslen ve omzuna hafifçe dokunarak yanıtı kontrol et.",
+        "112’yi hemen ara; telefonu hoparlöre al. Yakındakilerden otomatik eksternal defibrilatör (OED/AED) iste.",
+        "Yetişkini düz/sert zeminde sırtüstü yatır. Göğsün ortasına dakikada 100–120 bası yap; 5–6 cm derinlik hedefle ve göğsün geri dönmesine izin ver.",
+        "Eğitimli ve yapmaya istekliysen 30 bası / 2 kurtarıcı soluk uygula; aksi durumda kesintisiz göğüs basısını sürdür.",
+        "OED geldiğinde sesli yönergeleri izle; sağlık ekipleri devralana veya kişi normal nefes alana dek 112 yönlendirmesini takip et."
+      ],
+      "avoid": [
+        "Nabız aramakla vakit kaybetme; normal olmayan iç çekmeleri normal nefes sayma.",
+        "Bu yetişkin uygulamasını bebek/çocuk için aynı teknikle kullanma."
+      ],
+      "call112": "Her tepkisizlik ve normal nefes almama durumunda hemen 112.",
+      "summary": "Tepki yok ve normal solunum yok ya da yalnız düzensiz iç çekme/gasping var.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "American Red Cross — CPR",
+          "url": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
+        },
+        {
+          "title": "Resuscitation Council UK — BLS 2025",
+          "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines"
+        },
+        {
+          "title": "IFRC — İlk yardım 2025",
+          "url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-01.svg"
+    },
+    {
+      "id": "KALE-AY-02",
+      "title": "Otomatik eksternal defibrilatör (OED/AED)",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Kişi tepkisiz ve normal nefes almıyor; OED mevcut."
+      ],
+      "steps": [
+        "112 ile iletişimi sürdür ve OED’yi aç.",
+        "Elektrotları cihazdaki çizime ve sesli yönergelere göre çıplak, kuru göğse yerleştir.",
+        "Cihaz ritim analizi yaparken kimsenin kişiye dokunmadığından emin ol.",
+        "Cihaz şok önerirse yönergeye uy; ardından gecikmeden göğüs basısına devam et."
+      ],
+      "avoid": [
+        "Kişiyle temas varken şok verme.",
+        "OED aramak için göğüs basılarına gereksiz ara verme."
+      ],
+      "call112": "OED kullanılan olayda 112 ile iletişim kur; sağlık ekibi çağır.",
+      "summary": "Kişi tepkisiz ve normal nefes almıyor; OED mevcut.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "American Red Cross — AED",
+          "url": "https://www.redcross.org/take-a-class/aed/using-an-aed/aed-steps"
+        },
+        {
+          "title": "Resuscitation Council UK — BLS 2025",
+          "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-02.svg"
+    },
+    {
+      "id": "KALE-AY-03",
+      "title": "Hayatı tehdit eden dış kanama",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Fışkıran veya durmayan kanama, hızla ıslanan giysiler, belirgin kan kaybı."
+      ],
+      "steps": [
+        "Kendini koru; varsa eldiven kullan. 112 çağrısı yaptır.",
+        "Kanama bölgesine temiz bez veya gazlı bezle kesintisiz doğrudan, güçlü basınç uygula.",
+        "Hayatı tehdit eden kol/bacak kanaması basıya rağmen durmuyorsa uygun turnike varsa eğitim ve 112 yönlendirmesiyle kullan.",
+        "Kişinin bilincini ve solunumunu takip et; profesyonel yardım gelene kadar basıyı sürdür."
+      ],
+      "avoid": [
+        "Yaraya gömülmüş büyük cismi çekip çıkarma.",
+        "Turnikeyi keyfî biçimde gevşetme veya çıkarma.",
+        "Kişiye zorla yiyecek/içecek verme."
+      ],
+      "call112": "Durmayan şiddetli kanamada acilen 112.",
+      "summary": "Fışkıran veya durmayan kanama, hızla ıslanan giysiler, belirgin kan kaybı.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-03.svg"
+    },
+    {
+      "id": "KALE-AY-04",
+      "title": "Tepkisiz fakat normal nefes alıyor",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Kişi konuşmaya/dokunmaya yanıt vermiyor ancak normal nefes alıyor."
+      ],
+      "steps": [
+        "112’yi ara; solunumu düzenli gözle.",
+        "Belirgin boyun/omurga yaralanması şüphesi yoksa hava yolunu açık tutmak için güvenli yan (derlenme) pozisyonuna getir.",
+        "Nefes alıp almadığını sık izleyerek yardım gelmesini bekle.",
+        "Normal nefes kesilirse 112 yönlendirmesiyle kalp masajına geç."
+      ],
+      "avoid": [
+        "Kişiye ağızdan su, yemek veya ilaç verme.",
+        "Travmaya bağlı omurga yaralanması kuşkusu varsa zorunlu değilse gelişigüzel hareket ettirme."
+      ],
+      "call112": "Tepkisiz kişide derhal 112.",
+      "summary": "Kişi konuşmaya/dokunmaya yanıt vermiyor ancak normal nefes alıyor.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "St John Ambulance — Yan pozisyon",
+          "url": "https://www.sja.org.uk/first-aid-advice/recovery-position/"
+        },
+        {
+          "title": "American Red Cross — CPR",
+          "url": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-04.svg"
+    },
+    {
+      "id": "KALE-AY-05",
+      "title": "Yetişkinde ciddi boğulma / solunum yoluna cisim",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Kişi konuşamıyor, etkili öksüremiyor ya da nefes alamıyor."
+      ],
+      "steps": [
+        "112 çağır; kişi etkili öksürebiliyorsa öksürmesini teşvik et.",
+        "Etkili öksürük yoksa öne eğik durumda kürek kemikleri arasına 5 sırt darbesi uygula.",
+        "Tıkanıklık devam ederse yetişkinde 5 karın itişi uygula; bebeklerde bu yöntem kullanılmaz.",
+        "Tıkanıklık giderilene veya kişi tepkisizleşene kadar 5 sırt darbesi / 5 karın itişi şeklinde devam et.",
+        "Kişi tepkisizleşirse 112 yönlendirmesiyle CPR’a başla."
+      ],
+      "avoid": [
+        "Ağız içine görmeden parmak sokup körlemesine arama yapma.",
+        "Bu yetişkin tekniğini 1 yaşından küçük bebekte uygulama."
+      ],
+      "call112": "Nefes alamıyor veya konuşamıyorsa hemen 112.",
+      "summary": "Kişi konuşamıyor, etkili öksüremiyor ya da nefes alamıyor.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "Resuscitation Council UK — Boğulma",
+          "url": "https://www.resus.org.uk/professional-library/faqs/faqs-basic-life-support-cpr"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-05.svg"
+    },
+    {
+      "id": "KALE-AY-06",
+      "title": "Şiddetli alerjik reaksiyon / anafilaksi",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Dil/boğaz şişmesi, nefes darlığı, ani bayılma, yaygın alerji belirtileri."
+      ],
+      "steps": [
+        "112’yi ara ve anafilaksi şüphesini belirt.",
+        "Kişinin kendisine reçete edilmiş adrenalin otoenjektörü varsa cihazın kendi talimatına ve 112 yönlendirmesine göre hemen kullanmasına yardım et.",
+        "Kişiyi yürütme/ayağa kaldırma; nefes almakta zorlanıyorsa rahat ettiği uygun pozisyonda tut.",
+        "Belirtiler düzelse de acil sağlık değerlendirmesini bekle."
+      ],
+      "avoid": [
+        "Yalnız antihistaminikle geçer diye bekleme.",
+        "Başkasının ilacını veya bilinmeyen enjektörü gelişigüzel kullanma."
+      ],
+      "call112": "Anafilaksi şüphesinde her zaman 112.",
+      "summary": "Dil/boğaz şişmesi, nefes darlığı, ani bayılma, yaygın alerji belirtileri.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "NHS — Anafilaksi",
+          "url": "https://www.nhs.uk/conditions/anaphylaxis/"
+        },
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-06.svg"
+    },
+    {
+      "id": "KALE-AY-07",
+      "title": "İnme belirtileri — FAST",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Yüzün tek tarafında kayma, tek kolda güçsüzlük, konuşma bozukluğu; ani başlayan başka nörolojik belirtiler."
+      ],
+      "steps": [
+        "Yüzünü gülümsetmesini, iki kolunu kaldırmasını ve basit cümle söylemesini isteyerek FAST belirtilerini fark et.",
+        "Tek bir belirti bile varsa hemen 112’yi ara; şikâyet başlangıç saatini not et.",
+        "Kişiyi sakin ve güvenli bir konumda tut; değişen belirtileri izle.",
+        "Belirtiler geçse bile tıbbi acil olarak değerlendir."
+      ],
+      "avoid": [
+        "Kişiye yiyecek/içecek ya da rastgele ilaç verme.",
+        "Kendi aracıyla hastaneye götürmeye çalışarak ambulansı geciktirme."
+      ],
+      "call112": "İnme şüphesinde derhal 112.",
+      "summary": "Yüzün tek tarafında kayma, tek kolda güçsüzlük, konuşma bozukluğu; ani başlayan başka nörolojik belirtiler.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "NHS — İnme belirtileri",
+          "url": "https://www.nhs.uk/conditions/stroke/symptoms/"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-07.svg"
+    },
+    {
+      "id": "KALE-AY-08",
+      "title": "Göğüs ağrısı / olası kalp krizi",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Baskı tarzında göğüs ağrısı, nefes darlığı, terleme, bulantı, kola/çeneye yayılma olabilir."
+      ],
+      "steps": [
+        "112’yi ara.",
+        "Kişiyi fiziksel efordan uzak tut ve rahat ettiği konumda dinlenmesini sağla.",
+        "Bilincini, nefesini ve belirtilerdeki değişimi izle.",
+        "Tepkisizleşir ve normal nefes almazsa 112 yönlendirmesiyle CPR’a başla."
+      ],
+      "avoid": [
+        "Kişiyi kendi başına araba kullanmaya zorlama.",
+        "İlaç/doz kararı verme; 112 görevlisinin yönlendirmesine uy."
+      ],
+      "call112": "Kalp krizi şüphesinde 112.",
+      "summary": "Baskı tarzında göğüs ağrısı, nefes darlığı, terleme, bulantı, kola/çeneye yayılma olabilir.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        },
+        {
+          "title": "NHS — İnme belirtileri",
+          "url": "https://www.nhs.uk/conditions/stroke/symptoms/"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-08.svg"
+    },
+    {
+      "id": "KALE-AY-09",
+      "title": "Nöbet / havale",
+      "category": "Hayati acil",
+      "urgency": "112 GEREKEBİLİR",
+      "signs": [
+        "İstemsiz kasılma, bilinç değişikliği, çevreye yanıtın azalması."
+      ],
+      "steps": [
+        "Kişiyi çarpmaya karşı koru; etraftaki sert ve keskin nesneleri uzaklaştır.",
+        "Nöbetin başladığı zamanı not et.",
+        "Kasılma sona erdiğinde normal nefesini kontrol et; nefes alıyorsa güvenli yan pozisyonda izle.",
+        "İlk nöbet, 5 dakikayı aşan nöbet, ardışık nöbet, yaralanma veya solunum sorunu varsa hemen 112."
+      ],
+      "avoid": [
+        "Kişiyi zorla tutup kasılmasını engelleme.",
+        "Ağzına cisim, su veya ilaç koyma."
+      ],
+      "call112": "İlk nöbet, 5 dakikayı aşma, ardışık nöbet veya solunum sorunu varsa 112.",
+      "summary": "İstemsiz kasılma, bilinç değişikliği, çevreye yanıtın azalması.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "NHS — Nöbet ilk yardımı",
+          "url": "https://www.nhs.uk/symptoms/what-to-do-if-someone-has-a-seizure-fit/"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-09.svg"
+    },
+    {
+      "id": "KALE-AY-10",
+      "title": "Diyabet: ağır kan şekeri düşüklüğü şüphesi",
+      "category": "Hayati acil",
+      "urgency": "112 GEREKEBİLİR",
+      "signs": [
+        "Titreme, terleme, bilinç bulanıklığı; ağır durumda nöbet/bayılma."
+      ],
+      "steps": [
+        "Kişi diyabetli ve tamamen bilinçliyse, güvenle yutabiliyorsa kendi doktorunun hipoglisemi planına yardımcı ol.",
+        "Ölçüm cihazı varsa kullan; kişinin kendi tedavi planını esas al.",
+        "Bilinç bozukluğu, nöbet ya da güvenli yutamama varsa hemen 112.",
+        "Tepkisiz ama normal nefes alıyorsa güvenli yan pozisyonu ve solunum izlemi uygula."
+      ],
+      "avoid": [
+        "Bilinçsiz veya güvenli yutamayan kişiye ağızdan şeker/su verme.",
+        "İnsülin veya başka ilacın dozunu kendin belirleme."
+      ],
+      "call112": "Bilinç bozukluğu, nöbet veya güvenli yutamamada 112.",
+      "summary": "Titreme, terleme, bilinç bulanıklığı; ağır durumda nöbet/bayılma.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "NHS — Hipoglisemi",
+          "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-10.svg"
+    },
+    {
+      "id": "KALE-AY-11",
+      "title": "Astım atağı ve ciddi nefes darlığı",
+      "category": "Hayati acil",
+      "urgency": "112 GEREKEBİLİR",
+      "signs": [
+        "Hırıltı, nefes darlığı, konuşmakta güçlük, morarma ya da ağır solunum sıkıntısı."
+      ],
+      "steps": [
+        "Kişiyi sakin tut ve nefes almayı kolaylaştıran pozisyonda dinlendir.",
+        "Kişinin kendisine reçete edilmiş kurtarıcı inhaleri ve yazılı astım planı varsa uygulamasına yardımcı ol.",
+        "Konuşamama, ağır nefes darlığı, bilinç değişikliği veya düzelmeme varsa 112 çağır.",
+        "Kişinin solunumu kötüleşirse 112 görevlisinin talimatlarını izle."
+      ],
+      "avoid": [
+        "Başkasının inhalerini veya bilinmeyen ilacı gelişigüzel kullanma.",
+        "Ağır belirtilerde zaman kaybetme."
+      ],
+      "call112": "Ağır nefes darlığı, morarma, bilinç değişikliği veya düzelmemede 112.",
+      "summary": "Hırıltı, nefes darlığı, konuşmakta güçlük, morarma ya da ağır solunum sıkıntısı.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        },
+        {
+          "title": "British Red Cross — İlk yardım genel",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-11.svg"
+    },
+    {
+      "id": "KALE-AY-12",
+      "title": "Sudan çıkarılan tepkisiz kişi",
+      "category": "Hayati acil",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Sudan çıkarıldıktan sonra yanıt vermiyor veya normal nefes almıyor."
+      ],
+      "steps": [
+        "Kendini tehlikeye atarak suya girme; güvenli kurtarma ve 112 çağrısını sağla.",
+        "Kişiyi güvenli düz zemine al, normal nefesini hızla kontrol et.",
+        "Normal nefes yoksa 112 yönlendirmesiyle CPR başlat; bu durumda eğitimliysen kurtarıcı soluklar özellikle önemlidir.",
+        "OED varsa kullan; sağlık görevlileri devralana kadar yönergelere uy."
+      ],
+      "avoid": [
+        "Suyu çıkarmak için kişiyi baş aşağı sallama veya göğsüne baskı harici zararlı manevralar yapma.",
+        "Kurtarıcının kendi güvenliğini riske atma."
+      ],
+      "call112": "Sudan çıkarılan tepkisiz kişide hemen 112.",
+      "summary": "Sudan çıkarıldıktan sonra yanıt vermiyor veya normal nefes almıyor.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "IFRC — İlk yardım 2025",
+          "url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf"
+        },
+        {
+          "title": "American Red Cross — CPR",
+          "url": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-12.svg"
+    },
+    {
+      "id": "KALE-AY-13",
+      "title": "İlaç, kimyasal veya bilinmeyen madde zehirlenmesi",
+      "category": "Zehirlenme",
+      "urgency": "112 / 114",
+      "signs": [
+        "Yutma, soluma veya cilt teması sonrası rahatsızlık; belirtiler gecikebilir."
+      ],
+      "steps": [
+        "Önce kendi güvenliğini sağla; maruziyetin devamını güvenle durdur.",
+        "112’yi ara; Türkiye’de 114 Ulusal Zehir Danışma Merkezi’nden de bilgi al.",
+        "Maddenin adını, ambalajını, olası miktarı, temas saatini ve belirtileri not et.",
+        "Kişinin bilinci/nefesini izle ve yönlendirme al."
+      ],
+      "avoid": [
+        "Kişiyi kusturma.",
+        "Uzman söylemeden aktif kömür, süt, ilaç veya ev tipi antidot verme."
+      ],
+      "call112": "Belirti, bilinç bozukluğu, kimyasal maruziyet veya miktar belirsizliğinde 112; ek toksikoloji danışması 114.",
+      "summary": "Yutma, soluma veya cilt teması sonrası rahatsızlık; belirtiler gecikebilir.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "Sağlık Bakanlığı — UZEM 114",
+          "url": "https://www.saglik.gov.tr/TR-11518/114-uzem.html"
+        },
+        {
+          "title": "Sağlık Bakanlığı — Acil hatlar",
+          "url": "https://pursaklardh.saglik.gov.tr/TR-36699/acil-durum-telefonlari.html"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-13.svg"
+    },
+    {
+      "id": "KALE-AY-14",
+      "title": "Karbonmonoksit maruziyeti",
+      "category": "Zehirlenme",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Jeneratör, mangal, soba/ocak bulunan ortamda baş ağrısı, halsizlik, baş dönmesi, bulantı veya bayılma."
+      ],
+      "steps": [
+        "Kendini riske atmadan hemen dışarıdaki temiz havaya çık.",
+        "112’yi ara; başka kişilerin içeri girmesini engelle.",
+        "Herkesin dışarı çıkıp çıkmadığını kontrol et; sağlık görevlilerine ortamı anlat.",
+        "Yetkililer izin vermeden binaya geri dönme."
+      ],
+      "avoid": [
+        "Kaynağı araştırmak için kapalı alana tekrar girme.",
+        "Kokusuz olduğu için tehlike yok sanma."
+      ],
+      "call112": "CO alarmı, olası zehirlenme veya bayılmada 112.",
+      "summary": "Jeneratör, mangal, soba/ocak bulunan ortamda baş ağrısı, halsizlik, baş dönmesi, bulantı veya bayılma.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "CDC — Karbonmonoksit",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-14.svg"
+    },
+    {
+      "id": "KALE-AY-15",
+      "title": "Yabani mantar veya bitki zehirlenmesi şüphesi",
+      "category": "Zehirlenme",
+      "urgency": "112 / 114",
+      "signs": [
+        "Yabani tür tüketimi sonrasında bulantı, karın ağrısı, kusma veya geç başlayan belirtiler olabilir."
+      ],
+      "steps": [
+        "Olası zehirli tür tüketiminde belirtinin başlamasını beklemeden 112 veya 114’ten yönlendirme al.",
+        "Tüketilen miktarı ve zamanı not et; kalan örneği/ambalajı güvenli şekilde muhafaza et.",
+        "Aynı yiyeceği tüketen başka kişiler olup olmadığını sağlık ekibine bildir."
+      ],
+      "avoid": [
+        "Kusturma, alkol, süt veya ev yapımı tedavi deneme.",
+        "Bitki/mantarı fotoğrafa bakarak “yenilebilir” sayma."
+      ],
+      "call112": "Yabani mantar/bitki zehirlenmesinde acil tıbbi değerlendirme için 112; ayrıca 114 UZEM danışmanlığı.",
+      "summary": "Yabani tür tüketimi sonrasında bulantı, karın ağrısı, kusma veya geç başlayan belirtiler olabilir.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "Sağlık Bakanlığı — UZEM 114",
+          "url": "https://www.saglik.gov.tr/TR-11518/114-uzem.html"
+        },
+        {
+          "title": "Sağlık Bakanlığı — Acil hatlar",
+          "url": "https://pursaklardh.saglik.gov.tr/TR-36699/acil-durum-telefonlari.html"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-15.svg"
+    },
+    {
+      "id": "KALE-AY-16",
+      "title": "Yılan ısırması",
+      "category": "Zehirlenme",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Yılan ısırığı, şişlik/ağrı veya belirtiler henüz başlamamış olabilir."
+      ],
+      "steps": [
+        "Yılandan uzaklaş; yılanı yakalamaya çalışma.",
+        "112’yi ara, kişiyi mümkün olduğunca sakin ve hareketsiz tut.",
+        "Şişme başlamadan yüzük, bileklik gibi sıkabilecek eşyaları çıkar.",
+        "Güvenli mesafeden türün görünümü hatırlanabiliyorsa sağlık ekibine anlat; ısırık yerine temiz kuru örtü uygula."
+      ],
+      "avoid": [
+        "Turnike, kesme, emme, buz uygulama veya elektrik verme.",
+        "Kişiyi kendi aracını sürmeye yönlendirme."
+      ],
+      "call112": "Yılan ısırıklarında beklemeden 112.",
+      "summary": "Yılan ısırığı, şişlik/ağrı veya belirtiler henüz başlamamış olabilir.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "CDC — Yılan ısırması",
+          "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-16.svg"
+    },
+    {
+      "id": "KALE-AY-17",
+      "title": "Termal yanık ve haşlanma",
+      "category": "Yaralanma",
+      "urgency": "112 GEREKEBİLİR",
+      "signs": [
+        "Sıcak su, alev veya yüzey temasıyla kızarıklık, ağrı, kabarcık."
+      ],
+      "steps": [
+        "Önce ısı kaynağından güvenle uzaklaştır.",
+        "Yanık bölgesini serin akan suyla 20 dakika soğut; kişiyi tümden soğutarak hipotermi oluşturma.",
+        "Takı/sıkı eşyaları çıkar; deriye yapışmış giysiyi zorla sökme.",
+        "Yara üzerine gevşek temiz yapışmayan örtü koy; büyük, derin, yüz/el/genital veya kimyasal/elektrik yanığında 112."
+      ],
+      "avoid": [
+        "Buz, diş macunu, yağ veya krem sürme.",
+        "Kabarcıkları patlatma."
+      ],
+      "call112": "Büyük/derin veya kritik bölgede yanık, solunum sorunu, kimyasal/elektrik nedeninde 112.",
+      "summary": "Sıcak su, alev veya yüzey temasıyla kızarıklık, ağrı, kabarcık.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "NHS — Yanık",
+          "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-17.svg"
+    },
+    {
+      "id": "KALE-AY-18",
+      "title": "Göze kimyasal sıçraması",
+      "category": "Yaralanma",
+      "urgency": "112 GEREKEBİLİR",
+      "signs": [
+        "Gözde kimyasal temas, acı, kızarıklık, görme değişikliği."
+      ],
+      "steps": [
+        "Güvenliğinizi sağlayın; mümkünse gözü hemen bol temiz ılık/serin akan suyla durulamaya başlayın.",
+        "Kontakt lens varsa kolay çıkıyorsa çıkar; durulamayı geciktirme.",
+        "112 veya acil sağlık danışmasına başvur ve kimyasal ambalaj bilgisini bildir."
+      ],
+      "avoid": [
+        "Kimyasalı başka bir kimyasalla nötralize etmeye çalışma.",
+        "Gözü ovalama veya içine ilaç damlatma."
+      ],
+      "call112": "Görme bozukluğu, şiddetli ağrı veya kuvvetli kimyasal temasında 112.",
+      "summary": "Gözde kimyasal temas, acı, kızarıklık, görme değişikliği.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        },
+        {
+          "title": "British Red Cross — İlk yardım genel",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-18.svg"
+    },
+    {
+      "id": "KALE-AY-19",
+      "title": "Elektrik çarpması",
+      "category": "Yaralanma",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Elektrik kaynağıyla temas, yanık, bilinç kaybı, kasılma ya da kalp ritmi riski."
+      ],
+      "steps": [
+        "Önce enerji kaynağını güvenli biçimde kestir; akım kesilmeden kişiye dokunma.",
+        "112’yi ara ve elektrik kaynağını belirt.",
+        "Kişiye dokunmak güvenli hâle geldiğinde tepki ve normal nefesini kontrol et.",
+        "Nefes almıyorsa 112 yönlendirmesiyle CPR/AED kullan."
+      ],
+      "avoid": [
+        "Enerji kesilmeden elle veya iletken nesneyle müdahale etme.",
+        "Yüksek gerilim hatlarına yaklaşma."
+      ],
+      "call112": "Elektrik çarpması ve olası yanık/ritim bozukluğunda 112.",
+      "summary": "Elektrik kaynağıyla temas, yanık, bilinç kaybı, kasılma ya da kalp ritmi riski.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        },
+        {
+          "title": "British Red Cross — İlk yardım genel",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-19.svg"
+    },
+    {
+      "id": "KALE-AY-20",
+      "title": "Kırık veya ciddi uzuv yaralanması",
+      "category": "Yaralanma",
+      "urgency": "112 GEREKEBİLİR",
+      "signs": [
+        "Şiddetli ağrı, deformite, şişlik, hareket kısıtlılığı veya açık kırık şüphesi."
+      ],
+      "steps": [
+        "Kişiyi güvenli yerde dinlendir, yaralı uzvu gereksiz hareket ettirme.",
+        "Kanama varsa yarayı ve kemiği zorlamadan çevresine doğrudan basınçla kontrol etmeye çalış.",
+        "Açık yarayı temiz örtüyle koru, 112 veya acil sağlık değerlendirmesi iste.",
+        "Yaralı bölgeyi bulunduğu konumda destekle."
+      ],
+      "avoid": [
+        "Çıkık/kırığı yerine oturtmaya çalışma.",
+        "Açık yaradan görünen kemiği içeri itme."
+      ],
+      "call112": "Açık kırık, ciddi deformite, uyuşma, ağır kanama veya şiddetli ağrıda 112.",
+      "summary": "Şiddetli ağrı, deformite, şişlik, hareket kısıtlılığı veya açık kırık şüphesi.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        },
+        {
+          "title": "British Red Cross — İlk yardım genel",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-20.svg"
+    },
+    {
+      "id": "KALE-AY-21",
+      "title": "Baş / boyun / omurga yaralanması şüphesi",
+      "category": "Yaralanma",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Yüksekten düşme, trafik kazası, kafa darbesi sonrası baş ağrısı, uyuklama, kusma veya kol/bacak güçsüzlüğü."
+      ],
+      "steps": [
+        "Ortamı güvenli hâle getir ve 112’yi çağır.",
+        "Kişiyi gerekmedikçe hareket ettirme; baş ve boynun gereksiz dönmesini önle.",
+        "Tepkisini ve nefesini takip et; kusma veya nefes tehdidinde 112 yönlendirmesini uygula."
+      ],
+      "avoid": [
+        "Kişiyi oturtup yürütmeye zorlama.",
+        "Kaskı ve koruyucu ekipmanı acil bir gerekçe olmadan çıkarma."
+      ],
+      "call112": "Bilinç değişikliği, boyun ağrısı veya nörolojik belirtiyle travmada 112.",
+      "summary": "Yüksekten düşme, trafik kazası, kafa darbesi sonrası baş ağrısı, uyuklama, kusma veya kol/bacak güçsüzlüğü.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        },
+        {
+          "title": "British Red Cross — İlk yardım genel",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-21.svg"
+    },
+    {
+      "id": "KALE-AY-22",
+      "title": "Burun kanaması",
+      "category": "Yaralanma",
+      "urgency": "SAĞLIK DEĞERLENDİRMESİ",
+      "signs": [
+        "Burun deliklerinden kan geliyor, kişi bilinci açık ve normal nefes alıyor."
+      ],
+      "steps": [
+        "Kişiyi oturt ve başını hafif öne eğdir.",
+        "Burun kanatlarının yumuşak kısmını 10–15 dakika kesintisiz sıkmasını sağla.",
+        "Ağzından nefes alsın; kanı yutmasın.",
+        "Kanama durmaz, çok fazlaysa, baş darbesi eşlik ediyorsa veya baş dönmesi varsa acil yardım iste."
+      ],
+      "avoid": [
+        "Başını geriye yatırma.",
+        "Kanı durdurmak için burun içine derin cisim yerleştirme."
+      ],
+      "call112": "Yoğun veya 10–15 dakika basıya rağmen devam eden kanamada acil değerlendirme; ağır durumda 112.",
+      "summary": "Burun deliklerinden kan geliyor, kişi bilinci açık ve normal nefes alıyor.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "NHS — Burun kanaması",
+          "url": "https://www.nhs.uk/conditions/nosebleed/"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-22.svg"
+    },
+    {
+      "id": "KALE-AY-23",
+      "title": "Sıcak çarpması / ağır sıcak hastalığı",
+      "category": "Çevresel",
+      "urgency": "112 HEMEN",
+      "signs": [
+        "Sıcak ortamda bilinç bulanıklığı, konuşma bozukluğu, bayılma veya nöbet."
+      ],
+      "steps": [
+        "112’yi ara; kişiyi gölge/serin yere güvenli biçimde taşı.",
+        "Kalın dış giysilerini çıkar, derhal soğutmaya başla; soğuk su ile ıslatma, ıslak bez ve fan kullan.",
+        "Bilinci ve nefesini izle; acil sağlık ekibi gelene kadar soğutmayı sürdür."
+      ],
+      "avoid": [
+        "Bilinç bulanıklığı olan kişiye ağızdan su verme.",
+        "Sıcak çarpması düzelir diye bekleme."
+      ],
+      "call112": "Bilinç değişikliği veya bayılmayla seyreden sıcak hastalığında hemen 112.",
+      "summary": "Sıcak ortamda bilinç bulanıklığı, konuşma bozukluğu, bayılma veya nöbet.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "CDC — Sıcak çarpması",
+          "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-23.svg"
+    },
+    {
+      "id": "KALE-AY-24",
+      "title": "Hipotermi / tehlikeli soğuk maruziyeti",
+      "category": "Çevresel",
+      "urgency": "112 GEREKEBİLİR",
+      "signs": [
+        "Soğuk sonrası belirgin titreme, koordinasyon bozukluğu, uyuklama, konuşma yavaşlaması."
+      ],
+      "steps": [
+        "Kişiyi güvenli biçimde soğuk ve rüzgârdan uzaklaştır.",
+        "Islak giysileri çıkarıp kuru katlarla, özellikle gövdesini örterek yavaş ve dikkatli ısıt.",
+        "Bilinci ve normal nefesini izle; belirgin uyuşukluk, bilinç değişikliği veya ağır belirtilerde 112."
+      ],
+      "avoid": [
+        "Bilinci bozuk kişiye ağızdan içecek verme.",
+        "Kolları/bacakları sertçe ovalama, aşırı sıcak suya sokma."
+      ],
+      "call112": "Bilinç bulanıklığı, olağandışı uyuşukluk, solunum bozukluğu veya ağır hipotermi şüphesinde 112.",
+      "summary": "Soğuk sonrası belirgin titreme, koordinasyon bozukluğu, uyuklama, konuşma yavaşlaması.",
+      "review_status": "EDİTORYAL TASLAK — KLİNİK UZMAN ONAYI YOK",
+      "reviewed_by": null,
+      "checked_at": "2026-11-03",
+      "target": "Genel halk için ilk yardım farkındalığı; çocuk, bebek, hamile ve özel hastalık durumlarında farklı uygulama gerekir",
+      "sources": [
+        {
+          "title": "AHA / Red Cross — İlk yardım 2024",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+        },
+        {
+          "title": "British Red Cross — İlk yardım genel",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "diagram": "/assets/diagrams/aid-24.svg"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=KALE Daily Backup Timer
+
+[Timer]
+OnCalendar=*-*-* 03:15:00
+RandomizedDelaySec=10m
+Persistent=true
+Unit=kale-backup.service
+
+[Install]
+WantedBy=timers.target

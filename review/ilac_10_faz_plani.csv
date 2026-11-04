@@ -1,0 +1,708 @@
+﻿faz,sira,ilac_adi,faz_durumu,mevcut_aciklama,doktor_onayi
+1,1,Asetaminofen,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,2,Asetilsalisilik asit,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,3,Deksketoprofen,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,4,Deksibuprofen,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,5,Meloksikam,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,6,Metamizol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,7,Nabumeton,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,8,Etodolak,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,9,Ketorolak,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,10,Asemetasin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,11,Aljinik asit,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,12,Alüminyum hidroksit,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,13,Bizmut subsalisilat,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,14,Diosmektit,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,15,Dokusat sodyum,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,16,Gliserol fitil,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,17,Makrogol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,18,Mebeverin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,19,Lansoprazol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,20,Oral rehidrasyon tuzları,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,21,Ambroksol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,22,Asetilsistein,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,23,Beclometazon,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,24,Bilastin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,25,Budesonid,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,26,Dekstrometorfan,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,27,Desloratadin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,28,Flutikazon,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,29,Guaifenesin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,30,İpratropiyum bromür,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,31,Atenolol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,32,Alfuzosin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,33,Benazepril,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,34,Kandesartan,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,35,Kaptopril,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,36,Klortalidon,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,37,Lisinopril,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,38,Nifedipin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,39,Nitrogliserin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,40,Tamsulosin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,41,Ampisilin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,42,Aztreonam,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,43,Benzatin benzilpenisilin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,44,Benzilpenisilin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,45,Eritromisin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,46,Fosfomisin trometamol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,47,Gentamisin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,48,Mebendazol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,49,Permetrin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,50,Amitriptilin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,51,Aripiprazol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,52,Baklofen,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,53,Bupropion,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,54,Duloksetin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,55,Gabapentin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,56,Lamotrijin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,57,Melatonin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,58,Olanzapin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,59,Propranolol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,60,Aktif kömür,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,61,Albendazol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,62,Alendronat,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,63,Allopurinol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,64,Biotin,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,65,Kolekalsiferol,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,66,Dutasterid,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,67,Finasterid,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,68,Metotreksat,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,69,Nalokson,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,70,Salisilik asit,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+1,71,Akarboz,İLK FAZ TAMAMLANDI,Yeni Türkçe taslak,BEKLİYOR
+2,1,Abakavir,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,2,Abatasept,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,3,Aceclofenac,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,4,Adalimumab,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,5,Adapalen,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,6,Adefovir,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,7,Adrenalin (epinefrin),FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,8,Aksetil digoksin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,9,Alfa tokoferol,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,10,Alfakalsidol,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,11,Alirokumab,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,12,Aliskiren,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,13,Alogliptin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,14,Alprazolam,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,15,Alteplaz,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,16,Alverin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,17,Amantadin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,18,Amfoterisin B,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,19,Amikasin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,20,Aminofilin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,21,Amiodaron,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,22,Amlodipin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,23,Amoksisilin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,24,Amoksisilin-klavulanik asit,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,25,Amoksisilin/klavulanat,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,26,Anastrozol,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,27,Anidulafungin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,28,Apiksaban,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,29,Aprepitant,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,30,Artemeter-lumefantrin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,31,Asenapin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,32,Asetazolamid,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,33,Asetilsistein IV,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,34,Asiklovir,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,35,Askorbik asit,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,36,Aspirin (asetilsalisilik asit),FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,37,Atazanavir,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,38,Atomoksetin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,39,Atorvastatin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,40,Atovakuon-proguanil,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,41,Atropin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,42,Avanafil,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,43,Azatioprin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,44,Azelaik asit,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,45,Azelastin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,46,Azilsartan,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,47,Azitromisin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,48,Baloksavir,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,49,Barisitinib,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,50,Bedaquilin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,51,Bempedoik asit,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,52,Benralizumab,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,53,Benzidamin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,54,Benzil benzoat,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,55,Benzoil peroksit,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,56,Benzokain,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,57,Betametazon,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,58,Betanekol,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,59,Bevasizumab,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,60,Biktegravir,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,61,Bimatoprost,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,62,Biperiden,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,63,Bisakodil,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,64,Bisoprolol,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,65,Bleomisin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,66,Bosentan,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,67,Brimonidin,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,68,Brinzolamid,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,69,Brivarasetam,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+2,70,Bromfenak,FAZ 2 TÜRKÇE TASLAK TAMAMLANDI,Yeni veya yeniden yazılmış Türkçe taslak — ürün bazlı doktor kontrolü bekliyor,BEKLİYOR
+3,1,Bromheksin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,2,Bromokriptin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,3,Budesonid inhaler,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,4,Budesonid rektal,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,5,Budesonid-formoterol,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,6,Bumetanid,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,7,Buprenorfin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,8,Buspiron,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,9,Butenafin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,10,Butorfanol,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,11,Canagliflozin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,12,Celecoxib,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,13,Clozapin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,14,Dabigatran,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,15,Dalbavansin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,16,Dalteparin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,17,Dantrolen,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,18,Dapagliflozin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,19,Dapson jel,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,20,Daptomisin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,21,Darunavir,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,22,Dasatinib,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,23,Deferasiroks,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,24,Deferoksamin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,25,Deksametazon,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,26,Deksametazon göz damlası,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,27,Dekslansoprazol,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,28,Delamanid,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,29,Demir fumarat,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,30,Demir glukonat,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,31,Demir karboksimaltoz,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,32,Demir sülfat,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,33,Desmopressin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,34,Desonid,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,35,Desvenlafaksin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,36,Diazepam,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,37,Difenhidramin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,38,Diflukortolon,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,39,Diflunisal,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,40,Digoksin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,41,Diklofenak,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,42,Diltiazem,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,43,Dimenhidrinat,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,44,Dipiridamol,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,45,Dobutamin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,46,Doksapin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,47,Doksazosin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,48,Doksisiklin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,49,Doksorubisin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,50,Dolutegravir,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,51,Domperidon,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,52,Donepezil,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,53,Dopamin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,54,Doripenem,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,55,Dorzolamid,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,56,Dosetaksel,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,57,Droperidol,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,58,Drospirenon,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,59,Dulaglutid,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,60,Dupilumab,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,61,Ebastin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,62,Edoksaban,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,63,Efavirenz,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,64,Ekonazol,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,65,Eksimestan,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,66,Eletriptan,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,67,Empagliflozin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,68,Emtrisitabin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,69,Enalapril,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,70,Enoksaparin,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+3,71,Entakapon,FAZ 3 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,1,Entekavir,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,2,Eplerenon,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,3,Eprosartan,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,4,Eravasiklin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,5,Erenumab,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,6,Ergokalsiferol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,7,Ergotamin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,8,Ertapenem,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,9,Ertugliflozin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,10,Esmolol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,11,Esomeprazol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,12,Essitalopram,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,13,Estradiol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,14,Eszopiklon,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,15,Etambutol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,16,Etanersept,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,17,Etinilestradiol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,18,Etomidat,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,19,Etoposid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,20,Etosuksimid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,21,Evolokumab,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,22,Exenatid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,23,Ezetimib,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,24,Famciklovir,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,25,Famotidin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,26,Febuksostat,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,27,Feksofenadin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,28,Felodipin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,29,Fenilefrin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,30,Fenitoin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,31,Fenobarbital,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,32,Fenobarbital sodyum,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,33,Fenofibrat,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,34,Fenoprofen,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,35,Fentanil,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,36,Ferrik derizomaltoz,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,37,Fidaksomisin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,38,Fitomenadion,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,39,Fludrokortizon,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,40,Flukonazol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,41,Flumazenil,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,42,Fluokinonid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,43,Fluoksetin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,44,Fluorourasil,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,45,Flurbiprofen,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,46,Flutikazon inhaler,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,47,Fluvastatin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,48,Fluvoksamin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,49,Folik asit,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,50,Fomepizol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,51,Fondaparinuks,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,52,Formoterol,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,53,Fosaprepitant,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,54,Fosfomisin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,55,Fosinopril,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,56,Foskarnet,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,57,Furosemid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,58,Fusidik asit,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,59,Galantamin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,60,Gansiklovir,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,61,Gemfibrozil,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,62,Gepant,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,63,Gliklazid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,64,Glikopironyum,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,65,Glimepirid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,66,Glipizid,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,67,Glukagon,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,68,Golimumab,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,69,Gonadotropin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,70,Granisetron,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+4,71,Griseofulvin,FAZ 4 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,1,Gümüş sülfadiazin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,2,Haloperidol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,3,Heparin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,4,Hidralazin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,5,Hidroklorotiyazid,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,6,Hidrokortizon,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,7,Hidrokortizon krem,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,8,Hidroksiklorokin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,9,Hidroksizin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,10,Hidromorfon,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,11,Hiyosin-N-butilbromür,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,12,İbuprofen,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,13,İdoksuridin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,14,İksakizumab,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,15,İmatinib,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,16,İmipenem-silastatin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,17,İmipramin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,18,İndakaterol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,19,İndapamid,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,20,İndometazin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,21,İnfliksimab,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,22,İnsülin aspart,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,23,İnsülin degludek,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,24,İnsülin detemir,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,25,İnsülin glarjin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,26,İnsülin glulisin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,27,İnsülin lispro,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,28,İnsülin NPH,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,29,İnsülin regular,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,30,İnterferon alfa,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,31,İpratropyum,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,32,İrbesartan,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,33,İsosorbid dinitrat,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,34,İsosorbid mononitrat,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,35,İtrakonazol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,36,İvabradin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,37,İvermektin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,38,İzavukonazol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,39,İzoniazid,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,40,İzotretinoin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,41,Josamisin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,42,Kabergolin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,43,Kalsipotriol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,44,Kalsitonin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,45,Kalsitriol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,46,Kalsiyum asetat,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,47,Kalsiyum folinat,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,48,Kalsiyum glukonat,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,49,Kalsiyum karbonat,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,50,Kapetsitabin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,51,Karbamazepin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,52,Karboplatin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,53,Karvedilol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,54,Kaspofungin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,55,Ketamin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,56,Ketiapin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,57,Ketokonazol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,58,Ketokonazol şampuan,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,59,Ketoprofen,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,60,Ketotifen,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,61,Kinin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,62,Klaritromisin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,63,Klindamisin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,64,Klobetazol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,65,Klomifen,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,66,Klonazepam,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,67,Klonidin,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,68,Klopidogrel,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,69,Klopidogrel bisülfat,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+5,70,Kloramfenikol,FAZ 5 TÜRKÇE TASLAK TAMAMLANDI — DOKTOR ONAYI YOK,Yeni veya yeniden yazılmış Türkçe editoryal taslak — ürün doğrulaması bekliyor,BEKLİYOR
+6,1,Klordiazepoksit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,2,Klorfeniramin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,3,Klorheksidin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,4,Klotrimazol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,5,Klozapin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,6,Kolekalsiferol (D3 vitamini),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,7,Kolekalsiferol (D3),PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,8,Kolistin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,9,Kolşisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,10,Kromoglikat sodyum,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,11,Ksilometazolin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,12,Labetalol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,13,Lakozamid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,14,Laktüloz,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,15,Lamivudin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,16,Latanoprost,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,17,Ledipasvir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,18,Leflunomid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,19,Lerkanidipin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,20,Letrozol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,21,Levetirasetam,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,22,Levodopa/karbidopa,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,23,Levofloksasin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,24,Levoksetirizin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,25,Levonorgestrel,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,26,Levosetirizin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,27,Levotiroksin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,28,Lidokain,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,29,Liksisenatid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,30,Linagliptin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,31,Linaklotid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,32,Linezolid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,33,Liotironin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,34,Liraglutid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,35,Lityum karbonat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,36,Loperamid,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,37,Loratadin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,38,Lorazepam,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,39,Lornoksikam,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,40,Losartan,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,41,Lubiproston,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,42,Lurasidon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,43,Magnezyum hidroksit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,44,Magnezyum oksit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,45,Magnezyum sitrat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,46,Magnezyum sülfat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,47,Makrogol (polietilen glikol),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,48,Meclizin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,49,Medroksiprogesteron,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,50,Mefenamik asit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,51,Memantin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,52,Menakinon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,53,Mepivakain,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,54,Mepolizumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,55,Meropenem,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,56,Mesalazin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,57,Metamizol (dipiron),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,58,Metenamin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,59,Metformin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,60,Metildopa,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,61,Metilen mavisi,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,62,Metilfenidat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,63,Metilprednizolon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,64,Metimazol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,65,Metoklopramid,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,66,Metoprolol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,67,Metronidazol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+6,68,Midazolam,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,69,Miglitol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,70,Mikafungin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+6,71,Mikofenolat mofetil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,1,Mikonazol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,2,Milnasipran,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,3,Milrinon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,4,Minoksidil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,5,Minosiklin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,6,Mirabegron,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,7,Mirtazapin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,8,Misoprostol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,9,Modafinil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,10,Moksifloksasin göz damlası,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,11,Mometazon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,12,Mometazon krem,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,13,Montelukast,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,14,Morfin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,15,Mupirosin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,16,N-asetilsistein,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,17,Naproksen,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,18,Natamisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,19,Nateglinid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,20,Nebivolol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,21,Neostigmin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,22,Nepafenak,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,23,Netilmisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,24,Niasin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,25,Niklozamid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,26,Nilotinib,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,27,Nirmatrelvir-ritonavir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,28,Nistatin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,29,Nitrofurantoin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,30,Nitrofurazon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,31,Nitrogliserin (gliseril trinitrat),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,32,Nivolumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,33,Nizatidin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,34,Noradrenalin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,35,Nortriptilin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,36,Ofloksasin kulak damlası,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,37,Ofloxacin göz damlası,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,38,Oksazepam,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,39,Oksibutinin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,40,Oksibütinin klorür,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,41,Oksikodon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,42,Oksimetazolin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,43,Oksimorfon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,44,Oksitetrasiklin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,45,Oksitosin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,46,Okskarbazepin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,47,Oktreotid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,48,Olmesartan,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,49,Olodaterol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,50,Olopatadin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,51,Omalizumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,52,Omeprazol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,53,Ondansetron,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,54,Oral rehidrasyon tuzları (ORS),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,55,Oritavansin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,56,Oseltamivir,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,57,Otilonyum bromür,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,58,Paklitaksel,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,59,Paliperidon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,60,Pankreatin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,61,Pankrelipaz,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,62,Pantoprazol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,63,Pantotenik asit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,64,Parasetamol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+7,65,Parekokzib,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,66,Paroksetin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,67,Pembrolizumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,68,Penciklovir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,69,Penisilin V,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,70,Perampanel,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+7,71,Perindopril,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,1,Permetrin krem,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,2,Petidin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,3,Pilokarpin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,4,Pimekrolimus,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,5,Pinaveryum bromür,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,6,Pioglitazon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,7,Piperasilin-tazobaktam,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,8,Pirazinamid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,9,Piridoksin (B6),PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,10,Piridostigmin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,11,Piroksikam,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,12,Pitavastatin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,13,Polietilen glikol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,14,Polimiksin B,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,15,Posakonazol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,16,Potasyum klorür,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,17,Potasyum sitrat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,18,Povidon iyot,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+8,19,Pralidoksim,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,20,Pramipeksol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,21,Prasugrel,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,22,Pravastatin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,23,Prazikuantel,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,24,Prazosin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,25,Prednizolon,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+8,26,Pregabalin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,27,Prilokain,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,28,Primakin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,29,Primidon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,30,Probenesid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,31,Progesteron,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,32,Proklorperazin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,33,Prometazin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,34,Propiltiyourasil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,35,Propofol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,36,Protamin sülfat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,37,Prukaloprid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,38,Psödoefedrin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,39,Pyrantel pamoat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,40,Rabeprazol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,41,Raltegravir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,42,Ramipril,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+8,43,Ranitidin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,44,Ranolazin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,45,Rasajilin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,46,Remdesivir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,47,Remifentanil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,48,Repaglinid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,49,Retinol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,50,Ribavirin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,51,Riboflavin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,52,Rifabutin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,53,Rifaksimin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,54,Rifampisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,55,Rifapentin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,56,Risperidon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,57,Ritonavir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,58,Rituksimab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,59,Rivaroksaban,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+8,60,Rivastigmin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,61,Rizatriptan,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,62,Roflumilast,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,63,Roksitromisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,64,Ropinirol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,65,Ropivakain,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,66,Rosuvastatin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+8,67,Rufinamid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,68,Rupatadin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,69,Safra asitleri,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+8,70,Sakrokultur boulardii,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,1,Saksagliptin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,2,Sakubitril-valsartan,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,3,Salbutamol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,4,Salisilik asit (topikal),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,5,Salmeterol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,6,Sefadroksil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,7,Sefaklor,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,8,Sefaleksin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,9,Sefazolin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,10,Sefepim,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,11,Sefiderokol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,12,Sefiksim,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,13,Sefoksitin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,14,Sefoperazon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,15,Sefotaksim,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,16,Sefpodoksim,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,17,Sefprozil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,18,Seftarolin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,19,Seftazidim,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,20,Seftriakson,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,21,Sefuroksim,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,22,Sekukinumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,23,Selegilin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,24,Selekoksib,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,25,Selenyum,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,26,Semaglutid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,27,Sennozit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,28,Sertralin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,29,Setirizin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,30,Siklesonid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,31,Siklofosfamid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,32,Siklopiroks,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,33,Siklopiroks şampuan,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,34,Sikloserin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,35,Siklosporin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,36,Siklosporin göz damlası,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,37,Sildenafil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,38,Sildenafil sitrat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,39,Silodosin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,40,Simetikon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,41,Simvastatin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,42,Siprofloksasin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,43,Siprofloksasin göz damlası,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,44,Sisplatin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,45,Sitagliptin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,46,Sitalopram,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,47,Siyanokobalamin (B12 vitamini),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,48,Siyanokobalamin (B12),PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,49,Skopolamin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,50,Sodyum aljinat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,51,Sodyum bikarbonat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,52,Sodyum klorür,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,53,Sodyum pikosülfat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,54,Sofosbuvir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,55,Solifenasin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,56,Spiramisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,57,Spironolakton,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+9,58,Streptomisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,59,Sufentanil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,60,Sugammadeks,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,61,Sukralfat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,62,Sulfasalazin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,63,Sumatriptan,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,64,Suni gözyaşı (karboksimetilselüloz),PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,65,Sülfadiazin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,66,Sülfametoksazol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,67,Tadalafil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,68,Tadalafil sitrat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,69,Tafenoquin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,70,Takrolimus,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+9,71,Takrolimus merhem,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,1,Tamoksifen,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,2,Tapentadol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,3,Tedizolid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,4,Teikoplanin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,5,Telmisartan,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,6,Temazepam,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,7,Tenekteplaz,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,8,Tenofovir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,9,Teofilin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,10,Terazosin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,11,Terbinafin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,12,Tetrasiklin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,13,Tiagabin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,14,Tiamin (B1),PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,15,Tigesiklin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,16,Tikagrelor,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,17,Tikarasilin-klavulanat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,18,Timolol göz damlası,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,19,Tiotropiyum,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,20,Tirzepatid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,21,Tiyopental,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,22,Tizanidin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,23,Tobramisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,24,Tofasitinib,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,25,Tolterodin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,26,Topiramat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,27,Torasemid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,28,Tosilizumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,29,Tramadol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+10,30,Trandolapril,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,31,Traneksamik asit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,32,Trastuzumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,33,Travoprost,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,34,Tretinoin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,35,Triamsinolon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,36,Trifluoperazin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,37,Trimetoprim,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,38,Trimetoprim-sülfametoksazol,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+10,39,Trimetoprim/sülfametoksazol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,40,Ubrogepant,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,41,Umeclidinium,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,42,Upadasitinib,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,43,Ursodeoksikolik asit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,44,Ustekinumab,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,45,Valasiklovir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,46,Valgansiklovir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,47,Valproat (valproik asit),PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+10,48,Valproik asit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,49,Valsartan,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+10,50,Vankomisin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,51,Vardenafil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,52,Vazopressin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,53,Venlafaksin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,54,Verapamil,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,55,Vigabatrin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,56,Vilanterol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,57,Vildagliptin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,58,Vinkristin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,59,Vorikonazol,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,60,Warfarin,PLANLANDI,Eski Türkçe taslak mevcut; yeniden incelenecek,BEKLİYOR
+10,61,Zafirlukast,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,62,Zanamivir,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,63,Zidovudin,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,64,Ziprasidon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,65,Zolmitriptan,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,66,Zolpidem,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,67,Zonisamid,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,68,Zopiklon,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,69,Çinko oksit,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,70,Çinko sülfat,PLANLANDI,Yalnız isim dizini,BEKLİYOR
+10,71,Üre krem,PLANLANDI,Yalnız isim dizini,BEKLİYOR

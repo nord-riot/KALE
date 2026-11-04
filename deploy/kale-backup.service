@@ -1,0 +1,16 @@
+[Unit]
+Description=KALE Daily Offline Server Backup
+ConditionPathExists=/opt/kale/data/kale.db
+
+[Service]
+Type=oneshot
+User=kale
+Group=kale
+WorkingDirectory=/opt/kale
+ExecStart=/usr/bin/python3 /opt/kale/tools/backup.py create --output-dir /var/lib/kale/backups --keep 14
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/kale/backups
+ProtectHome=true
+PrivateTmp=true
+UMask=0077

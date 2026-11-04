@@ -1,0 +1,787 @@
+{
+  "version": "KALE-v1.5",
+  "updated": "2026-11-03",
+  "scope": "Acil durumda bilgilendirme, uzman değerlendirmesi değildir",
+  "categories": {
+    "gida": "Gıda saklama",
+    "pisirme": "Güvenli pişirme",
+    "enerji": "Enerji yönetimi",
+    "kis": "Kış güvenliği"
+  },
+  "cards": [
+    {
+      "id": 1,
+      "slug": "ge-01",
+      "category": "gida",
+      "title": "Elektrik kesildiğinde buzdolabı",
+      "summary": "Kapakların kapalı tutulması soğuk zincirin korunmasına yardım eder.",
+      "materials": [
+        "Buzdolabı termometresi",
+        "Saat/kalem",
+        "Gerekirse buz akülü soğutucu"
+      ],
+      "steps": [
+        "Elektriğin kesildiği saati not et ve buzdolabı kapağını mümkün olduğunca kapalı tut.",
+        "Kapak kapalıysa yaklaşık 4 saatlik genel rehber sınırını aklında tut; gerçek sıcaklık ve ürün durumu farklı olabilir.",
+        "Kesinti 4 saati geçtiğinde et, süt, yumurta, balık ve pişmiş yemek gibi soğutulan bozulabilir gıdaları güvenilir soğuk kaynak yoksa at.",
+        "Geri gelen elektriği tek başına güvenlik kanıtı sayma; termometre ve ürüne özel değerlendirme yap."
+      ],
+      "stop": [
+        "Gıda uzun süre 4°C üstünde kaldıysa",
+        "Süre ve soğuk zincir geçmişi bilinmiyorsa"
+      ],
+      "warning": "Asla tadına bakarak güvenlik testi yapma; 4 saat sınırı güvenlik garantisi değildir.",
+      "sources": [
+        {
+          "title": "FoodSafety.gov — Power Outage",
+          "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-01.svg"
+    },
+    {
+      "id": 2,
+      "slug": "ge-02",
+      "category": "gida",
+      "title": "Derin dondurucuda kesinti yönetimi",
+      "summary": "Dondurucu doluluğu ve kapak açma sıklığı soğuğun ne kadar korunacağını etkiler.",
+      "materials": [
+        "Dondurucu termometresi",
+        "İzolasyonlu soğutucu",
+        "Kesinti saati kaydı"
+      ],
+      "steps": [
+        "Dondurucu kapağını gereksiz açma, paketleri bir arada tut.",
+        "Kapak kapalıysa tamamen dolu dondurucu için yaklaşık 48 saat, yarı dolu için yaklaşık 24 saat genel rehberi kullan.",
+        "Kısmen çözülmüş ürünlerde buz kristali kalıp kalmadığını ve sıcaklığın 4°C veya altında olup olmadığını termometreyle değerlendir.",
+        "Süresi/ısısı belirsiz, bozulabilir gıdaları güvenli varsayma; şüphede at."
+      ],
+      "stop": [
+        "Buz kristali yok ve 4°C üstü maruziyet şüphesi varsa",
+        "Paketin çözünme geçmişi bilinmiyorsa"
+      ],
+      "warning": "24/48 saat yalnız genel varsayımdır, her dondurucunun garantili saklama süresi değildir.",
+      "sources": [
+        {
+          "title": "FoodSafety.gov — Freezer Food",
+          "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-02.svg"
+    },
+    {
+      "id": 3,
+      "slug": "ge-03",
+      "category": "gida",
+      "title": "Soğuk zincir için buz aküsü",
+      "summary": "Uzun kesintide yalıtımlı soğutucu ancak ölçülen düşük sıcaklıkla işe yarar.",
+      "materials": [
+        "Yalıtımlı kutu",
+        "Buz aküsü/buz",
+        "Gıda termometresi"
+      ],
+      "steps": [
+        "Soğutulması gereken gıdaları buz akülü soğutucuya aktarırken soğuk zincir geçmişini kontrol et.",
+        "Gıda ve buzları ayrı paketle, su sızıntısının gıdaya temas etmesini engelle.",
+        "İç sıcaklığın 4°C veya altında kaldığını termometreyle kontrol et.",
+        "Soğuk kaynak eridiğinde yenile veya bozulabilir ürünleri at; yalnızca dokunarak değerlendirme yapma."
+      ],
+      "stop": [
+        "Termometre yok ve güvenli maruziyet süresi bilinmiyorsa",
+        "4°C üzerinde 2 saatten fazla beklediyse"
+      ],
+      "warning": "Buz aküsü varlığı tek başına güvenlik onayı değildir; termometre kullan.",
+      "sources": [
+        {
+          "title": "CDC — Emergency Food Safety",
+          "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-03.svg"
+    },
+    {
+      "id": 4,
+      "slug": "ge-04",
+      "category": "gida",
+      "title": "Dayanıklı kuru erzak rotasyonu",
+      "summary": "Pirinç, bakliyat ve paketli gıdaları nem, böcek ve paket bozulmasına karşı izlemek gerekir.",
+      "materials": [
+        "Kapaklı gıda kutuları",
+        "Etiket ve kalem",
+        "Kuru/serin raf"
+      ],
+      "steps": [
+        "Gıdaları çeşidine ve açılma tarihine göre etiketle.",
+        "Ambalaj yırtığı, nem, küf, haşere ve sızıntı olup olmadığını kontrol et.",
+        "İlk giren ilk çıkar düzeni uygula; ürün saklama talimatlarına uy.",
+        "Kirli su değmiş veya küflenmiş gıdayı güvenli sayma; şüpheliyse kullanma."
+      ],
+      "stop": [
+        "Küf, haşere, ıslanma veya şüpheli koku fark edilirse"
+      ],
+      "warning": "Nemlenmiş tahılı sadece kurutarak güvenli hâle getirdiğini varsayma.",
+      "sources": [
+        {
+          "title": "CDC — Food Safety",
+          "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-04.svg"
+    },
+    {
+      "id": 5,
+      "slug": "ge-05",
+      "category": "gida",
+      "title": "Konserve ve ambalaj güvenliği",
+      "summary": "Şişmiş, sızdıran, paslı veya hasarlı konserve tüketilmemelidir.",
+      "materials": [
+        "Temiz raf",
+        "Konserve açacağı",
+        "Etiket"
+      ],
+      "steps": [
+        "Kapakta bombe, sızıntı, derin ezik veya ağır pas olup olmadığına bak.",
+        "Ambalajın üretici tarihini ve saklama şartlarını kontrol et.",
+        "Temiz saklanan, sağlam ambalajlı ürünleri rotasyonla kullan.",
+        "Şüpheli ambalajı açıp tatma; güvenli şekilde ayır."
+      ],
+      "stop": [
+        "Kutu şişmiş, sızdırıyor ya da ciddi biçimde hasarlıysa"
+      ],
+      "warning": "Botulizm gibi ciddi risklerde görünüm ve koku yeterli test değildir.",
+      "sources": [
+        {
+          "title": "CDC — Disaster Food Safety",
+          "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-05.svg"
+    },
+    {
+      "id": 6,
+      "slug": "ge-06",
+      "category": "gida",
+      "title": "Sel sonrası gıda elemesi",
+      "summary": "Sel suyu ve kanalizasyon teması gıdayı güvenli olmayan duruma getirebilir.",
+      "materials": [
+        "Ayrı atık poşeti",
+        "Temiz eldiven",
+        "Güvenilir içme suyu"
+      ],
+      "steps": [
+        "Sel suyu veya kanalizasyonun temas ettiği gıdaları güvenli kabul etme.",
+        "Su geçirmez, sağlam fabrika ambalajı olup olmadığını gıda güvenliği rehberiyle kontrol et.",
+        "Hazırlama yüzeylerini uygun şekilde temizle; temiz ve kirli malzemeleri ayır.",
+        "Şüpheli gıdalar için yerel sağlık otoritesinin talimatlarını izle."
+      ],
+      "stop": [
+        "Sel suyu açık gıda veya geçirgen paketle temas ettiyse"
+      ],
+      "warning": "Sel suyu değmiş gıda kaynatmayla otomatik olarak güvenli hâle gelmez.",
+      "sources": [
+        {
+          "title": "CDC — Food After Emergency",
+          "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-06.svg"
+    },
+    {
+      "id": 7,
+      "slug": "ge-07",
+      "category": "pisirme",
+      "title": "Dış ortamda ocak kullanma",
+      "summary": "Piknik tüpü ve kamp ocağı açık havada, yangın tehlikesinden uzakta kullanılmalıdır.",
+      "materials": [
+        "Üretici talimatı",
+        "Düz yanmaz yüzey",
+        "Yangın söndürücü"
+      ],
+      "steps": [
+        "Cihazı yalnız açık dış ortamda kullan; çadır, oda, araç, garaj ve kapalı balkonda kullanma.",
+        "Üretici talimatına uygun yakıt, bağlantı ve stabil yüzey kontrolü yap.",
+        "Kuru ot ve yanıcı eşyalardan uzak tut; çocukları alandan uzaklaştır.",
+        "Kullanım bittiğinde yakıtı güvenli biçimde kapat ve soğumasını bekle."
+      ],
+      "stop": [
+        "Gaz kokusu veya sızıntı şüphesi",
+        "Şiddetli rüzgâr/yangın yasağı",
+        "Kapalı alanda kullanım"
+      ],
+      "warning": "Karbonmonoksit kokusuzdur. Açık pencere veya havalandırma kamp ocağını içeride güvenli yapmaz.",
+      "sources": [
+        {
+          "title": "CDC — Carbon Monoxide",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-07.svg"
+    },
+    {
+      "id": 8,
+      "slug": "ge-08",
+      "category": "pisirme",
+      "title": "Mangal ile pişirme güvenliği",
+      "summary": "Kömür mangalı yalnız dış ortamda kullanılmalı, korların tamamen sönmesi beklenmelidir.",
+      "materials": [
+        "Güvenli açık alan",
+        "Isıya dayanıklı maşa",
+        "Uygun söndürme yöntemi"
+      ],
+      "steps": [
+        "Mangalın ev, garaj, çadır, kapalı balkon ve hava girişlerinden uzak açık yerde olduğundan emin ol.",
+        "Rüzgârla savrulabilecek közlerin ve çevredeki yanıcı maddelerin riskini değerlendir.",
+        "Gıdanın iç sıcaklığını termometreyle doğrula; renk tek başına yeterli değildir.",
+        "Közleri tamamen söndürüp soğumadan saklama veya taşıma."
+      ],
+      "stop": [
+        "Kapalı alan",
+        "Yangın yasağı / çok güçlü rüzgâr",
+        "Dumanın yaşam alanına dolması"
+      ],
+      "warning": "Mangal ve kömür ısınmak amacıyla kapalı alana asla alınmamalıdır.",
+      "sources": [
+        {
+          "title": "CDC — CO Basics",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-08.svg"
+    },
+    {
+      "id": 9,
+      "slug": "ge-09",
+      "category": "pisirme",
+      "title": "Gıda iç sıcaklığı termometresi",
+      "summary": "Güvenli pişirmede gıdanın iç sıcaklığını ölçmek temel kontroldür.",
+      "materials": [
+        "Gıda termometresi",
+        "Temiz pişirme gereçleri",
+        "Gıda güvenliği tablosu"
+      ],
+      "steps": [
+        "Termometre ucunu gıdanın en kalın bölgesine yerleştir; kemiğe değdirmemeye çalış.",
+        "Kanatlı eti için en az 74°C, kıyma için 71°C, bütün kırmızı et kesimleri için 63°C ve 3 dakika dinlenme kontrolünü uygula.",
+        "Pişmiş artan yemekleri tekrar ısıtırken 74°C hedefle; ürünün özel gereksinimlerine dikkat et.",
+        "Farklı çiğ gıdalar arasında termometreyi temizle ve üretici talimatlarına uy."
+      ],
+      "stop": [
+        "Termometre yoksa ve ürünün iç sıcaklığı doğrulanamıyorsa",
+        "Çiğ/bozulmuş ürünü yalnız pişirerek kurtarmaya çalışma"
+      ],
+      "warning": "Gıda daha önce uygunsuz saklandıysa pişirmek her tehlikeyi gidermez.",
+      "sources": [
+        {
+          "title": "FoodSafety.gov — Safe Temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-09.svg"
+    },
+    {
+      "id": 10,
+      "slug": "ge-10",
+      "category": "pisirme",
+      "title": "Çiğ ve pişmiş gıdayı ayırma",
+      "summary": "Çapraz bulaşmayı önlemek mutfak hijyeninin temelidir.",
+      "materials": [
+        "Ayrı kesme tahtaları",
+        "Temiz bıçak",
+        "Sabun ve güvenilir su"
+      ],
+      "steps": [
+        "Çiğ et/tavuk/deniz ürünüyle temas eden gereçleri hazır gıdalardan ayır.",
+        "Ellerini ve yüzeyleri güvenilir suyla uygun şekilde temizle.",
+        "Çiğ gıdanın suyunu hazır yemek veya temiz sebzeye temas ettirme.",
+        "Aynı ekipmanı kullanacaksan önce uygun biçimde temizle ve kurut."
+      ],
+      "stop": [
+        "Eller/yüzeyler kirliyse",
+        "Temizlik için güvenilir su yoksa"
+      ],
+      "warning": "El dezenfektanı her gıda hazırlama kirliliğini tek başına gidermez.",
+      "sources": [
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-10.svg"
+    },
+    {
+      "id": 11,
+      "slug": "ge-11",
+      "category": "pisirme",
+      "title": "Gıdayı güvenli çözdürme",
+      "summary": "Bozulabilir gıdayı tezgâh üzerinde uzun süre çözmek güvenli değildir.",
+      "materials": [
+        "Buzdolabı",
+        "Sızdırmaz ambalaj",
+        "Gıda termometresi"
+      ],
+      "steps": [
+        "Mümkünse buzdolabında kontrollü çözdür.",
+        "Alternatif soğuk su yönteminde ambalajı sızdırmaz tut ve suyu düzenli değiştir.",
+        "Mikrodalga veya soğuk su ile çözdürülmüş gıdayı geciktirmeden pişir.",
+        "Tümüyle çözdürülmüş ve sıcaklık geçmişi bilinmeyen ürünü güvenli varsayma."
+      ],
+      "stop": [
+        "Oda sıcaklığında uzun süre kalan bozulabilir ürün",
+        "Soğuk su kirliliği"
+      ],
+      "warning": "Dış ortam soğuğu her zaman buzdolabı sıcaklığı değildir.",
+      "sources": [
+        {
+          "title": "FDA — Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-11.svg"
+    },
+    {
+      "id": 12,
+      "slug": "ge-12",
+      "category": "pisirme",
+      "title": "Açık ateş ve yangın mesafesi",
+      "summary": "Pişirme noktasını çevre yangını ve ani rüzgâr açısından kontrol et.",
+      "materials": [
+        "Yanmaz taban",
+        "Yangın söndürücü",
+        "Aydınlatma"
+      ],
+      "steps": [
+        "Yangın yasağı ve hava koşullarını öncelikle kontrol et.",
+        "Yakın çevrede ağaç, kuru ot, barınak kumaşı ve yakıt depolarının konumunu değerlendir.",
+        "Erişimi ve tahliye yolunu açık tut; ocağı gözetimsiz bırakma.",
+        "Yangın kontrol dışına çıkarsa müdahale etmek yerine güvenli mesafeye çekilip 112’yi ara."
+      ],
+      "stop": [
+        "Rüzgâr/yangın yasağı",
+        "Yangının büyümesi",
+        "Uygun söndürme imkânı yokluğu"
+      ],
+      "warning": "Doğaçlama yanıcı sıvı hızlandırıcıları kullanma.",
+      "sources": [
+        {
+          "title": "CDC — Fuel Devices and CO",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-12.svg"
+    },
+    {
+      "id": 13,
+      "slug": "ge-13",
+      "category": "enerji",
+      "title": "Powerbank enerji envanteri",
+      "summary": "mAh değeri tek başına cihazın çalışma saatini vermez.",
+      "materials": [
+        "Ürün etiketleri",
+        "Not defteri",
+        "Güvenilir USB kablosu"
+      ],
+      "steps": [
+        "Cihaz etiketinde belirtilen Wh değerini bul; yalnız mAh varsa pilin nominal voltajına ihtiyaç olduğunu not et.",
+        "Her cihazın ortalama tüketimini Watt cinsinden ayrı kaydet.",
+        "Dönüşüm kayıpları ve pil sağlığı nedeniyle teorik sürenin daha uzun olduğunu varsayma.",
+        "Öncelik sırası belirle: haberleşme, güvenli aydınlatma ve kritik cihazlar."
+      ],
+      "stop": [
+        "Hasarlı/şişmiş batarya",
+        "Üretici kapasitesi bilinmeyen şüpheli adaptör"
+      ],
+      "warning": "Hesaplanan saat, üretici garantisi veya tıbbi cihaz çalışabilirliği kanıtı değildir.",
+      "sources": [
+        {
+          "title": "CDC — Power Outage Safety",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-13.svg"
+    },
+    {
+      "id": 14,
+      "slug": "ge-14",
+      "category": "enerji",
+      "title": "Wh ile çalışma süresi tahmini",
+      "summary": "Wh kapasite, W tüketim ve verim varsayımıyla yaklaşık süre hesaplanabilir.",
+      "materials": [
+        "Batarya/power station etiketi",
+        "Cihaz güç etiketi",
+        "Enerji kullanım çizelgesi"
+      ],
+      "steps": [
+        "Kullanılabilir enerji için Wh kapasitesini ve üretici sınırlarını kontrol et.",
+        "Cihazın gerçek ortalama güç tüketimini Watt olarak belirle; ilk kalkış gücü farklı olabilir.",
+        "İnverter/kablo kaybını ve ayrı tutulacak güvenlik rezervini hesaba kat.",
+        "Teorik sonucu sahada gerçek tüketimle doğrula; kritik cihazlar için yedek plan tut."
+      ],
+      "stop": [
+        "Bilinmeyen güç girişi",
+        "Yüksek kalkış akımı",
+        "Tıbbi veya hayati cihaz"
+      ],
+      "warning": "Batarya süresine dayanarak hayati güvenlik kararı verme.",
+      "sources": [
+        {
+          "title": "CDC — Power Outage Safety",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-14.svg"
+    },
+    {
+      "id": 15,
+      "slug": "ge-15",
+      "category": "enerji",
+      "title": "Güneş paneli ve gölge kontrolü",
+      "summary": "Panelin anlık gücü hava, açı, sıcaklık ve gölgeye bağlıdır.",
+      "materials": [
+        "Panel etiketi",
+        "Uyumlu şarj kontrol ünitesi",
+        "Üretici kılavuzu"
+      ],
+      "steps": [
+        "Panel ve bataryanın giriş/çıkış voltajı, polaritesi ve akım sınırlarını üretici etiketinden eşleştir.",
+        "Gölge, yağmur ve rüzgârın etkisini hesaba kat; paneli devrilmeyecek biçimde konumlandır.",
+        "Kablo hasarı, su teması ve ısınma olup olmadığını kontrol et.",
+        "İhtiyaç duyduğun enerjiyi tek güneşli gün varsayımıyla planlama."
+      ],
+      "stop": [
+        "Uyumsuz voltaj",
+        "Hasarlı kablo",
+        "Yüksekten düşme/çatı riski"
+      ],
+      "warning": "Şebekeye/ev tesisatına doğaçlama bağlantı yapma; yangın ve elektrik çarpması riski vardır.",
+      "sources": [
+        {
+          "title": "CDC — Power Outage Precautions",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-15.svg"
+    },
+    {
+      "id": 16,
+      "slug": "ge-16",
+      "category": "enerji",
+      "title": "Şarj önceliklendirme planı",
+      "summary": "Sınırlı enerjide önce iletişim ve temel güvenlik ihtiyaçları değerlendirilmelidir.",
+      "materials": [
+        "Şarj listesi",
+        "Güç tüketim etiketi",
+        "Saat/kalem"
+      ],
+      "steps": [
+        "Aydınlatma, telsiz, telefon ve sağlık cihazı gibi temel ihtiyaçları öncelik sırasına koy.",
+        "Gereksiz ekran/parlaklık ve bekleme modlarını azalt; kullanım saatlerini planla.",
+        "Cihaz şarjı bitmeden ikincil haberleşme yöntemini hazır tut.",
+        "Günlük kullanılan Wh miktarını kaydedip planı yeniden değerlendir."
+      ],
+      "stop": [
+        "Gerekli iletişim tamamen kesiliyorsa",
+        "Cihaz aşırı ısınıyorsa"
+      ],
+      "warning": "Kritik tıbbi cihazların güç ihtiyacı için profesyonel yedek güç planı gerekir.",
+      "sources": [
+        {
+          "title": "CDC — Outage Preparation",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-16.svg"
+    },
+    {
+      "id": 17,
+      "slug": "ge-17",
+      "category": "enerji",
+      "title": "Lityum batarya hasar kontrolü",
+      "summary": "Şişme, darbe, sıvı teması ve kontrolsüz ısınma yangın riskini yükseltir.",
+      "materials": [
+        "Üretici kılavuzu",
+        "Yanmaz güvenli alan",
+        "Uygun şarj cihazı"
+      ],
+      "steps": [
+        "Şarj öncesi kablo, adaptör, pil gövdesi ve bağlantıları görsel incele.",
+        "Şişmiş, delinmiş, ıslanmış veya kokan bataryayı şarj etme.",
+        "Bataryayı doğrudan güneşte, alev yanında veya kapalı sıcak araçta saklama.",
+        "Yangın/duman varsa güvenli uzaklığa çıkıp acil yardım çağır."
+      ],
+      "stop": [
+        "Pil şişmesi/duman",
+        "Şarj sırasında aşırı sıcaklık"
+      ],
+      "warning": "Hasarlı pil gövdesini açma ve doğaçlama pil paketi yapma.",
+      "sources": [
+        {
+          "title": "CDC — Power Outage Precautions",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-17.svg"
+    },
+    {
+      "id": 18,
+      "slug": "ge-18",
+      "category": "enerji",
+      "title": "Jeneratörün güvenli dış yerleşimi",
+      "summary": "Jeneratörün egzozu ve elektrik bağlantısı ciddi tehlike oluşturur.",
+      "materials": [
+        "Üretici kılavuzu",
+        "Pil destekli CO alarmı",
+        "Dış mekâna uygun kablo"
+      ],
+      "steps": [
+        "Jeneratörü yalnız dışarıda, pencere, kapı ve hava girişlerinden en az yaklaşık 6 metre uzakta çalıştır.",
+        "Garaj, çadır, kapalı balkon veya araç içinde çalıştırma; pencere açmak yeterli değildir.",
+        "Yakıtı güvenli sakla, cihaz soğumadan yakıt ekleme.",
+        "Bina elektrik tesisatına doğrudan geri besleme yapma; uzman kurulumuna ihtiyaç vardır."
+      ],
+      "stop": [
+        "CO alarmı veya zehirlenme belirtileri",
+        "Kapalı alan",
+        "Uygunsuz kablo/bağlantı"
+      ],
+      "warning": "Karbonmonoksit kokusuz ve renksizdir; maruziyet ölümcül olabilir.",
+      "sources": [
+        {
+          "title": "CDC — Carbon Monoxide",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-18.svg"
+    },
+    {
+      "id": 19,
+      "slug": "ge-19",
+      "category": "kis",
+      "title": "Kışlık katmanlı giyim",
+      "summary": "Gevşek katmanlar ve kuru kıyafet vücut ısı kaybını azaltır.",
+      "materials": [
+        "Kuru iç katman",
+        "Yalıtım katmanı",
+        "Rüzgâr/suya dayanıklı dış katman"
+      ],
+      "steps": [
+        "Nemi cilde hapsetmeyen iç katmanı, sıcak tutan orta katmanı ve hava koşuluna uygun dış katmanı birlikte kullan.",
+        "Baş, boyun, eller ve ayakları uygun şekilde koru.",
+        "Terleyip ıslanmaktan kaçın; ıslak giysiyle hareketsiz kalma.",
+        "Karışıklık, aşırı yorgunluk veya konuşmada bozulma gibi ciddi belirtileri izle."
+      ],
+      "stop": [
+        "Bilinç değişikliği",
+        "Şiddetli titreme sonrası titremenin kaybolması"
+      ],
+      "warning": "Hipotermi yalnız kar altında değil, soğuk-ıslak ortamda da gelişebilir.",
+      "sources": [
+        {
+          "title": "CDC — Preventing Hypothermia",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-19.svg"
+    },
+    {
+      "id": 20,
+      "slug": "ge-20",
+      "category": "kis",
+      "title": "Islak giysi ve zemin ısı kaybı",
+      "summary": "Nemli kumaş ve soğuk zemine temas vücudun soğumasını hızlandırır.",
+      "materials": [
+        "Kuru giysi",
+        "Kuru battaniye",
+        "Zemin yalıtım matı"
+      ],
+      "steps": [
+        "Islak alandan ve rüzgârdan mümkün olan en güvenli şekilde uzaklaş.",
+        "Islak giysileri kuru katmanlarla değiştir.",
+        "Yer ile teması azaltacak kuru yalıtım matını kullan.",
+        "Vücut sıcaklığı sorunu belirtileri varsa tıbbi yardım iste."
+      ],
+      "stop": [
+        "Bilinç bulanıklığı/uyuklama",
+        "Süregelen kontrolsüz titreme"
+      ],
+      "warning": "Ani aşırı sıcak yüzey veya doğrudan ısı kaynağıyla ısıtmaya çalışma.",
+      "sources": [
+        {
+          "title": "CDC — Cold Weather Safety",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-20.svg"
+    },
+    {
+      "id": 21,
+      "slug": "ge-21",
+      "category": "kis",
+      "title": "Hipotermi belirtilerini tanıma",
+      "summary": "Hipotermi acil tıbbi değerlendirme gerektirebilir.",
+      "materials": [
+        "Güvenli sıcak barınma",
+        "Kuru örtü",
+        "Acil iletişim"
+      ],
+      "steps": [
+        "Titreme, bitkinlik, koordinasyon bozukluğu, konuşma bozulması ve bilinç bulanıklığına dikkat et.",
+        "Belirtiler varsa 112’yi ara; kişiyi tehlikeden uzak, kuru ve ılık ortama al.",
+        "Islak giysileri değiştir; kişiyi kuru örtüyle ve nazikçe koru.",
+        "Bilinci kapalı kişiye ağızdan sıvı/yiyecek verme; acil ekip yönlendirmesini izle."
+      ],
+      "stop": [
+        "Bilinç kaybı",
+        "Konuşma/koordinasyon bozukluğu",
+        "Şüpheli hipotermi"
+      ],
+      "warning": "Alkol vererek ısıtmaya çalışma; hipotermi hayatı tehdit eden acil durumdur.",
+      "sources": [
+        {
+          "title": "CDC — Hypothermia",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-21.svg"
+    },
+    {
+      "id": 22,
+      "slug": "ge-22",
+      "category": "kis",
+      "title": "Donma (frostbite) uyarıları",
+      "summary": "Uyuşma, soluk/beyazlaşmış veya balmumu sertliğinde deri donma belirtisi olabilir.",
+      "materials": [
+        "Kuru ve sıcak ortam",
+        "Nazik koruyucu örtü",
+        "Acil iletişim"
+      ],
+      "steps": [
+        "Parmaklar, ayak, burun ve kulaklarda uyuşma veya renk değişikliği olup olmadığını kontrol et.",
+        "Kişiyi güvenli sıcak ortama al; dar/ıslak kıyafetleri uygun şekilde gevşet.",
+        "Etkilenmiş bölgeyi ovalama, masaj yapma veya açık alev/radyatöre yaklaştırma.",
+        "Donma şüphesinde mümkün olan en kısa sürede tıbbi yardım al; yeniden donma riski varsa özel değerlendirme gerekir."
+      ],
+      "stop": [
+        "Beyaz/gri-sert deri",
+        "Uyuşma ve ciddi ağrı",
+        "Yeniden donma olasılığı"
+      ],
+      "warning": "Donmuş dokuya aşırı ısı uygulama veya sert biçimde ovma.",
+      "sources": [
+        {
+          "title": "CDC — Frostbite",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-22.svg"
+    },
+    {
+      "id": 23,
+      "slug": "ge-23",
+      "category": "kis",
+      "title": "Çocuk ve yaşlılarda soğuk riski",
+      "summary": "Bebekler, yaşlılar ve bazı kronik hastalığı olanlar soğuğa daha hassas olabilir.",
+      "materials": [
+        "Uygun kuru katman",
+        "Aydınlatma",
+        "İletişim planı"
+      ],
+      "steps": [
+        "Hane üyelerinin ısı, kuru kıyafet ve barınma gereksinimini ayrı değerlendir.",
+        "Bebekler ve hareket kısıtlı kişilerde belirtiler kolay fark edilmeyebilir; düzenli kontrol et.",
+        "Temel ilaç ve tıbbi cihazların saklama/enerji gereksinimini uzmanla planla.",
+        "Aşırı üşüme veya bilinç değişikliğinde acil tıbbi yardım iste."
+      ],
+      "stop": [
+        "Ciddi halsizlik ve bilinç değişimi",
+        "Bebekte olağandışı hareketsizlik"
+      ],
+      "warning": "İlaçları/diyabet tedavisini KALE taslak listesine bakarak değiştirme.",
+      "sources": [
+        {
+          "title": "CDC — Winter Safety",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-23.svg"
+    },
+    {
+      "id": 24,
+      "slug": "ge-24",
+      "category": "kis",
+      "title": "Kapalı alanda güvenli ısınma",
+      "summary": "Mangal, kamp ocağı, jeneratör ve gazlı mutfak ocağı evi ısıtmak için kullanılmamalıdır.",
+      "materials": [
+        "Kuru battaniye",
+        "Yalıtım matı",
+        "CO dedektörü (uygun ekipman)"
+      ],
+      "steps": [
+        "Önce güvenli, kuru barınma ve katmanlı giyim olanaklarını değerlendir.",
+        "Mangal, portatif kamp ocağı, jeneratör ve gazlı fırını kapalı alanda ısıtma amacıyla kullanma.",
+        "Karbonmonoksit alarmına ve baş ağrısı/baş dönmesi/bulantı belirtilerine dikkat et.",
+        "Güvenli ısınma sürdürülemiyorsa resmî sıcak barınma alanına geçiş seçeneklerini araştır."
+      ],
+      "stop": [
+        "CO alarmı",
+        "Baş ağrısı, bilinç bulanıklığı",
+        "Havalandırmasız/yakıtlı cihaz"
+      ],
+      "warning": "Bir pencereyi açmak kapalı alanda yakıtlı cihaz kullanımını güvenli yapmaz.",
+      "sources": [
+        {
+          "title": "CDC — CO Poisoning",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/"
+        }
+      ],
+      "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
+      "updated": "2026-11-03",
+      "diagram": "/assets/diagrams/ge-24.svg"
+    }
+  ]
+}

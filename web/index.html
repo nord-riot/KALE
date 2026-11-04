@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+ <meta charset="UTF-8"/>
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+ <meta name="theme-color" content="#0b131a"/>
+ <meta name="description" content="KALE — Afet, barınma, temiz su, ilk yardım ve hayatta kalma rehberleri. İnternetsiz yerel kullanım için tasarlandı."/>
+ <title>KALE | Bilgi Hayatta Kalır</title>
+ <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+ <link rel="manifest" href="/manifest.webmanifest"/>
+ <link rel="stylesheet" href="/assets/style.css" />
+ <script src="/assets/app.js" defer></script>
+</head>
+<body>
+ <div id="app" class="app-shell">
+  <aside class="sidebar">
+   <button class="brand" id="homeBrand" type="button" aria-label="KALE ana sayfa">
+     <div class="brand-symbol" aria-hidden="true"><img src="/assets/kale-emblem.webp" alt="" width="44" height="44"/></div>
+     <span class="brand-text"><strong>KALE</strong><small>YAŞAM ENVANTERİ</small></span>
+   </button>
+   <div class="sidebar-label">BİLGİ MERKEZİ</div>
+   <nav id="sideNav" class="sidenav" aria-label="Kategori menüsü"></nav>
+   <a href="/ilk-yardim.html" class="med-nav-link">✚ İLK YARDIM MERKEZİ ↗</a>
+   <a href="/envanter.html" class="med-nav-link">▥ AFET STOK ENVANTERİ ↗</a>
+   <a href="/gida-enerji.html" class="med-nav-link">♨ GIDA · ENERJİ · KIŞ MERKEZİ ↗</a>
+   <a href="/barinak-su.html" class="med-nav-link">⌂ BARINAK & SU MERKEZİ ↗</a>
+   <a href="/saha.html" class="med-nav-link">▤ GÖRSELLİ SAHA REHBERLERİ ↗</a>
+   <a href="/doga.html" class="med-nav-link">♣ DOĞA GÜVENLİĞİ ↗</a>
+   <a href="/harita.html" class="med-nav-link">⌖ OFFLINE HARİTA & NOKTALAR ↗</a>
+   <a href="/plan.html" class="med-nav-link">☷ 72 SAAT AFET PLANI ↗</a>
+   <a href="/atolye.html" class="med-nav-link">✎ İÇERİK ATÖLYESİ ↗</a>
+   <a href="/aktarim.html" class="med-nav-link">⇄ YEDEK VE CİHAZ AKTARIMI ↗</a>
+   <a href="/offline.html" class="med-nav-link">◉ OFFLINE HAZIRLIK KONTROLÜ ↗</a>
+   <a href="/ilaclar.html" class="med-nav-link">▣ İLAÇ ANSİKLOPEDİSİ ↗</a>
+   <div class="sidebar-bottom">
+    <div class="status"><span class="status-dot"></span><div><strong>YEREL ÇALIŞMA</strong><small>Harici API kullanılmaz</small></div></div>
+    <div class="sidebar-note">KALE v1.8 · Genişletilmiş rehber<br>Son güncelleme 03.11.2026</div>
+   </div>
+  </aside>
+  <div class="content-shell">
+    <header class="topbar">
+      <div class="breadcrumb"><span class="bread-mark">▦</span><span id="crumb">KOMUTA MERKEZİ</span></div>
+      <div class="top-actions"><span class="local-indicator"><span class="status-dot"></span> İNTERNET GEREKMEZ</span><button id="savedOpen" class="ghost-btn" type="button">☆ <span>Kaydedilenler</span> <b id="savedCount">0</b></button></div>
+    </header>
+    <main id="main" class="main-content" tabindex="-1">
+      <div class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-inner">
+          <div class="hero-kicker"><span class="tiny-diamond"></span> SİSTEM / BİLGİ ÜSSÜ / 001</div>
+          <div class="hero-title-line"><h1>K.A.L.E<span class="final-period">.</span></h1><span class="hero-ver">V 1.6</span></div>
+          <p class="hero-subtitle">KAPSAMLI AFET VE YAŞAM ENVANTERİ</p>
+          <p class="hero-copy">İnternet gittiğinde bilgi kalır.<br>Barın, su bul, korun ve doğru karar ver.</p>
+          <div class="hero-tools"><a href="/saha.html" class="med-hero-link">▤ SAHA REHBERLERİ ↗</a><a class="med-hero-link" href="/ilaclar.html">▣ İLAÇ ANSİKLOPEDİSİ ↗</a><button id="emergencyBtn" type="button" class="emergency-button"><span>✳</span> ACİL DURUM REHBERİ <span class="arrow">↗</span></button><span class="hero-tag" id="heroCount">İÇERİK YÜKLENİYOR</span></div>
+        </div>
+        <div class="hero-figure" aria-hidden="true"><svg viewBox="0 0 280 240" fill="none"><path d="M140 10 250 54v77c0 58-36 88-110 105C66 219 30 189 30 131V54L140 10Z" stroke="currentColor" stroke-width="2"/><path d="M140 32 228 66v62c0 42-24 67-88 86-64-19-88-44-88-86V66l88-34Z" stroke="currentColor" stroke-width="1" stroke-dasharray="4 6"/><path d="M88 151V92h17v26l21-26h24l-25 31 27 28h-26l-21-23v23H88Z" fill="currentColor"/><path d="M169 92v59h17V92h-17Z" fill="currentColor"/></svg></div>
+      </div>
+      <section class="v10-links" aria-label="Yeni modüller"><a href="/ilk-yardim.html"><strong>✚ İLK YARDIM VE ACİL DURUMLAR</strong><small>24 Türkçe güvenlik kartı · 112 / 114 hızlı arama</small></a><a href="/envanter.html"><strong>▥ AFET STOK ENVANTERİ</strong><small>Gıda, su, ilaç ve ekipman; SKT/TETT, az stok, JSON yedek</small></a><a href="/gida-enerji.html"><strong>♨ GIDA, ENERJİ VE KIŞ</strong><small>24 özgün şemalı güvenlik rehberi ve risk kontrolleri</small></a><a href="/barinak-su.html"><strong>⌂ BARINAK & SU MERKEZİ</strong><small>18 yeni, özgün çizimli güvenlik rehberi</small></a><a href="/saha.html"><strong>▤ GÖRSELLİ SAHA REHBERLERİ</strong><small>Adım adım 28 temel güvenlik rehberi</small></a><a href="/harita.html"><strong>⌖ ÇEVRİMDIŞI HARİTA</strong><small>MBTiles, koordinat, yerel işaretler</small></a><a href="/aktarim.html"><strong>⇄ YEDEK VE CİHAZ AKTARIMI</strong><small>Verilerini cihazdan cihaza taşı, sunucu yedeği al</small></a><a href="/doktor.html"><strong>✚ HEKİM İNCELEME TAKİBİ</strong><small>İlaç taslaklarının inceleme durumu</small></a></section>
+   <div class="alert-banner"><div class="alert-icon">!</div><div><strong>GÜVENLİK NOTU</strong><span>Bu sistem eğitim amaçlıdır; acil durum, klinik tanı veya ilaç reçetesinin yerini tutmaz. Yaşamı tehdit eden belirtilerde 112.</span></div></div>
+      <div class="section-top"><div><div class="overline">KEŞİF / ARA</div><h2>Bilgi arşivi</h2></div><span class="section-count" id="countInfo">KARTLAR YÜKLENİYOR</span></div>
+      <div class="search-shell"><span class="search-icon">⌕</span><input id="search" type="search" placeholder="Örn: kirli su, ishal, branda, hipotermi..." autocomplete="off" aria-label="Bilgi arşivinde ara"/><kbd>CTRL K</kbd></div>
+      <div class="toolbar-filters">
+       <label for="regionFilter">BÖLGE FİLTRESİ</label>
+       <select id="regionFilter" aria-label="Bölgesel filtre"><option value="">Tüm bölgeler</option></select>
+       <span>Her kart taslaktır; kaynak ve güncelliği doğrulayın.</span>
+      </div>
+      <div class="tabs" id="tabs" role="group" aria-label="Kategori filtreleri"></div>
+      <div class="content-state" id="contentState"></div>
+      <div class="results-header"><span id="resultsLabel">ÖNE ÇIKAN REHBERLER</span><span class="results-rule"></span><button id="clearFilters" class="text-button" type="button" hidden>Filtreleri sıfırla</button></div>
+      <div id="cards" class="cards"></div>
+      <section id="symptomSection" class="symptom-panel">
+        <div class="symptom-head"><span class="symptom-tag">SAĞLIK / YÖNLENDİRME</span><h2>Belirti rehberi</h2><p>Belirti yaz; ilgili ilk yardım kartlarını ve acil uyarıları gösterelim. Tanı koymaz, otomatik ilaç önermez.</p></div>
+        <form id="symptomForm" class="symptom-form"><label for="symptomInput" class="visually-hidden">Belirtileri yaz</label><input id="symptomInput" maxlength="400" placeholder="Örn: Su içtikten sonra sürekli ishal oluyor..." autocomplete="off"/><button type="submit">İNCELE ↗</button></form>
+        <div id="symptomResult" class="symptom-result" aria-live="polite">Buraya yazdıkların sunucuda kaydedilmez. Değerlendirme yalnız bu cihazda yapılır.</div>
+      </section>
+      <div class="backup-tools"><button id="exportBackup" type="button">☆ Kaydedilenleri dışa aktar</button><label class="backup-import" for="restoreBackup">↥ Kaydedilenleri geri yükle</label><input type="file" id="restoreBackup" accept=".json,application/json" hidden/><span>Yedek yalnız kaydedilen kart kimliklerini içerir; sunucuya gönderilmez.</span></div>
+      <section id="toolsSection" class="tools-panel" aria-label="Afet hazırlık araçları">
+        <div class="section-top"><div><div class="overline">HAZIRLIK / ARAÇLAR</div><h2>Hazırlık merkezim</h2></div><span class="section-count">KAYITLAR BU TARAYICIDA SAKLANIR</span></div>
+        <div class="tools-grid">
+          <article class="tool-card">
+            <div class="tool-eyebrow">01 / SU</div><h3>Su stoğu hesaplayıcı</h3><p>Stokunuzun tahmini kaç gün yeteceğini hesaplayın.</p>
+            <div class="tool-fields"><label>Kişi sayısı<input id="waterPeople" type="number" min="1" max="100" value="3" inputmode="numeric"/></label><label>Su miktarı (litre)<input id="waterLiters" type="number" min="0" max="100000" value="30" step="0.1" inputmode="decimal"/></label><label>Kişi başı günlük litre<input id="waterPerPerson" type="number" min="0.5" max="20" value="3" step="0.5" inputmode="decimal"/></label></div>
+            <div class="calc-output" id="waterResult" aria-live="polite"></div>
+            <small>Bu yalnızca seçtiğiniz tüketim miktarına göre matematiksel tahmindir. Temizlik, hastalık, sıcaklık ve özel ihtiyaçlar için ayrıca su gerekir.</small>
+          </article>
+          <article class="tool-card">
+            <div class="tool-eyebrow">02 / ENERJİ</div><h3>Batarya çalışma süresi</h3><p>Batarya kapasitesi ve cihaz tüketimine göre yaklaşık süre.</p>
+            <div class="tool-fields"><label>Batarya (Wh)<input id="batteryWh" type="number" min="1" max="1000000" value="100" step="1" inputmode="decimal"/></label><label>Cihaz gücü (W)<input id="batteryWatts" type="number" min="0.1" max="100000" value="10" step="0.1" inputmode="decimal"/></label><label>Verim (%)<input id="batteryEfficiency" type="number" min="1" max="100" value="80" inputmode="numeric"/></label></div>
+            <div class="calc-output" id="batteryResult" aria-live="polite"></div>
+            <small>Kapasite, eskime, sıcaklık ve dönüştürücü kayıpları gerçek süreyi değiştirir.</small>
+          </article>
+          <article class="tool-card tool-card-wide">
+            <div class="tool-eyebrow">03 / KİŞİSEL ENVANTER</div><h3>Elimde neler var?</h3><p>Su, erzak, ilaç ve ekipmanlarını kaydet. Bilgilerin yalnızca bu tarayıcıda tutulur.</p>
+            <form id="inventoryForm" class="inventory-form"><label>Malzeme<input id="itemName" maxlength="80" required placeholder="Örn: İçme suyu"/></label><label>Miktar<input id="itemQuantity" type="number" min="0.01" max="100000" step="0.01" required value="1"/></label><label>Birim<select id="itemUnit"><option>adet</option><option>litre</option><option>kg</option><option>paket</option><option>kutu</option><option>Wh</option></select></label><button type="submit">+ EKLE</button></form>
+            <div id="inventoryList" class="inventory-list" aria-live="polite"></div>
+          </article>
+          <article class="tool-card tool-card-wide">
+            <div class="tool-eyebrow">04 / AFET ÇANTASI</div><h3>Hazırlık kontrol listesi</h3><p>Her maddeyi kontrol ettikçe işaretleyebilirsin.</p><div id="checklist" class="checklist"></div><div class="backup-actions"><button type="button" id="exportData">Verilerimi indir (JSON)</button><label class="import-label">Yedekten yükle<input id="importData" type="file" accept="application/json,.json" hidden/></label><button type="button" id="resetChecklist">Listeyi sıfırla</button></div>
+            <small>Tarayıcı verileri silinirse kişisel kayıtların kaybolabilir. JSON yedeği indirip güvenli saklayın. Bu dosyada kişisel bilgileriniz bulunabilir.</small>
+          </article>
+        </div>
+      </section>
+      <footer class="footer"><span>© 2026 KALE PROJECT · BİLGİ HAYATTA KALIR</span><span>Bağımsız afet bilgi arşivi · Taslak içerik</span></footer>
+    </main>
+  </div>
+ </div>
+ <dialog id="detailDialog" class="detail-modal"><div class="dialog-layout"><header class="dialog-top"><span id="detailCategory" class="detail-kicker">REHBER</span><button id="closeDialog" class="modal-close" type="button" aria-label="Kapat">×</button></header><div class="detail-body"><h2 id="detailTitle"></h2><div id="detailStatus" class="review-status"></div><div id="detailText" class="detail-text"></div><div id="detailWarning" class="detail-warning" hidden></div><div class="detail-sources"><h3>Başvuru kaynakları</h3><p>Bu kartlar editoryal taslaktır; kaynak listesi konuyla ilgili referanstır, her cümle için uzman doğrulaması yapılmış olduğu anlamına gelmez.</p><div id="detailLinks"></div></div></div><footer class="dialog-footer"><button id="saveDetail" class="save-button" type="button">☆ Kaydet</button><button id="printDetail" class="flat-button" type="button">Yazdır</button><button id="closeBottom" class="flat-button" type="button">Kapat</button></footer></div></dialog>
+</body>
+</html>

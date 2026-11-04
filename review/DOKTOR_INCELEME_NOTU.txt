@@ -1,0 +1,13 @@
+KALE İLAÇ KAYITLARI — SAĞLIK PROFESYONELİ İNCELEME PAKETİ
+
+Bu CSV 707 katalog kaydının Türkçe editoryal ön taslaklarını incelemek içindir. Son 303 kayıt yalnızca farmakolojik sınıf düzeyinde özetlenmiştir; ilaç-ürün etiketleriyle eşleştirilmemiştir. Kayıtların hiçbiri doktor onaylı değildir.
+Kaynak URL'si genel referans sayfası olabilir; her ilaç için ürün-özgü güncel Türkiye KÜB/KT
+metnini ve üretici, form, güç, etken madde ve yardımcı maddelerini bağımsız kontrol edin.
+
+Karar alanı: APPROVE / REVISE / REJECT. Boş bırakılan alan onay değildir.
+Tıbbi incelemede bağımsız kaynak URL'si, hekim/eczacı adı, tarih ve gerektiğinde düzeltme
+notu kaydedilmelidir. Bu CSV tek başına KALE veritabanındaki onay durumunu DEĞİŞTİRMEZ.
+Hasta bazlı tanı, reçete, doz ve ilaç önerisi için kullanılmaz.
+
+Özellikle kritik: gebelik/emzirme, çocuklar, renal/hepatik bozukluklar, alerji,
+ürün yardımcı maddeleri, etkileşimler, acil endikasyon ve benzer isimli ilaçlar.

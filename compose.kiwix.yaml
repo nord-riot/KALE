@@ -1,0 +1,13 @@
+# OPTIONAL: requires a ZIM file downloaded in ./zim before disconnected deployment.
+# Offline article contents may have separate licences. Review before redistribution.
+services:
+  kiwix:
+    image: ghcr.io/kiwix/kiwix-serve:3.8.2
+    container_name: kale-kiwix
+    restart: unless-stopped
+    command:
+      - "*.zim"
+    volumes:
+      - ./zim:/data:ro
+    ports:
+      - "127.0.0.1:8091:8080"

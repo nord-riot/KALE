@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#0b131a"><meta name="description" content="KALE çevrimdışı afet stok envanteri ve SKT takip ekranı">
+ <link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/assets/module.css"><link rel="stylesheet" href="/assets/inventory.css">
+ <script src="/assets/inventory-core.js" defer></script><script src="/assets/inventory.js" defer></script>
+ <title>Afet Stok Envanteri | KALE</title>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="logo" href="/">KALE <span>YAŞAM ENVANTERİ</span></a><nav class="nav"><a href="/">Ana sayfa</a><a href="/envanter.html" aria-current="page">Stok envanteri</a><a href="/plan.html">72 saat planı</a><a href="/gida-enerji.html">Gıda güvenliği</a><a href="/offline.html">Offline kontrol</a><a href="/ilk-yardim.html">İlk yardım</a><a href="/aktarim.html">Yedek / Aktarım</a></nav></div></header>
+<main class="wrap">
+ <section class="hero inv-hero"><span class="eyebrow">KALE / ÇEVRİMDIŞI KİŞİSEL STOK MERKEZİ</span><h1>Afet stoklarını <em>takip et.</em></h1><p class="lead">Su, gıda, ilaç, ilk yardım ve ekipmanı tek yerden kaydet. Son kullanma tarihlerini gözden geçir, azalan stokları gör ve çevrimdışı yedek al.</p></section>
+ <aside class="alert inv-critical"><strong>Önemli güvenlik notu:</strong> Stokta görünmek, SKT/TETT'nin geçmemiş olması veya "içilebilir" işareti ürünün güvenli olduğunu doğrulamaz. Gıda güvenliği saklama koşullarına bağlıdır; ilaçlarda ürün etiketi, son kullanma tarihi ve hekim/eczacı bilgisi esas alınır. <a href="https://www.fda.gov/drugs/pharmaceutical-quality-resources/expiration-dates-questions-and-answers" target="_blank" rel="noopener noreferrer">İlaç SKT rehberi</a></aside>
+ <div class="inv-kpis" aria-label="Envanter özeti">
+  <article><small>TOPLAM FARKLI STOK KAYDI</small><strong id="total">0</strong></article>
+  <article><small>ASGARİ SEVİYENİN ALTINDA</small><strong id="low">0</strong></article>
+  <article class="critical"><small>TARİHİ GEÇEN / KONTROL</small><strong id="past">0</strong></article>
+  <article><small>30 GÜN İÇİNDE TARİH</small><strong id="soon">0</strong></article>
+ </div>
+ <div class="inv-layout">
+  <section class="inv-panel" aria-labelledby="inventoryTitle"><div class="inv-panel-heading"><div><div class="eyebrow">01 / STOK KAYITLARI</div><h2 id="inventoryTitle">Envanter listesi</h2></div><button id="newItem" type="button" class="primary">+ Yeni stok</button></div>
+   <div class="inv-filters"><input id="search" type="search" placeholder="Ürün, konum veya parti ara" aria-label="Stok ara">
+    <select id="categoryFilter" aria-label="Kategori filtresi"><option value="">Tüm kategoriler</option></select>
+    <select id="stateFilter" aria-label="Durum filtresi"><option value="">Tüm durumlar</option><option value="low">Az stok</option><option value="past">Tarihi geçmiş</option><option value="soon">30 gün içinde</option><option value="no_date">Tarihi girilmemiş</option></select>
+    <select id="sortBy" aria-label="Sıralama"><option value="name">Ada göre</option><option value="expiry">Yakın tarihe göre</option><option value="category">Kategoriye göre</option></select></div>
+   <div class="inv-table-wrap"><table class="inv-table"><thead><tr><th>Ürün / Saklama</th><th>Miktar</th><th>Tarih / Uyarı</th><th>İşlem</th></tr></thead><tbody id="inventoryRows"></tbody></table></div>
+   <p class="notice" id="listInfo" role="status">Henüz kayıt eklenmedi.</p>
+  </section>
+  <aside class="inv-panel" aria-labelledby="formHeading"><div class="eyebrow">02 / KAYIT EDİTÖRÜ</div><h2 id="formHeading">Yeni stok kaydı</h2>
+   <form id="itemForm"><input type="hidden" id="itemId">
+    <label>Ürün adı <span class="required">*</span><input id="name" maxlength="100" required placeholder="Örn: İçme suyu 5 L"></label>
+    <div class="inv-two"><label>Kategori<select id="category" required></select></label><label>Birim<select id="unit" required></select></label></div>
+    <div class="inv-two"><label>Miktar <span class="required">*</span><input id="quantity" type="number" min="0" max="1000000000" step="any" value="1" required></label><label>Minimum hedef<input id="minQuantity" type="number" min="0" max="1000000000" step="any" value="0" required></label></div>
+    <label class="inv-potable" id="waterFlag"><input id="potable" type="checkbox"> İçme suyu stoğuna dahil et (su güvenliğini ayrıca doğrula)</label>
+    <label>Saklama yeri<input id="location" maxlength="100" placeholder="Örn: antre / üst raf"></label>
+    <label>Parti / ambalaj tanımı<input id="batch" maxlength="100" placeholder="Aynı üründeki farklı parti için ayrı kayıt"></label>
+    <div class="inv-two"><label>Etiket tarihi<input id="expiry" type="date"></label><label>Etiket türü<select id="dateType"><option value="SKT">SKT — son kullanma</option><option value="TETT">TETT — tavsiye edilen tüketim</option><option value="belirsiz">Türü belirtilmemiş</option></select></label></div>
+    <label>Notlar / özel saklama koşulları<textarea id="notes" maxlength="500" rows="3" placeholder="Örn: üretici etiketi kontrol edilmeli"></textarea></label>
+    <div class="inv-buttons"><button type="submit" class="primary">Kaydı kaydet</button><button id="cancelEdit" class="secondary" type="button">İptal</button></div>
+    <p id="formMessage" class="notice" role="status"></p>
+   </form></aside>
+ </div>
+ <div class="inv-bottom">
+  <section class="inv-panel"><div class="eyebrow">03 / SU PLANI</div><h2>İçme suyu stok hesabı</h2><div class="inv-two"><label>Hane kişi sayısı<input id="people" type="number" min="1" max="30" step="1" value="3"></label><label>Kişi başı günlük su (L)<input id="perPersonDay" type="number" min="0.5" max="30" step="0.5" value="3"></label></div><div class="inv-water-result" id="waterResult" role="status">Su stoğunu girerek hesabı görüntüle.</div><p class="notice">Hesaba yalnızca <strong>su</strong> kategorisinde ve kullanıcı tarafından içme suyu olarak işaretlenen, tarihi geçmiş görünmeyen L/mL kayıtları girer. Bu işaret veya hesap suyun gerçekten güvenli olduğunu doğrulamaz. Sıcaklık, hastalık, hijyen ve özel ihtiyaçlar hesaba dahil değil.</p></section>
+  <section class="inv-panel"><div class="eyebrow">04 / ÇEVRİMDIŞI YEDEK</div><h2>Yedekle ve aktar</h2><p class="notice">Envanter <strong>yalnız bu tarayıcıda</strong> saklanır. Sunucuya gönderilmez. Tarayıcı verileri temizlenirse kaybolabilir; JSON yedeğini ayrı cihazda sakla.</p><div class="inv-buttons"><button id="exportJSON" type="button" class="primary">JSON yedek indir</button><button id="exportCSV" type="button" class="secondary">Excel uyumlu CSV</button><label class="secondary inv-upload">JSON yedeği yükle<input id="importJSON" type="file" accept=".json,application/json" hidden></label><button id="printList" type="button" class="secondary">Yazdır</button></div><p id="backupMessage" class="notice" role="status"></p><div class="inv-smallnote"><strong>Veri gizliliği:</strong> Sağlık bilgileri ve ilaç stokları hassas olabilir. Yedek dosyalarını paylaşma veya açık depolamada bırakma.</div></section>
+ </div>
+ <section class="inv-panel inv-log"><div class="inv-panel-heading"><div><div class="eyebrow">05 / SON HAREKETLER</div><h2>Yerel stok hareketleri</h2></div><span class="notice">En son 100 işlem saklanır</span></div><div id="history" class="inv-history"></div></section>
+ <footer class="footer">KALE v1.8 · Yerel envanter · Bilgi amaçlı stok takibi; ürün güvenliğini doğrulamaz.</footer>
+</main></body></html>
