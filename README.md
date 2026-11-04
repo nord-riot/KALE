@@ -5,7 +5,7 @@
 <h1 align="center">KALE — Offline Afet ve Yaşam Bilgi Sistemi</h1>
 <p align="center"><strong>Python 3 · SQLite · PWA · Raspberry Pi · Türkçe · Çevrimdışı öncelikli</strong></p>
 
-> **Yayın durumu (4 Kasım 2026):** Bu depoda şu anda **kurulum belgeleri ve görsel tanıtım var**. **KALE v1.8'in tam kaynak dosyaları ve veritabanı henüz bu GitHub deposuna aktarılmış değil.** Aşağıdaki kurulum komutları, tam kaynak paketi yüklendikten sonra çalışacaktır. Projenin durumunu gerçekte olduğundan ileri göstermemek için bu uyarı tutulmaktadır.
+> **Yayında — 4 Kasım 2026:** KALE v1.8'in **tam kaynak kodu, SQLite veri arşivi, web varlıkları, orijinal SVG rehber şemaları ve gerçek ekran görüntüleri** GitHub deposunda yer alıyor. GitHub Actions üzerinde öz test ve Python testleri başarıyla çalıştı. **Klinik içeriklerin uzman onayı ve gerçek Raspberry Pi saha testi tamamlanmadı.**
 
 KALE (**Kapsamlı Afet ve Yaşam Envanteri**), internet bağlantısı olmasa da yerel sunucuda çalışabilen Türkçe bir afet hazırlığı ve bilgi merkezidir. Uygulama kişisel stok takibi, barınma ve su güvenliği, hazırlık planı, doğa farkındalığı, harita ve ilk yardım rehberlerini bir araya getirir.
 
@@ -37,9 +37,24 @@ KALE (**Kapsamlı Afet ve Yaşam Envanteri**), internet bağlantısı olmasa da 
 
 ![KALE modülleri](docs/img/modules.svg)
 
-> Buradaki SVG dosyaları **şematik tanıtım görselleridir**; uygulamanın gerçek ekran görüntüsü olarak sunulmaz. Gerçek ekran görüntüleri tam kaynak yayınıyla birlikte eklenecek.
+> Yukarıdaki SVG'ler şematik tanıtımlardır. Aşağıdakiler ise uygulamanın **gerçek Chromium ekran önizlemeleridir**.
 
-## Kurulum — tam kaynak yayınından sonra
+### Gerçek ekran görüntüleri
+
+**Stok envanteri**
+
+![KALE Stok Envanteri ekranı](docs/img/screenshots/stok-envanter.png)
+
+**İlk yardım merkezi**
+
+![KALE İlk Yardım Merkezi ekranı](docs/img/screenshots/ilk-yardim.png)
+
+**Yedekleme ve cihazlar arası veri aktarımı**
+
+![KALE yedekleme ve aktarım ekranı](docs/img/screenshots/yedekleme-aktarim.png)
+
+
+## Hızlı kurulum
 
 **Ubuntu / Debian / Raspberry Pi OS**
 
@@ -73,7 +88,7 @@ sudo systemctl status kale-backup.timer
 
 Tam adımlar: **[Kurulum kılavuzu](docs/INSTALL.md)** · **[Güvenlik ve sınırlamalar](docs/SECURITY.md)**
 
-## Testler — tam kaynak yayınından sonra
+## Testler
 
 \`\`\`bash
 python3 server.py --selftest
@@ -81,7 +96,7 @@ python3 -m unittest discover -s tests -q
 python3 tools/offline_audit.py
 \`\`\`
 
-v1.8 kaynak paketinin hazırlık aşamasında **95 Python otomatik testi** başarılıydı; GitHub deposunda bağımsız CI testi ve gerçek Raspberry Pi saha testi henüz tamamlanmadı.
+**95 Python otomatik testi** GitHub Actions üzerindeki kaynak açma/yayınlama iş akışında başarıyla çalıştırıldı. Gerçek Raspberry Pi, güç kesintisi ve saha testleri henüz yapılmadı. [Test çalışmasını gör](https://github.com/nord-riot/KALE/actions/runs/41779929488).
 
 ## Güvenlik uyarısı
 
@@ -93,4 +108,4 @@ Kaynak paketinde lisans belgesi bulunur; üçüncü taraf içerik ve veri kaynak
 
 ---
 
-**Proje:** [github.com/nord-riot/KALE](https://github.com/nord-riot/KALE) · **Sürüm hedefi:** v1.8
+**Proje:** [github.com/nord-riot/KALE](https://github.com/nord-riot/KALE) · **Yayınlanan sürüm:** v1.8
