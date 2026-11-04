@@ -1,0 +1,43 @@
+name: KALE Python CI
+
+on:
+  push:
+    paths:
+      - 'server.py'
+      - 'tools/**'
+      - 'tests/**'
+      - 'data/**'
+      - 'web/**'
+      - '.github/workflows/ci.yml'
+  pull_request:
+    paths:
+      - 'server.py'
+      - 'tools/**'
+      - 'tests/**'
+      - 'data/**'
+      - 'web/**'
+      - '.github/workflows/ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-server-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12', '3.13']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Self test
+        run: python server.py --selftest
+      - name: Unit suite
+        run: python -W ignore::ResourceWarning -m unittest discover -s tests -q
+      - name: Verify offline bundle
+        run: python tools/offline_audit.py
