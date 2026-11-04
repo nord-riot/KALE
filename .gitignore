@@ -1,0 +1,22 @@
+# Local/private user data and generated backups
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+backups/
+*.sqlite3
+*.sqlite3-*
+*.publish.tmp
+data/maps/*.mbtiles
+data/maps/*.pmtiles
+screenshots-private/
+review/*-audit.csv
+review/*-signed.xlsx
+!data/kale.db
+# Keep packaged public data and template exports in the repo; NEVER commit user edits, actual signatures or secrets.
