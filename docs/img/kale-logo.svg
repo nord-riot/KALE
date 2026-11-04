@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-label="KALE: Kapsamlı Afet ve Yaşam Envanteri">
+<rect width="1100" height="300" rx="26" fill="#0b141b"/>
+<g stroke="#efc988" stroke-width="11" stroke-linejoin="round" fill="none">
+<path d="M75 126 V88 H104 V106 H134 V88 H166 V106 H196 V88 H225 V126 L208 139 V230 H92 V139 Z"/>
+<path d="M110 218 V169 A44 44 0 0 1 190 169 V218"/>
+</g>
+<text x="270" y="169" fill="#f1ddae" font-family="Arial, sans-serif" font-size="110" font-weight="800" letter-spacing="19">KALE</text>
+<text x="275" y="226" fill="#9dc5bb" font-family="Arial, sans-serif" font-size="26" letter-spacing="2.4">KAPSAMLI AFET VE YAŞAM ENVANTERİ</text>
+</svg>
