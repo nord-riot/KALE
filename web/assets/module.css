@@ -8,3 +8,48 @@
 @media print{.top,.filter,.primary,.guide button,.map-controls{display:none!important}body{background:white;color:black}.detail{position:static;width:100%;max-height:none;border:0}.dialog-body{max-height:none}}
 
 .gps-panel{border:1px solid #4c7569;background:#142b30;border-radius:12px;padding:16px 19px;margin:8px 0 19px}.gps-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.gps-panel #gpsStatus{font-size:14px;color:#b5e6d1;font-weight:800;margin:10px 0}.gps-panel #targetStatus{font-size:13px;color:#f2d0a1;margin:6px 0 12px}.gps-panel button:disabled{opacity:.44;cursor:not-allowed}.point-item .goal{border-color:#a6d6c0;color:#a6f4cf}
+
+/* KALE responsive detail / 2026-11-07: keep every step readable at any viewport height. */
+.detail[open]{
+  display:flex;flex-direction:column;
+  width:min(1100px,calc(100vw - 20px));max-width:1100px;
+  height:min(94dvh,950px);max-height:94dvh;
+  overflow:hidden;
+}
+.detail .dialog-head{flex:0 0 auto;min-height:64px;background:#14252e;z-index:1}
+.detail .dialog-body{
+  flex:1 1 auto;min-height:0;max-height:none;overflow-y:auto;
+  overscroll-behavior:contain;padding:20px 24px 26px;
+  scrollbar-gutter:stable;
+}
+.detail .dialog-body>h2{font-size:clamp(19px,2.5vw,29px);line-height:1.3;margin:0 0 14px;overflow-wrap:anywhere}
+.guide-visuals{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;align-items:start}
+.guide-visual{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#0d2029}
+.guide-visual img{display:block;width:100%;height:clamp(135px,21vh,220px);max-height:none;object-fit:contain;background:#10242c}
+.guide-visual figcaption{padding:9px 11px;color:#bdd0d0;font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+.guide-visual figcaption a{color:var(--a)}
+.detail .dialog-body ol{font-size:clamp(14px,1.3vw,16px);line-height:1.65;padding-left:25px}
+.detail .dialog-body li{margin:10px 0;overflow-wrap:anywhere}
+.detail .sources{display:grid;gap:6px}
+.saha-map-link{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;border:1px solid #476f73;background:#142f39;padding:14px 18px;border-radius:10px;margin:18px 0}
+.saha-map-link span{font-size:13px;color:#d8ebeb}
+.saha-map-link a{display:inline-block;padding:10px 13px;border-radius:6px;background:var(--a);color:#14252e;font-size:12px;font-weight:800;text-decoration:none}
+.map-layout{scroll-margin-top:10px}
+.map-frame canvas{min-height:360px}
+@media(max-width:650px){
+ .detail[open]{width:calc(100vw - 10px);height:96dvh;max-height:96dvh;border-radius:9px}
+ .detail .dialog-head{padding:11px 15px;min-height:52px}
+ .detail .dialog-body{padding:15px;scrollbar-gutter:auto}
+ .guide-visuals{grid-template-columns:1fr}
+ .guide-visual img{height:155px}
+ .detail .dialog-body li{margin:8px 0}
+ .map-frame canvas{min-height:300px}
+ .saha-map-link{align-items:stretch}
+}
+@media print{
+ .detail[open]{display:block;position:static;width:100%;height:auto;max-height:none;overflow:visible;border:0}
+ .detail .dialog-body{height:auto;max-height:none;overflow:visible}
+ .guide-visuals{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .guide-visual{break-inside:avoid}
+ .saha-map-link,.dialog-head{display:none}
+}
