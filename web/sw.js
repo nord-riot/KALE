@@ -1,5 +1,5 @@
 /* KALE v2.4 offline assets; no third-party network dependencies. */
-const CACHE='kale-v2.4.0';
+const CACHE='kale-v2.4.1-ui';
 const CORE=['/','/index.html','/assets/style.css','/assets/app.js','/assets/tools.js',
  '/ilaclar.html','/assets/medicines.css','/assets/medicines.js','/assets/medicines-offline.json',
  '/doktor.html','/assets/doctor.js','/saha.html','/doga.html','/harita.html','/rota.html','/assets/vector-tile.js','/assets/route.js',
@@ -118,6 +118,17 @@ self.addEventListener('fetch',event=>{
     return offline||new Response(JSON.stringify({error:'Çevrimdışı katalog bulunamadı'}),{status:503,headers:{'Content-Type':'application/json'}});
    }finally{clearTimeout(timer);}
   })());return;
+ }
+ if(url.pathname.startsWith('/assets/public-domain/')){
+  // Optional on-device USGS media: only cache files that actually exist locally.
+  event.respondWith(caches.open(CACHE).then(async cache=>{
+   const saved=await cache.match(req);
+   if(saved)return saved;
+   const response=await fetch(req);
+   if(response.ok)await cache.put(req,response.clone());
+   return response;
+  }));
+  return;
  }
  if(url.pathname.startsWith('/api/'))return; // tiles need local server, never pretend a map exists
  if(url.pathname==='/'||url.pathname==='/index.html'){
