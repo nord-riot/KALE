@@ -38,7 +38,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Yer seçimi: güvenli alan. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Kırmızı bayraklar varsa kuruluma başlamadan başka güvenli bölge değerlendir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Dere yatağı, sel izi ve suyun toplanabileceği alçak noktaları ele.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Heyelan, kayalık düşmesi, zayıf duvar, elektrik hattı ve kuru-kırık dalları kontrol et.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Açık sırt ve tepeleri yıldırım riski açısından değerlendir; fırtınada çadıra güvenme.\nAÇIKLAMA: Tehlike koşulları değişebilir; önceden planlanan yolun kapanması ihtimaline karşı alternatif belirlemek gerekir.\n\nADIM 4: Güvenli tahliye çıkışını ve gerekirse toplanma alanına ulaşımı planla.\nAÇIKLAMA: Tehlike koşulları değişebilir; önceden planlanan yolun kapanması ihtimaline karşı alternatif belirlemek gerekir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Yer seçimi: güvenli alan\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve çevreyi birkaç yönden gözlemleyebileceğin güvenli ve izinli alan kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Sel, heyelan veya yapısal çökme tehdidi varsa uzaklaş.\n• Yıldırım sırasında çadır güvenli sığınak değildir.\n• Şüpheli alanı yalnızca düz görünüyor diye güvenli sayma. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Yer seçimi: güvenli alan: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-02",
@@ -75,7 +97,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Basit tente: yağmurdan geçici korunma. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Taşıyıcı güvenliği kesinleşmeden altında uyuma veya ağır malzeme asma."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Önce sel, rüzgâr, yıldırım ve düşen dal risklerinden uzak yer seç.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 2: Örtüyü eğimli konumlandırarak suyun birikmeden dışarı akmasını sağla.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Düşük gerilimle güvenli bağlantı kur; gergin ipleri görünür kıl.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Rüzgârda bağlantıları ve örtünün birikinti yapıp yapmadığını kontrol et.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Basit tente: yağmurdan geçici korunma\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve sağlam ve yırtığı olmayan su geçirmez örtü kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Çatıya, çatlak duvara veya tehlikeli ağaca yük bindirme.\n• Kuvvetli rüzgârda şemayı yeterli yapı güvenliği kabul etme.\n• Bu şema mühendislik hesaplı barınak projesi değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Basit tente: yağmurdan geçici korunma: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-03",
@@ -112,7 +156,29 @@
           "title": "www.ready.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Çadır kurulumunda sabitleme kontrolü. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Kuvvetli fırtınada veya yıldırımda çadırın koruma sağlayacağı varsayılmamalı."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Üretici kurulum şemasını esas al.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 2: Yer altı hatları ve zeminin güvenliğinden emin olmadığın alana kazık çakma.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Gergi iplerini yürüme yolunun dışına çıkar ve görünür kıl.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Yağış, rüzgâr ve gevşeme sonrası yeniden kontrol et.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Çadır kurulumunda sabitleme kontrolü\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve üreticinin çadır parçaları kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Yıldırımda sert çatılı güvenli bina veya uygun kapalı araca geç.\n• Su yolu/taşkın yatağı çadır için uygun değildir.\n• Çadır tipi ve zemine göre üretici talimatı önceliklidir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Çadır kurulumunda sabitleme kontrolü: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-04",
@@ -145,7 +211,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Zemin yalıtımı ve kuru kalma. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Islak zemin ısı kaybını artırabilir; kuru malzeme önemli."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Yağmur suyu akışından uzak, güvenli ve kuru yer seç.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Taban örtüsünü suyun içeri dolmasını artırmayacak biçimde düzenle.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Mat veya kuru katmanlarla vücudu doğrudan zeminden ayır.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 4: Yoğuşma ve ıslanma açısından katmanları gün içinde kontrol et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Zemin yalıtımı ve kuru kalma\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kapalı hücreli mat veya üretici önerili izolasyon malzemesi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Aşırı üşüme, bilinç bulanıklığı veya konuşmada bozulma hipotermi belirtisi olabilir.\n• Islak giysileri mümkünse kuru olanla değiştir ve sağlık yardımı iste.\n• Yalıtım, tıbbi hipotermi tedavisinin yerini almaz. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Zemin yalıtımı ve kuru kalma: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-05",
@@ -177,7 +265,29 @@
           "title": "www.ready.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Barınakta yağmur suyu yönetimi. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Barınağın altına akan su acil tahliyeye neden olabilir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Kurulum öncesi yağmur suyu birikme belirtilerini ara.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Örtüyü birikinti değil dışa akış sağlayacak biçimde eğimli tut.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Örtünün kenarı, giriş ve ekipman çevresinde damlama kontrolü yap.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Şiddetli yağış ve yeni sel tehlikesinde tahliye seçeneğini gözden geçir.\nAÇIKLAMA: Tehlike koşulları değişebilir; önceden planlanan yolun kapanması ihtimaline karşı alternatif belirlemek gerekir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Barınakta yağmur suyu yönetimi\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve dış örtü ve üreticiye uygun gergi sistemi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Su yatağı veya potansiyel sel alanına drenaj kazıp yerleşme.\n• Akıntının derinliğini yürüyerek deneme.\n• Yer seçimi, örtüyle suyu yönlendirmekten daha kritiktir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Barınakta yağmur suyu yönetimi: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-06",
@@ -212,7 +322,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Rüzgâr yönü ve güvenli bariyer. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Gelişigüzel ağır duvar/istif yapma; devrilme riski oluşabilir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Güncel rüzgâr durumunu ve çıkış yönünü değerlendir.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 2: Barınağın girişini su ve rüzgâr birikiminden koruyacak şekilde düşün.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Devrilebilecek taş/ahşap yığınlarını bariyer gibi kullanma.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Rüzgâr şiddetlenince barınağı yeniden değerlendir ve gerekirse ayrıl.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Rüzgâr yönü ve güvenli bariyer\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve üreticiye uygun rüzgâr koruyucu örtü kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Elektrik direği, ağaç ve zayıf duvar yanında rüzgâr koruması kurma.\n• Bariyer her fırtınaya dayanıklı olarak değerlendirilmemelidir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Rüzgâr yönü ve güvenli bariyer: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-07",
@@ -244,7 +376,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Yoğuşma ve temiz hava. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Havalandırma açıklığı, iç mekânda yakıt yakmayı güvenli hâle getirmez."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Hava girişleri kapanmadan üretici talimatına göre kurulum yap.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 2: Yağmur önlemleri ile hava değişimini birlikte gözet.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 3: İç yüzeylerde yoğuşma, ağır nem ve küf riskini izle.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Yakıtlı ocak, kömür ve jeneratörü barınak içinde kullanma.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Yoğuşma ve temiz hava\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve hava giriş/çıkış açıklıkları bulunan uygun çadır/örtü kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Karbonmonoksit renksiz ve kokusuzdur.\n• CO şüphesinde hemen temiz havaya çık ve 112’yi ara.\n• Birkaç pencere açmak bile jeneratör/ızgarayı içeride güvenli yapmaz. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Yoğuşma ve temiz hava: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-08",
@@ -280,7 +434,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Yakıtlı ısıtıcı yerine güvenli alternatifler. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Çadırda ateş, ızgara, mangal veya kamp ocağı kullanma."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Önce güvenli resmî barınma tesislerini değerlendir.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 2: Yalıtım, kuru kıyafet ve korunmuş uyku alanına öncelik ver.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Karbonmonoksit alarmı gerekiyorsa üreticiye uygun ekipman kullan.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Belirgin titreme, dalgınlık, uyku hâli veya koordinasyon kaybında sağlık yardımı iste.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Yakıtlı ısıtıcı yerine güvenli alternatifler\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kuru ve mevsime uygun kıyafet kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Yanlış ısıtıcı kullanımı ölümcül CO zehirlenmesine yol açabilir.\n• Sıcak kalmak için kapalı alanda yanma kullanma. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Yakıtlı ısıtıcı yerine güvenli alternatifler: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-09",
@@ -316,7 +492,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Bu çalışmada ilk önce çevrenin güvenli olduğundan emin ol; düz görünen bir alan sel, heyelan, elektrik veya düşen nesne açısından tehlikeli olabilir. Kuru kalma, havalandırma ve güvenli çıkış aynı anda düşünülmelidir. Konu: Barınağı terk etme kriterleri. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Konfor yerine acil tehlikeye ve resmî tahliye uyarısına öncelik ver."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Resmî tahliye talimatlarını izle.\nAÇIKLAMA: Tehlike koşulları değişebilir; önceden planlanan yolun kapanması ihtimaline karşı alternatif belirlemek gerekir.\n\nADIM 2: Sel suyu, heyelan hareketi, gaz kokusu ve ağır rüzgârı kırmızı bayrak kabul et.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Acil çıkış güzergâhını engelleme.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Güvenli konuma geçince aile üyelerinin durumunu teyit et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Barınağı terk etme kriterleri\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve acil durum çantası kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Çadırı korumak için sel, ağaç devrilmesi veya elektrik riskine geri dönme.\n• Tehlike sürüyorsa barınağı toparlamaya çalışmadan uzaklaş. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Barınağı terk etme kriterleri: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-10",
@@ -348,7 +546,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Su kaynağı seçimi: önce güvenli olan. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Kaynağın temiz görünmesi içilebilir olduğunu kanıtlamaz."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Önce açılmamış ambalajlı içme suyu ve yetkililerin güvenli dediği kaynakları değerlendir.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Kuyudan, dere ve yağmurdan alınan suyu otomatik içilebilir varsayma.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Kimyasal kirlilik, sel ve kanalizasyon riski olan kaynaklardan uzak dur.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Kaynak belirsizse sağlık yetkililerinin yönlendirmesini ara.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Su kaynağı seçimi: önce güvenli olan\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve etiketi sağlam ambalajlı içme suyu kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Suyu yalnız berrak ve kokusuz olduğu için içme.\n• Bu akış güvenli içme suyu sertifikası değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Su kaynağı seçimi: önce güvenli olan: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-11",
@@ -379,7 +599,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Kimyasal kirlenme: içme ve kaynatma. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Yakıt/pestisit/ağır metal/radyoaktif şüphesinde kaynatma suyu güvenli yapmaz."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Yakıt, kimyasal, tarım ilacı, endüstri veya sel bulaşı şüphesini kontrol et.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Şüphe varsa o suyu içme veya yemek yapmada kullanma.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Kaynatma, bez süzme, güneşte bırakma veya sıradan filtrelemeyi çözüm kabul etme.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Güvenilir başka kaynak kullan; yerel sağlık biriminden tavsiye al.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Kimyasal kirlenme: içme ve kaynatma\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve alternatif ambalajlı su kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Kokusu normal su bile kimyasal olarak kirlenmiş olabilir.\n• Hiçbir ev tipi karar ağacı kimyasal analiz yerine geçmez. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Kimyasal kirlenme: içme ve kaynatma: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-12",
@@ -411,7 +653,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Bulanık suda çöktürme ve ön süzme. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Tortu giderme mikropları veya kimyasalları güvenilir şekilde gidermez."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Bulanık suyu bekleterek büyük parçacıkların çökmesini sağla.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Üstteki daha berrak suyu dikkatle ikinci kaba aktar.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Temiz bez veya kahve filtresiyle kalan kaba tortuyu azalt.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Mikrobiyolojik risk için uygun ek işlem gerektiğini unutma.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Bulanık suda çöktürme ve ön süzme\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve temiz bekletme kabı kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Kimyasal kirlilik şüphesinde işlem yapma; başka kaynak kullan.\n• Bu işlem tek başına içme suyu üretmez. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Bulanık suda çöktürme ve ön süzme: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-13",
@@ -448,7 +712,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Kaynatma: mikrobiyolojik risk. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Kaynama süresi: normalde 1 dakika; 2.000 m üzeri 3 dakika."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Yalnız kimyasal/radyoaktif kirlilik şüphesi olmayan su için düşün.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Su bulanıksa önce çöktür ve kaba tortuyu süz.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Berrak suyu güçlü biçimde kaynat: 1 dakika; 2.000 m üstü 3 dakika.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Soğut; temiz, kapaklı kapta ikincil kirlenmeden koru.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Kaynatma: mikrobiyolojik risk\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve temiz ısıya uygun kap kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Kapalı barınak/çadırda yakıtla pişirme veya ısıtma yapma.\n• Yanık riskini gözet.\n• Bu mikrop azaltma işlemidir, kimyasal arıtma değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Kaynatma: mikrobiyolojik risk: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-14",
@@ -480,7 +766,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Taşınabilir filtrenin sınırlarını anla. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Filtre adı tek başına virüs veya kimyasal koruma garantisi değildir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Filtrenin hangi kirleticileri azaltmak için test edildiğini üretici kılavuzundan doğrula.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Yırtık, don hasarı, kirli çıkış veya belirtilen kapasite aşımı olup olmadığını kontrol et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Virüsler ve kimyasallar için sınırlamaları oku.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Kaynak şüpheliyse filtreye güvenerek suyu içilebilir ilan etme.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Taşınabilir filtrenin sınırlarını anla\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve markası/modeli bilinen, sağlam filtre kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Aktif karbon, bez ve taş/sand filtreleri her tür toksini veya virüsü gidermez.\n• Filtrasyon bir ürün kapasitesi sorusudur, evrensel garanti değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Taşınabilir filtrenin sınırlarını anla: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-15",
@@ -516,7 +824,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Güvenli suyu kapalı kapta saklama. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Eski yakıt/çamaşır suyu/pestisit kabını asla içme suyu için kullanma."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Gıda için uygun, temiz ve sıkı kapaklı kap seç.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 2: Daha önce toksik kimyasal depolanmış kapları kullanma.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Suyu kapalı, serin ve doğrudan güneş almayan yerde tut.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Kabın ağzına el veya kirli bardak sokma; suyun tarihini etiketle.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Güvenli suyu kapalı kapta saklama\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve gıda tipi sağlam kap kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Kapağı açık su ve kirli kepçe suyu yeniden kirletebilir.\n• Güvenli kaynak suyu bile uygunsuz depolamayla kirlenebilir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Güvenli suyu kapalı kapta saklama: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-16",
@@ -549,7 +879,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Yağmur suyu toplama: risk ve ayrım. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Çatıdan alınan suyu test/uygun işlem olmadan içme suyu sayma."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Çatı/oluk üzerinde kuş dışkısı, toz, boya ve kimyasal kaynakları düşün.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Toplama alanını elektrik ve düşme riski açısından değerlendir; güvensiz çatıya çıkma.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Topladığın suyu “içilebilir” diye işaretleme.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Su içme amacıyla kullanılacaksa resmî güvenlik veya uygun işlem bilgisi ara.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Yağmur suyu toplama: risk ve ayrım\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve gıda tipinde ayrı kap kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Kaynatmak bütün kimyasal kirleri gidermez.\n• Ağır su deposunu yapısal uygunluk olmadan çatıya koyma.\n• Toplanan suyun güvenliği kaynak/çevre analizine bağlıdır. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Yağmur suyu toplama: risk ve ayrım: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-17",
@@ -581,7 +933,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: İşlem görmüş suyla ham suyu ayır. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Temiz ve kirli kapları karıştırma."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Güvenilir veya uygun işlem görmüş suyu ayrı kapta tut.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Ham su için ayrı kap ve alet belirle; etiketle.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Temiz su kabının iç kısmına elleri/ham su ekipmanını değdirme.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Kapağı her kullanımdan sonra kapat ve kirlenme olasılığını izle.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"İşlem görmüş suyla ham suyu ayır\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve içme suyu etiketli kap kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Etiket tek başına işlem yapıldığı anlamına gelmez.\n• Kirlilik türü bilinmiyorsa suyu içme suyu kabul etme. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "İşlem görmüş suyla ham suyu ayır: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": "bs-18",
@@ -613,7 +987,29 @@
           "title": "www.cdc.gov"
         }
       ],
-      "updated": "2026-11-03"
+      "updated": "2026-11-03",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gözle temiz görünen su güvenli olmayabilir. Su kaynağını ve olası mikrop/kimyasal kirlenmeyi birbirinden ayır; kimyasal şüpheyi kaynatmayla çözmeye çalışma. Konu: Su stok planı ve özel ihtiyaçlar. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Kişi ve sıcaklık farklılıkları için tek sabit litre hesabı yeterli değildir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Hane üyelerini ve bebek, hamile, hasta veya yaşlı ihtiyaçlarını listele.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 2: İçme suyu ve temizlik suyu stokunu birbirinden ayır.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Sıcak hava ve fiziksel aktivite gibi tüketimi artıran koşulları not et.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 4: Günlük yeniden hesapla, geçerli su kaynağı bilgisini kontrol et.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Su stok planı ve özel ihtiyaçlar\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kişi sayısı ve ihtiyaç notu kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Günlük 2–3 litre gibi örnekler herkes için güvenli veya yeterli miktar değildir.\n• Su tüketimi kişiye/ortama bağlıdır; planlama matematiği tedavi önerisi değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Su stok planı ve özel ihtiyaçlar: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     }
   ]
 }
