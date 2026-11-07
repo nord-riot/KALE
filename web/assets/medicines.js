@@ -10,6 +10,37 @@ const DATA_FIELDS=[
  ['inactive_ingredients','Yardımcı maddeler (hepsi alerjen değildir)'],
  ['pregnancy','Gebelik / emzirme / özel gruplar'],['storage','Saklama koşulları']
 ];
+// Every medicine opens a practical reading guide without inventing drug-specific
+// dosing, interactions, contraindications or a clinical approval.
+const FIELD_HELP={
+ active_ingredients:'İlaç kutusunda etken madde adını, miktarını ve formunu karşılaştır. Benzer isimli iki ürün farklı derişimde olabilir. Etken maddeyi bilmek kişiye uygunluğu kanıtlamaz.',
+ indications:'Bu bölüm ilacın hangi durumlar için kayıtlarda geçtiğini açıklar; sende o hastalık bulunduğu veya ilacın sana uygun olduğu anlamına gelmez. Tanı ve seçim için sağlık profesyoneli gerekir.',
+ effects:'Buradaki açıklama ilacın genel etki mekanizmasına ilişkindir. Etkinin ne zaman başlayacağı, ne kadar süreceği ve kişideki karşılığı bu özetten kesin çıkarılamaz.',
+ side_effects:'Olası yan etkiler herkes için aynı değildir. Ciddi veya hızla ilerleyen alerjik belirti, nefes güçlüğü, bilinç değişikliği gibi acil durumda 112 ile iletişime geç.',
+ allergies:'Daha önce bir ilaca reaksiyon gelişmiş olması önemlidir. Etken ve yardımcı maddeleri karşılaştır; belirsiz alerjiyi kendi kendine deneme yaparak test etme.',
+ contraindications:'Kontrendikasyon bir ilacın belirli durumda kullanılmaması gerektiğini anlatır. Eşlik eden hastalık, organ işlevi, yaş ve diğer ilaçlar için bu kayıt tek başına yeterli değildir.',
+ warnings:'Kutudaki ve ruhsatlı ürün bilgisindeki özel uyarılar önceliklidir. Kırmızı bayrak görürsen kullanımı kendi başına başlatma veya değiştirme; uzman görüşü iste.',
+ interactions:'İki reçeteli ilaç kadar reçetesiz ürün, takviye ve alkol de etkileşim açısından önemli olabilir. Güncel ilaç listesini eczacıya göster.',
+ inactive_ingredients:'Yardımcı maddelerin hepsi alerjen değildir. Ancak bilinen duyarlılık varsa ürünün gerçek içerik listesini etiket/KÜB üzerinden doğrula.',
+ pregnancy:'Gebelik, emzirme, çocukluk, ileri yaş ve böbrek/karaciğer hastalıkları özel değerlendirme gerektirebilir. Genel metinden kişisel uygunluk çıkarma.',
+ storage:'Sıcaklık, nem ve ışık koşulları ürünün saklanmasını etkileyebilir. Kesin koşulu ürün etiketinden öğren; uygunluğu bilinmeyen ürünü kullanma.'
+};
+function appendReadingGuide(panels,data){
+ const section=el('section','med-section med-howto');
+ section.append(el('h3','','BU İLAÇ KAYDINI NASIL OKUYACAĞIM?'));
+ const tips=[
+  '1. İLAÇ KİMLİĞİ: Kutudaki ürün adı, etken madde ve ilaç formunu bu kayıtla karşılaştır. Aynı ad her ürünün aynı olduğunu kanıtlamaz.',
+  '2. KİŞİSEL DURUM: Yaş, gebelik/emzirme, bilinen alerji, kronik hastalık ve kullanılan diğer ilaçlar uygunluğu değiştirebilir. Bunları hekim/eczacıya bildir.',
+  '3. KAYNAĞI KONTROL ET: Bu kayıt için kaynak '+String(data.source||'belirtilmemiş')+'; güncellenme '+String(data.source_updated||'doğrulanmadı')+'. ABD ürün etiketi Türkiye ruhsatlı ürünü otomatik doğrulamaz.',
+  '4. EKSİK BİLGİ: Boş yan etki, kontrendikasyon veya etkileşim alanı risk olmadığı anlamına gelmez. Eksik alanı tahminle doldurma.',
+  '5. ACİL DURUM: Ciddi reaksiyon, nefes alamama veya bilinç değişikliği varsa Türkiye’de 112; zehirlenme şüphesinde 114 danışma hattından yönlendirme al.',
+  '6. KARAR: KALE ilaç önermez, doz hesaplamaz, reçete vermez. Kullanma/değiştirme/bırakma kararını yalnız bu ekrana dayanarak verme.'
+ ];
+ const list=el('ol','med-reading-list');
+ for(const tip of tips)list.append(el('li','',tip));
+ section.append(list);
+ panels.append(section);
+}
 const el=(tag,cls,txt)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;return x;};
 const list=$('medList');
 const fallback='Bu bölüm için doğrulanmış kaynak bilgisi henüz eklenmedi. Bu, ilacın güvenli olduğu anlamına gelmez.';
@@ -64,7 +95,10 @@ async function detail(id){try{const data=await get('/api/medicines/'+encodeURICo
  const review=data.doctor_review||{review_record:'YOK'};
  $('medReviewState').textContent=review.review_record==='İŞLENDİ'?`HEKİM İNCELEME KAYDI: ${review.decision} (${review.reviewed_on}). Bu kayıt, ilaç güvenliğinin bağımsız onayı değildir.`:'HEKİM İNCELEMESİ: Onaylı bir klinik değerlendirme bulunmuyor veya çevrimdışı doğrulanamıyor.';
  const panels=$('medSections');panels.replaceChildren();
- for(const [key,label] of DATA_FIELDS){const panel=el('section','med-section');panel.append(el('h3','',label));const content=el('p',data[key]?'':'med-missing',data[key]||fallback);panel.append(content);panels.append(panel)}
+ for(const [key,label] of DATA_FIELDS){const panel=el('section','med-section');panel.append(el('h3','',label));const content=el('p',data[key]?'':'med-missing',data[key]||fallback);panel.append(content);
+  const explanation=el('p','med-field-explanation',FIELD_HELP[key]||'Ürün etiketini ve sağlık profesyoneli bilgisini doğrula.');
+  panel.append(explanation);panels.append(panel)}
+ appendReadingGuide(panels,data);
  const source=$('medSource');source.replaceChildren(el('strong','','Kaynak: '+data.source));source.append(el('p','','Dil: '+data.locale+' · Kaynak kontrol tarihi: '+(data.source_updated||'henüz doğrulanmadı')));if(data.source.toLocaleLowerCase('tr').includes('editoryal')) source.append(el('p','','Bağlantı ilaca özgü doğrulanmış KÜB/KT değil, genel referans merkezidir. Kayda özel kaynak hekim/eczacı kontrolünde eklenmelidir.'));
  if(data.source_url&&data.source_url.startsWith('https://')){const a=el('a','',hasSource?'Ürün etiketini aç (internet gerekir) ↗':'Kaynak / başvuru merkezini aç (internet gerekir) ↗');a.href=data.source_url;a.rel='noopener noreferrer';a.target='_blank';source.append(a)}
  $('medDialog').showModal();
