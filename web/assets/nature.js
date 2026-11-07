@@ -12,6 +12,10 @@
    const item=make('article','nature-card'+(x.group==='mantar'?' mushroom':''));
    item.append(make('div','kicker',(x.group==='mantar'?'🍄 MANTAR':'🌿 BİTKİ')+' · TÜKETME'),make('h2','',x.name),make('em','',x.latin));
    item.append(make('p','alert-line',x.warning),make('p','',x.habitat||''),make('div','unverified','Bölgesel dağılım ve tür teşhisi uzman tarafından doğrulanmadı.'));
+   const more=make('details','nature-more');const summary=make('summary','','AYRINTILI GÜVENLİK BİLGİSİNİ AÇ');
+   more.append(summary);
+   for(const s of x.details||[]){more.append(make('h3','guide-expansion-title',s.heading),make('p','guide-expansion-text',s.text));}
+   item.append(more);
    const a=make('a','',x.source+' · Kaynak ↗');a.href=x.source_url;a.rel='noopener noreferrer';a.target='_blank';item.append(a);
    card.append(item);count++;
   }
