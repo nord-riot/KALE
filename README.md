@@ -1,3 +1,7 @@
+> **7 Kasım 2026 arayüz düzeltmesi:** Saha rehberlerinin detay penceresi mobil/masaüstünde taşmadan kaydırılır ve her rehber açılışında en üste döner. Harita artık sayfanın üst kısmında görünür. 5 adet USGS **Public Domain** görsel ilk çevrimiçi kurulumda cihaza alınır; indirilemezse KALE'nin özgün SVG'leri gösterilir. Kaynak ve görsel lisans bilgileri: [Açık lisanslı görseller](docs/ACIK-LISANSLI-GORSELLER.md).
+>
+> **Önemli:** Sayfa düzenlemesi Türkiye'nin gerçek sokak verisinin yerine geçmez. Harita boş/yalnız özet görünüyorsa, internet varken `python3 tools/turkiye_full.py check` ile durumu kontrol et; eksik veriler için README'deki Termux tek kurulumunu çalıştır. Gerçek Android saha testi ayrıca gereklidir.
+
 # KALE v2.4 — Tek Kurulum, Türkiye Sokak Haritası ve Tam Offline Rota
 
 **Termux kurulumu (yalnız ilk defa internet gerekli):**
