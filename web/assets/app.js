@@ -30,7 +30,7 @@ function renderGuideText(container,body){
  for(const part of parts){
   const lines=part.split('\n');
   const first=lines[0].trim();
-  const section=/^[A-ZÇĞİÖŞÜ0-9 \/—:-]{5,75}$/.test(first)&&lines.length>1;
+  const section=(/^[A-ZÇĞİÖŞÜ0-9 \/—:-]{5,90}$/.test(first)||/^KONUYU ANLA — /.test(first))&&lines.length>1;
   if(section){
    const block=create('section','guide-section');
    block.append(create('h3','guide-section-title',first));
