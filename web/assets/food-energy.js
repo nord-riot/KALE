@@ -36,6 +36,7 @@
   const img=create('img');img.src=g.diagram;img.alt=g.title+' için özgün şematik çizim';box.append(img,create('p','',g.summary));
   function list(title,values,ordered=false){box.append(create('h3','',title));const ul=create(ordered?'ol':'ul');for(const value of values)ul.append(create('li','',value));box.append(ul);}
   list('Gerekli malzemeler',g.materials);list('Adımlar',g.steps,true);list('Burada dur / yeniden değerlendir',g.stop);
+  for(const s of g.details||[]){box.append(create('h3','guide-expansion-title',s.heading),create('p','guide-expansion-text',s.text));}
   box.append(create('div','warn','ÖNEMLİ: '+g.warning));const source=create('div','source-links');source.append(create('h3','','Kaynak ve durum'));
   for(const s of g.sources){const a=create('a','source-line',s.title+' ↗');a.href=s.url;a.rel='noopener noreferrer';a.target='_blank';source.append(a);}
   source.append(create('p','stamp','Kaynak, bu metnin uzman tarafından onaylandığı anlamına gelmez. Bağlantılar çevrimdışıyken açılamaz.'));
