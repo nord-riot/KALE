@@ -37,7 +37,12 @@ function show(g){
  target.append(tag('h2','',g.title));
  target.append(guideVisuals(g));
  target.append(tag('p','tag',g.review_status+' · '+g.updated));
+ const stepsTitle=tag('h3','','Temel uygulanacak adımlar');target.append(stepsTitle);
  const steps=tag('ol');for(const t of g.steps)steps.append(tag('li','',t));target.append(steps);
+ for(const section of g.details||[]){
+  const heading=tag('h3','guide-expansion-title',section.heading),p=tag('p','guide-expansion-text',section.text);
+  target.append(heading,p);
+ }
  target.append(tag('p','alert strong','ÖNEMLİ: '+g.warning));
  const sources=tag('div','sources','Kaynaklar / başvuru merkezleri (bağlantı için internet gerekir):');
  if(!g.sources.length)sources.append(tag('p','','Bu şema genel hazırlık önerisidir; kaynak ve uzman kontrolü henüz tamamlanmadı.'));

@@ -48,7 +48,29 @@
           "url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf"
         }
       ],
-      "diagram": "/assets/diagrams/aid-01.svg"
+      "diagram": "/assets/diagrams/aid-01.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Yetişkin: tepkisiz ve normal nefes almıyor: Tepki yok ve normal solunum yok ya da yalnız düzensiz iç çekme/gasping var. 1) Tepki yok ve normal solunum yok ya da yalnız düzensiz iç çekme/gasping var. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Ortamın güvenli olduğundan emin ol; kişiye seslen ve omzuna hafifçe dokunarak yanıtı kontrol et.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. 112’yi hemen ara; telefonu hoparlöre al. Yakındakilerden otomatik eksternal defibrilatör (OED/AED) iste.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Yetişkini düz/sert zeminde sırtüstü yatır. Göğsün ortasına dakikada 100–120 bası yap; 5–6 cm derinlik hedefle ve göğsün geri dönmesine izin ver.\nNEDEN ÖNEMLİ? Hayatı tehdit eden kanamalarda doğru ve eğitimle öğrenilmiş ilk yardım uygulaması önemlidir; 112 yönlendirmesini izle.\n\n4. Eğitimli ve yapmaya istekliysen 30 bası / 2 kurtarıcı soluk uygula; aksi durumda kesintisiz göğüs basısını sürdür.\nNEDEN ÖNEMLİ? Hayatı tehdit eden kanamalarda doğru ve eğitimle öğrenilmiş ilk yardım uygulaması önemlidir; 112 yönlendirmesini izle.\n\n5. OED geldiğinde sesli yönergeleri izle; sağlık ekipleri devralana veya kişi normal nefes alana dek 112 yönlendirmesini takip et.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Nabız aramakla vakit kaybetme; normal olmayan iç çekmeleri normal nefes sayma.\n2. Yapma: Bu yetişkin uygulamasını bebek/çocuk için aynı teknikle kullanma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Her tepkisizlik ve normal nefes almama durumunda hemen 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Yetişkin: tepkisiz ve normal nefes almıyor\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-02",
@@ -84,7 +106,29 @@
           "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines"
         }
       ],
-      "diagram": "/assets/diagrams/aid-02.svg"
+      "diagram": "/assets/diagrams/aid-02.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Otomatik eksternal defibrilatör (OED/AED): Kişi tepkisiz ve normal nefes almıyor; OED mevcut. 1) Kişi tepkisiz ve normal nefes almıyor; OED mevcut. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. 112 ile iletişimi sürdür ve OED’yi aç.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Elektrotları cihazdaki çizime ve sesli yönergelere göre çıplak, kuru göğse yerleştir.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Cihaz ritim analizi yaparken kimsenin kişiye dokunmadığından emin ol.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n4. Cihaz şok önerirse yönergeye uy; ardından gecikmeden göğüs basısına devam et.\nNEDEN ÖNEMLİ? Hayatı tehdit eden kanamalarda doğru ve eğitimle öğrenilmiş ilk yardım uygulaması önemlidir; 112 yönlendirmesini izle."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kişiyle temas varken şok verme.\n2. Yapma: OED aramak için göğüs basılarına gereksiz ara verme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "OED kullanılan olayda 112 ile iletişim kur; sağlık ekibi çağır. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Otomatik eksternal defibrilatör (OED/AED)\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-03",
@@ -117,7 +161,29 @@
           "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
         }
       ],
-      "diagram": "/assets/diagrams/aid-03.svg"
+      "diagram": "/assets/diagrams/aid-03.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Hayatı tehdit eden dış kanama: Fışkıran veya durmayan kanama, hızla ıslanan giysiler, belirgin kan kaybı. 1) Fışkıran veya durmayan kanama, hızla ıslanan giysiler, belirgin kan kaybı. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kendini koru; varsa eldiven kullan. 112 çağrısı yaptır.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Kanama bölgesine temiz bez veya gazlı bezle kesintisiz doğrudan, güçlü basınç uygula.\nNEDEN ÖNEMLİ? Hayatı tehdit eden kanamalarda doğru ve eğitimle öğrenilmiş ilk yardım uygulaması önemlidir; 112 yönlendirmesini izle.\n\n3. Hayatı tehdit eden kol/bacak kanaması basıya rağmen durmuyorsa uygun turnike varsa eğitim ve 112 yönlendirmesiyle kullan.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n4. Kişinin bilincini ve solunumunu takip et; profesyonel yardım gelene kadar basıyı sürdür.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Yaraya gömülmüş büyük cismi çekip çıkarma.\n2. Yapma: Turnikeyi keyfî biçimde gevşetme veya çıkarma.\n3. Yapma: Kişiye zorla yiyecek/içecek verme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Durmayan şiddetli kanamada acilen 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Hayatı tehdit eden dış kanama\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-04",
@@ -153,7 +219,29 @@
           "url": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
         }
       ],
-      "diagram": "/assets/diagrams/aid-04.svg"
+      "diagram": "/assets/diagrams/aid-04.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Tepkisiz fakat normal nefes alıyor: Kişi konuşmaya/dokunmaya yanıt vermiyor ancak normal nefes alıyor. 1) Kişi konuşmaya/dokunmaya yanıt vermiyor ancak normal nefes alıyor. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. 112’yi ara; solunumu düzenli gözle.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Belirgin boyun/omurga yaralanması şüphesi yoksa hava yolunu açık tutmak için güvenli yan (derlenme) pozisyonuna getir.\nNEDEN ÖNEMLİ? Gereksiz hareket olası yaralanmanın kötüleşmesine neden olabilir; acil tehlike dışında zorla taşıma yapma.\n\n3. Nefes alıp almadığını sık izleyerek yardım gelmesini bekle.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n4. Normal nefes kesilirse 112 yönlendirmesiyle kalp masajına geç.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kişiye ağızdan su, yemek veya ilaç verme.\n2. Yapma: Travmaya bağlı omurga yaralanması kuşkusu varsa zorunlu değilse gelişigüzel hareket ettirme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Tepkisiz kişide derhal 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Tepkisiz fakat normal nefes alıyor\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-05",
@@ -186,7 +274,29 @@
           "url": "https://www.resus.org.uk/professional-library/faqs/faqs-basic-life-support-cpr"
         }
       ],
-      "diagram": "/assets/diagrams/aid-05.svg"
+      "diagram": "/assets/diagrams/aid-05.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Yetişkinde ciddi boğulma / solunum yoluna cisim: Kişi konuşamıyor, etkili öksüremiyor ya da nefes alamıyor. 1) Kişi konuşamıyor, etkili öksüremiyor ya da nefes alamıyor. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. 112 çağır; kişi etkili öksürebiliyorsa öksürmesini teşvik et.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Etkili öksürük yoksa öne eğik durumda kürek kemikleri arasına 5 sırt darbesi uygula.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Tıkanıklık devam ederse yetişkinde 5 karın itişi uygula; bebeklerde bu yöntem kullanılmaz.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n4. Tıkanıklık giderilene veya kişi tepkisizleşene kadar 5 sırt darbesi / 5 karın itişi şeklinde devam et.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n5. Kişi tepkisizleşirse 112 yönlendirmesiyle CPR’a başla.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Ağız içine görmeden parmak sokup körlemesine arama yapma.\n2. Yapma: Bu yetişkin tekniğini 1 yaşından küçük bebekte uygulama. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Nefes alamıyor veya konuşamıyorsa hemen 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Yetişkinde ciddi boğulma / solunum yoluna cisim\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-06",
@@ -222,7 +332,29 @@
           "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
         }
       ],
-      "diagram": "/assets/diagrams/aid-06.svg"
+      "diagram": "/assets/diagrams/aid-06.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Şiddetli alerjik reaksiyon / anafilaksi: Dil/boğaz şişmesi, nefes darlığı, ani bayılma, yaygın alerji belirtileri. 1) Dil/boğaz şişmesi, nefes darlığı, ani bayılma, yaygın alerji belirtileri. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. 112’yi ara ve anafilaksi şüphesini belirt.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Kişinin kendisine reçete edilmiş adrenalin otoenjektörü varsa cihazın kendi talimatına ve 112 yönlendirmesine göre hemen kullanmasına yardım et.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Kişiyi yürütme/ayağa kaldırma; nefes almakta zorlanıyorsa rahat ettiği uygun pozisyonda tut.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n4. Belirtiler düzelse de acil sağlık değerlendirmesini bekle.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Yalnız antihistaminikle geçer diye bekleme.\n2. Yapma: Başkasının ilacını veya bilinmeyen enjektörü gelişigüzel kullanma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Anafilaksi şüphesinde her zaman 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Şiddetli alerjik reaksiyon / anafilaksi\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-07",
@@ -254,7 +386,29 @@
           "url": "https://www.nhs.uk/conditions/stroke/symptoms/"
         }
       ],
-      "diagram": "/assets/diagrams/aid-07.svg"
+      "diagram": "/assets/diagrams/aid-07.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "İnme belirtileri — FAST: Yüzün tek tarafında kayma, tek kolda güçsüzlük, konuşma bozukluğu; ani başlayan başka nörolojik belirtiler. 1) Yüzün tek tarafında kayma, tek kolda güçsüzlük, konuşma bozukluğu; ani başlayan başka nörolojik belirtiler. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Yüzünü gülümsetmesini, iki kolunu kaldırmasını ve basit cümle söylemesini isteyerek FAST belirtilerini fark et.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. Tek bir belirti bile varsa hemen 112’yi ara; şikâyet başlangıç saatini not et.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Kişiyi sakin ve güvenli bir konumda tut; değişen belirtileri izle.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n4. Belirtiler geçse bile tıbbi acil olarak değerlendir.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kişiye yiyecek/içecek ya da rastgele ilaç verme.\n2. Yapma: Kendi aracıyla hastaneye götürmeye çalışarak ambulansı geciktirme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "İnme şüphesinde derhal 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"İnme belirtileri — FAST\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-08",
@@ -290,7 +444,29 @@
           "url": "https://www.nhs.uk/conditions/stroke/symptoms/"
         }
       ],
-      "diagram": "/assets/diagrams/aid-08.svg"
+      "diagram": "/assets/diagrams/aid-08.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Göğüs ağrısı / olası kalp krizi: Baskı tarzında göğüs ağrısı, nefes darlığı, terleme, bulantı, kola/çeneye yayılma olabilir. 1) Baskı tarzında göğüs ağrısı, nefes darlığı, terleme, bulantı, kola/çeneye yayılma olabilir. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. 112’yi ara.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Kişiyi fiziksel efordan uzak tut ve rahat ettiği konumda dinlenmesini sağla.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Bilincini, nefesini ve belirtilerdeki değişimi izle.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n4. Tepkisizleşir ve normal nefes almazsa 112 yönlendirmesiyle CPR’a başla.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kişiyi kendi başına araba kullanmaya zorlama.\n2. Yapma: İlaç/doz kararı verme; 112 görevlisinin yönlendirmesine uy. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Kalp krizi şüphesinde 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Göğüs ağrısı / olası kalp krizi\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-09",
@@ -322,7 +498,29 @@
           "url": "https://www.nhs.uk/symptoms/what-to-do-if-someone-has-a-seizure-fit/"
         }
       ],
-      "diagram": "/assets/diagrams/aid-09.svg"
+      "diagram": "/assets/diagrams/aid-09.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Nöbet / havale: İstemsiz kasılma, bilinç değişikliği, çevreye yanıtın azalması. 1) İstemsiz kasılma, bilinç değişikliği, çevreye yanıtın azalması. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kişiyi çarpmaya karşı koru; etraftaki sert ve keskin nesneleri uzaklaştır.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. Nöbetin başladığı zamanı not et.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Kasılma sona erdiğinde normal nefesini kontrol et; nefes alıyorsa güvenli yan pozisyonda izle.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n4. İlk nöbet, 5 dakikayı aşan nöbet, ardışık nöbet, yaralanma veya solunum sorunu varsa hemen 112.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kişiyi zorla tutup kasılmasını engelleme.\n2. Yapma: Ağzına cisim, su veya ilaç koyma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "İlk nöbet, 5 dakikayı aşma, ardışık nöbet veya solunum sorunu varsa 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Nöbet / havale\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-10",
@@ -354,7 +552,29 @@
           "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/"
         }
       ],
-      "diagram": "/assets/diagrams/aid-10.svg"
+      "diagram": "/assets/diagrams/aid-10.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Diyabet: ağır kan şekeri düşüklüğü şüphesi: Titreme, terleme, bilinç bulanıklığı; ağır durumda nöbet/bayılma. 1) Titreme, terleme, bilinç bulanıklığı; ağır durumda nöbet/bayılma. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kişi diyabetli ve tamamen bilinçliyse, güvenle yutabiliyorsa kendi doktorunun hipoglisemi planına yardımcı ol.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Ölçüm cihazı varsa kullan; kişinin kendi tedavi planını esas al.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Bilinç bozukluğu, nöbet ya da güvenli yutamama varsa hemen 112.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n4. Tepkisiz ama normal nefes alıyorsa güvenli yan pozisyonu ve solunum izlemi uygula.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Bilinçsiz veya güvenli yutamayan kişiye ağızdan şeker/su verme.\n2. Yapma: İnsülin veya başka ilacın dozunu kendin belirleme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Bilinç bozukluğu, nöbet veya güvenli yutamamada 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Diyabet: ağır kan şekeri düşüklüğü şüphesi\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-11",
@@ -390,7 +610,29 @@
           "url": "https://www.redcross.org.uk/first-aid"
         }
       ],
-      "diagram": "/assets/diagrams/aid-11.svg"
+      "diagram": "/assets/diagrams/aid-11.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Astım atağı ve ciddi nefes darlığı: Hırıltı, nefes darlığı, konuşmakta güçlük, morarma ya da ağır solunum sıkıntısı. 1) Hırıltı, nefes darlığı, konuşmakta güçlük, morarma ya da ağır solunum sıkıntısı. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kişiyi sakin tut ve nefes almayı kolaylaştıran pozisyonda dinlendir.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n2. Kişinin kendisine reçete edilmiş kurtarıcı inhaleri ve yazılı astım planı varsa uygulamasına yardımcı ol.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Konuşamama, ağır nefes darlığı, bilinç değişikliği veya düzelmeme varsa 112 çağır.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n4. Kişinin solunumu kötüleşirse 112 görevlisinin talimatlarını izle.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Başkasının inhalerini veya bilinmeyen ilacı gelişigüzel kullanma.\n2. Yapma: Ağır belirtilerde zaman kaybetme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Ağır nefes darlığı, morarma, bilinç değişikliği veya düzelmemede 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Astım atağı ve ciddi nefes darlığı\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-12",
@@ -426,7 +668,29 @@
           "url": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
         }
       ],
-      "diagram": "/assets/diagrams/aid-12.svg"
+      "diagram": "/assets/diagrams/aid-12.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Sudan çıkarılan tepkisiz kişi: Sudan çıkarıldıktan sonra yanıt vermiyor veya normal nefes almıyor. 1) Sudan çıkarıldıktan sonra yanıt vermiyor veya normal nefes almıyor. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kendini tehlikeye atarak suya girme; güvenli kurtarma ve 112 çağrısını sağla.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Kişiyi güvenli düz zemine al, normal nefesini hızla kontrol et.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n3. Normal nefes yoksa 112 yönlendirmesiyle CPR başlat; bu durumda eğitimliysen kurtarıcı soluklar özellikle önemlidir.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n4. OED varsa kullan; sağlık görevlileri devralana kadar yönergelere uy.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Suyu çıkarmak için kişiyi baş aşağı sallama veya göğsüne baskı harici zararlı manevralar yapma.\n2. Yapma: Kurtarıcının kendi güvenliğini riske atma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Sudan çıkarılan tepkisiz kişide hemen 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Sudan çıkarılan tepkisiz kişi\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-13",
@@ -462,7 +726,29 @@
           "url": "https://pursaklardh.saglik.gov.tr/TR-36699/acil-durum-telefonlari.html"
         }
       ],
-      "diagram": "/assets/diagrams/aid-13.svg"
+      "diagram": "/assets/diagrams/aid-13.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "İlaç, kimyasal veya bilinmeyen madde zehirlenmesi: Yutma, soluma veya cilt teması sonrası rahatsızlık; belirtiler gecikebilir. 1) Yutma, soluma veya cilt teması sonrası rahatsızlık; belirtiler gecikebilir. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Önce kendi güvenliğini sağla; maruziyetin devamını güvenle durdur.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. 112’yi ara; Türkiye’de 114 Ulusal Zehir Danışma Merkezi’nden de bilgi al.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Maddenin adını, ambalajını, olası miktarı, temas saatini ve belirtileri not et.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n4. Kişinin bilinci/nefesini izle ve yönlendirme al.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kişiyi kusturma.\n2. Yapma: Uzman söylemeden aktif kömür, süt, ilaç veya ev tipi antidot verme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Belirti, bilinç bozukluğu, kimyasal maruziyet veya miktar belirsizliğinde 112; ek toksikoloji danışması 114. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"İlaç, kimyasal veya bilinmeyen madde zehirlenmesi\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-14",
@@ -494,7 +780,29 @@
           "url": "https://www.cdc.gov/carbon-monoxide/about/"
         }
       ],
-      "diagram": "/assets/diagrams/aid-14.svg"
+      "diagram": "/assets/diagrams/aid-14.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Karbonmonoksit maruziyeti: Jeneratör, mangal, soba/ocak bulunan ortamda baş ağrısı, halsizlik, baş dönmesi, bulantı veya bayılma. 1) Jeneratör, mangal, soba/ocak bulunan ortamda baş ağrısı, halsizlik, baş dönmesi, bulantı veya bayılma. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kendini riske atmadan hemen dışarıdaki temiz havaya çık.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. 112’yi ara; başka kişilerin içeri girmesini engelle.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Herkesin dışarı çıkıp çıkmadığını kontrol et; sağlık görevlilerine ortamı anlat.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n4. Yetkililer izin vermeden binaya geri dönme.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kaynağı araştırmak için kapalı alana tekrar girme.\n2. Yapma: Kokusuz olduğu için tehlike yok sanma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "CO alarmı, olası zehirlenme veya bayılmada 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Karbonmonoksit maruziyeti\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-15",
@@ -529,7 +837,29 @@
           "url": "https://pursaklardh.saglik.gov.tr/TR-36699/acil-durum-telefonlari.html"
         }
       ],
-      "diagram": "/assets/diagrams/aid-15.svg"
+      "diagram": "/assets/diagrams/aid-15.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Yabani mantar veya bitki zehirlenmesi şüphesi: Yabani tür tüketimi sonrasında bulantı, karın ağrısı, kusma veya geç başlayan belirtiler olabilir. 1) Yabani tür tüketimi sonrasında bulantı, karın ağrısı, kusma veya geç başlayan belirtiler olabilir. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Olası zehirli tür tüketiminde belirtinin başlamasını beklemeden 112 veya 114’ten yönlendirme al.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Tüketilen miktarı ve zamanı not et; kalan örneği/ambalajı güvenli şekilde muhafaza et.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Aynı yiyeceği tüketen başka kişiler olup olmadığını sağlık ekibine bildir.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kusturma, alkol, süt veya ev yapımı tedavi deneme.\n2. Yapma: Bitki/mantarı fotoğrafa bakarak “yenilebilir” sayma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Yabani mantar/bitki zehirlenmesinde acil tıbbi değerlendirme için 112; ayrıca 114 UZEM danışmanlığı. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Yabani mantar veya bitki zehirlenmesi şüphesi\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-16",
@@ -561,7 +891,29 @@
           "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html"
         }
       ],
-      "diagram": "/assets/diagrams/aid-16.svg"
+      "diagram": "/assets/diagrams/aid-16.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Yılan ısırması: Yılan ısırığı, şişlik/ağrı veya belirtiler henüz başlamamış olabilir. 1) Yılan ısırığı, şişlik/ağrı veya belirtiler henüz başlamamış olabilir. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Yılandan uzaklaş; yılanı yakalamaya çalışma.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. 112’yi ara, kişiyi mümkün olduğunca sakin ve hareketsiz tut.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Şişme başlamadan yüzük, bileklik gibi sıkabilecek eşyaları çıkar.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n4. Güvenli mesafeden türün görünümü hatırlanabiliyorsa sağlık ekibine anlat; ısırık yerine temiz kuru örtü uygula.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Turnike, kesme, emme, buz uygulama veya elektrik verme.\n2. Yapma: Kişiyi kendi aracını sürmeye yönlendirme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Yılan ısırıklarında beklemeden 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Yılan ısırması\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-17",
@@ -593,7 +945,29 @@
           "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
         }
       ],
-      "diagram": "/assets/diagrams/aid-17.svg"
+      "diagram": "/assets/diagrams/aid-17.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Termal yanık ve haşlanma: Sıcak su, alev veya yüzey temasıyla kızarıklık, ağrı, kabarcık. 1) Sıcak su, alev veya yüzey temasıyla kızarıklık, ağrı, kabarcık. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Önce ısı kaynağından güvenle uzaklaştır.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. Yanık bölgesini serin akan suyla 20 dakika soğut; kişiyi tümden soğutarak hipotermi oluşturma.\nNEDEN ÖNEMLİ? Isı veya kimyasal maruziyet sürerken verilen yanlış müdahale yaralanmayı ağırlaştırabilir; güvenli kaynak yönergeleri gerekir.\n\n3. Takı/sıkı eşyaları çıkar; deriye yapışmış giysiyi zorla sökme.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n4. Yara üzerine gevşek temiz yapışmayan örtü koy; büyük, derin, yüz/el/genital veya kimyasal/elektrik yanığında 112.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Buz, diş macunu, yağ veya krem sürme.\n2. Yapma: Kabarcıkları patlatma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Büyük/derin veya kritik bölgede yanık, solunum sorunu, kimyasal/elektrik nedeninde 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Termal yanık ve haşlanma\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-18",
@@ -628,7 +1002,29 @@
           "url": "https://www.redcross.org.uk/first-aid"
         }
       ],
-      "diagram": "/assets/diagrams/aid-18.svg"
+      "diagram": "/assets/diagrams/aid-18.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Göze kimyasal sıçraması: Gözde kimyasal temas, acı, kızarıklık, görme değişikliği. 1) Gözde kimyasal temas, acı, kızarıklık, görme değişikliği. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Güvenliğinizi sağlayın; mümkünse gözü hemen bol temiz ılık/serin akan suyla durulamaya başlayın.\nNEDEN ÖNEMLİ? Isı veya kimyasal maruziyet sürerken verilen yanlış müdahale yaralanmayı ağırlaştırabilir; güvenli kaynak yönergeleri gerekir.\n\n2. Kontakt lens varsa kolay çıkıyorsa çıkar; durulamayı geciktirme.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. 112 veya acil sağlık danışmasına başvur ve kimyasal ambalaj bilgisini bildir.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kimyasalı başka bir kimyasalla nötralize etmeye çalışma.\n2. Yapma: Gözü ovalama veya içine ilaç damlatma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Görme bozukluğu, şiddetli ağrı veya kuvvetli kimyasal temasında 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Göze kimyasal sıçraması\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-19",
@@ -664,7 +1060,29 @@
           "url": "https://www.redcross.org.uk/first-aid"
         }
       ],
-      "diagram": "/assets/diagrams/aid-19.svg"
+      "diagram": "/assets/diagrams/aid-19.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Elektrik çarpması: Elektrik kaynağıyla temas, yanık, bilinç kaybı, kasılma ya da kalp ritmi riski. 1) Elektrik kaynağıyla temas, yanık, bilinç kaybı, kasılma ya da kalp ritmi riski. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Önce enerji kaynağını güvenli biçimde kestir; akım kesilmeden kişiye dokunma.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. 112’yi ara ve elektrik kaynağını belirt.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n3. Kişiye dokunmak güvenli hâle geldiğinde tepki ve normal nefesini kontrol et.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n4. Nefes almıyorsa 112 yönlendirmesiyle CPR/AED kullan.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Enerji kesilmeden elle veya iletken nesneyle müdahale etme.\n2. Yapma: Yüksek gerilim hatlarına yaklaşma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Elektrik çarpması ve olası yanık/ritim bozukluğunda 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Elektrik çarpması\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-20",
@@ -700,7 +1118,29 @@
           "url": "https://www.redcross.org.uk/first-aid"
         }
       ],
-      "diagram": "/assets/diagrams/aid-20.svg"
+      "diagram": "/assets/diagrams/aid-20.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Kırık veya ciddi uzuv yaralanması: Şiddetli ağrı, deformite, şişlik, hareket kısıtlılığı veya açık kırık şüphesi. 1) Şiddetli ağrı, deformite, şişlik, hareket kısıtlılığı veya açık kırık şüphesi. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kişiyi güvenli yerde dinlendir, yaralı uzvu gereksiz hareket ettirme.\nNEDEN ÖNEMLİ? Gereksiz hareket olası yaralanmanın kötüleşmesine neden olabilir; acil tehlike dışında zorla taşıma yapma.\n\n2. Kanama varsa yarayı ve kemiği zorlamadan çevresine doğrudan basınçla kontrol etmeye çalış.\nNEDEN ÖNEMLİ? Hayatı tehdit eden kanamalarda doğru ve eğitimle öğrenilmiş ilk yardım uygulaması önemlidir; 112 yönlendirmesini izle.\n\n3. Açık yarayı temiz örtüyle koru, 112 veya acil sağlık değerlendirmesi iste.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n4. Yaralı bölgeyi bulunduğu konumda destekle.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Çıkık/kırığı yerine oturtmaya çalışma.\n2. Yapma: Açık yaradan görünen kemiği içeri itme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Açık kırık, ciddi deformite, uyuşma, ağır kanama veya şiddetli ağrıda 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Kırık veya ciddi uzuv yaralanması\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-21",
@@ -735,7 +1175,29 @@
           "url": "https://www.redcross.org.uk/first-aid"
         }
       ],
-      "diagram": "/assets/diagrams/aid-21.svg"
+      "diagram": "/assets/diagrams/aid-21.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Baş / boyun / omurga yaralanması şüphesi: Yüksekten düşme, trafik kazası, kafa darbesi sonrası baş ağrısı, uyuklama, kusma veya kol/bacak güçsüzlüğü. 1) Yüksekten düşme, trafik kazası, kafa darbesi sonrası baş ağrısı, uyuklama, kusma veya kol/bacak güçsüzlüğü. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Ortamı güvenli hâle getir ve 112’yi çağır.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Kişiyi gerekmedikçe hareket ettirme; baş ve boynun gereksiz dönmesini önle.\nNEDEN ÖNEMLİ? Gereksiz hareket olası yaralanmanın kötüleşmesine neden olabilir; acil tehlike dışında zorla taşıma yapma.\n\n3. Tepkisini ve nefesini takip et; kusma veya nefes tehdidinde 112 yönlendirmesini uygula.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Kişiyi oturtup yürütmeye zorlama.\n2. Yapma: Kaskı ve koruyucu ekipmanı acil bir gerekçe olmadan çıkarma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Bilinç değişikliği, boyun ağrısı veya nörolojik belirtiyle travmada 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Baş / boyun / omurga yaralanması şüphesi\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-22",
@@ -767,7 +1229,29 @@
           "url": "https://www.nhs.uk/conditions/nosebleed/"
         }
       ],
-      "diagram": "/assets/diagrams/aid-22.svg"
+      "diagram": "/assets/diagrams/aid-22.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Burun kanaması: Burun deliklerinden kan geliyor, kişi bilinci açık ve normal nefes alıyor. 1) Burun deliklerinden kan geliyor, kişi bilinci açık ve normal nefes alıyor. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kişiyi oturt ve başını hafif öne eğdir.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n2. Burun kanatlarının yumuşak kısmını 10–15 dakika kesintisiz sıkmasını sağla.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Ağzından nefes alsın; kanı yutmasın.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir.\n\n4. Kanama durmaz, çok fazlaysa, baş darbesi eşlik ediyorsa veya baş dönmesi varsa acil yardım iste.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Başını geriye yatırma.\n2. Yapma: Kanı durdurmak için burun içine derin cisim yerleştirme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Yoğun veya 10–15 dakika basıya rağmen devam eden kanamada acil değerlendirme; ağır durumda 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Burun kanaması\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-23",
@@ -798,7 +1282,29 @@
           "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
         }
       ],
-      "diagram": "/assets/diagrams/aid-23.svg"
+      "diagram": "/assets/diagrams/aid-23.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Sıcak çarpması / ağır sıcak hastalığı: Sıcak ortamda bilinç bulanıklığı, konuşma bozukluğu, bayılma veya nöbet. 1) Sıcak ortamda bilinç bulanıklığı, konuşma bozukluğu, bayılma veya nöbet. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. 112’yi ara; kişiyi gölge/serin yere güvenli biçimde taşı.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur.\n\n2. Kalın dış giysilerini çıkar, derhal soğutmaya başla; soğuk su ile ıslatma, ıslak bez ve fan kullan.\nNEDEN ÖNEMLİ? Isı veya kimyasal maruziyet sürerken verilen yanlış müdahale yaralanmayı ağırlaştırabilir; güvenli kaynak yönergeleri gerekir.\n\n3. Bilinci ve nefesini izle; acil sağlık ekibi gelene kadar soğutmayı sürdür.\nNEDEN ÖNEMLİ? Kişinin bilinç ve normal solunum durumu, acil yardım gereğini belirleyen kritik gözlemlerdendir."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Bilinç bulanıklığı olan kişiye ağızdan su verme.\n2. Yapma: Sıcak çarpması düzelir diye bekleme. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Bilinç değişikliği veya bayılmayla seyreden sıcak hastalığında hemen 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Sıcak çarpması / ağır sıcak hastalığı\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     },
     {
       "id": "KALE-AY-24",
@@ -833,7 +1339,29 @@
           "url": "https://www.redcross.org.uk/first-aid"
         }
       ],
-      "diagram": "/assets/diagrams/aid-24.svg"
+      "diagram": "/assets/diagrams/aid-24.svg",
+      "details": [
+        {
+          "heading": "Önce durumu nasıl fark ederim?",
+          "text": "Hipotermi / tehlikeli soğuk maruziyeti: Soğuk sonrası belirgin titreme, koordinasyon bozukluğu, uyuklama, konuşma yavaşlaması. 1) Soğuk sonrası belirgin titreme, koordinasyon bozukluğu, uyuklama, konuşma yavaşlaması. Şüphede belirtilerin 'geçmesini' bekleyerek acil yardım çağrısını geciktirme."
+        },
+        {
+          "heading": "İlk yardım adımlarının açık anlatımı",
+          "text": "1. Kişiyi güvenli biçimde soğuk ve rüzgârdan uzaklaştır.\nNEDEN ÖNEMLİ? Isı veya kimyasal maruziyet sürerken verilen yanlış müdahale yaralanmayı ağırlaştırabilir; güvenli kaynak yönergeleri gerekir.\n\n2. Islak giysileri çıkarıp kuru katlarla, özellikle gövdesini örterek yavaş ve dikkatli ısıt.\nNEDEN ÖNEMLİ? Uygulamayı aceleye getirmeden, kişinin durumundaki değişiklikleri izleyerek ve 112 yönlendirmesini dikkate alarak yap.\n\n3. Bilinci ve normal nefesini izle; belirgin uyuşukluk, bilinç değişikliği veya ağır belirtilerde 112.\nNEDEN ÖNEMLİ? Erken profesyonel yardım ve doğru ekipman yönlendirmesi, ağır durumlarda zaman kaybını azaltmaya yardımcı olur."
+        },
+        {
+          "heading": "Yanlış yapılabilecek şeyler",
+          "text": "1. Yapma: Bilinci bozuk kişiye ağızdan içecek verme.\n2. Yapma: Kolları/bacakları sertçe ovalama, aşırı sıcak suya sokma. \nBelirtiyi yanlış tanıdığından şüpheleniyorsan 112 yönlendirmesi iste; internetteki rastgele ev müdahalelerini deneme."
+        },
+        {
+          "heading": "Kime, ne zaman haber verilir?",
+          "text": "Bilinç bulanıklığı, olağandışı uyuşukluk, solunum bozukluğu veya ağır hipotermi şüphesinde 112. İhbar sırasında bulunduğun yeri, kişinin yaklaşık yaşını, yanıt/normal solunum durumunu, görülen belirtileri ve uygulanan güvenli adımları kısa ve anlaşılır biçimde bildir."
+        },
+        {
+          "heading": "Örnek senaryoyu düşün",
+          "text": "Yanında biri \"Hipotermi / tehlikeli soğuk maruziyeti\" başlığına uyan bir sorun yaşıyor. Önce kendi güvenliğini kontrol et, belirtileri gözle değerlendir, acil yardım gereğini geciktirme ve yalnız kaynağı açık, eğitimine uygun adımları uygula. Kişiyi yalnız bırakmanın tehlikeli olabileceği durumlarda destek iste."
+        }
+      ]
     }
   ]
 }

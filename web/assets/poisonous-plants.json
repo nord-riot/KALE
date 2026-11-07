@@ -14,7 +14,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Zakkum (Nerium oleander) olası zehirlenme riski taşıyan kayıtlar arasındadır. Kalp üzerinde ciddi zehirli etki gösterebilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / çalı Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Zakkum veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Zakkum için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 2,
@@ -28,7 +46,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Güzelavrat otu (Atropa belladonna) olası zehirlenme riski taşıyan kayıtlar arasındadır. Güçlü antikolinerjik zehirlenmeye yol açabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Kır / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Güzelavrat otu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Güzelavrat otu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 3,
@@ -42,7 +78,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Boru otu (tatula) (Datura stramonium) olası zehirlenme riski taşıyan kayıtlar arasındadır. Zehirli alkaloitler içerir; bilinç ve kalp ritmi etkilenebilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Kır / bahçe Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Boru otu (tatula) veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Boru otu (tatula) için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 4,
@@ -56,7 +110,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Banotu (Hyoscyamus niger) olası zehirlenme riski taşıyan kayıtlar arasındadır. Zehirli alkaloitler içerir; ciddi sinir sistemi belirtileri olabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Kır / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Banotu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Banotu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 5,
@@ -70,7 +142,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Baldıran (Conium maculatum) olası zehirlenme riski taşıyan kayıtlar arasındadır. Ciddi nörotoksik etkilere yol açabilir; başka şemsiyegillerle karışabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Kır / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Baldıran veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Baldıran için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 6,
@@ -84,7 +174,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Yüksük otu (Digitalis purpurea) olası zehirlenme riski taşıyan kayıtlar arasındadır. Kalp glikozitleri nedeniyle ağır zehirlenme riski bulunur. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Yüksük otu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Yüksük otu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 7,
@@ -98,7 +206,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Müge (Convallaria majalis) olası zehirlenme riski taşıyan kayıtlar arasındadır. Kalp üzerinde etkili toksinler içerir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Müge veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Müge için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 8,
@@ -112,7 +238,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Kurtboğan (Aconitum spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Yüksek zehirlenme riski; bitki parçaları ağıza alınmamalıdır. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Doğal alan / süs Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Kurtboğan veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Kurtboğan için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 9,
@@ -126,7 +270,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Acı çiğdem (Colchicum spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Şiddetli zehirlenme oluşturabilen türler içerir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Doğal alan / çiçek Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Acı çiğdem veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Acı çiğdem için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 10,
@@ -140,7 +302,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Hint yağı bitkisi (Ricinus communis) olası zehirlenme riski taşıyan kayıtlar arasındadır. Özellikle tohumları ağır zehirlenme riski taşır. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / süs Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Hint yağı bitkisi veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Hint yağı bitkisi için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 11,
@@ -154,7 +334,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Difenbahya (Dieffenbachia spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Ağız ve boğazda tahrişe ve şişmeye neden olabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Ev / iç mekân Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Difenbahya veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Difenbahya için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 12,
@@ -168,7 +366,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Devetabanı (filodendron) (Philodendron spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Kristaller nedeniyle ağız ve boğazda tahriş riski taşır. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Ev / iç mekân Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Devetabanı (filodendron) veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Devetabanı (filodendron) için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 13,
@@ -182,7 +398,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Porsuk (Taxus baccata) olası zehirlenme riski taşıyan kayıtlar arasındadır. Özellikle bitkinin bazı parçaları ciddi kalp ritmi bozukluğuna neden olabilen toksinler içerir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Park / orman / süs Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Porsuk veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Porsuk için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 14,
@@ -196,7 +430,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Orman gülü (Rhododendron ponticum) olası zehirlenme riski taşıyan kayıtlar arasındadır. Bitkinin bazı kısımları toksik olabilir; grayanotoksin maruziyeti tansiyon ve kalp ritmini etkileyebilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Orman / süs Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Orman gülü veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Orman gülü için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 15,
@@ -210,7 +462,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Sütleğen (Euphorbia spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Sütümsü özsuyu deri ve gözlerde güçlü tahriş oluşturabilir; özellikle göz temasına dikkat. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Kır / bahçe Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Sütleğen veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Sütleğen için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 16,
@@ -224,7 +494,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Yılan yastığı (Arum spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Bitkinin bazı kısımları kalsiyum oksalat kristalleriyle ciddi ağız ve boğaz tahrişine yol açabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Kır / gölgelik Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Yılan yastığı veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Yılan yastığı için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 17,
@@ -238,7 +526,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Duvar sarmaşığı (Hedera helix) olası zehirlenme riski taşıyan kayıtlar arasındadır. Özellikle meyvelerinin tüketimi mide-bağırsak yakınmalarına yol açabilir; duyarlılık değişebilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Park / bahçe / orman Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Duvar sarmaşığı veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Duvar sarmaşığı için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 18,
@@ -252,7 +558,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Ökse otu (Viscum album) olası zehirlenme riski taşıyan kayıtlar arasındadır. Özellikle meyve ve diğer parçaları toksik olabilir; ağızdan kullanım güvenli değildir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Ağaç üzerinde / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Ökse otu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Ökse otu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 19,
@@ -266,7 +590,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Defne kirazı / karayemiş (Prunus laurocerasus) olası zehirlenme riski taşıyan kayıtlar arasındadır. Yaprak ve çekirdek gibi parçalarda siyanür açığa çıkarabilen bileşikler bulunabilir; meyve güvenliğiyle karıştırma. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / çalı Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Defne kirazı / karayemiş veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Defne kirazı / karayemiş için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 20,
@@ -280,7 +622,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Sarı salkım (Laburnum anagyroides) olası zehirlenme riski taşıyan kayıtlar arasındadır. Tohum ve bitkinin bazı parçaları sitizin içerir; ciddi zehirlenme oluşturabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / süs Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Sarı salkım veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Sarı salkım için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 21,
@@ -294,7 +654,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "At kestanesi (Aesculus hippocastanum) olası zehirlenme riski taşıyan kayıtlar arasındadır. Tohumları gerçek kestaneyle karıştırılmamalıdır; tüketim zehirlenmeye yol açabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Park / bahçe Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin At kestanesi veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "At kestanesi için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 22,
@@ -308,7 +686,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "İt üzümü (Solanum dulcamara) olası zehirlenme riski taşıyan kayıtlar arasındadır. Meyve ve bitkinin bazı kısımlarının tüketimi alkaloid zehirlenmesi riski oluşturabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin İt üzümü veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "İt üzümü için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 23,
@@ -322,7 +718,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Dulavrat otu (Daphne) (Daphne mezereum) olası zehirlenme riski taşıyan kayıtlar arasındadır. Meyve ve bitki kısımları kuvvetli tahriş ve zehirlenme riski taşıyabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Dulavrat otu (Daphne) veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Dulavrat otu (Daphne) için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 24,
@@ -336,7 +750,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Yabani marul sanılan yüksük türleri (Digitalis spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Kalp glikozitleri bakımından riskli cins; yalnız görünüme bakarak bitkiyi tanımak güvenli değildir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Yabani marul sanılan yüksük türleri veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Yabani marul sanılan yüksük türleri için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 25,
@@ -350,7 +782,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Düğün çiçeği (Ranunculus spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Bazı türlerin taze özsuyu deri ve mukozalarda belirgin tahrişe yol açabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Çayır / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Düğün çiçeği veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Düğün çiçeği için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 26,
@@ -364,7 +814,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Çöpleme (Helleborus spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Bazı türlerin tüketimi ağır mide-bağırsak ve kalp belirtilerine yol açabilir; bitki güvenli gıda değildir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Çöpleme veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Çöpleme için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 27,
@@ -378,7 +846,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Adamotu (Mandragora spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Tropan alkaloitleri içerebilir; ciddi sinir sistemi ve kalp etkilerine yol açabilir. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Adamotu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Adamotu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     },
     {
       "id": 28,
@@ -392,7 +878,25 @@
       "review_status": "BOTANİK / TIBBİ KONTROL GEREKİR",
       "group": "bitki",
       "region": "Bölgesel dağılım doğrulanmadı",
-      "expert_verified": false
+      "expert_verified": false,
+      "details": [
+        {
+          "heading": "Bu kaydı niye okuyorum?",
+          "text": "Köpek üzümü ve benzerleri (Solanum spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Bu cins içinde toksik tür ve bitki bölümleri bulunur; görünen meyveyi güvenli sanma. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
+          "text": "Bahçe / doğal alan Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+        },
+        {
+          "heading": "Şüpheli temas veya yutma olursa",
+          "text": "Bir kişinin Köpek üzümü ve benzerleri veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Temas eden elleri ağız ve gözden uzak tut; cilt veya göz etkilenmişse profesyonel görüş iste."
+        },
+        {
+          "heading": "Güvenli karar özeti",
+          "text": "Köpek üzümü ve benzerleri için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+        }
+      ]
     }
   ]
 }

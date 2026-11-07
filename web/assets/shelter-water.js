@@ -27,6 +27,7 @@
   target.append(element('p','',g.summary));
   const list=(title,arr)=>{target.append(element('h3','',title));const ul=element('ul');for(const item of arr)ul.append(element('li','',item));target.append(ul);};
   list('Gerekli malzemeler / kontroller',g.materials);list('Adım adım uygulama',g.steps);list('Durdurma / kırmızı bayraklar',g.stop);
+  for(const s of g.details||[]){target.append(element('h3','guide-expansion-title',s.heading),element('p','guide-expansion-text',s.text));}
   target.append(element('p','warning-block','KRİTİK: '+g.warning));
   const refs=element('div','source-links');refs.append(element('h3','','İlgili güvenlik kaynakları (çevrimdışı bağlantı açılmaz)'));
   for(const s of g.sources)refs.append(source(s));refs.append(element('p','review-line',g.review_status));target.append(refs);

@@ -53,3 +53,12 @@
  .guide-visual{break-inside:avoid}
  .saha-map-link,.dialog-head{display:none}
 }
+
+/* KALE expanded field, shelter and nature reading content. */
+.guide-expansion-title{margin:22px 0 8px;font-size:clamp(16px,2vw,20px);color:#e9c186;line-height:1.35}
+.guide-expansion-text{white-space:pre-line;overflow-wrap:anywhere;color:#e2ece9;font-size:clamp(13px,1.5vw,15px);line-height:1.85;padding:11px 14px;border-left:3px solid #5e8a7e;background:#10232d;border-radius:4px}
+.nature-more{border:1px solid #46636a;border-radius:8px;margin:14px 0;padding:11px 13px;min-width:0}
+.nature-more summary{cursor:pointer;color:#e9c186;font-size:12px;font-weight:800;line-height:1.55}
+.nature-more[open]{background:#112630}
+@media(max-width:650px){.guide-expansion-text{padding:10px 11px;line-height:1.7}}
+@media print{.guide-expansion-text{white-space:pre-line;background:none;color:#111;border-left-color:#666;break-inside:avoid}}
