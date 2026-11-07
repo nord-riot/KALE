@@ -1,0 +1,29 @@
+name: KALE Regulatory QA
+on:
+  pull_request:
+    paths:
+      - "regulatory_core.py"
+      - "tools/regulatory_sync.py"
+      - "tools/sync_all_regulators.py"
+      - "tests/test_regulatory.py"
+      - ".github/workflows/regulatory-tests.yml"
+  push:
+    paths:
+      - "regulatory_core.py"
+      - "tools/regulatory_sync.py"
+      - "tools/sync_all_regulators.py"
+      - "tests/test_regulatory.py"
+permissions:
+  contents: read
+jobs:
+  regulatory-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check syntax
+        run: python -m py_compile regulatory_core.py tools/regulatory_sync.py tools/sync_all_regulators.py tests/test_regulatory.py server.py
+      - name: Unit tests (no external API)
+        run: PYTHONPATH=. python -m unittest discover -s tests -p test_regulatory.py -v
