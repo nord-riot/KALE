@@ -17,15 +17,32 @@ function imgTile(z,x,y){const n=2**z;if(y<0||y>=n)return null;const wrapped=((x%
  if(tileCache.has(key))return tileCache.get(key);
  if(tileCache.size>380){tileCache.clear();}
  const img=new Image();const item={img,loaded:false};tileCache.set(key,item);img.onload=()=>{item.loaded=true;draw();};img.onerror=()=>{item.failed=true;};img.src=`/api/tiles/${z}/${wrapped}/${y}?map=${encodeURIComponent(selectedMap)}`;return item;}
-let pendingVector=0;
+let pendingVector=0,streetTilesLoaded=0,streetTilesFailed=0,streetDecodeFailed=false;
+function showStreetTileStatus(){
+ if(!vector)return;
+ const box=$('mapStatus');
+ if(streetDecodeFailed){
+  box.textContent='SOKAK ÇİZİM HATASI: Yerel vektör karosu tarayıcıda çözülemedi. KALE dosyalarını güncelle, harita paketini doğrula: python3 tools/check_streets.py';
+ }else if(streetTilesLoaded===0&&streetTilesFailed>=4){
+  box.textContent='SOKAKLAR YÜKLENEMEDİ: MBTiles kurulu görünüyor ancak bu bölgede sokak karosu dönmüyor. Terminal: cd ~/KALE && python3 tools/check_streets.py';
+ }else if(streetTilesLoaded>0){
+  box.textContent='GERÇEK SOKAK KAROLARI YÜKLENDİ · © OpenStreetMap katkıcıları (ODbL) · Ayrıntılar için 13–14 seviyesinde yakınlaştır.';
+ }
+}
 function getVectorTile(z,x,y){const n=2**z;if(y<0||y>=n)return null;const col=((x%n)+n)%n;const key=`${z}/${col}/${y}`;
  if(vectorCache.has(key))return vectorCache.get(key);
  if(vectorCache.size>=100){const first=vectorCache.keys().next().value;vectorCache.delete(first);}
  const item={ready:false,failed:false,layers:null};vectorCache.set(key,item);
  if(pendingVector>=10){vectorCache.delete(key);return null;}
  pendingVector++;
- fetch(`/api/street/tiles/${z}/${col}/${y}`,{cache:'force-cache'}).then(async r=>{if(!r.ok)throw Error('Karo yok');const raw=await r.arrayBuffer();if(raw.byteLength>5_000_000)throw Error('Karo çok büyük');item.layers=window.KALEVector.decode(raw);item.ready=true;draw();})
-  .catch(()=>{item.failed=true;}).finally(()=>{pendingVector--;});return item;
+ fetch(`/api/street/tiles/${z}/${col}/${y}`,{cache:'force-cache'}).then(async r=>{
+  if(!r.ok)throw Error('Karo yok ('+r.status+')');
+  const raw=await r.arrayBuffer();if(raw.byteLength>5_000_000)throw Error('Karo çok büyük');
+  item.layers=window.KALEVector.decode(raw);
+  if(!Array.isArray(item.layers)||!item.layers.length)throw Error('MVT katmanı boş');
+  item.ready=true;streetTilesLoaded++;showStreetTileStatus();draw();
+ }).catch(()=>{item.failed=true;streetTilesFailed++;showStreetTileStatus();})
+  .finally(()=>{pendingVector--;});return item;
 }
 function drawBasemap(c,w,h){
  if(!baseMap)return;
@@ -46,7 +63,7 @@ function draw(){if(!ctx)return;const {width:w,height:h}=viewport();ctx.clearRect
  if(!vector&&!raster)drawBasemap(c,w,h);
  const xStart=Math.floor((c.x-w/2)/256),xEnd=Math.floor((c.x+w/2)/256),yStart=Math.floor((c.y-h/2)/256),yEnd=Math.floor((c.y+h/2)/256);
  for(let x=xStart;x<=xEnd;x++)for(let y=yStart;y<=yEnd;y++){const px=Math.round(x*256-c.x+w/2),py=Math.round(y*256-c.y+h/2);if(y<0||y>=2**zoom)continue;
-  if(vector){const t=getVectorTile(zoom,x,y);if(t&&t.ready){try{window.KALEVector.paint(ctx,t.layers,px,py,256,zoom);}catch(e){t.failed=true;}continue;}}
+  if(vector){const t=getVectorTile(zoom,x,y);if(t&&t.ready&&!t.failed){try{window.KALEVector.paint(ctx,t.layers,px,py,256,zoom);}catch(e){t.failed=true;streetDecodeFailed=true;showStreetTileStatus();}continue;}}
   else if(raster){const t=imgTile(zoom,x,y);if(t&&t.loaded){ctx.drawImage(t.img,px,py,256,256);continue;}}
   ctx.strokeStyle='#36565b77';ctx.strokeRect(px,py,256,256);
  }
@@ -121,9 +138,9 @@ $('gpsToPoint').addEventListener('click',()=>{if(!gps)return;$('pointLat').value
 
 load();renderPoints();draw();
 fetch('/assets/base-map.json').then(r=>r.json()).then(m=>{if(Array.isArray(m.areas)){baseMap=m;draw();}}).catch(()=>{});
-function applyMap(info){vector=selectedMap==='sokak'&&!!info.installed;raster=selectedMap!=='sokak'&&!!info.installed;const box=$('mapStatus');if(vector){minMapZoom=clamp(Number(info.minzoom)||3,2,17);maxMapZoom=clamp(Number(info.maxzoom)||14,minMapZoom,17);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`SOKAK HARİTASI AKTİF: ${info.name} · ${(info.size_bytes/1048576).toFixed(0)} MiB · Yakından bakmak için zoom 12–14 · © OpenStreetMap katkıcıları.`;}else if(raster){minMapZoom=clamp(Number(info.minzoom)||2,2,16);maxMapZoom=clamp(Number(info.maxzoom)||16,minMapZoom,16);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`YEREL HARİTA AKTİF: ${info.name} · ${info.format.toUpperCase()} · ${Math.round(info.size_bytes/1048576)} MB · zoom ${minMapZoom}-${maxMapZoom}. Haritalar sadece bu sunucudan okunur.`;}
- else box.textContent='SOKAK VERİSİ EKSİK: Tek kurulum aracıyla Türkiye sokak haritası ve rota paketini indir. Özet coğrafya yol haritası değildir.';draw();}
-function loadMap(id){selectedMap=id;tileCache.clear();vectorCache.clear();const endpoint=id==='sokak'?'/api/street/status':'/api/maps/status?map='+encodeURIComponent(id);
+function applyMap(info){vector=selectedMap==='sokak'&&!!info.installed;raster=selectedMap!=='sokak'&&!!info.installed;const box=$('mapStatus');if(vector){minMapZoom=clamp(Number(info.minzoom)||3,2,17);maxMapZoom=clamp(Number(info.maxzoom)||14,minMapZoom,17);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`SOKAK HARİTASI AKTİF: ${info.name} · ${(info.size_bytes/1048576).toFixed(0)} MiB · Yakından bakmak için zoom 12–14 · © OpenStreetMap katkıcıları.`;}else if(raster){minMapZoom=clamp(Number(info.minzoom)||2,2,16);maxMapZoom=clamp(Number(info.maxzoom)||16,minMapZoom,16);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`SOKAKLAR HENÜZ YOK: Bu yalnızca özet coğrafya paketidir (${info.name}). Türkiye OSM sokaklarını internet varken kur: cd ~/KALE && python3 tools/turkiye_full.py map · Sonra: python3 tools/check_streets.py`;}
+ else box.textContent='SOKAK VERİSİ EKSİK: Terminalde cd ~/KALE && python3 tools/turkiye_full.py map komutunu internet varken çalıştır. Sonrasında python3 tools/check_streets.py ile doğrula.';draw();}
+function loadMap(id){selectedMap=id;tileCache.clear();vectorCache.clear();streetTilesLoaded=0;streetTilesFailed=0;streetDecodeFailed=false;const endpoint=id==='sokak'?'/api/street/status':'/api/maps/status?map='+encodeURIComponent(id);
  fetch(endpoint,{cache:'no-store'}).then(r=>r.json()).then(applyMap).catch(()=>{$('mapStatus').textContent='Harita sunucusuna ulaşılamıyor.';});}
 Promise.all([fetch('/api/maps/list',{cache:'no-store'}).then(r=>r.json()),fetch('/api/street/status',{cache:'no-store'}).then(r=>r.json())]).then(([data,street])=>{const select=$('mapChoice');select.replaceChildren();
  if(street.installed){const option=document.createElement('option');option.value='sokak';option.textContent='TÜRKİYE SOKAKLAR (OSM)';select.append(option);}
