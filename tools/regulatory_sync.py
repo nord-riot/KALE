@@ -27,6 +27,7 @@ import urllib.request
 import zipfile
 from collections import defaultdict
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -38,6 +39,8 @@ HTTP_LIMIT=90_000_000
 FIELD_LIMIT=12000
 FDA_URL="https://api.fda.gov/drug/label.json"
 CANADA_BASE="https://health-products.canada.ca/api/drug/"
+EMA_ARTICLE57="https://www.ema.europa.eu/en/documents/other/article-57-product-data_en.xlsx"
+TITCK_LIST="https://titck.gov.tr/dinamikmodul/85"
 ALIASES={"parasetamol":"acetaminophen","asetaminofen":"acetaminophen",
          "adrenalin":"epinephrine","salbutamol":"albuterol"}
 
@@ -58,6 +61,73 @@ def download_json(url, byte_limit=HTTP_LIMIT):
     if len(data)>byte_limit:
         raise ValueError("Resmi API yaniti cok buyuk")
     return json.loads(data)
+
+
+class XlsxFinder(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.links=[]
+    def handle_starttag(self,tag,attrs):
+        if tag.lower()!="a":
+            return
+        href=dict(attrs).get("href") or ""
+        if ".xlsx" in href.lower():
+            self.links.append(href)
+
+
+def titck_latest_xlsx():
+    req=urllib.request.Request(TITCK_LIST,headers={"User-Agent":"KALE-Regulatory-Offline-Importer/1.0"})
+    with urllib.request.urlopen(req,timeout=40) as resp:
+        page=resp.read(2_000_000).decode("utf-8","replace")
+    finder=XlsxFinder()
+    finder.feed(page)
+    for href in finder.links:
+        url=urllib.parse.urljoin(TITCK_LIST,href)
+        parsed=urllib.parse.urlparse(url)
+        if parsed.scheme=="https" and parsed.hostname in ("titck.gov.tr","www.titck.gov.tr") and parsed.path.lower().endswith(".xlsx"):
+            return url
+    raise ValueError("TİTCK listesinde doğrulanmış XLSX adresi bulunamadı; resmî dosyayı manuel indir.")
+
+
+def official_xlsx_file(url,path,agency):
+    allowed={"TITCK":("titck.gov.tr","www.titck.gov.tr"),
+             "EMA":("www.ema.europa.eu","ema.europa.eu")}
+    parsed=urllib.parse.urlparse(url)
+    if parsed.scheme!="https" or parsed.hostname not in allowed[agency]:
+        raise ValueError("Dışa aktarım sitesi resmi kurum alan adı değil")
+    path.parent.mkdir(parents=True,exist_ok=True)
+    req=urllib.request.Request(url,headers={"User-Agent":"KALE-Regulatory-Offline-Importer/1.0"})
+    tmp=path.with_suffix(".xlsx.incoming")
+    try:
+        with urllib.request.urlopen(req,timeout=150) as res:
+            final=urllib.parse.urlparse(res.geturl())
+            if final.scheme!="https" or final.hostname not in allowed[agency]:
+                raise ValueError("Resmî adres başka siteye yönlendirdi, işlem durdu")
+            size=0
+            with tmp.open("wb") as out:
+                while True:
+                    block=res.read(262144)
+                    if not block:
+                        break
+                    size+=len(block)
+                    if size>40_000_000:
+                        raise ValueError("Resmi XLSX boyut sınırı 40 MB")
+                    out.write(block)
+        with zipfile.ZipFile(tmp) as z:
+            if not any(x.startswith("xl/worksheets/") for x in z.namelist()):
+                raise ValueError("Dosya geçerli XLSX değil")
+        tmp.replace(path)
+        print("RESMİ XLSX:",agency,round(size/1048576,1),"MiB",path)
+        return path
+    finally:
+        tmp.unlink(missing_ok=True)
+
+
+def do_official_xlsx(conn,agency):
+    url=EMA_ARTICLE57 if agency=="EMA" else titck_latest_xlsx()
+    path=ROOT/"data"/"regulatory-sources"/(agency+".xlsx")
+    official_xlsx_file(url,path,agency)
+    return do_import(conn,path,agency,official_list=True)
 
 
 def fda_label_to_row(item):
@@ -276,7 +346,7 @@ def read_xlsx(path):
                 if header is None:
                     # EMA exports can have several title/metadata rows.
                     words=" ".join(values.values()).lower()
-                    if len(values)<3 or not any(a in words for a in ("product","medicine","trade name","brand name","ürün","ilaç","active substance","scientific name","inn")):
+                    if len(values)<2 or not any(a in words for a in ("product","medicine","trade name","brand name","ürün","ilaç","ticari","ruhsat","etken","active substance","scientific name","inn")):
                         element.clear()
                         continue
                     header=[values.get(i,"") for i in range(max(values)+1)]
@@ -288,9 +358,9 @@ def read_xlsx(path):
 
 
 FIELDS={
- "name":("product name","product short name","medicine name","medicinal product","trade name",
+ "name":("product name","product short name","medicine name","medicinal product","trade name","ticari adı","ticari ad",
          "brand name","brand_name","artg name","name of medicine","ilaç adı","urun adi",
-         "ürün adı","tradeName","prequalified product","product"),
+         "ürün adı","ilacın adı","beşeri tıbbi ürün adı","tradeName","prequalified product","product"),
  "ingredient":("active substance","active ingredient","active substances","active substance(s)",
                "active ingredient name","scientific name","scientificname","generic name",
                "inn","inn name","inn, dosage form and strength","etkin madde","etken madde","generic_name","active_substance"),
@@ -347,7 +417,7 @@ def generic_row(data,regulator):
       kind="Official export: original fields (no clinical validation)",sections=details)
 
 
-def do_import(conn,path,regulator):
+def do_import(conn,path,regulator,official_list=False):
     if regulator not in AGENCIES:
         raise ValueError("Desteklenmeyen kurum")
     if not path.is_file() or path.stat().st_size>300_000_000:
@@ -359,6 +429,14 @@ def do_import(conn,path,regulator):
         if i>=300000:
             raise ValueError("300 bin kayıt sınırı; kısmi kayıtlar korunur")
         row=generic_row(data,regulator)
+        if row and official_list and regulator=="EMA":
+            row["status"]="EMA Article 57: AEA/AB geçerli ruhsat listesindeki kayıt"
+            row["url"]=EMA_ARTICLE57
+            row["kind"]="EMA Article 57 authorised medicinal products"
+        elif row and official_list and regulator=="TITCK":
+            row["status"]="TİTCK ruhsatlı beşeri tıbbi ürünler listesindeki kayıt"
+            row["url"]=TITCK_LIST
+            row["kind"]="TİTCK ruhsatlı ürün listesi (KÜB/KT ayrı kontrol edilmeli)"
         if not row:
             skipped+=1
             continue
@@ -410,7 +488,7 @@ def do_fda_json(conn,path):
 
 def main(argv=None):
     p=argparse.ArgumentParser(description="KALE ilaç resmi kurum kaynakları (read-only ana katalog)")
-    p.add_argument("source",choices=("fda","canada","import","fda-json"))
+    p.add_argument("source",choices=("fda","canada","ema","titck","import","fda-json"))
     p.add_argument("--regulator",choices=list(AGENCIES))
     p.add_argument("--file",type=Path)
     p.add_argument("--max-terms",type=int,default=250,
@@ -430,6 +508,9 @@ def main(argv=None):
         elif args.source=="canada":
             agency="HEALTH_CANADA"
             count,status=do_canada(conn)
+        elif args.source in ("ema","titck"):
+            agency=args.source.upper()
+            count,status=do_official_xlsx(conn,agency)
         elif args.source=="import":
             agency=args.regulator
             count,status=do_import(conn,args.file,agency)
