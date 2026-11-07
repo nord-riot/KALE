@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch three verified public-domain USGS illustrations/photos for offline KALE.
+"""Fetch five verified public-domain USGS illustrations/photos for offline KALE.
 
 Run while online once: python3 tools/install_open_images.py
 No external dependency. Images remain on the device for offline operation.
@@ -25,6 +25,12 @@ SOURCES = (
      "jpg"),
     ("landslide.jpg",
      "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/landslide.jpg",
+     "jpg"),
+    ("drinking-water.jpg",
+     "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/P8150428.JPG",
+     "jpg"),
+    ("flooded-road.jpg",
+     "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/IMG_1451.JPG",
      "jpg"),
 )
 
