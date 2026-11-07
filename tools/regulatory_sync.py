@@ -140,6 +140,7 @@ def do_fda(conn, max_terms, api_key, pause):
     print("KALE mevcut ilaç adları:",len(terms),"arama — FDA etiketi ABD için")
     count=0
     fails=0
+    quota_hit=False
     for i,term in enumerate(terms,1):
         try:
             for label in query_fda_label(term,api_key):
@@ -152,6 +153,7 @@ def do_fda(conn, max_terms, api_key, pause):
         except urllib.error.HTTPError as exc:
             if exc.code in (429,403):
                 print("FDA kota / yetki hatası; mevcut kayıtlar korunuyor:",exc, file=sys.stderr)
+                quota_hit=True
                 break
             fails+=1
             print("FDA isteği başarısız:",term,exc, file=sys.stderr)
@@ -160,7 +162,7 @@ def do_fda(conn, max_terms, api_key, pause):
             print("FDA erişilemedi:",term,exc,file=sys.stderr)
         time.sleep(max(.05,pause))
     conn.commit()
-    return count, "Kısmi hata" if fails else "Sorgular bitti; birebir eşleşme doğrulanmadı"
+    return count, "KISMİ — kota veya ağ hatası" if (fails or quota_hit) else "Sorgular bitti; birebir eşleşme doğrulanmadı"
 
 
 def canada_rows():
@@ -287,11 +289,11 @@ def read_xlsx(path):
 
 FIELDS={
  "name":("product name","product short name","medicine name","medicinal product","trade name",
-         "brand name","brand_name","name of medicine","ilaç adı","urun adi",
+         "brand name","brand_name","artg name","name of medicine","ilaç adı","urun adi",
          "ürün adı","tradeName","prequalified product","product"),
  "ingredient":("active substance","active ingredient","active substances","active substance(s)",
                "active ingredient name","scientific name","scientificname","generic name",
-               "inn","inn name","etkin madde","etken madde","generic_name","active_substance"),
+               "inn","inn name","inn, dosage form and strength","etkin madde","etken madde","generic_name","active_substance"),
  "code":("registration number","authorization number","marketing authorisation number",
          "marketing authorization number","ruhsat no","ruhsat numarası","pl number",
          "register number","regno","artg number","who reference number",
@@ -441,12 +443,14 @@ def main(argv=None):
         conn.commit()
     print("KAYDEDİLDİ:",agency,count,"kaynak ürün kaydı. Dosya:",DB)
     print("Bu sayı 707 Türkçe kaydın doğrulandığı anlamına gelmez.")
+    if status.startswith("KISMİ"):
+        raise RuntimeError("Bazı FDA sorguları tamamlanmadı; aktarım kısmi. Resmî API kotasını ve interneti kontrol et.")
 
 
 if __name__=="__main__":
     try:
         main()
-    except (OSError,ValueError,sqlite3.Error,zipfile.BadZipFile,
+    except (OSError,ValueError,RuntimeError,sqlite3.Error,zipfile.BadZipFile,
             urllib.error.URLError,urllib.error.HTTPError) as exc:
         print("RESMİ KAYNAK SENKRONİZASYONU TAMAMLANMADI:",exc,file=sys.stderr)
         sys.exit(1)
