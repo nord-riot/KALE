@@ -10,6 +10,8 @@ kaynak belirtilerek ek referans olarak gösterilir.
 | Deprem sonrası ilk kontrol / sarsıntı sırasında korunma | `web/assets/public-domain/drop-cover-holdon.png` | [USGS — Drop, Cover, and Hold On](https://www.usgs.gov/media/images/drop-cover-and-hold) (Public Domain) |
 | Deprem sonrası hasarlı bina kontrolü | `web/assets/public-domain/earthquake-damage.jpg` | [USGS — Earthquake-damaged building](https://www.usgs.gov/media/images/earthquake-damaged-building) (Public Domain) |
 | Geçici barınak yeri / heyelan riski | `web/assets/public-domain/landslide.jpg` | [USGS — Landslide](https://www.usgs.gov/media/images/landslide), fotoğraf: Jim Bowers (Public Domain) |
+| Güvenli su saklama | `web/assets/public-domain/drinking-water.jpg` | [USGS — Clean drinking water](https://www.usgs.gov/media/images/clean-drinking-water), fotoğraf: Barbara Mahler (Public Domain) |
+| Kötü hava ve selde hareket | `web/assets/public-domain/flooded-road.jpg` | [USGS — Flooded Road](https://www.usgs.gov/media/images/flooded-road), fotoğraf: Brent R. Hanson (Public Domain) |
 
 ## İndirme (bir kez internet varken)
 
