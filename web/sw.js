@@ -1,7 +1,7 @@
 /* KALE v2.4 offline assets; no third-party network dependencies. */
-const CACHE='kale-v2.5.1-full-guides-audit';
+const CACHE='kale-v2.6.0-regulatory';
 const CORE=['/','/index.html','/assets/style.css','/assets/app.js','/assets/tools.js',
- '/ilaclar.html','/assets/medicines.css','/assets/medicines.js','/assets/medicines-offline.json',
+ '/ilaclar.html','/assets/medicines.css','/assets/medicines.js','/assets/regulatory.js','/assets/medicines-offline.json',
  '/doktor.html','/assets/doctor.js','/saha.html','/doga.html','/harita.html','/rota.html','/assets/vector-tile.js','/assets/route.js',
  '/atolye.html','/assets/editor.js','/assets/editor.css',
  '/plan.html','/assets/plan.js','/assets/plan.css','/offline.html','/assets/offline.js',

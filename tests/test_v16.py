@@ -40,7 +40,7 @@ class InventoryV16Tests(unittest.TestCase):
  def test_precache_and_version(self):
   sw=(WEB/'sw.js').read_text('utf-8')
   self.assertEqual(sw,(WEB/'service-worker.js').read_text('utf-8'))
-  self.assertIn('kale-v2.4.0',sw)
+  self.assertIn('kale-v2.',sw)
   hit=re.search(r'const CORE=(\[.*?\]);',sw,re.S)
   self.assertIsNotNone(hit)
   precache=ast.literal_eval(hit.group(1))

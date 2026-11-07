@@ -16,6 +16,7 @@ import threading
 from chat_core import CHAT, ChatError
 from device_monitor import MONITOR
 from routing import inspect_street_map,read_vector_tile,get_routing_status,calculate_route,RoutingError
+from regulatory_core import stats as regulatory_stats, search_products as regulatory_search, get_product as regulatory_product
 from datetime import datetime, timezone
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
@@ -441,6 +442,30 @@ class Handler(SimpleHTTPRequestHandler):
                 return self.wfile.write(payload)
             if path=='/api/health':
                 return self.json_response({'status':'ok','app':'KALE','version':VERSION,'time':datetime.now(timezone.utc).isoformat()})
+            if path=='/api/regulatory/status':
+                return self.json_response(regulatory_stats())
+            if path=='/api/regulatory/search':
+                q=parse_qs(url.query)
+                text=q.get('q',[''])[0]
+                agency=q.get('agency',[''])[0]
+                if len(text)>100 or len(agency)>40:
+                    return self.json_response({'error':'Sorgu boyutu sınırı aşıldı'},400)
+                return self.json_response({'items':regulatory_search(text,agency,15),
+                                           'verified_equivalence':False,
+                                           'notice':'Kaynak eşleşmesi Türkiye ruhsatı veya ürün eşdeğerliği kanıtı değildir.'})
+            if path.startswith('/api/regulatory/detail/'):
+                parts=path.split('/')
+                if len(parts)!=6 or not parts[4] or not parts[5]:
+                    return self.json_response({'error':'Geçersiz kaynak kimliği'},400)
+                from urllib.parse import unquote
+                agency=parts[4]
+                source_id=unquote(parts[5])
+                if len(source_id)>180:
+                    return self.json_response({'error':'Kaynak kimliği uzun'},400)
+                record=regulatory_product(agency,source_id)
+                if record is None:
+                    return self.json_response({'error':'Düzenleyici kurum kaydı bulunamadı'},404)
+                return self.json_response(record)
             if path=='/api/medicines':
                 return self.medicine_query(url)
             if path=='/api/reviews/stats':

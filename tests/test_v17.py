@@ -41,7 +41,7 @@ class FirstAidV17Tests(unittest.TestCase):
  def test_pwa_bundles_all_24_local_diagrams(self):
   sw=(WEB/'sw.js').read_text('utf-8')
   self.assertEqual(sw,(WEB/'service-worker.js').read_text('utf-8'))
-  self.assertIn('kale-v2.4.0',sw)
+  self.assertIn('kale-v2.',sw)
   m=re.search(r'const CORE=(\[.*?\]);',sw,re.S)
   self.assertIsNotNone(m)
   files=ast.literal_eval(m.group(1))

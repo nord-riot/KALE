@@ -1,3 +1,16 @@
+## Resmî ilaç kurumları arşivi (FDA + TİTCK + EMA + MHRA + PMDA + Kanada + TGA + SFDA + WHO)
+
+KALE ilaç ansiklopedisine **asıl ilaç DB'sinden bağımsız** bir resmî ürün arşivi ve arama ekranı eklendi. Kaynak aktarımı **çalıştırılınca** veriler yerel telefona indirilir; GitHub kaynak koduna bütün ülke ürünleri gömülmemiştir.
+
+```bash
+cd ~/KALE
+python3 tools/sync_all_regulators.py
+```
+
+Otomatik kaynaklar: FDA, Health Canada, TİTCK ruhsatlı ürünler listesi ve EMA Article 57. MHRA, PMDA, TGA, SFDA ve WHO için resmî CSV/XLSX dosyalarını aktarma yolu hazır; dosya olmadan kaydı varmış gibi göstermez. Arşiv Türkiye ruhsat/ürün eşdeğerliği veya hekim onayı vermez. **[Ayrıntılı kaynak ve aktarma kılavuzu](docs/RESMI-ILAC-KAYNAKLARI.md)**.
+
+---
+
 ## Sokaklar görünmüyorsa — doğrudan çözüm (7 Kasım 2026)
 
 Harita ekranındaki ülke/il özetleri **sokak değildir**. Gerçek sokaklar için

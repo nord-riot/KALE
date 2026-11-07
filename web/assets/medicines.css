@@ -8,3 +8,30 @@
 .med-howto{border:1px solid #718a7b!important;background:#172d30!important}
 .med-reading-list{margin:8px 0;padding-left:25px}
 .med-reading-list li{margin:11px 0;line-height:1.8;font-size:14px}
+
+
+/* Local regulatory source viewer: all nine agencies, never a clinical recommendation. */
+.reg-panel{border:1px solid #466b6d;background:#122933}
+.reg-note{font-size:13px;line-height:1.65;color:#bdd0ce;margin:10px 0}
+.reg-portals{padding:12px;border:1px solid #3a555c;border-radius:8px;margin:12px 0}
+.reg-portals summary{cursor:pointer;font-weight:700;color:#e4c995}
+.reg-portals ul{margin:12px 0 0;padding-left:24px;line-height:1.85}
+.reg-portals a{color:#efd1a2}
+.reg-candidate{border:1px solid #4d6568;border-radius:9px;padding:14px;margin:10px 0;background:#0e252e;overflow-wrap:anywhere}
+.reg-candidate strong{font-size:15px;color:#f2e8d8}
+.reg-candidate p{font-size:13px;margin:8px 0;line-height:1.55}
+.reg-candidate small{color:#b6c5ca}
+.reg-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px}
+.reg-url,.reg-view{border:1px solid #638182;background:#183740;border-radius:6px;color:#f0d1a2;text-decoration:none;padding:9px 11px;font-size:12px}
+.reg-view{cursor:pointer}
+.reg-detail{padding:12px 4px;max-width:100%}
+.reg-source-field{border-top:1px solid #36545a;padding:10px 2px}
+.reg-source-field summary{cursor:pointer;font-weight:650;color:#e9c58e}
+.reg-source-field p{font-size:13px;white-space:pre-line;overflow-wrap:anywhere;line-height:1.7}
+@media print{.reg-panel{background:white;color:black}.reg-note,.reg-candidate p,.reg-source-field p{color:black}}
+
+.reg-library{margin:24px 0}
+.reg-library .med-search{margin:16px 0}
+.reg-select{display:block;width:100%;max-width:430px;color:#e6efee;background:#152e36;border:1px solid #557276;border-radius:6px;padding:11px;margin:7px 0 18px}
+.reg-library .reg-candidate{margin:12px 0}
+@media(max-width:650px){.reg-select{max-width:100%}.reg-library .med-field{flex-wrap:wrap}}

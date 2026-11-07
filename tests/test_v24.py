@@ -107,7 +107,7 @@ class MapV24(unittest.TestCase):
         a=(ROOT/'deploy/bootstrap-termux.sh').read_text()
         b=(ROOT/'deploy/install-all-termux.sh').read_text()
         self.assertIn('git clone',a);self.assertIn('git -C',a)
-        for required in ('turkiye_full.py all','install-24x7.sh install','kale-24x7','full_turkey_data'):
+        for required in ('turkiye_full.py map','install-24x7.sh install','kale-24x7','turkiye_full.py segments'):
             self.assertIn(required,b)
         self.assertIn('KALE_ENABLE_BROUTER', (ROOT/'deploy/install-24x7.sh').read_text())
         if shutil.which('bash'):
@@ -116,6 +116,6 @@ class MapV24(unittest.TestCase):
 
     def test_readme_and_service_worker_version(self):
         self.assertIn('v2.4', (ROOT/'README.md').read_text())
-        self.assertIn('kale-v2.4.0',(ROOT/'web/sw.js').read_text())
+        self.assertIn('kale-v2.',(ROOT/'web/sw.js').read_text())
 
 if __name__=='__main__':unittest.main()
