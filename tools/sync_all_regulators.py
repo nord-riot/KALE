@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """KALE first-online-download helper for 9 regulatory agency sources.
 
-Automatic fetches: openFDA drug labels and Health Canada's DPD API.
+Automatic fetches: openFDA, Health Canada DPD, TITCK and EMA official exports.
 Other agencies: controlled import from official CSV/XLSX user downloads.
 Missing agency export => clearly reported missing, never marked downloaded.
 """
@@ -19,14 +19,16 @@ def main():
     parser=argparse.ArgumentParser(description="KALE kurumsal ilaç verisi çevrimiçi hazırlık")
     parser.add_argument("--exports-dir",type=Path,default=Path.home()/"storage"/"downloads"/"KALE-KAYNAKLAR",
                        help="Resmi sitelerden indirilen TITCK.csv, EMA.xlsx vb. dosyalar")
-    parser.add_argument("--no-live",action="store_true",help="FDA ve Kanada canlı API çağrısı yapma")
+    parser.add_argument("--no-live",action="store_true",help="FDA/Kanada API ve TİTCK/EMA otomatik indirmelerini kapat")
     parser.add_argument("--max-fda-terms",type=int,default=0,
                        help="0: var olan tüm uygun jenerik adları sorgula (API kotası geçerli)")
     args=parser.parse_args()
     tasks=[]
     if not args.no_live:
-        tasks.extend([["fda","--max-terms",str(args.max_fda_terms)],["canada"]])
+        tasks.extend([["fda","--max-terms",str(args.max_fda_terms)],["canada"],["titck"],["ema"]])
     for agency in AGENCIES:
+        if not args.no_live and agency in ("TITCK","EMA"):
+            continue  # already scheduled official XLSX automatic fetch
         matches=[]
         for ext in (".xlsx",".csv"):
             path=args.exports_dir/(agency+ext)
