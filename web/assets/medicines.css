@@ -3,3 +3,8 @@
 @media(max-width:760px){.med-shell{padding:0 13px}.med-work{grid-template-columns:1fr;gap:13px}.med-header{padding:14px 0}.med-home span,.med-mode{display:none}.med-hero{padding:25px 0 15px}.med-search,.med-results{padding:15px}.med-list{max-height:initial}.med-dialog-body{padding:18px}}
 
 .doctor-stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}.doctor-stat-grid article{display:grid;gap:7px;padding:18px;background:#13242d;border:1px solid #304950;border-radius:9px}.doctor-stat-grid small{font-size:11px;color:#a3b9be;letter-spacing:1px}.doctor-stat-grid strong{font-size:34px;color:#e1b57c}.med-search ol{padding-left:24px}.med-search li{margin:10px 0;color:#c9dedf}.med-search code{color:#e1b57c;overflow-wrap:anywhere}@media(max-width:680px){.doctor-stat-grid{grid-template-columns:repeat(2,1fr)}}
+
+.med-field-explanation{font-size:13px;line-height:1.75;opacity:.91;border-top:1px solid rgba(128,160,156,.2);padding-top:10px;white-space:pre-line}
+.med-howto{border:1px solid #718a7b!important;background:#172d30!important}
+.med-reading-list{margin:8px 0;padding-left:25px}
+.med-reading-list li{margin:11px 0;line-height:1.8;font-size:14px}
