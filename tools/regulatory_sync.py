@@ -345,8 +345,11 @@ def read_xlsx(path):
                         values[ix]=str(text)
                 if header is None:
                     # EMA exports can have several title/metadata rows.
-                    words=" ".join(values.values()).lower()
-                    if len(values)<2 or not any(a in words for a in ("product","medicine","trade name","brand name","ürün","ilaç","ticari","ruhsat","etken","active substance","scientific name","inn")):
+                    name_keys=("product","medicine","trade name","brand name","ürün","ilaç","ticari","販売名","الاسم التجاري","inn")
+                    other_keys=("active","etken","scientific","ruhsat","company","firma","country","applicant","reference","number","date","route","form","一般名","الاسم العلمي")
+                    possible_name={i for i,v in values.items() if any(w in v.lower() for w in name_keys)}
+                    possible_detail={i for i,v in values.items() if any(w in v.lower() for w in other_keys)}
+                    if len(values)<2 or not any(i!=j for i in possible_name for j in possible_detail):
                         element.clear()
                         continue
                     header=[values.get(i,"") for i in range(max(values)+1)]
