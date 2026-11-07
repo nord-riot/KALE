@@ -29,3 +29,9 @@
 .reg-source-field summary{cursor:pointer;font-weight:650;color:#e9c58e}
 .reg-source-field p{font-size:13px;white-space:pre-line;overflow-wrap:anywhere;line-height:1.7}
 @media print{.reg-panel{background:white;color:black}.reg-note,.reg-candidate p,.reg-source-field p{color:black}}
+
+.reg-library{margin:24px 0}
+.reg-library .med-search{margin:16px 0}
+.reg-select{display:block;width:100%;max-width:430px;color:#e6efee;background:#152e36;border:1px solid #557276;border-radius:6px;padding:11px;margin:7px 0 18px}
+.reg-library .reg-candidate{margin:12px 0}
+@media(max-width:650px){.reg-select{max-width:100%}.reg-library .med-field{flex-wrap:wrap}}
