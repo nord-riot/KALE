@@ -14,6 +14,7 @@ import socket
 import io
 import threading
 from chat_core import CHAT, ChatError
+from device_monitor import MONITOR
 from routing import inspect_street_map,read_vector_tile,get_routing_status,calculate_route,RoutingError
 from datetime import datetime, timezone
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
@@ -26,7 +27,7 @@ WEB = BASE / 'web'
 DB = BASE / 'data' / 'kale.db'
 REVIEWS_DB = BASE / 'data' / 'doctor_reviews.sqlite3'
 MAP_DB = Path(os.environ.get('KALE_MAP_PATH', str(BASE / 'data' / 'maps' / 'turkiye.mbtiles')))
-VERSION = '2.1.0'
+VERSION = '2.2.0'
 PORT = int(os.environ.get('KALE_PORT','8090'))
 HOST = os.environ.get('KALE_HOST','127.0.0.1')
 ROUTE_SLOTS=threading.BoundedSemaphore(2)
@@ -204,6 +205,18 @@ def lan_addresses():
     return sorted(addr for addr in found if ipaddress.ip_address(addr).is_private and not ipaddress.ip_address(addr).is_loopback)
 
 
+def admin_allowed(remote, host):
+    """Only physical loopback socket peer + literal localhost Host; never X-Forwarded-For.
+
+    Blocks remote Wi-Fi users from the local device management page/API and avoids
+    DNS-rebinding via attacker-controlled Host headers.
+    """
+    try:
+        if not ipaddress.ip_address(remote).is_loopback:return False
+    except ValueError:return False
+    return host in (f'127.0.0.1:{PORT}',f'localhost:{PORT}',f'[::1]:{PORT}')
+
+
 def local_maps():
     """Allow only known map filenames. Other MBTiles files remain private."""
     return {'turkiye':MAP_DB,'ege':BASE/'data/maps/ege.mbtiles'}
@@ -222,14 +235,15 @@ def network_info():
 
 
 class Handler(SimpleHTTPRequestHandler):
-    server_version = 'KALE/2.1.0'
+    server_version = 'KALE/2.2.0'
     sys_version = ''
     def __init__(self,*args,**kwargs):
         super().__init__(*args,directory=str(WEB),**kwargs)
 
     def log_message(self, fmt,*args):
         # Never log URL paths, search terms, query parameters, or symptom text.
-        print(f'{self.log_date_time_string()} | KALE request',flush=True)
+        if os.environ.get('KALE_ACCESS_LOG','0')=='1':
+            print(f'{self.log_date_time_string()} | KALE request',flush=True)
 
     def end_headers(self):
         for k,v in (
@@ -251,6 +265,19 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         path=urlsplit(self.path).path
+        if path=='/api/device/eco':
+            if not admin_allowed(self.client_address[0],self.headers.get('Host','')):
+                return self.json_response({'error':'Yalnız cihaz üzerindeki localhost erişebilir.'},403)
+            if self.headers.get('Origin')!=f'http://{self.headers.get("Host","")}' or self.headers.get('Content-Type','').split(';')[0].strip()!='application/json':
+                return self.json_response({'error':'Yerel uygulama üzerinden JSON gerekli.'},403)
+            try:
+                n=int(self.headers.get('Content-Length','0'))
+                if not 0<n<=256:return self.json_response({'error':'İstek boyutu geçersiz.'},413)
+                payload=json.loads(self.rfile.read(n))
+                if not isinstance(payload,dict):raise ValueError('Invalid')
+                mode=MONITOR.set_eco(payload.get('enabled'))
+                return self.json_response({'enabled':mode})
+            except (TypeError,ValueError):return self.json_response({'error':'Tasarruf ayarı true/false olmalı.'},400)
         if not path.startswith('/api/chat/') or path not in ('/api/chat/join','/api/chat/poll','/api/chat/send','/api/chat/leave'):
             return self.json_response({'error':'İşlem desteklenmiyor.'},404)
         # Same-origin required for browser clients; do not let another webpage impersonate users.
@@ -308,6 +335,14 @@ class Handler(SimpleHTTPRequestHandler):
         url=urlsplit(self.path)
         path=url.path
         try:
+            if path in ('/api/device/status','/yonetim.html'):
+                if not admin_allowed(self.client_address[0],self.headers.get('Host','')):
+                    return self.json_response({'error':'Bu sayfa sadece KALE cihazındaki localhost adresinden açılabilir.'},403)
+                if path=='/api/device/status':
+                    with CHAT.lock:
+                        CHAT._purge(__import__('time').monotonic())
+                        online=len(CHAT.sessions)
+                    return self.json_response(MONITOR.snapshot(chat_users=online,status_path=os.environ.get('KALE_SUPERVISOR_STATUS')))
             if path=='/api/gps/once':
                 payload,code=gps_from_termux(self.client_address[0])
                 return self.json_response(payload,code)
@@ -436,7 +471,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self.json_response({'error':'Endpoint bulunamadı'},404)
         if path in ('/','/index.html'):
             self.path='/index.html'
-        elif not (path.startswith('/assets/') or path in ('/favicon.svg','/manifest.webmanifest','/service-worker.js','/sw.js','/ilaclar.html','/doktor.html','/saha.html','/doga.html','/harita.html','/plan.html','/offline.html','/atolye.html','/barinak-su.html','/gida-enerji.html','/envanter.html','/ilk-yardim.html','/aktarim.html','/sohbet.html','/baglan.html','/rota.html')):
+        elif not (path.startswith('/assets/') or path in ('/favicon.svg','/manifest.webmanifest','/service-worker.js','/sw.js','/ilaclar.html','/doktor.html','/saha.html','/doga.html','/harita.html','/plan.html','/offline.html','/atolye.html','/barinak-su.html','/gida-enerji.html','/envanter.html','/ilk-yardim.html','/aktarim.html','/sohbet.html','/baglan.html','/rota.html','/yonetim.html')):
             self.send_error(404)
             return
         return super().do_GET()
@@ -471,6 +506,8 @@ def self_test():
     assert (WEB/'assets/vector-tile.js').is_file()
     assert (WEB/'assets/route.js').is_file()
     assert (WEB/'rota.html').is_file()
+    assert (WEB/'yonetim.html').is_file()
+    assert (WEB/'assets/device.js').is_file()
     assert (WEB/'assets/sync-core.js').is_file()
     assert (WEB/'assets/first-aid.json').is_file()
     assert (WEB/'assets/first-aid.js').is_file()

@@ -41,7 +41,7 @@ class FirstAidV17Tests(unittest.TestCase):
  def test_pwa_bundles_all_24_local_diagrams(self):
   sw=(WEB/'sw.js').read_text('utf-8')
   self.assertEqual(sw,(WEB/'service-worker.js').read_text('utf-8'))
-  self.assertIn('kale-v2.1.0',sw)
+  self.assertIn('kale-v2.2.0',sw)
   m=re.search(r'const CORE=(\[.*?\]);',sw,re.S)
   self.assertIsNotNone(m)
   files=ast.literal_eval(m.group(1))
@@ -64,11 +64,11 @@ class FirstAidV17Tests(unittest.TestCase):
   self.assertTrue(any('Bebek' in x['avoid'][0] or 'bebek' in ' '.join(x['avoid']).lower() for x in cards))
  def test_doctor_review_is_untouched(self):
   self.assertTrue((ROOT/'review/KALE_707_Ilac_Doktor_Inceleme_Formatli.xlsx').is_file())
-  self.assertIn("VERSION = '2.1.0'",(ROOT/'server.py').read_text('utf-8'))
+  self.assertIn("VERSION = '2.2.0'",(ROOT/'server.py').read_text('utf-8'))
   self.assertIn('def do_POST(', (ROOT/'server.py').read_text('utf-8'))
  def test_offline_diagnostic_reads_catalog(self):
   s=(WEB/'assets/offline.js').read_text('utf-8')
-  self.assertIn('kale-v2.1.0',s)
+  self.assertIn('kale-v2.2.0',s)
   self.assertIn("n===24;extra=n+' ilk yardım kartı'",s)
  def test_original_diagrams_are_noninteractive(self):
   for i in range(1,25):

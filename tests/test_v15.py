@@ -63,7 +63,7 @@ class FoodEnergyWinterV15(unittest.TestCase):
   self.assertIsNotNone(match)
   paths=ast.literal_eval(match.group(1))
   self.assertEqual(len(paths),len(set(paths)))
-  self.assertIn('kale-v2.1.0',sw)
+  self.assertIn('kale-v2.2.0',sw)
   for name in ('/gida-enerji.html','/assets/food-energy.js','/assets/food-energy.css','/assets/food-energy-winter.json'):
    self.assertIn(name,paths)
    self.assertTrue((WEB/name.lstrip('/')).is_file())

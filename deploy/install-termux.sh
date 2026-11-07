@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# KALE Android/Termux local-only launcher. No root, APK build, background service or wake-lock.
+# KALE Android/Termux local-only launcher. No root or APK. For optional 7/24 service use deploy/install-24x7.sh.
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 case "${1:-install}" in
@@ -43,7 +43,7 @@ KALE_SH
     echo 'KALE + isteğe bağlı BRouter hazır. Çalıştır: ~/bin/kale'
     echo 'Telefonda aynı cihaz: http://127.0.0.1:8090/'
     echo 'Wi-Fi bağlantı adresi/QR için: http://127.0.0.1:8090/baglan.html'
-    echo 'Çıkış: Termux içinde Ctrl+C. Pil tasarrufu Termux işlemini sonlandırabilir.';;
+    echo 'Çıkış: Termux içinde Ctrl+C. 7/24 otomatik başlatma: bash deploy/install-24x7.sh install';;
   run|--run)
     exec env KALE_HOST=0.0.0.0 KALE_PORT=8090 python3 "$ROOT/server.py";;
   *) echo 'Kullanım: bash deploy/install-termux.sh [--check|install|run]'; exit 2;;

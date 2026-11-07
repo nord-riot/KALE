@@ -1,7 +1,7 @@
 'use strict';
 /* Diagnostic checks for *actual* PWA caches, not navigator.onLine. */
 (()=>{
- const CACHE='kale-v2.1.0';
+ const CACHE='kale-v2.2.0';
  const REQUIRED=[
   ['Ana sayfa','/index.html'],['Yaşam rehberleri','/api/catalog'],
   ['İlaç arşivi','/assets/medicines-offline.json'],

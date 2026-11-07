@@ -1,4 +1,35 @@
-# KALE v2.1 — Türkiye Sokak Haritası + Offline Rota + Wi-Fi Sohbet
+# KALE v2.2 — Android 7/24 Offline Wi-Fi Sunucusu
+
+**Yeni:** Termux:Boot otomatik açılış, servis çökerse yeniden başlatma, `termux-wake-lock`, yerel batarya/CPU/RAM yönetim ekranı. **Hedef cihaz:** Xiaomi Redmi Note 14 Pro (HyperOS). **Gerçek cihaz / 24–72 saat testi henüz yapılmadı.**
+
+## Termux 7/24 kurulumu
+
+İnternet yalnız **ilk indirme/harita kurulumu** için gereklidir. F-Droid'den **Termux**, **Termux:Boot** ve **Termux:API** kur; Termux:Boot'u bir kez aç. Termux içinde:
+
+```bash
+pkg update && pkg install -y python git termux-api
+git clone https://github.com/nord-riot/KALE.git
+cd KALE
+bash deploy/install-24x7.sh --dry-run
+bash deploy/install-24x7.sh install
+~/bin/kale-24x7
+```
+
+- **Yerel yönetim ekranı:** `http://127.0.0.1:8090/yonetim.html` (**yalnız sunucu telefonunda**).
+- **Hotspot:** Android ayarlarından **KALE-OFFLINE** SSID + güçlü parola belirle, otomatik hotspot kapanmasını kapat ve pil optimizasyonunu Termux/Termux:Boot için devre dışı bırak. **KALE hotspot'u root olmadan otomatik açamaz.**
+- **Diğer cihazlar:** `http://TELEFON_IP:8090/` (port 8090 zorunlu; `localhost` diğer cihazlarda işlemez).
+- **Koruma:** RAM'de sohbet mesajları, read-only içerik, sadece sunucu telefonundaki yönetim paneli.
+- **Enerji:** Yönetim paneli ölçümünü seyrekleştirebilir; `termux-wake-lock` pil tüketimini artırır. 25–30 Wh/gün hedefi henüz ölçülmedi.
+
+**Detaylı adımlar ve kabul testleri:** [Android 7/24 modül kurulum kılavuzu](docs/ANDROID-24X7.md).
+
+**Yönetim ekranı önizlemesi (Chromium testinde simüle ölçümler; gerçek Redmi verisi değil):**
+
+![KALE v2.2 7/24 yerel yönetim ekranı](docs/img/screenshots/android-24x7-demo.png)
+
+---
+
+## KALE v2.1 — Türkiye Sokak Haritası + Offline Rota + Wi-Fi Sohbet
 
 **Durum:** KALE'nin kaynak kodu, 146 rehber, 707 klinik onaysız ilaç kaydı,
 özgün SVG şemalar, iki **Natural Earth ülke özeti haritası** ve Wi-Fi sohbeti bu

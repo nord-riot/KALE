@@ -46,3 +46,7 @@ Bu araç mevcut haritayı varsayılan olarak korur; yeni haritayla değiştirmek
 - `aktarim.html` üzerinden kişisel kayıtları JSON olarak ayrı medyaya yedekledin mi?
 
 **Gerçek Android cihazda bu sürümün GPS/Termux kurulumu henüz doğrulanmadı.** Hazırlık için kağıt harita, güç kaynağı, pusula ve çevrimdışı yedeği ayrı bulundur. İlaçlar hâlâ doktor onayı bekleyen taslaktır.
+
+## 7/24 otomatik başlatma
+
+Bkz. **[Android 7/24 sunucu kurulumu](ANDROID-24X7.md)**. Yeni gözetim komutu: `bash deploy/install-24x7.sh install`.
