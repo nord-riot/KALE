@@ -44,6 +44,7 @@ function show(g){
  for(const src of g.sources){const link=tag('a','',src.title);link.href=src.url;link.target='_blank';link.rel='noopener noreferrer';sources.append(link);}
  const print=tag('button','primary','YAZDIR');print.addEventListener('click',()=>window.print());sources.append(print);target.append(sources);
  $('guideDialog').showModal();
+ target.scrollTop=0; // Previously viewed guides must not reopen halfway scrolled.
 }
 function render(){const q=$('guideSearch').value.toLocaleLowerCase('tr'),cat=$('guideCategory').value;const list=$('guideList');list.replaceChildren();
  let count=0;for(const g of all){if(cat&&g.category!==cat)continue;if(q&&!`${g.title} ${g.category} ${g.steps.join(' ')}`.toLocaleLowerCase('tr').includes(q))continue;
