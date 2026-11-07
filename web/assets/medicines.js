@@ -101,6 +101,9 @@ async function detail(id){try{const data=await get('/api/medicines/'+encodeURICo
  appendReadingGuide(panels,data);
  const source=$('medSource');source.replaceChildren(el('strong','','Kaynak: '+data.source));source.append(el('p','','Dil: '+data.locale+' · Kaynak kontrol tarihi: '+(data.source_updated||'henüz doğrulanmadı')));if(data.source.toLocaleLowerCase('tr').includes('editoryal')) source.append(el('p','','Bağlantı ilaca özgü doğrulanmış KÜB/KT değil, genel referans merkezidir. Kayda özel kaynak hekim/eczacı kontrolünde eklenmelidir.'));
  if(data.source_url&&data.source_url.startsWith('https://')){const a=el('a','',hasSource?'Ürün etiketini aç (internet gerekir) ↗':'Kaynak / başvuru merkezini aç (internet gerekir) ↗');a.href=data.source_url;a.rel='noopener noreferrer';a.target='_blank';source.append(a)}
+ document.dispatchEvent(new CustomEvent('kale:medicine-opened',{detail:{
+  name:data.name,generic_name:data.generic_name,active_ingredients:data.active_ingredients
+ }}));
  $('medDialog').showModal();
  }catch(e){list.prepend(el('p','med-empty','Detay yüklenemedi: '+e.message))}}
 $('medSearchForm').addEventListener('submit',event=>{event.preventDefault();lastQuery=$('medQuery').value.trim();current=0;search();});
