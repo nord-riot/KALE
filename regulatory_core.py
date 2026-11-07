@@ -81,7 +81,11 @@ def official_url(regulator, uri):
         u = urlparse(str(uri or ""))
     except ValueError:
         return ""
-    if u.scheme != "https" or u.username or u.password or u.port not in (None,443):
+    try:
+        invalid_port = u.port not in (None,443)
+    except ValueError:
+        return ""
+    if u.scheme != "https" or u.username or u.password or invalid_port:
         return ""
     host = (u.hostname or "").lower()
     if not any(host == d or host.endswith("." + d) for d in allowed):
