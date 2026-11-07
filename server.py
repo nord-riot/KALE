@@ -3,10 +3,18 @@
 No user data storage, analytics, account system, or outbound requests.
 """
 import json
+import ipaddress
+import shutil
+import subprocess
 import mimetypes
 import os
 import sqlite3
 import sys
+import socket
+import io
+import threading
+from chat_core import CHAT, ChatError
+from routing import inspect_street_map,read_vector_tile,get_routing_status,calculate_route,RoutingError
 from datetime import datetime, timezone
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
@@ -18,9 +26,10 @@ WEB = BASE / 'web'
 DB = BASE / 'data' / 'kale.db'
 REVIEWS_DB = BASE / 'data' / 'doctor_reviews.sqlite3'
 MAP_DB = Path(os.environ.get('KALE_MAP_PATH', str(BASE / 'data' / 'maps' / 'turkiye.mbtiles')))
-VERSION = '1.8.0'
-PORT = int(os.environ.get('KALE_PORT','8080'))
+VERSION = '2.1.0'
+PORT = int(os.environ.get('KALE_PORT','8090'))
 HOST = os.environ.get('KALE_HOST','127.0.0.1')
+ROUTE_SLOTS=threading.BoundedSemaphore(2)
 
 # Same normalization as the database compiler, does not depend on system locale.
 def normalize(value):
@@ -112,12 +121,13 @@ def public_review(med_id):
     finally:c.close()
 
 
-def map_details():
+def map_details(map_id="turkiye"):
     """Inspect an optional LOCAL raster MBTiles archive (no external requests)."""
-    if not MAP_DB.is_file():
+    selected=get_map_path(map_id)
+    if selected is None or not selected.is_file():
         return {'installed':False,'message':'Raster MBTiles yüklenmedi. Harita görüntüsü için yerel dosya gerekir.'}
     try:
-        with sqlite3.connect('file:'+str(MAP_DB)+'?mode=ro&immutable=1',uri=True,timeout=2) as c:
+        with sqlite3.connect('file:'+str(selected)+'?mode=ro&immutable=1',uri=True,timeout=2) as c:
             values=dict(c.execute('SELECT name,value FROM metadata'))
             fmt=values.get('format','').lower()
             if fmt not in ('png','jpg','jpeg','webp'):
@@ -127,18 +137,18 @@ def map_details():
             return {'installed':True,'name':values.get('name','Yerel raster harita')[:100],
                     'format':fmt,'minzoom':int(values.get('minzoom','0')),
                     'maxzoom':int(values.get('maxzoom','18')),
-                    'bounds':values.get('bounds',''),'size_bytes':MAP_DB.stat().st_size}
+                    'bounds':values.get('bounds',''),'size_bytes':selected.stat().st_size,'id':map_id}
     except (sqlite3.Error,ValueError,OSError):
         return {'installed':False,'message':'MBTiles dosyası okunamadı veya bozuk.'}
 
 
-def read_map_tile(z,x,y):
+def read_map_tile(z,x,y,map_id="turkiye"):
     """XYZ client y => TMS MBTiles row; no path/file interpolation."""
-    if not map_details().get('installed'):return None
+    if not map_details(map_id).get('installed'):return None
     if not (0<=z<=18 and 0<=x<2**z and 0<=y<2**z):return None
     tms_row=2**z-1-y
     try:
-        with sqlite3.connect('file:'+str(MAP_DB)+'?mode=ro&immutable=1',uri=True,timeout=2) as conn:
+        with sqlite3.connect('file:'+str(get_map_path(map_id))+'?mode=ro&immutable=1',uri=True,timeout=2) as conn:
             row=conn.execute('SELECT tile_data FROM tiles WHERE zoom_level=? AND tile_column=? AND tile_row=?',
                              (z,x,tms_row)).fetchone()
         if not row:return None
@@ -152,8 +162,67 @@ def read_map_tile(z,x,y):
     except (sqlite3.Error,OSError):return None
 
 
+def gps_from_termux(client_host, runner=subprocess.run, finder=shutil.which):
+    """Explicit, one-shot GNSS request. Never exposes GPS to non-loopback clients."""
+    try:
+        if not ipaddress.ip_address(client_host).is_loopback:
+            return {'error':'GPS sadece telefondaki 127.0.0.1 bağlantısına açıktır.'},403
+    except ValueError:
+        return {'error':'Yerel istemci gerekli.'},403
+    cmd=finder('termux-location')
+    if not cmd:
+        return {'error':'Termux:API kurulu değil. Tarayıcı konumunu dene veya F-Droid Termux:API ve pkg install termux-api yükle.'},503
+    try:
+        result=runner([cmd,'-p','gps','-r','once'],capture_output=True,text=True,timeout=18,check=False)
+        if result.returncode != 0:
+            return {'error':'Termux GPS yanıt vermedi. Konum iznini, açık gökyüzünü ve Android GPS ayarını kontrol et.'},503
+        obj=json.loads(result.stdout)
+        lat=float(obj['latitude']); lon=float(obj['longitude'])
+        accuracy=float(obj.get('accuracy',0))
+        if not (-85<=lat<=85 and -180<=lon<=180 and 0<=accuracy<=100000 and all(__import__('math').isfinite(x) for x in (lat,lon,accuracy))):
+            raise ValueError('Geçersiz GNSS koordinatı')
+        return {'latitude':lat,'longitude':lon,'accuracy':accuracy,'provider':'Termux GPS (tek ölçüm)','cached':False},200
+    except (subprocess.TimeoutExpired, OSError, ValueError, KeyError, TypeError):
+        return {'error':'GPS ölçümü alınamadı. Konum iznini ve GNSS sinyalini kontrol et.'},503
+
+
+def lan_addresses():
+    """Best effort LAN address display; never performs an external network request."""
+    found=set()
+    try:
+        names=socket.getaddrinfo(socket.gethostname(),None,socket.AF_INET)
+        for row in names:
+            found.add(row[4][0])
+    except OSError:pass
+    try:
+        sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+        try:
+            sock.connect(('192.0.2.1',9))  # UDP connect sets local source, sends no packet.
+            found.add(sock.getsockname()[0])
+        finally:sock.close()
+    except OSError:pass
+    return sorted(addr for addr in found if ipaddress.ip_address(addr).is_private and not ipaddress.ip_address(addr).is_loopback)
+
+
+def local_maps():
+    """Allow only known map filenames. Other MBTiles files remain private."""
+    return {'turkiye':MAP_DB,'ege':BASE/'data/maps/ege.mbtiles'}
+
+
+def get_map_path(map_id):
+    return local_maps().get(map_id)
+
+
+def network_info():
+    addresses=lan_addresses()
+    return {'addresses':addresses,'port':PORT,'version':VERSION,
+            'urls':[f'http://{addr}:{PORT}/' for addr in addresses],
+            'localhost':f'http://127.0.0.1:{PORT}/',
+            'note':'LAN erişimi için cihazlar aynı Wi-Fi/hotspot ağında ve istemci izolasyonu kapalı olmalıdır. Android rootsuz 80 portu dinlenemez.'}
+
+
 class Handler(SimpleHTTPRequestHandler):
-    server_version = 'KALE/1.8.0'
+    server_version = 'KALE/2.1.0'
     sys_version = ''
     def __init__(self,*args,**kwargs):
         super().__init__(*args,directory=str(WEB),**kwargs)
@@ -167,7 +236,7 @@ class Handler(SimpleHTTPRequestHandler):
             ('X-Content-Type-Options','nosniff'),('X-Frame-Options','DENY'),
             ('Referrer-Policy','no-referrer'),('Cross-Origin-Resource-Policy','same-origin'),
             ('Content-Security-Policy',"default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'"),
-            ('Permissions-Policy','camera=(), microphone=(), geolocation=()'),
+            ('Permissions-Policy','camera=(), microphone=(), geolocation=(self)'),
         ): self.send_header(k,v)
         super().end_headers()
 
@@ -179,6 +248,39 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_header('Cache-Control','no-store')
         self.end_headers()
         self.wfile.write(body)
+
+    def do_POST(self):
+        path=urlsplit(self.path).path
+        if not path.startswith('/api/chat/') or path not in ('/api/chat/join','/api/chat/poll','/api/chat/send','/api/chat/leave'):
+            return self.json_response({'error':'İşlem desteklenmiyor.'},404)
+        # Same-origin required for browser clients; do not let another webpage impersonate users.
+        origin=self.headers.get('Origin','')
+        if not origin or origin!=f'http://{self.headers.get("Host","")}' or self.headers.get('Content-Type','').split(';')[0].strip()!='application/json':
+            return self.json_response({'error':'Aynı site üzerinden JSON isteği gerekli.'},403)
+        try:
+            length=int(self.headers.get('Content-Length','0'))
+            if not 0<length<=4096:return self.json_response({'error':'İstek çok büyük veya boş.'},413)
+            payload=json.loads(self.rfile.read(length))
+            if not isinstance(payload,dict):raise ChatError('Geçersiz istek.')
+            token=payload.get('token')
+            if path=='/api/chat/join':return self.json_response(CHAT.join(payload.get('name')))
+            if path=='/api/chat/poll':
+                raw=payload.get('after',0)
+                if type(raw) is not int or raw<0 or raw>2**53:raise ChatError('Geçersiz mesaj sırası.')
+                return self.json_response(CHAT.snapshot(token,raw))
+            if path=='/api/chat/send':return self.json_response(CHAT.send(token,payload.get('text')))
+            if path=='/api/chat/leave':return self.json_response(CHAT.leave(token))
+        except ChatError as e:return self.json_response({'error':str(e)},e.status)
+        except (ValueError,TypeError,UnicodeError):return self.json_response({'error':'Geçersiz JSON.'},400)
+
+    def send_svg(self,content):
+        body=content.encode('utf-8')
+        self.send_response(200)
+        self.send_header('Content-Type','image/svg+xml; charset=utf-8')
+        self.send_header('Content-Length',str(len(body)))
+        self.send_header('Cache-Control','no-store')
+        self.end_headers()
+        return self.wfile.write(body)
 
     def medicine_query(self, url):
         q=parse_qs(url.query,keep_blank_values=True)
@@ -206,14 +308,66 @@ class Handler(SimpleHTTPRequestHandler):
         url=urlsplit(self.path)
         path=url.path
         try:
+            if path=='/api/gps/once':
+                payload,code=gps_from_termux(self.client_address[0])
+                return self.json_response(payload,code)
+            if path=='/api/network':
+                return self.json_response(network_info())
+            if path=='/api/network/qr.svg':
+                raw=parse_qs(url.query).get('ip',[''])[0]
+                if raw not in lan_addresses():return self.json_response({'error':'Bu adres sunucuya ait değil.'},403)
+                try:import qrcode
+                except ImportError:return self.json_response({'error':'QR modülü yüklü değil; bağlantıyı metin olarak paylaş.'},503)
+                qr=qrcode.QRCode(border=3,box_size=6,error_correction=qrcode.constants.ERROR_CORRECT_M)
+                qr.add_data(f'http://{raw}:{PORT}/sohbet.html');qr.make(fit=True)
+                matr=qr.get_matrix();count=len(matr);pieces=[]
+                for row,line in enumerate(matr):
+                    for col,enabled in enumerate(line):
+                        if enabled:pieces.append(f'<rect x="{col}" y="{row}" width="1" height="1"/>')
+                return self.send_svg(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {count} {count}" shape-rendering="crispEdges"><rect width="100%" height="100%" fill="white"/><g fill="#102c29">'+''.join(pieces)+'</g></svg>')
+            if path=='/api/street/status':
+                return self.json_response(inspect_street_map())
+            if path=='/api/route/status':
+                return self.json_response(get_routing_status(probe=True))
+            if path=='/api/route':
+                q=parse_qs(url.query)
+                try:
+                    vals=[float(q[key][0]) for key in ('start_lat','start_lon','end_lat','end_lon')]
+                    mode=q.get('mode',['walk'])[0]
+                    if not ROUTE_SLOTS.acquire(blocking=False):
+                        return self.json_response({'error':'Rota motoru meşgul; tekrar dene.'},429)
+                    try:result=calculate_route(*vals,mode=mode)
+                    finally:ROUTE_SLOTS.release()
+                    return self.json_response(result)
+                except RoutingError as e:
+                    return self.json_response({'error':str(e)},e.status)
+                except (KeyError,IndexError,ValueError) as e:
+                    return self.json_response({'error':'Geçersiz rota koordinatları veya türü.'},400)
+            if path.startswith('/api/street/tiles/'):
+                parts=path.split('/')
+                if len(parts)!=7 or not all(v.isdecimal() for v in parts[4:]):
+                    return self.json_response({'error':'Geçersiz vektör karo adresi'},400)
+                z,x,y=map(int,parts[4:]);tile=read_vector_tile(z,x,y)
+                if tile is None:return self.send_error(404,'Sokak vektör karosu yok')
+                mime,payload=tile
+                self.send_response(200)
+                self.send_header('Content-Type',mime)
+                self.send_header('Content-Length',str(len(payload)))
+                self.send_header('Cache-Control','public, max-age=86400')
+                self.end_headers()
+                return self.wfile.write(payload)
+            if path=='/api/maps/list':
+                return self.json_response({'maps':[map_details(mid) for mid in ('turkiye','ege')]})
             if path=='/api/maps/status':
-                return self.json_response(map_details())
+                mid=parse_qs(url.query).get('map',['turkiye'])[0]
+                return self.json_response(map_details(mid))
             if path.startswith('/api/tiles/'):
                 parts=path.split('/')
                 if len(parts)!=6 or not all(v.isdigit() for v in parts[3:]):
                     return self.json_response({'error':'Geçersiz karo koordinatı'},400)
                 z,x,y=map(int,parts[3:])
-                tile=read_map_tile(z,x,y)
+                map_id=parse_qs(url.query).get('map',['turkiye'])[0]
+                tile=read_map_tile(z,x,y,map_id)
                 if tile is None:return self.send_error(404,'Yerel harita karosu yok')
                 mime,payload=tile
                 self.send_response(200)
@@ -282,7 +436,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self.json_response({'error':'Endpoint bulunamadı'},404)
         if path in ('/','/index.html'):
             self.path='/index.html'
-        elif not (path.startswith('/assets/') or path in ('/favicon.svg','/manifest.webmanifest','/service-worker.js','/sw.js','/ilaclar.html','/doktor.html','/saha.html','/doga.html','/harita.html','/plan.html','/offline.html','/atolye.html','/barinak-su.html','/gida-enerji.html','/envanter.html','/ilk-yardim.html','/aktarim.html')):
+        elif not (path.startswith('/assets/') or path in ('/favicon.svg','/manifest.webmanifest','/service-worker.js','/sw.js','/ilaclar.html','/doktor.html','/saha.html','/doga.html','/harita.html','/plan.html','/offline.html','/atolye.html','/barinak-su.html','/gida-enerji.html','/envanter.html','/ilk-yardim.html','/aktarim.html','/sohbet.html','/baglan.html','/rota.html')):
             self.send_error(404)
             return
         return super().do_GET()
@@ -312,6 +466,11 @@ def self_test():
     assert (WEB/'envanter.html').is_file()
     assert (WEB/'ilk-yardim.html').is_file()
     assert (WEB/'aktarim.html').is_file()
+    assert (WEB/'sohbet.html').is_file()
+    assert (WEB/'baglan.html').is_file()
+    assert (WEB/'assets/vector-tile.js').is_file()
+    assert (WEB/'assets/route.js').is_file()
+    assert (WEB/'rota.html').is_file()
     assert (WEB/'assets/sync-core.js').is_file()
     assert (WEB/'assets/first-aid.json').is_file()
     assert (WEB/'assets/first-aid.js').is_file()
@@ -331,7 +490,9 @@ if __name__=='__main__':
         self_test();sys.exit(0)
     self_test()
     server=ThreadingHTTPServer((HOST,PORT),Handler)
-    print(f'KALE {VERSION} -> http://{HOST}:{PORT}',flush=True)
+    print(f'KALE {VERSION} -> http://127.0.0.1:{PORT}',flush=True)
+    if HOST in ('0.0.0.0','::'):
+        for url in network_info()['urls']: print('Wi-Fi bağlantısı: '+url+'sohbet.html',flush=True)
     try:server.serve_forever()
     except KeyboardInterrupt:pass
     finally:server.server_close()

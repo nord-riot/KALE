@@ -69,7 +69,7 @@ class ShelterWaterV14(unittest.TestCase):
         for n in range(1,19):self.assertIn(f'/assets/diagrams/bs-{n:02d}.svg',files)
         self.assertIn('/barinak-su.html',(WEB/'index.html').read_text('utf8'))
         self.assertIn('barinak-su.html',(ROOT/'server.py').read_text('utf8'))
-        self.assertIn('kale-v1.8.0',sw)
+        self.assertIn('kale-v2.1.0',sw)
 
     def test_existing_core_data_untouched(self):
         with sqlite3.connect(ROOT/'data/kale.db') as db:

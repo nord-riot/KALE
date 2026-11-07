@@ -6,3 +6,5 @@
 @media(max-width:900px){.map-layout{grid-template-columns:1fr}.plants{grid-template-columns:repeat(2,minmax(0,1fr))}.map-frame canvas{height:420px}}
 @media(max-width:650px){.top .wrap{align-items:flex-start;flex-direction:column;padding:15px}.nav{gap:10px}.wrap{padding:0 14px}.hero{padding:28px 0 17px}.cards,.plants{grid-template-columns:1fr}.guide img{height:148px}.map-frame canvas{height:360px}.row2{grid-template-columns:1fr 1fr}}
 @media print{.top,.filter,.primary,.guide button,.map-controls{display:none!important}body{background:white;color:black}.detail{position:static;width:100%;max-height:none;border:0}.dialog-body{max-height:none}}
+
+.gps-panel{border:1px solid #4c7569;background:#142b30;border-radius:12px;padding:16px 19px;margin:8px 0 19px}.gps-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.gps-panel #gpsStatus{font-size:14px;color:#b5e6d1;font-weight:800;margin:10px 0}.gps-panel #targetStatus{font-size:13px;color:#f2d0a1;margin:6px 0 12px}.gps-panel button:disabled{opacity:.44;cursor:not-allowed}.point-item .goal{border-color:#a6d6c0;color:#a6f4cf}

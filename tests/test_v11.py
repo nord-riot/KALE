@@ -34,7 +34,7 @@ class V11Features(unittest.TestCase):
 
     def test_serviceworker_bundle_complete(self):
         js=(WEB/'sw.js').read_text()
-        self.assertIn("CACHE='kale-v1.8.0'",js)
+        self.assertIn("CACHE='kale-v2.1.0'",js)
         self.assertEqual(js,(WEB/'service-worker.js').read_text())
         match=re.search(r'const CORE=(\[.*?\]);',js,flags=re.S)
         self.assertIsNotNone(match)

@@ -40,7 +40,7 @@ class InventoryV16Tests(unittest.TestCase):
  def test_precache_and_version(self):
   sw=(WEB/'sw.js').read_text('utf-8')
   self.assertEqual(sw,(WEB/'service-worker.js').read_text('utf-8'))
-  self.assertIn('kale-v1.8.0',sw)
+  self.assertIn('kale-v2.1.0',sw)
   hit=re.search(r'const CORE=(\[.*?\]);',sw,re.S)
   self.assertIsNotNone(hit)
   precache=ast.literal_eval(hit.group(1))
@@ -84,8 +84,8 @@ console.log('KALE inventory core: validation, status, water conversion, back-ups
 
  def test_read_only_server_contract(self):
   s=(ROOT/'server.py').read_text('utf-8')
-  self.assertIn("VERSION = '1.8.0'",s)
-  self.assertNotIn('def do_POST(',s)
+  self.assertIn("VERSION = '2.1.0'",s)
+  self.assertIn('def do_POST(',s)  # RAM-only chat; no content DB writes
   self.assertNotIn('doctor_reviews.sqlite3',str(WEB))
 
 if __name__=='__main__':unittest.main()

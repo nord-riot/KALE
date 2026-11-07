@@ -1,8 +1,8 @@
-/* KALE v1.8 offline assets; no third-party network dependencies. */
-const CACHE='kale-v1.8.0';
+/* KALE v2.1 offline assets; no third-party network dependencies. */
+const CACHE='kale-v2.1.0';
 const CORE=['/','/index.html','/assets/style.css','/assets/app.js','/assets/tools.js',
  '/ilaclar.html','/assets/medicines.css','/assets/medicines.js','/assets/medicines-offline.json',
- '/doktor.html','/assets/doctor.js','/saha.html','/doga.html','/harita.html',
+ '/doktor.html','/assets/doctor.js','/saha.html','/doga.html','/harita.html','/rota.html','/assets/vector-tile.js','/assets/route.js',
  '/atolye.html','/assets/editor.js','/assets/editor.css',
  '/plan.html','/assets/plan.js','/assets/plan.css','/offline.html','/assets/offline.js',
  '/assets/module.css','/assets/field.js','/assets/plants.js','/assets/map.js',
@@ -10,6 +10,7 @@ const CORE=['/','/index.html','/assets/style.css','/assets/app.js','/assets/tool
  '/gida-enerji.html','/assets/food-energy.css','/assets/food-energy.js','/assets/food-energy-winter.json',
  '/envanter.html','/assets/inventory.css','/assets/inventory-core.js','/assets/inventory.js',
  '/ilk-yardim.html','/assets/first-aid.css','/assets/first-aid.js','/assets/first-aid.json',
+ '/sohbet.html','/baglan.html','/assets/chat.js','/assets/network.js','/assets/chat.css',
  '/aktarim.html','/assets/transfer.css','/assets/transfer.js','/assets/sync-core.js',
  '/assets/field-guides.json','/assets/poisonous-plants.json','/assets/dangerous-mushrooms.json','/assets/nature.js','/assets/nature.css','/assets/base-map.json',
  '/assets/diagrams/afad.svg','/assets/diagrams/cantasi.svg','/assets/diagrams/su.svg',
