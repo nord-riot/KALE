@@ -5,3 +5,8 @@
 @media(max-width:960px){.aid-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-buttons{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.call-strip{grid-template-columns:1fr}.call-strip a{min-height:76px}.call-strip .phone{font-size:31px}.quick-buttons,.aid-cards{grid-template-columns:1fr}.aid-dialog-body{padding:17px}.aid-dialog-body h2{font-size:23px}.aid-card img{height:125px}}
 @media print{.top,.call-strip,.rapid,.guide-area,.aid-caveat,.footer,.aid-dialog-head,.aid-print{display:none!important}.aid-dialog{position:static;width:100%;max-width:none;max-height:none;overflow:visible;border:0;background:#fff;color:#000}.aid-dialog-body{max-height:none;overflow:visible}.aid-dialog-body *{color:#000!important}.aid-dialog-body img{max-width:500px}.aid-callout,.aid-avoid{background:#fff!important;border:1px solid #888!important}}
+
+/* KALE expanded first-aid teaching text: not clinical approval. */
+.guide-expansion-title{margin:22px 0 10px;color:#f5d5a5;font-size:clamp(17px,2vw,20px)}
+.guide-expansion-text{white-space:pre-line;line-height:1.8;overflow-wrap:anywhere;font-size:14px;padding:14px;border-left:3px solid #cba675;background:rgba(12,28,35,.7);border-radius:5px}
+@media print{.guide-expansion-text{color:#111;background:#fff}}
