@@ -74,5 +74,31 @@
    for(const item of data.items)results.append(itemNode(item));
   }catch(e){if(token===opened)results.replaceChildren(el('p','reg-note','Kurum arşivi açılamadı: '+e.message));}
  }
+ function initGlobal(){
+  const form=document.getElementById('regSearchForm');
+  const input=document.getElementById('regQuery');
+  const select=document.getElementById('regAgency');
+  const results=document.getElementById('regGlobalResults');
+  if(!form||!input||!results)return;
+  form.addEventListener('submit',async e=>{
+   e.preventDefault();
+   const q=input.value.trim(),agency=select?.value||'';
+   results.replaceChildren(el('p','reg-note','Yerel arşiv aranıyor…'));
+   if(q.length<3){results.textContent='Aramak için en az 3 karakter gir.';return;}
+   try{
+    const data=await request(base+'search?'+new URLSearchParams({q,agency}));
+    results.replaceChildren(el('p','reg-note',
+      (data.items||[]).length+' olası eşleşme. Tek başına ürün eşdeğerliği veya ruhsat doğrulaması değildir.'));
+    for(const item of data.items||[])results.append(itemNode(item));
+    if(!data.items?.length)results.append(el('p','reg-note','Yerel arşivde eşleşme yok. Kurum verisini önce Termux içinde içe aktar.'));
+   }catch(err){results.replaceChildren(el('p','reg-note','Kurum arşivi açılamadı: '+err.message));}
+  });
+  getStats().then(data=>{
+   const n=data.total||0;
+   if(!results.children.length)results.append(el('p','reg-note',
+    n?n+' kurum kaynak kaydı yerel arşivde aramaya hazır.':'Arşiv boş. İnternet varken Termux üzerinden resmî kaynakları içe aktar.'));
+  }).catch(()=>{});
+ }
+ initGlobal();
  document.addEventListener('kale:medicine-opened',e=>open(e.detail||{}));
 })();
