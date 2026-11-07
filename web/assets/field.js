@@ -9,7 +9,9 @@ const OPEN_MEDIA={
   {file:'/assets/public-domain/drop-cover-holdon.png',caption:'Sarsıntı sırasında Çök–Kapan–Tutun · USGS (kamu malı)',source:'https://www.usgs.gov/media/images/drop-cover-and-hold'},
   {file:'/assets/public-domain/earthquake-damage.jpg',caption:'Depremde hasarlı bina örneği · USGS (kamu malı)',source:'https://www.usgs.gov/media/images/earthquake-damaged-building'}
  ],
- 5:[{file:'/assets/public-domain/landslide.jpg',caption:'Heyelan riski taşıyan yamaç örneği · USGS / Jim Bowers (kamu malı)',source:'https://www.usgs.gov/media/images/landslide'}]
+ 5:[{file:'/assets/public-domain/landslide.jpg',caption:'Heyelan riski taşıyan yamaç örneği · USGS / Jim Bowers (kamu malı)',source:'https://www.usgs.gov/media/images/landslide'}],
+ 11:[{file:'/assets/public-domain/drinking-water.jpg',caption:'İçme suyunun önemi — temsili görüntü · USGS / Barbara Mahler (kamu malı)',source:'https://www.usgs.gov/media/images/clean-drinking-water'}],
+ 24:[{file:'/assets/public-domain/flooded-road.jpg',caption:'Sel nedeniyle kapanan yol · USGS / Brent R. Hanson (kamu malı)',source:'https://www.usgs.gov/media/images/flooded-road'}]
 };
 function primaryImage(g){
  return OPEN_MEDIA[g.id]?.[0]?.file || g.diagram;
