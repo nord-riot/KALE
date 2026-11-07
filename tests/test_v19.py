@@ -95,7 +95,7 @@ class AndroidMapV19(unittest.TestCase):
         self.assertNotIn('watchPosition(',js)
         self.assertIn('/api/gps/once',js)
         self.assertIn("geolocation=(self)",source)
-        self.assertEqual(server.VERSION,'2.2.0')
+        self.assertEqual(server.VERSION,'2.3.0')
 
     def test_termux_installer_and_user_docs(self):
         p=ROOT/'deploy/install-termux.sh'

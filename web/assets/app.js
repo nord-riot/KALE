@@ -23,7 +23,25 @@ function renderTabs(){const tabs=$('tabs');tabs.replaceChildren();for(const [id,
 function matches(e){if(region && (e.regions||[]).length && !(e.regions||[]).includes(region))return false;if(favoritesOnly&&!favorites().includes(e.id))return false;if(!favoritesOnly&&filter!=='TÜMÜ'&&e.category!==filter)return false;if(!query)return true;const haystack=normalize([e.title,e.category,e.tags,e.body].join(' '));return normalize(query).split(/\s+/).filter(Boolean).every(word=>haystack.includes(word));}
 function card(e){const b=button('','entry-card',()=>showDetail(e.id));const head=create('div','card-head');head.append(create('span','card-tag',e.category),create('span','card-num',`#${String(e.id).padStart(3,'0')}`));const h=create('h3','',e.title),p=create('p','',e.body.split('\n').join(' ').slice(0,260));const foot=create('div','card-bottom');foot.append(create('span','',favorites().includes(e.id)?'★ KAYDEDİLDİ':'REHBERİ AÇ'),create('span','read-arrow','↗'));b.append(head,h,p,foot);return b;}
 function render(){renderNav();renderTabs();const filtered=entries.filter(matches);$('cards').replaceChildren();if(!filtered.length){$('cards').append(create('div','no-results','Eşleşen kayıt bulunamadı. Farklı kelimelerle tekrar ara.'));}else{const frag=document.createDocumentFragment();filtered.forEach(e=>frag.append(card(e)));$('cards').append(frag);}$('countInfo').textContent=`${entries.length} REHBER · ${new Set(entries.map(e=>e.category)).size} KATEGORİ`;$('resultsLabel').textContent=favoritesOnly?'KAYDEDİLEN REHBERLER':query?`${filtered.length} ARAMA SONUCU`:filter==='TÜMÜ'?'TÜM REHBERLER':`${filter} / REHBERLER`;$('crumb').textContent=favoritesOnly?'KAYDEDİLENLER':filter==='TÜMÜ'?'KOMUTA MERKEZİ':filter+' / REHBER';$('clearFilters').hidden=!(query||filter!=='TÜMÜ'||favoritesOnly||region);$('savedCount').textContent=String(favorites().length);}
-function showDetail(id){const e=entries.find(x=>x.id===id);if(!e)return;selected=e;$('detailCategory').textContent=e.category+' / '+String(e.id).padStart(3,'0');$('detailTitle').textContent=e.title;$('detailStatus').textContent='⚠ '+(e.review_status||'EDİTORYAL TASLAK').toUpperCase()+' · '+((e.regions||[]).join(', ')||'TÜRKİYE GENELİ');$('detailText').textContent=e.body;$('detailWarning').hidden=!e.warning;$('detailWarning').textContent=e.warning||'';const links=$('detailLinks');links.replaceChildren();if(e.sources?.length){for(const url of e.sources){if(!url.startsWith('https://'))continue;const a=create('a','',new URL(url).hostname+' · Bağlantı internet gerektirir');a.href=url;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}}else{links.append(create('span','', 'Bu kayda özel doğrulanmış kaynak henüz eklenmedi.'));}setSaveDetailText();$('detailDialog').showModal();}
+// Render editorial text as readable sections. Uses textContent only (no HTML injection).
+function renderGuideText(container,body){
+ container.replaceChildren();
+ const parts=String(body||'').split(/\n\n+/).filter(Boolean);
+ for(const part of parts){
+  const lines=part.split('\n');
+  const first=lines[0].trim();
+  const section=/^[A-ZÇĞİÖŞÜ0-9 \/—:-]{5,75}$/.test(first)&&lines.length>1;
+  if(section){
+   const block=create('section','guide-section');
+   block.append(create('h3','guide-section-title',first));
+   const paragraph=create('p','guide-section-content',lines.slice(1).join('\n'));
+   block.append(paragraph);container.append(block);
+  }else{
+   container.append(create('p','guide-section-content',part));
+  }
+ }
+}
+function showDetail(id){const e=entries.find(x=>x.id===id);if(!e)return;selected=e;$('detailCategory').textContent=e.category+' / '+String(e.id).padStart(3,'0');$('detailTitle').textContent=e.title;$('detailStatus').textContent='⚠ '+(e.review_status||'EDİTORYAL TASLAK').toUpperCase()+' · '+((e.regions||[]).join(', ')||'TÜRKİYE GENELİ');renderGuideText($('detailText'),e.body);$('detailWarning').hidden=!e.warning;$('detailWarning').textContent=e.warning||'';const links=$('detailLinks');links.replaceChildren();if(e.sources?.length){for(const url of e.sources){if(!url.startsWith('https://'))continue;const a=create('a','',new URL(url).hostname+' · Bağlantı internet gerektirir');a.href=url;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}}else{links.append(create('span','', 'Bu kayda özel doğrulanmış kaynak henüz eklenmedi.'));}setSaveDetailText();$('detailDialog').showModal();}
 function setSaveDetailText(){if(selected)$('saveDetail').textContent=favorites().includes(selected.id)?'★ Kaydedildi':'☆ Kaydet';}
 function closeDetail(){$('detailDialog').close();}
 // Deliberately cautious: simple keyword links; it does NOT diagnose, triage reliably or choose medication.

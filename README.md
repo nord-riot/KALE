@@ -1,6 +1,8 @@
-# KALE v2.2 — Android 7/24 Offline Wi-Fi Sunucusu
+# KALE v2.3 — Ayrıntılı Offline Hayatta Kalma Rehberleri ve 7/24 Android Sunucusu
 
-**Yeni:** Termux:Boot otomatik açılış, servis çökerse yeniden başlatma, `termux-wake-lock`, yerel batarya/CPU/RAM yönetim ekranı. **Hedef cihaz:** Xiaomi Redmi Note 14 Pro (HyperOS). **Gerçek cihaz / 24–72 saat testi henüz yapılmadı.**
+**v2.3 yenilik:** 146 ana afet ve yaşam rehberi 4 katı aşkın ayrıntı seviyesine taşındı; her konuda saha uygulama planı, malzemeler, kontrol soruları ve kritik hatalar var. Klinik kaynaklar hâlâ profesyonel onay bekliyor.
+
+**v2.2 yenilik:** Termux:Boot otomatik açılış, servis çökerse yeniden başlatma, `termux-wake-lock`, yerel batarya/CPU/RAM yönetim ekranı. **Hedef cihaz:** Xiaomi Redmi Note 14 Pro (HyperOS). **Gerçek cihaz / 24–72 saat testi henüz yapılmadı.**
 
 ## Termux 7/24 kurulumu
 

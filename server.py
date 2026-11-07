@@ -27,7 +27,7 @@ WEB = BASE / 'web'
 DB = BASE / 'data' / 'kale.db'
 REVIEWS_DB = BASE / 'data' / 'doctor_reviews.sqlite3'
 MAP_DB = Path(os.environ.get('KALE_MAP_PATH', str(BASE / 'data' / 'maps' / 'turkiye.mbtiles')))
-VERSION = '2.2.0'
+VERSION = '2.3.0'
 PORT = int(os.environ.get('KALE_PORT','8090'))
 HOST = os.environ.get('KALE_HOST','127.0.0.1')
 ROUTE_SLOTS=threading.BoundedSemaphore(2)
@@ -235,7 +235,7 @@ def network_info():
 
 
 class Handler(SimpleHTTPRequestHandler):
-    server_version = 'KALE/2.2.0'
+    server_version = 'KALE/2.3.0'
     sys_version = ''
     def __init__(self,*args,**kwargs):
         super().__init__(*args,directory=str(WEB),**kwargs)

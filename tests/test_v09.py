@@ -77,6 +77,6 @@ class ReviewImportTest(unittest.TestCase):
         self.assertTrue(all('review_status' in x and 'warnings' in x and 'contraindications' in x for x in data['medicines']))
         sw=(ROOT/'web/sw.js').read_text(encoding='utf-8')
         self.assertIn('medicines-offline.json',sw)
-        self.assertIn('kale-v2.2.0',sw)
+        self.assertIn('kale-v2.3.0',sw)
 
 if __name__=='__main__': unittest.main()

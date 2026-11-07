@@ -25,7 +25,7 @@ def check():
     files=[WEB/path.lstrip('/') for path in core if path not in ('/','/api/catalog') and (WEB/path.lstrip('/')).is_file()]
     manifests={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
     field=json.loads((WEB/'assets/field-guides.json').read_text('utf-8'))
-    result={'field_guides':len(field.get('guides',[])),'application':'KALE','server_version':'2.1.0','resources_in_precache':len(core),'missing':missing,
+    result={'field_guides':len(field.get('guides',[])),'application':'KALE','server_version':'2.3.0','resources_in_precache':len(core),'missing':missing,
             'sqlite_integrity':integrity,'guides':guides,'medicines':medicines,
             'precached_static_bytes':sum(p.stat().st_size for p in files),'file_sha256':manifests,
             'note':'Bu yalnız sunucu dosyalarının bütünlüğünü ölçer; tarayıcı önbelleği ve offline saha testi değildir.'}

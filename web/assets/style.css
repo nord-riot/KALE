@@ -40,3 +40,12 @@
 .v10-links a strong{font-size:11px;letter-spacing:.6px}.v10-links a small{color:#99aead;font-size:10px}
 .v10-links a:hover{border-color:var(--amber)}
 @media(max-width:760px){.v10-links{grid-template-columns:1fr}.hero-tools{gap:8px;flex-wrap:wrap}.med-hero-link{font-size:10px;padding:7px;margin-right:0}}
+
+/* KALE v2.3 — mobile-friendly field manual layout */
+.detail-text{white-space:normal;line-height:1.75;font-size:15px;color:#d3dfdf}
+.guide-section{border-left:3px solid #5b9d93;margin:18px 0;padding:6px 0 6px 15px;background:linear-gradient(90deg,#132d3480,transparent)}
+.guide-section-title{color:#f5d59d!important;font-size:13px!important;letter-spacing:.07em;margin:0 0 10px!important;font-weight:800}
+.guide-section-content{white-space:pre-line;line-height:1.8;margin:0 0 6px;color:#e2ebea}
+.guide-section-content:first-child{white-space:pre-wrap}
+@media(max-width:640px){.detail-text{font-size:15px}.guide-section{margin:13px 0;padding-left:12px}.guide-section-content{line-height:1.7}}
+@media print{.guide-section{background:white;border-left:2px solid #555;break-inside:avoid}.guide-section-title{color:black!important}}

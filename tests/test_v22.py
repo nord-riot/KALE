@@ -76,7 +76,7 @@ class DeviceUnitTests(unittest.TestCase):
         self.assertNotIn('su -c',p)
         self.assertIn('termux-wake-lock',(ROOT/'tools/kale_supervisor.py').read_text())
         sw=(ROOT/'web/sw.js').read_text()
-        self.assertIn('kale-v2.2.0',sw)
+        self.assertIn('kale-v2.3.0',sw)
         for f in ('/yonetim.html','/assets/device.js','/assets/device.css'):
             self.assertIn(f,sw)
             self.assertTrue((ROOT/'web'/f.lstrip('/')).exists())
