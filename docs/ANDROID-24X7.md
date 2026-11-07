@@ -1,3 +1,5 @@
+> **v2.4 GÜNCEL KURULUM:** Tek satır Android kurulumu için [KALE v2.4 — Tek Kurulum](TEK-KURULUM-ANDROID.md) dosyasını kullan. Önceki çok-adımlı yönergeler eski sürümler içindir. 7/24 başlatıcı artık uygun rota verisi varsa BRouter'ı da başlatır; güç tasarrufu için `KALE_ENABLE_BROUTER=0` mümkündür.
+
 # KALE v2.2 — Android/Termux 7/24 Offline Hotspot Sunucusu
 
 **Hedef:** Redmi Note 14 Pro (HyperOS), Android korunarak; Termux üzerinde Python, Wi-Fi hotspot ile internetsiz bilgi sunucusu. **Gerçek Redmi testi yapılmadı.** Root, APK ve proot Ubuntu zorunlu değildir.

@@ -31,7 +31,7 @@ done
 {
   printf '#!/data/data/com.termux/files/usr/bin/bash\n# KALE 24X7 MANAGED\n'
   printf 'cd %q\n' "$ROOT"
-  printf 'exec python3 tools/kale_supervisor.py\n'
+  printf 'export KALE_ENABLE_BROUTER="${KALE_ENABLE_BROUTER:-1}"\nexec python3 tools/kale_supervisor.py\n'
 } > "$LAUNCH"
 chmod 700 "$LAUNCH"
 cat > "$BOOT" <<'EOF'

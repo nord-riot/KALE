@@ -87,7 +87,7 @@ class BackupAndTransferV18(unittest.TestCase):
   self.assertIn('kale_v1_private_points',content)
   self.assertIn('KALE-PERSONAL-TRANSFER-v1',content)
   self.assertIn('rollback' if False else 'mümkün olan eski kayıtlar geri alındı',content)
-  self.assertIn('kale-v2.3.0',(ROOT/'web/sw.js').read_text())
+  self.assertIn('kale-v2.4.0',(ROOT/'web/sw.js').read_text())
   for path in ('deploy/kale-backup.timer','deploy/kale-backup.service','deploy/install-pi.sh'):
    self.assertTrue((ROOT/path).exists())
  def test_installer_dryrun_non_root(self):

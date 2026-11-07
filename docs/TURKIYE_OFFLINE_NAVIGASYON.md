@@ -1,3 +1,5 @@
+> **v2.4 GÜNCEL KURULUM:** Tek satır Android kurulumu için [KALE v2.4 — Tek Kurulum](TEK-KURULUM-ANDROID.md) dosyasını kullan. Önceki çok-adımlı yönergeler eski sürümler içindir. 7/24 başlatıcı artık uygun rota verisi varsa BRouter'ı da başlatır; güç tasarrufu için `KALE_ENABLE_BROUTER=0` mümkündür.
+
 # KALE v2.1 — Tüm Türkiye sokak haritası ve offline BRouter
 
 **İlk indirme için internet gerekir.** Sonrasında Termux KALE sunucusu, yerel

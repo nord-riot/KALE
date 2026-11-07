@@ -37,5 +37,5 @@ class DetailedManualTests(unittest.TestCase):
         from tools.expand_field_manual_v23 import FOCUS,CATEGORY
         self.assertEqual(len(FOCUS),146)
         self.assertGreaterEqual(len(CATEGORY),14)
-        self.assertIn("kale-v2.3.0",(ROOT/'web/sw.js').read_text())
-        self.assertIn("kale-v2.3.0",(ROOT/'web/service-worker.js').read_text())
+        self.assertIn("kale-v2.4.0",(ROOT/'web/sw.js').read_text())
+        self.assertIn("kale-v2.4.0",(ROOT/'web/service-worker.js').read_text())

@@ -1,3 +1,5 @@
+> **v2.4 GÜNCEL KURULUM:** Tek satır Android kurulumu için [KALE v2.4 — Tek Kurulum](TEK-KURULUM-ANDROID.md) dosyasını kullan. Önceki çok-adımlı yönergeler eski sürümler içindir. 7/24 başlatıcı artık uygun rota verisi varsa BRouter'ı da başlatır; güç tasarrufu için `KALE_ENABLE_BROUTER=0` mümkündür.
+
 # KALE v1.9 — Android/Termux kurulumu
 
 **Android APK, root, proot Ubuntu veya yapay zekâ gerekmez.** Termux telefonun mevcut Linux/Android çekirdeğini kullanır; tam sistem çekirdeğinin değiştirilmesi veya root erişimi anlamına gelmez. İnternet ilk kurulum ve harita/kitap indirmek için gerekir, KALE verisi yerelde çalışır.

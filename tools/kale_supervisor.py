@@ -54,7 +54,7 @@ def run(cache_dir=None,python=None):
         try:subprocess.run([wake],timeout=5,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,check=False)
         except (subprocess.TimeoutExpired,OSError):pass
     restarts=0
-    proc=None;router=None
+    proc=None;router=None;router_log=None
     env={**os.environ,'KALE_HOST':'0.0.0.0','KALE_PORT':os.environ.get('KALE_PORT','8090'),
          'KALE_SUPERVISOR_STATUS':str(status)}
     # BRouter (heavy Java process) is explicitly OPT-IN for battery conservation.
@@ -63,8 +63,9 @@ def run(cache_dir=None,python=None):
             jar=ROOT/'data/routing/brouter.jar'
             lookups=ROOT/'data/routing/profiles2/lookups.dat'
             if jar.is_file() and lookups.is_file() and shutil.which('java'):
+                router_log=(cache/'brouter.log').open('ab')
                 router=subprocess.Popen([python or sys.executable,'tools/run_brouter.py'],cwd=ROOT,env=env,
-                              stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,start_new_session=True)
+                              stdout=router_log,stderr=subprocess.STDOUT,start_new_session=True)
         delay=3
         while not STOP[0]:
             # Retain at most a small bounded service log; no query data is logged by KALE.
@@ -103,6 +104,7 @@ def run(cache_dir=None,python=None):
             router.terminate()
             try:router.wait(timeout=4)
             except subprocess.TimeoutExpired:router.kill();router.wait(timeout=5)
+        if router_log is not None:router_log.close()
         if unlock:
             try:subprocess.run([unlock],timeout=5,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,check=False)
             except (OSError,subprocess.TimeoutExpired):pass

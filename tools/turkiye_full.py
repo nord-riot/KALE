@@ -23,35 +23,76 @@ ROUTING=ROOT/'data/routing'
 SEGMENTS=ROUTING/'segments4'
 VECTOR_URL='https://data.bbbike.org/osm/mbtiles/region/europe/turkey/turkey.osm.mbtiles-shortbread.zip'
 ROUTER_URL='https://github.com/abrensch/brouter/releases/download/v1.7.10/brouter-1.7.10.zip'
+ROUTER_SHA256='023fec3ba997758e8cd7ab9e1bae52e962af3f00b57683e3de86b84ffad01532'
 SEGMENT_BASE='https://brouter.de/brouter/segments4/'
 NAMES=[f'E{x}_N{y}.rd5' for x in (25,30,35,40,45) for y in (35,40)]
 USER_AGENT='KALE-offline-map-installer/2.1 (manual download; pre-disaster)'
 
 def stream(url,path):
+    """Retry/resume large downloads; do not treat partial HTTP bodies as complete."""
     path.parent.mkdir(parents=True,exist_ok=True)
-    # .part files are NOT automatically resumed: cannot blindly trust a server's
-    # Range handling, content replacement or weak validation on large files.
     part=path.with_name(path.name+'.part')
-    req=urllib.request.Request(url,headers={'User-Agent':USER_AGENT,'Accept-Encoding':'identity'})
-    with urllib.request.urlopen(req,timeout=60) as src,part.open('wb') as dst:
-        length=src.headers.get('Content-Length');expected=int(length) if length and length.isdigit() else None
-        received=0;dig=hashlib.sha256()
-        while True:
-            block=src.read(1024*1024)
-            if not block:break
-            dst.write(block);dig.update(block);received+=len(block)
-            if received%(32*1024*1024)<len(block):print(f'{path.name}: {received/1048576:.0f} MiB',flush=True)
-        dst.flush();os.fsync(dst.fileno())
+    meta_file=path.with_name(path.name+'.part.meta')
+    # A partial download can only be resumed if the origin returned a validator.
+    existing=part.stat().st_size if part.exists() else 0
+    etag=meta_file.read_text().strip() if meta_file.exists() else ''
+    if existing and not etag:
+        print('Kısmi indirme için doğrulayıcı yok; dosya güvenle yeniden indiriliyor:',path.name)
+        part.unlink(missing_ok=True);existing=0
+    headers={'User-Agent':USER_AGENT,'Accept-Encoding':'identity'}
+    if existing:
+        headers.update({'Range':f'bytes={existing}-','If-Range':etag})
+    req=urllib.request.Request(url,headers=headers)
+    try:
+        response=urllib.request.urlopen(req,timeout=90)
+    except urllib.error.HTTPError as exc:
+        if exc.code!=416:raise
+        part.unlink(missing_ok=True);meta_file.unlink(missing_ok=True)
+        return stream(url,path)
+    with response as src:
+        code=src.status
+        content_range=src.headers.get('Content-Range','')
+        actual_validator=src.headers.get('ETag') or src.headers.get('Last-Modified') or ''
+        resume=(bool(existing) and code==206 and content_range.startswith(f'bytes {existing}-')
+                and actual_validator==etag)
+        if existing and not resume:
+            print('Sunucu devam etmeyi doğrulamadı, dosya yeniden indiriliyor:',path.name)
+            part.unlink(missing_ok=True);existing=0
+        if not existing and code==206:
+            raise ValueError('HTTP 206 beklenmeyen kısmi yanıt.')
+        if code not in (200,206):raise ValueError(f'HTTP {code} beklenmeyen indirme yanıtı.')
+        if not resume:
+            if not actual_validator:meta_file.unlink(missing_ok=True)
+            else:meta_file.write_text(actual_validator)
+        length=src.headers.get('Content-Length')
+        expected=int(length) if length and length.isdigit() else None
+        received=0
+        with part.open('ab' if resume else 'wb') as dst:
+            while True:
+                block=src.read(1024*1024)
+                if not block:break
+                dst.write(block);received+=len(block)
+                if received%(32*1024*1024)<len(block):
+                    print(f'{path.name}: {(received+existing)/1048576:.0f} MiB',flush=True)
+            dst.flush();os.fsync(dst.fileno())
     if expected is not None and expected!=received:
-        part.unlink(missing_ok=True);raise ValueError('Eksik indirme: HTTP Content-Length uyuşmadı.')
-    if received<1024:part.unlink(missing_ok=True);raise ValueError('Şüpheli küçük dosya.')
-    os.replace(part,path)
-    return received,dig.hexdigest()
+        raise ValueError(f'Eksik indirme: beklenen {expected}, alınan {received} bayt. Yeniden dene.')
+    if received+existing<1024:raise ValueError('Şüpheli küçük dosya, kurulum durduruldu.')
+    os.replace(part,path);meta_file.unlink(missing_ok=True)
+    digest=hashlib.sha256()
+    with path.open('rb') as f:
+        for block in iter(lambda:f.read(1024*1024),b''):digest.update(block)
+    return path.stat().st_size,digest.hexdigest()
+
 
 def install_map(dry_run=False):
     target=MAPS/'turkiye-street.mbtiles'
     if target.exists():
-        print('Sokak haritası zaten mevcut:',target);return
+        sys.path.insert(0,str(ROOT))
+        from routing import inspect_street_map
+        if inspect_street_map().get('installed'):
+            print('Sokak haritası doğrulandı, tekrar indirilmiyor:',target);return
+        raise ValueError('Sokak dosyası var ama bozuk: '+str(target)+' (silmeden önce yedekle).')
     archive=MAPS/'turkiye-shortbread.zip'
     if dry_run:print('İNDİR:',VECTOR_URL,'=>',archive);return
     if not archive.exists():
@@ -75,8 +116,8 @@ def install_map(dry_run=False):
                 if not c.execute('SELECT 1 FROM tiles LIMIT 1').fetchone():raise ValueError('Karo tablosu boş.')
             os.replace(temp,target)
         finally:temp.unlink(missing_ok=True)
-    # Preserve the source ZIP until disk space is needed; reproducible install.
-    print('Kuruldu:',target,'| MiB:',round(target.stat().st_size/1048576,1))
+    archive.unlink(missing_ok=True)  # Veri çıkarıldı, ilk kurulumda boş alanı geri kazan.
+    print('Gerçek sokak haritası kuruldu:',target,'| MiB:',round(target.stat().st_size/1048576,1))
 
 def install_segments(dry_run=False,region='all'):
     names=NAMES if region=='all' else ['E25_N35.rd5','E25_N40.rd5','E30_N35.rd5','E30_N40.rd5']
@@ -90,14 +131,22 @@ def install_segments(dry_run=False,region='all'):
 
 def install_engine(dry_run=False):
     jar=ROUTING/'brouter.jar'
-    if jar.exists():print('BRouter jar kurulu.');return
+    if jar.exists() and (ROUTING/'profiles2/lookups.dat').exists():
+        print('BRouter motoru kurulu.');return
     if dry_run:print('İNDİR:',ROUTER_URL);return
     path=ROUTING/'brouter-release.zip'
     if not path.exists():
         size,sha=stream(ROUTER_URL,path);print('BRouter ZIP',size,'SHA256',sha)
+    # GitHub release asset's upstream SHA-256 (tag v1.7.10); never install unverified Java code.
+    check=hashlib.sha256()
+    with path.open('rb') as f:
+        for part in iter(lambda:f.read(1024*1024),b''):check.update(part)
+    if check.hexdigest()!=ROUTER_SHA256:
+        raise ValueError('BRouter sürüm SHA-256 doğrulaması başarısız. Arşiv güvenilir değil: '+str(path))
     with zipfile.ZipFile(path) as z:
-        entries=z.infolist();jars=[e for e in entries if e.filename.endswith('brouter.jar') or e.filename.endswith('brouter-server.jar')]
-        if len(jars)!=1:raise ValueError('Yayın paketinde brouter.jar bulunamadı; paket yapısı değişmiş olabilir.')
+        entries=z.infolist();jars=[e for e in entries if not e.is_dir() and e.filename.lower().endswith('.jar')
+            and 'brouter' in Path(e.filename).name.lower() and e.file_size<=50_000_000]
+        if len(jars)!=1:raise ValueError('Yayın paketindeki BRouter JAR sayısı beklenen değil; paket yapısı değişmiş olabilir.')
         if jars[0].file_size>50_000_000:raise ValueError('Jar aşırı büyük.')
         ROUTING.mkdir(parents=True,exist_ok=True)
         with z.open(jars[0]) as src,jar.open('wb') as dst:shutil.copyfileobj(src,dst)
@@ -110,7 +159,8 @@ def install_engine(dry_run=False):
             dest.parent.mkdir(parents=True,exist_ok=True)
             with z.open(info) as src,dest.open('wb') as out:shutil.copyfileobj(src,out)
     (ROUTING/'customprofiles').mkdir(exist_ok=True)
-    print('BRouter hazır:',jar)
+    path.unlink(missing_ok=True)
+    print('BRouter ve profilleri hazır:',jar)
 
 def main():
     p=argparse.ArgumentParser(description='KALE Türkiye sokak haritası ve offline rota dosyaları')

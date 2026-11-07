@@ -1,5 +1,5 @@
 'use strict';
-/* Minimal dependency-free Mapbox Vector Tile reader for the Shortbread OSM schema.
+/* Dependency-free MVT renderer for Shortbread 1.x and legacy OpenMapTiles.
    Locally-served PBF only, no CDN. It is intentionally a simple 2D renderer,
    not a replacement for MapLibre's full labels, 3D or advanced styling. */
 window.KALEVector=(()=>{
@@ -30,34 +30,66 @@ window.KALEVector=(()=>{
     else if(op===7){if(pts&&pts.length)pts.push(pts[0]);}else throw Error('MVT geometri komutu');if(i>160000)throw Error('Aşırı büyük geometri');}
    return p;
  }
- function paint(ctx,layers,x,y,tileSize,z){ctx.save();ctx.beginPath();ctx.rect(x,y,tileSize,tileSize);ctx.clip();
-  const priority=['landcover','landuse','water','waterway','building','boundary','transportation','transportation_name','place'];
+ // Shortbread 1.x is used by the BBBike Türkiye pack. Earlier versions were
+ // mistakenly rendering OpenMapTiles layer names and therefore hid ALL streets.
+ const shortbread=['land','ocean','water_polygons','water_lines','sites','street_polygons',
+  'buildings','boundaries','streets','bridges','street_labels','place_labels','pois'];
+ const openmaptiles=['landcover','landuse','water','waterway','building','boundary',
+  'transportation','transportation_name','place'];
+ function roadStyle(cls,z,link=false){
+  if(/motorway|trunk/.test(cls))return {stroke:'#f5b66c',width:z>=13?5:3};
+  if(/primary|secondary/.test(cls))return {stroke:'#f0d295',width:z>=13?4:2.2};
+  if(/tertiary/.test(cls))return {stroke:'#d4d0b9',width:z>=13?3.1:1.9};
+  if(/rail|tram|subway|funicular/.test(cls))return {stroke:'#71878c',width:1.2,dash:[4,3]};
+  if(/track|footway|path|steps|cycleway|pedestrian/.test(cls))
+    return {stroke:'#adb99f',width:z>=14?1.7:1,dash:[2.5,2.5]};
+  return {stroke:'#d4d8c7',width:z>=14?2.5:z>=12?1.6:.95};
+ }
+ function featureStyle(name,pr,z){
+  const cls=String(pr.kind||pr.class||pr.subclass||'');
+  if(name==='ocean'||name==='water_polygons'||name==='water')return {fill:'#245a70',stroke:'#39778e',width:.7};
+  if(name==='water_lines'||name==='waterway')return {stroke:'#387f98',width:1.3};
+  if(name==='land'||name==='landcover'||name==='landuse')
+    return {fill:/forest|wood|park|grass|meadow/.test(cls)?'#42644a':'#344c42'};
+  if(name==='sites')return {fill:/forest|park|grass/.test(cls)?'#44684d':'#40534d'};
+  if((name==='buildings'||name==='building')&&z>=12)return {fill:'#7d8078',stroke:'#8b9087',width:.3};
+  if((name==='boundaries'||name==='boundary')&&z>=7)return {stroke:'#5c797b',width:.8,dash:[5,4]};
+  if(name==='street_polygons')return {fill:'#b6b9a9'};
+  if(name==='streets'||name==='transportation'||name==='bridges')return roadStyle(cls,z,!!pr.link);
+  if(name==='street_labels'&&z>=13&&pr.name)return {label:String(pr.name).slice(0,38),textSize:10};
+  if((name==='place_labels'||name==='place')&&pr.name)return {label:String(pr.name).slice(0,38),textSize:z>=10?12:11};
+  return null;
+ }
+ function paint(ctx,layers,x,y,tileSize,z){
+  ctx.save();ctx.beginPath();ctx.rect(x,y,tileSize,tileSize);ctx.clip();
   const layerMap=new Map(layers.map(l=>[l.name,l]));
+  const order=layerMap.has('streets')?shortbread:openmaptiles;
   let labels=0;
-  for(const name of priority){const l=layerMap.get(name);if(!l)continue;
+  for(const name of order){const l=layerMap.get(name);if(!l)continue;
    const extent=l.extent||4096,scale=tileSize/extent;
-   for(const f of l.features){if(f.type!==1&&f.type!==2&&f.type!==3)continue;const pr=f.properties||{},cls=String(pr.class||pr.subclass||'');let style=null;
-    if(name==='water'||name==='waterway')style={fill:'#225a72',stroke:'#3987a0',width:1};
-    else if(name==='landcover')style={fill:cls==='wood'?'#294e37':'#3e5041'};
-    else if(name==='landuse')style={fill:/forest|wood|grass|park/.test(cls)?'#3b624a':'#374849'};
-    else if(name==='building'&&z>=11)style={fill:'#66706a',stroke:'#73827b',width:.4};
-    else if(name==='boundary'&&z>=7)style={stroke:'#66786a',width:.7,dash:[4,4]};
-    else if(name==='transportation'||name==='transportation_name'){
-      if(name==='transportation_name')continue;
-      if(['motorway','trunk'].includes(cls))style={stroke:'#ebc17d',width:z>=12?4:2.5};
-      else if(['primary','secondary'].includes(cls))style={stroke:'#eacfa0',width:z>=12?3:1.7};
-      else if(cls==='tertiary')style={stroke:'#d7c6ab',width:z>=12?2:1.2};
-      else if(['path','track','footway','cycleway','steps'].includes(cls))style={stroke:'#b8baa0',width:.85,dash:[2,3]};
-      else style={stroke:'#a2a9a0',width:z>=12?1.4:.6};
-    }else if(name==='place'){if(z<6||labels>=8||!pr.name)continue;labels++;style={label:String(pr.name).slice(0,42)};}
-    else continue;
-    const path=paths(f);if(style.label){const first=path.find(a=>a.length);if(!first)continue;ctx.font='12px sans-serif';ctx.strokeStyle='#182833';ctx.lineWidth=3;ctx.fillStyle='#f0ebe1';const px=x+first[0][0]*scale,py=y+first[0][1]*scale;ctx.strokeText(style.label,px,py);ctx.fillText(style.label,px,py);continue;}
-    ctx.beginPath();for(const pts of path){let start=true;for(const pt of pts){const px=x+pt[0]*scale,py=y+pt[1]*scale;if(start){ctx.moveTo(px,py);start=false;}else ctx.lineTo(px,py);}if(f.type===3)ctx.closePath();}
+   for(const f of l.features){if(f.type!==1&&f.type!==2&&f.type!==3)continue;
+    const style=featureStyle(name,f.properties||{},z);if(!style)continue;
+    const path=paths(f);
+    if(style.label){
+      if(labels>32)continue;
+      const line=path.find(a=>a.length>=2)||path.find(a=>a.length);if(!line)continue;
+      const pt=line[Math.floor(line.length/2)];if(!pt)continue;
+      const px=x+pt[0]*scale,py=y+pt[1]*scale;
+      if(px<x+9||px>x+tileSize-9||py<y+9||py>y+tileSize-9)continue;
+      if(name==='street_labels'&&z<14&&labels>13)continue;
+      ctx.textAlign='center';ctx.font=`${style.textSize}px sans-serif`;
+      ctx.lineWidth=2.5;ctx.strokeStyle='#19303b';ctx.fillStyle='#f2f1d9';
+      ctx.strokeText(style.label,px,py);ctx.fillText(style.label,px,py);labels++;continue;
+    }
+    ctx.beginPath();for(const pts of path){let start=true;for(const pt of pts){const px=x+pt[0]*scale,py=y+pt[1]*scale;
+      if(start){ctx.moveTo(px,py);start=false;}else ctx.lineTo(px,py);}if(f.type===3)ctx.closePath();}
     if(style.fill){ctx.fillStyle=style.fill;ctx.fill(f.type===3?'evenodd':'nonzero');}
-    if(style.stroke){ctx.strokeStyle=style.stroke;ctx.lineWidth=style.width||1;ctx.setLineDash(style.dash||[]);ctx.stroke();ctx.setLineDash([]);}
+    if(style.stroke){ctx.strokeStyle=style.stroke;ctx.lineWidth=style.width||1;
+      ctx.setLineDash(style.dash||[]);ctx.stroke();ctx.setLineDash([]);}
    }
   }
   ctx.restore();
  }
+
  return {decode,paint,paths};
 })();

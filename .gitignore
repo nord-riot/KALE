@@ -1,4 +1,4 @@
-# Local/private user data and generated backups
+# Private and generated files. Keep public example MBTiles already tracked.
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -15,8 +15,13 @@ backups/
 *.publish.tmp
 data/maps/*.mbtiles
 data/maps/*.pmtiles
+data/maps/*.part
+data/maps/*.part.meta
+data/maps/*.incoming
+data/maps/*shortbread*.zip
+data/routing/
 screenshots-private/
 review/*-audit.csv
 review/*-signed.xlsx
 !data/kale.db
-# Keep packaged public data and template exports in the repo; NEVER commit user edits, actual signatures or secrets.
+# Do not commit user-specific maps, routing downloads, backups, credentials.

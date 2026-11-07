@@ -81,7 +81,7 @@ class V12EditorTest(unittest.TestCase):
         import sys
         sys.path.insert(0,str(ROOT))
         from server import Handler,VERSION
-        self.assertEqual(VERSION,'2.3.0')
+        self.assertEqual(VERSION,'2.4.0')
         self.assertTrue(hasattr(Handler,'do_POST'))  # only ephemeral LAN chat uses POST
 
 if __name__=='__main__':unittest.main()

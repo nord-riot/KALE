@@ -1,3 +1,21 @@
+# KALE v2.4 — Tek Kurulum, Türkiye Sokak Haritası ve Tam Offline Rota
+
+**Termux kurulumu (yalnız ilk defa internet gerekli):**
+
+```bash
+pkg install -y curl && curl -fsSL https://raw.githubusercontent.com/nord-riot/KALE/main/deploy/bootstrap-termux.sh | bash
+```
+
+Bu **tek satır**, KALE güncellemesini, Türkiye'nin gerçek Shortbread vektör sokak arşivini, **10 BRouter rota bölgesini**, Java motorunu ve Android 7/24 sunucusunu kurmayı hedefler. Kurulum eksik veriyle "başarılı" demez. Türkiye haritası **GitHub kod paketinin içinde değildir**; script ilk kurulumda BBBike üzerinden indirir. Kurulum için en az 3 GiB boş alan önerilir. Sonrasında internet olmadan Wi-Fi sohbeti, GPS, sokak haritası ve yol rotası kullanılabilir (bütün veriler düzgün kurulmuşsa).
+
+**Düzeltilen hata:** BBBike'nin haritası **Shortbread `streets` / `street_labels`** katmanlarını kullanır; KALE'nin eski çizicisi yanlışlıkla OpenMapTiles `transportation` katmanını arıyordu. v2.4 iki katman yapısını da tanır.
+
+**Telefon:** `http://127.0.0.1:8090/harita.html` · **Wi-Fi/Hotspot:** `http://TELEFON_IP:8090/` · **Sohbet:** `/sohbet.html`. Root olmadan hotspot'u otomatik açmak ve portu kaldırmak garanti edilmez. Termux:Boot ayrı yüklenir. **Gerçek Redmi ve 800+ MB harita/rota verileriyle uçtan uca saha testi yapılmadı**; Python/Shortbread örnek veri testleri yapıldı. Harita © OpenStreetMap katkıcıları (ODbL). Sağlık içerikleri uzman incelemesi bekler.
+
+Tam kılavuz: **[Android tek kurulum](docs/TEK-KURULUM-ANDROID.md)** · [Sürüm notları](RELEASE_NOTES_v2.4.md).
+
+---
+
 # KALE v2.3 — Ayrıntılı Offline Hayatta Kalma Rehberleri ve 7/24 Android Sunucusu
 
 **v2.3 yenilik:** 146 ana afet ve yaşam rehberi 4 katı aşkın ayrıntı seviyesine taşındı; her konuda saha uygulama planı, malzemeler, kontrol soruları ve kritik hatalar var. Klinik kaynaklar hâlâ profesyonel onay bekliyor.

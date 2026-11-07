@@ -43,7 +43,7 @@ function drawBasemap(c,w,h){
   if(x<0||y<0||x>w||y>h)continue;ctx.fillStyle='#e9c186';ctx.beginPath();ctx.arc(x,y,3.2,0,6.283);ctx.fill();ctx.fillStyle='#e8f1e9';ctx.fillText(name,x+6,y+3);}
 }
 function draw(){if(!ctx)return;const {width:w,height:h}=viewport();ctx.clearRect(0,0,w,h);ctx.fillStyle='#17303a';ctx.fillRect(0,0,w,h);const c=llToWorld(center.lat,center.lon,zoom);
- drawBasemap(c,w,h);
+ if(!vector&&!raster)drawBasemap(c,w,h);
  const xStart=Math.floor((c.x-w/2)/256),xEnd=Math.floor((c.x+w/2)/256),yStart=Math.floor((c.y-h/2)/256),yEnd=Math.floor((c.y+h/2)/256);
  for(let x=xStart;x<=xEnd;x++)for(let y=yStart;y<=yEnd;y++){const px=Math.round(x*256-c.x+w/2),py=Math.round(y*256-c.y+h/2);if(y<0||y>=2**zoom)continue;
   if(vector){const t=getVectorTile(zoom,x,y);if(t&&t.ready){try{window.KALEVector.paint(ctx,t.layers,px,py,256,zoom);}catch(e){t.failed=true;}continue;}}
@@ -121,14 +121,14 @@ $('gpsToPoint').addEventListener('click',()=>{if(!gps)return;$('pointLat').value
 
 load();renderPoints();draw();
 fetch('/assets/base-map.json').then(r=>r.json()).then(m=>{if(Array.isArray(m.areas)){baseMap=m;draw();}}).catch(()=>{});
-function applyMap(info){vector=selectedMap==='sokak'&&!!info.installed;raster=selectedMap!=='sokak'&&!!info.installed;const box=$('mapStatus');if(vector){minMapZoom=clamp(Number(info.minzoom)||3,2,17);maxMapZoom=clamp(Number(info.maxzoom)||14,minMapZoom,17);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`SOKAK HARİTASI AKTİF: ${info.name} · PBF/MVT · ${(info.size_bytes/1048576).toFixed(0)} MiB · zoom ${minMapZoom}-${maxMapZoom} · © OpenStreetMap katkıcıları.`;}else if(raster){minMapZoom=clamp(Number(info.minzoom)||2,2,16);maxMapZoom=clamp(Number(info.maxzoom)||16,minMapZoom,16);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`YEREL HARİTA AKTİF: ${info.name} · ${info.format.toUpperCase()} · ${Math.round(info.size_bytes/1048576)} MB · zoom ${minMapZoom}-${maxMapZoom}. Haritalar sadece bu sunucudan okunur.`;}
- else box.textContent=`DETAY HARİTA PAKETİ YOK: Basitleştirilmiş Natural Earth coğrafyası ve koordinat işaretleri kullanılabilir. Daha ayrıntılı harita için data/maps/turkiye.mbtiles konumuna raster MBTiles ekleyebilirsin.`;draw();}
+function applyMap(info){vector=selectedMap==='sokak'&&!!info.installed;raster=selectedMap!=='sokak'&&!!info.installed;const box=$('mapStatus');if(vector){minMapZoom=clamp(Number(info.minzoom)||3,2,17);maxMapZoom=clamp(Number(info.maxzoom)||14,minMapZoom,17);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`SOKAK HARİTASI AKTİF: ${info.name} · ${(info.size_bytes/1048576).toFixed(0)} MiB · Yakından bakmak için zoom 12–14 · © OpenStreetMap katkıcıları.`;}else if(raster){minMapZoom=clamp(Number(info.minzoom)||2,2,16);maxMapZoom=clamp(Number(info.maxzoom)||16,minMapZoom,16);zoom=clamp(zoom,minMapZoom,maxMapZoom);box.textContent=`YEREL HARİTA AKTİF: ${info.name} · ${info.format.toUpperCase()} · ${Math.round(info.size_bytes/1048576)} MB · zoom ${minMapZoom}-${maxMapZoom}. Haritalar sadece bu sunucudan okunur.`;}
+ else box.textContent='SOKAK VERİSİ EKSİK: Tek kurulum aracıyla Türkiye sokak haritası ve rota paketini indir. Özet coğrafya yol haritası değildir.';draw();}
 function loadMap(id){selectedMap=id;tileCache.clear();vectorCache.clear();const endpoint=id==='sokak'?'/api/street/status':'/api/maps/status?map='+encodeURIComponent(id);
  fetch(endpoint,{cache:'no-store'}).then(r=>r.json()).then(applyMap).catch(()=>{$('mapStatus').textContent='Harita sunucusuna ulaşılamıyor.';});}
 Promise.all([fetch('/api/maps/list',{cache:'no-store'}).then(r=>r.json()),fetch('/api/street/status',{cache:'no-store'}).then(r=>r.json())]).then(([data,street])=>{const select=$('mapChoice');select.replaceChildren();
  if(street.installed){const option=document.createElement('option');option.value='sokak';option.textContent='TÜRKİYE SOKAKLAR (OSM)';select.append(option);}
  for(const item of data.maps){if(!item.installed)continue;const option=document.createElement('option');option.value=item.id;option.textContent=item.name;select.append(option);}
  if(!select.options.length){const opt=document.createElement('option');opt.textContent='Özet coğrafya';select.append(opt);}
- const preferred=street.installed?'sokak':'turkiye';select.value=preferred;loadMap(preferred);}).catch(()=>loadMap('turkiye'));
-$('mapChoice').addEventListener('change',()=>{const id=$('mapChoice').value;zoom=id==='ege'?7:id==='sokak'?10:5;center=id==='ege'?{lat:38.5,lon:28.7}:id==='sokak'?{lat:38.42,lon:27.14}:{lat:39,lon:35};loadMap(id);});
+ const preferred=street.installed?'sokak':'turkiye';if(street.installed){center={lat:38.42,lon:27.14};zoom=14;}select.value=preferred;loadMap(preferred);}).catch(()=>loadMap('turkiye'));
+$('mapChoice').addEventListener('change',()=>{const id=$('mapChoice').value;zoom=id==='ege'?7:id==='sokak'?14:5;center=id==='ege'?{lat:38.5,lon:28.7}:id==='sokak'?{lat:38.42,lon:27.14}:{lat:39,lon:35};loadMap(id);});
 if('serviceWorker' in navigator && window.isSecureContext)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
