@@ -281,7 +281,12 @@
         "Telefon/batarya kaybına karşı koordinatları kâğıda da yaz."
       ],
       "warning": "Örnek koordinat acil konum değildir; gerçek konumu cihazından doğrula.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.gps.gov/gps-accuracy",
+          "title": "GPS.gov — GPS doğruluğu ve konum hataları"
+        }
+      ],
       "review_status": "EDİTORYAL TASLAK",
       "updated": "2026-11-07",
       "details": [
@@ -320,7 +325,12 @@
         "Kabloları su ve sıcak yüzeylerden uzak tut; profesyonel destek olmadan şebeke tesisatına müdahale etme."
       ],
       "warning": "Yanlış batarya bağlantısı yangına yol açabilir. Bu rehber kablolama şeması veya montaj talimatı değildir.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+          "title": "CDC — Elektrik kesintisinde güvenlik"
+        }
+      ],
       "review_status": "EDİTORYAL TASLAK",
       "updated": "2026-11-07",
       "details": [
