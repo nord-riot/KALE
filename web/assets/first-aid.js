@@ -11,6 +11,7 @@
   putText(target,'h2','',x.title);putText(target,'p','summary',x.summary);
   const img=el('img');img.src=x.diagram;img.alt=x.title+' için genel amaçlı şematik başlık';img.loading='lazy';target.append(img);
   addList(target,x.signs,'','Ne zaman akla gelmeli?');addList(target,x.steps,'','Yapılabilecek ilk adımlar');addList(target,x.avoid,'aid-avoid','Kaçın');
+  for(const s of x.details||[]){putText(target,'h3','guide-expansion-title',s.heading);putText(target,'p','guide-expansion-text',s.text);}
   const div=el('div','aid-callout');const title=putText(div,'strong','','Acil yardım: ');div.append(document.createTextNode(x.call112+' '));const phone=el('a','', '112’yi ara');phone.href='tel:112';div.append(phone);target.append(div);
   putText(target,'h3','','Resmî/kurumsal başvuru kaynakları');const sources=el('div','aid-source-list');for(const src of x.sources){const a=el('a','',src.title+' ↗');a.href=src.url;a.target='_blank';a.rel='noopener noreferrer';sources.append(a);}target.append(sources);
   putText(target,'p','aid-disclaimer','Bu kayıt editoryal taslaktır; klinik uzman incelemesi yapılmamıştır. Kaynak bağlantısı içeriklerin uzman tarafından onaylandığını kanıtlamaz. Türkiye’de acil yardım 112, zehir danışma 114. Çocuk, bebek, hamile veya özel hastalık durumlarında uygulama farklı olabilir.');
