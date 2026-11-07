@@ -5,7 +5,22 @@
 <section class="med-alert"><b>⚠ UYARI — İLAÇ SEÇİM REHBERİ DEĞİLDİR</b><p>Bir ilacı bulmak, o ilacın sizin için uygun veya güvenli olduğu anlamına gelmez. Eksik bilgi = güvenli demek değildir. İçerik tıbbi değerlendirme, tanı, reçete, uygun doz veya eczacı kontrolünün yerini tutmaz. Türkiye’de acil durum: <strong>112</strong>.</p></section>
 <section class="med-work"><form class="med-search" id="medSearchForm"><label for="medQuery">İLAÇ ADI / ETKEN MADDE</label><div class="med-field"><input id="medQuery" type="search" maxlength="100" autocomplete="off" placeholder="Örn: parasetamol, ibuprofen, amoksisilin" aria-label="İlaç arama"><button type="submit">ARA ↗</button></div><label class="med-filter"><input type="checkbox" id="medSourceFilter"> Yalnızca açıklaması bulunan kayıtlar (onaysız taslaklar dahil)</label></form>
 <div class="med-results"><div class="med-list-top"><h2>Arama sonuçları</h2><span id="medCounter" aria-live="polite"></span></div><div class="med-list" id="medList"><p>İlaç kayıtları yükleniyor…</p></div><div class="med-pagination"><button id="medPrev" type="button" disabled>← Önceki</button><span id="medPage">1</span><button id="medNext" type="button" disabled>Sonraki →</button></div></div></section>
+<section class="med-footnote reg-library" aria-label="Resmî ilaç ürün kayıtları">
+<h2>Düzenleyici kurum ürün arşivi</h2>
+<p>FDA, TİTCK, EMA, MHRA, PMDA, Health Canada, TGA, SFDA ve WHO kaynaklarından cihazına aktarılmış ürün kayıtlarında ayrıca ara. Bu arşiv KALE'nin 707 mevcut ilaç kaydını değiştirmez.</p>
+<form id="regSearchForm" class="med-search">
+<label for="regQuery">RESMÎ KAYITTA ÜRÜN VEYA ETKEN MADDE ARA</label>
+<div class="med-field"><input type="search" id="regQuery" placeholder="Örn: acetaminophen, amoxicillin" maxlength="100" aria-label="Resmî kaynak sorgusu"><button type="submit">KAYNAKTA ARA</button></div>
+<label for="regAgency">Kurum filtresi</label><select id="regAgency" class="reg-select">
+<option value="">Tüm veri aktarılmış kurumlar</option>
+<option value="FDA">FDA (ABD)</option><option value="TITCK">TİTCK (Türkiye)</option>
+<option value="EMA">EMA (Avrupa)</option><option value="MHRA">MHRA (İngiltere)</option>
+<option value="PMDA">PMDA (Japonya)</option><option value="HEALTH_CANADA">Health Canada</option>
+<option value="TGA">TGA (Avustralya)</option><option value="SFDA">SFDA (Suudi Arabistan)</option><option value="WHO">WHO (DSÖ)</option></select>
+</form>
+<div id="regGlobalResults" role="status" aria-live="polite"></div>
+</section>
 <section class="med-footnote"><h2>Bu ekranda nelere bakmalısın?</h2><p><b>1.</b> Kutudaki etken maddeyi ve ilaç formunu doğrula. <b>2.</b> Alerji, eşlik eden hastalık, hamilelik/emzirme ve diğer ilaçlarla etkileşim uyarılarını kontrol et. <b>3.</b> Ürün, doz ve ülkeye göre bilgiler değişebilir. <b>4.</b> Kaynağı ve tarihini incele. <b>5.</b> Bilgi eksikse tahminle ilaç kullanma.</p><p>ABD ilaç etiketleri Türkiye’deki ürünlerin birebir eşdeğeri değildir; bunlar İngilizce kaynak metnidir ve uzman değerlendirmesinden geçmemiştir. Yardımcı maddeler listesi otomatik olarak “alerjen” sayılmaz.</p></section>
-<footer class="med-footer">KALE v2.1 · Bağımsız, çevrimdışı ilaç bilgi kütüphanesi · İçerikler henüz doktor onaylı değildir.</footer></div>
+<footer class="med-footer">KALE v2.1 · Bağımsız, çevrimdışı ilaç bilgi kütüphanesi · Hekim incelemeleri sürüm ve kayıt bazında ayrıca doğrulanmalıdır. Kurum kaynakları KALE'yi onaylamaz.</footer></div>
 <dialog id="medDialog" class="med-dialog"><div class="med-dialog-body"><div class="med-dialog-top"><span id="medDetailBadge">KAYIT</span><button type="button" id="medClose" aria-label="Kapat">×</button></div><h2 id="medTitle"></h2><p id="medDetailSummary"></p><div class="med-detail-alert" id="medDetailAlert"></div><div class="med-detail-alert" id="medReviewState"></div><div id="medSections" class="med-sections"></div><div class="med-source" id="medSource"></div><button type="button" class="med-bottom-close" id="medBottomClose">KAPAT</button></div></dialog>
 </body></html>
