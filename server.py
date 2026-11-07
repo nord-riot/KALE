@@ -78,7 +78,7 @@ def parse_entry(row):
         # Keep the source DB text, including user edits, intact.
         # A distinct marker prevents duplicate insertions.
         if 'AYRINTILI KONU ANLATIMI — KALE' not in (d.get('body') or ''):
-            d['body']=(d.get('body') or '').rstrip()+'\\n\\nAYRINTILI KONU ANLATIMI — KALE\\n'+extra
+            d['body']=(d.get('body') or '').rstrip()+'\n\nAYRINTILI KONU ANLATIMI — KALE\n'+extra
     return d
 
 
