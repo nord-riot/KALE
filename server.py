@@ -46,11 +46,39 @@ def connection():
     return conn
 
 
+# Supplement-only handbook text. Does not modify DB rows or override a locally
+# edited guide. Match both stable ID and exact title before appending.
+GUIDE_EXPANSIONS_PATH = BASE / 'data' / 'guide-expansions.json'
+def load_guide_expansions():
+    try:
+        with GUIDE_EXPANSIONS_PATH.open('r', encoding='utf-8') as source:
+            payload=json.load(source)
+        if payload.get('format')!='KALE-GUIDE-EXPANSIONS-1':
+            return {}
+        entries=payload.get('items', [])
+        if not isinstance(entries,list) or len(entries)>1000:
+            return {}
+        return {item['id']:(item['title'],item['extra']) for item in entries
+                if isinstance(item,dict) and isinstance(item.get('id'),int)
+                and isinstance(item.get('title'),str) and isinstance(item.get('extra'),str)
+                and 500<len(item['extra'])<20000}
+    except (OSError,ValueError,TypeError,KeyError):
+        return {}
+
+GUIDE_EXPANSIONS=load_guide_expansions()
+
 def parse_entry(row):
     d = dict(row)
     d.pop('search_text',None)
     d['sources'] = json.loads(d.pop('sources_json'))
     d['regions'] = json.loads(d.pop('regions_json'))
+    supplement=GUIDE_EXPANSIONS.get(d.get('id'))
+    if supplement and d.get('title')==supplement[0]:
+        extra=supplement[1]
+        # Keep the source DB text, including user edits, intact.
+        # A distinct marker prevents duplicate insertions.
+        if 'AYRINTILI KONU ANLATIMI — KALE' not in (d.get('body') or ''):
+            d['body']=(d.get('body') or '').rstrip()+'\\n\\nAYRINTILI KONU ANLATIMI — KALE\\n'+extra
     return d
 
 
