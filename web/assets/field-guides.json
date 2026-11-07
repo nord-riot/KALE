@@ -23,18 +23,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Deprem sonrası ilk kontrol: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Deprem sonrası ilk kontrol için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Deprem sırasında önce bulunduğun noktanın güvenliğine odaklan: pencerelerden, devrilebilecek dolaplardan ve düşebilecek eşyalardan korun; mümkünse Çök–Kapan–Tutun uygula.\n\nSarsıntı durduğunda kırık camlara ve düşen parçalara karşı ayakkabı giy; çıkış yolunu gözle değerlendir. Duman, gaz kokusu, çatlama veya yapısal hasar görürsen asansörü kullanma.\n\nBuluşma yerine vardığında aile bireylerini say, yaralıları ve eksikleri not et, kısa konum mesajını yakınlarına gönder. Artçı sarsıntı ihtimalini unutma."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Sarsıntı bitene kadar bulunduğun yerde güvenliğini koru; hasarlı bölümlerden uzak dur.\nNE DEMEK? Sarsıntıda düşen eşyalardan korunmak ve sonrasında hasarlı yapıya girmemek ikincil yaralanmaları önler. Çök–Kapan–Tutun, merdiven ve asansörden kaçınma temel kurallardır.\nNASIL KONTROL EDERİM? Düşen cisim, kırık cam, çatlak, duman ve gaz belirtisi var mı? Sarsıntı durduktan sonra güvenli çıkış ve toplanma alanı mevcut mu?\n\n2. ADIM — Sarsıntı bittikten sonra kendi güvenliğini ve çevrendeki yaralanmaları değerlendir.\nNE DEMEK? Sarsıntıda düşen eşyalardan korunmak ve sonrasında hasarlı yapıya girmemek ikincil yaralanmaları önler. Çök–Kapan–Tutun, merdiven ve asansörden kaçınma temel kurallardır.\nNASIL KONTROL EDERİM? Düşen cisim, kırık cam, çatlak, duman ve gaz belirtisi var mı? Sarsıntı durduktan sonra güvenli çıkış ve toplanma alanı mevcut mu?\n\n3. ADIM — Gaz kokusu, yangın, yapısal hasar ve artçı tehlikesine dikkat et; hasarlı binaya geri girme.\nNE DEMEK? Yakıtlı cihazın yanma ürünleri görünmez olabilir. Karbonmonoksiti kokuyla anlayamazsın; kapalı alanda kullanma.\nNASIL KONTROL EDERİM? Cihaz açık havada mı ve pencere/kapı/hava girişlerinden en az yaklaşık 6 m uzakta mı? İçeride duman veya maruziyet belirtisi var mı?\n\n4. ADIM — Güvenli şekilde tahliye edip önceden belirlenmiş buluşma noktasına git.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Ağır hasarlı yapılara kesinlikle girmeyin. Acil yardım için Türkiye’de 112. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Sarsıntı bitene kadar bulunduğun yerde güvenliğini koru; hasarlı bölümlerden uzak dur.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Güvenli şekilde tahliye edip önceden belirlenmiş buluşma noktasına git.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Ağır hasarlı yapılara kesinlikle girmeyin. Acil yardım için Türkiye’de 112."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Güvenli şekilde tahliye edip önceden belirlenmiş buluşma noktasına git. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 2,
@@ -58,18 +67,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "72 saatlik afet çantası: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "72 saatlik afet çantası için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Çanta bir depoya kaldırılacak eşya değildir: çıkış yolunda, kolay erişilebilir ve evdekilerin bildiği bir noktada durmalı.\n\nHer kişi için su, dayanıklı gıda, mevsime uygun giysi, düzenli kullanılan kişisel ilaçlar ve temel hijyen malzemelerini ayrı kontrol et.\n\nÇantayı ayda bir gözden geçir; son kullanma tarihlerini, pil durumunu, çocuk ve evcil hayvan ihtiyaçlarını yazılı listeye işle."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Her aile üyesinin ihtiyacına uygun erişilebilir çanta hazırla.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut.\n\n2. ADIM — Su, dayanıklı gıda, ışık, pil, radyo, düdük ve ilk yardım malzemelerini yerleştir.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n3. ADIM — Kişisel ilaçlar, reçeteler, temel belgeler ve özel gereksinimleri unutma.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n4. ADIM — Son kullanma tarihlerini ve pil durumunu düzenli kontrol et.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Çantayı erişilemeyecek bir yere koyma; ilaçları saklama koşullarına uygun tut. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Her aile üyesinin ihtiyacına uygun erişilebilir çanta hazırla.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Son kullanma tarihlerini ve pil durumunu düzenli kontrol et.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Çantayı erişilemeyecek bir yere koyma; ilaçları saklama koşullarına uygun tut."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Son kullanma tarihlerini ve pil durumunu düzenli kontrol et. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 3,
@@ -93,18 +111,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Şüpheli suyu güvenli değerlendirme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Şüpheli suyu güvenli değerlendirme için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Suyun berrak görünmesi temiz olduğu anlamına gelmez. Özellikle afet sonrası kanalizasyon, yakıt, tarım ilacı veya sanayi sızıntısı olasılığını kontrol et.\n\nKaynatma mikroplara karşı bir işlemdir; kimyasal kirleticileri güvenilir biçimde uzaklaştırmaz. Kimyasal şüphede kaynatıp içme.\n\nMikrobiyolojik risk için uygun kaynatma sonrası suyu temiz, kapaklı ve içme suyuna ayrılmış kaba aktar; işlem görmemiş suyla karıştırma."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Öncelikle kapalı şişe içme suyu veya yetkililerin güvenli ilan ettiği suyu tercih et.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n2. ADIM — Yakıt, pestisit veya başka kimyasal kirlilik şüphesi varsa suyu kullanma; kaynatma bunu gidermez.\nNE DEMEK? Kimyasal risk, mikroplardan farklıdır; kaynatma ve basit süzme bu kimyasalları güvenli biçimde gidermez.\nNASIL KONTROL EDERİM? Bu suyu içme, pişirme, diş fırçalama veya bebek maması için kullanma; güvenilir kapalı su alternatifi ara.\n\n3. ADIM — Mikrobiyolojik kirlilik şüphesinde berrak suyu kaynama noktasında 1 dakika kaynat; yaklaşık 2.000 m üstü irtifada 3 dakika.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n4. ADIM — Suyu soğutup temiz ve kapaklı kapta sakla.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Bilinmeyen filtre kimyasal zehri güvenle gidermez. Kaynak kuşkuluysa başka su ara. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Öncelikle kapalı şişe içme suyu veya yetkililerin güvenli ilan ettiği suyu tercih et.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Suyu soğutup temiz ve kapaklı kapta sakla.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Bilinmeyen filtre kimyasal zehri güvenle gidermez. Kaynak kuşkuluysa başka su ara."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Suyu soğutup temiz ve kapaklı kapta sakla. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 4,
@@ -128,18 +155,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Jeneratör ve karbonmonoksit: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Jeneratör ve karbonmonoksit için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Jeneratör ve mangal açık kapı veya pencerenin yanında bile risk oluşturabilir; egzoz gazı içeri taşınabilir.\n\nJeneratörü açık havada, kapı, pencere ve hava girişlerinden en az yaklaşık 6 metre uzakta tut; üretici talimatına uy.\n\nBaş ağrısı, sersemlik, bulantı gibi belirtilerde önce güvenli biçimde temiz havaya çık, çevredekileri uyar ve 112'yi ara."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Jeneratör, mangal ve kamp ocağını evde, garajda, araçta veya çadırda çalıştırma.\nNE DEMEK? Yakıtlı cihazın yanma ürünleri görünmez olabilir. Karbonmonoksiti kokuyla anlayamazsın; kapalı alanda kullanma.\nNASIL KONTROL EDERİM? Cihaz açık havada mı ve pencere/kapı/hava girişlerinden en az yaklaşık 6 m uzakta mı? İçeride duman veya maruziyet belirtisi var mı?\n\n2. ADIM — Jeneratörü açık havada, pencere, kapı ve hava girişlerinden en az yaklaşık 6 metre uzakta konumlandır.\nNE DEMEK? Yakıtlı cihazın yanma ürünleri görünmez olabilir. Karbonmonoksiti kokuyla anlayamazsın; kapalı alanda kullanma.\nNASIL KONTROL EDERİM? Cihaz açık havada mı ve pencere/kapı/hava girişlerinden en az yaklaşık 6 m uzakta mı? İçeride duman veya maruziyet belirtisi var mı?\n\n3. ADIM — Kapalı alanlarda yakıtla çalışan ısıtıcı yerine güvenli barınma ve elektrikli seçenekler kullan.\nNE DEMEK? Kimyasal risk, mikroplardan farklıdır; kaynatma ve basit süzme bu kimyasalları güvenli biçimde gidermez.\nNASIL KONTROL EDERİM? Bu suyu içme, pişirme, diş fırçalama veya bebek maması için kullanma; güvenilir kapalı su alternatifi ara.\n\n4. ADIM — Baş ağrısı, sersemlik, bulantı, bilinç bulanıklığında ortamdan güvenle uzaklaşıp acil yardım iste.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Karbonmonoksit kokusuz ve renksizdir; hissedememeniz ortamın güvenli olduğu anlamına gelmez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Jeneratör, mangal ve kamp ocağını evde, garajda, araçta veya çadırda çalıştırma.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Baş ağrısı, sersemlik, bulantı, bilinç bulanıklığında ortamdan güvenle uzaklaşıp acil yardım iste.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Karbonmonoksit kokusuz ve renksizdir; hissedememeniz ortamın güvenli olduğu anlamına gelmez."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Baş ağrısı, sersemlik, bulantı, bilinç bulanıklığında ortamdan güvenle uzaklaşıp acil yardım iste. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 5,
@@ -167,18 +203,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Geçici barınak yeri seçimi: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Geçici barınak yeri seçimi için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Düz zemin tek başına güvenli zemin değildir. Dere yatağı, sel izi, gevşek yamaç, devrilme ihtimali olan ağaç ve enerji hattını birlikte değerlendir.\n\nGece karanlığında seçilen alana gündüz yeniden bak. Yağmurda suyun hangi yönden akacağını ve tahliye çıkışını belirle.\n\nTehlike varsa çadırı güçlendirmeye çalışmak yerine daha güvenli yer seç. Barınakta alevli cihaz kullanma."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Önce yapısal çökme, düşen cisimler ve hava koşullarından kaynaklanan riskleri değerlendir.\nNE DEMEK? Sarsıntıda düşen eşyalardan korunmak ve sonrasında hasarlı yapıya girmemek ikincil yaralanmaları önler. Çök–Kapan–Tutun, merdiven ve asansörden kaçınma temel kurallardır.\nNASIL KONTROL EDERİM? Düşen cisim, kırık cam, çatlak, duman ve gaz belirtisi var mı? Sarsıntı durduktan sonra güvenli çıkış ve toplanma alanı mevcut mu?\n\n2. ADIM — Su yatağı, sel birikme alanı, heyelan eğimi ve devrilme riski olan cisimlerden uzak dur.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n3. ADIM — Mümkünse kuru, nispeten düz ve havalandırması iyi alan belirle.\nNE DEMEK? Hava akımı nemi azaltırken rüzgâr ve yağmurdan koruma da gereklidir. Tamamen kapalı ve içinde yakıt yakılan çadır güvenli değildir.\nNASIL KONTROL EDERİM? Hava girişi/çıkışı açık mı? Yatak ve duvarlarda su birikiyor mu? Şiddetli fırtına için güvenli yapı alternatifi var mı?\n\n4. ADIM — Barınakta yalıtım ve su tahliyesini planla; yakıtlı soba veya mangalı çadır içinde kullanma.\nNE DEMEK? Yakıtlı cihazın yanma ürünleri görünmez olabilir. Karbonmonoksiti kokuyla anlayamazsın; kapalı alanda kullanma.\nNASIL KONTROL EDERİM? Cihaz açık havada mı ve pencere/kapı/hava girişlerinden en az yaklaşık 6 m uzakta mı? İçeride duman veya maruziyet belirtisi var mı?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yerel sel, yangın ve toprak kayması uyarıları önceliklidir. Bu kart yer seçimi için ön kontrol listesidir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Önce yapısal çökme, düşen cisimler ve hava koşullarından kaynaklanan riskleri değerlendir.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Barınakta yalıtım ve su tahliyesini planla; yakıtlı soba veya mangalı çadır içinde kullanma.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Yerel sel, yangın ve toprak kayması uyarıları önceliklidir. Bu kart yer seçimi için ön kontrol listesidir."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Barınakta yalıtım ve su tahliyesini planla; yakıtlı soba veya mangalı çadır içinde kullanma. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 6,
@@ -202,18 +247,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Aile haberleşme ve buluşma planı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Aile haberleşme ve buluşma planı için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "İki buluşma noktası belirle: biri ev yakınında güvenli açık alan, diğeri mahalleye erişim kesilirse kullanılacak alternatif.\n\nHerkesin yanında kâğıt iletişim kartı bulunsun. Telefon numarası, ilaç gereksinimi, buluşma noktası ve yakın irtibat kişisini yaz.\n\nSinyal yokken sürekli aramak yerine önceden anlaşılan kısa mesaj ve zaman aralıklarını kullan; resmî uyarıları önceliklendir."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Evden uzak bir buluşma noktası ve alternatif güvenli nokta kararlaştır.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut.\n\n2. ADIM — Acil durum irtibat kişilerini kâğıda yaz; elektronik cihazlara bağımlı kalma.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n3. ADIM — Her aile üyesinin özel sağlık, ilaç ve ulaşım gereksinimini plana ekle.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut.\n\n4. ADIM — Planı gözden geçir, erişilebilir çantana bir kopyasını koy.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Afet anında güncel resmî tahliye talimatları önceliklidir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Evden uzak bir buluşma noktası ve alternatif güvenli nokta kararlaştır.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Planı gözden geçir, erişilebilir çantana bir kopyasını koy.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Afet anında güncel resmî tahliye talimatları önceliklidir."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Planı gözden geçir, erişilebilir çantana bir kopyasını koy. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 7,
@@ -227,23 +281,37 @@
         "Telefon/batarya kaybına karşı koordinatları kâğıda da yaz."
       ],
       "warning": "Örnek koordinat acil konum değildir; gerçek konumu cihazından doğrula.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.gps.gov/gps-accuracy",
+          "title": "GPS.gov — GPS doğruluğu ve konum hataları"
+        }
+      ],
       "review_status": "EDİTORYAL TASLAK",
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Koordinatı doğru kaydetme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Koordinatı doğru kaydetme için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Koordinatları 'enlem, boylam' şeklinde açık etiketle; örneğin 38.4237, 27.1428 bir adres değil iki sayıdır.\n\nKonumu kaydetmeden önce GPS doğruluk değerini ve haritada işaretin gerçekten bulunduğun konumda olup olmadığını kontrol et.\n\nKâğıt yedek oluştururken tarih ve yer adını yaz. Yanlış işaretlenen konumun ekipleri yanlış yere yönlendirebileceğini unutma."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Harita ya da cihazda enlem ve boylamı ondalık derece olarak bul.\nNE DEMEK? Sel geçmişi ve gevşek zemin, alan kuru görünse bile tehlike oluşturur. Yukarıdaki yağmur akışı veya artçı sarsıntı riski hızla değiştirebilir.\nNASIL KONTROL EDERİM? Dere yatağından, çukurdan, heyelan izinden ve düşebilecek dallardan uzak mısın? Kaçış yolu açık mı?\n\n2. ADIM — Önce enlem, sonra boylam yaz; örnek: 39.00000, 35.00000 (temsili).\nNE DEMEK? Koordinatın enlem-boylam sırası ve yazım biçimi yanlışsa yanlış yere gidilebilir. Offline harita canlı yol kapanmalarını bilmez.\nNASIL KONTROL EDERİM? Haritadaki noktayı ikinci yöntemle doğrula, kâğıda ve telefona ayrı kaydet; güvenli alternatif güzergâhı düşün.\n\n3. ADIM — Koordinatın yanında tarih, yer adı ve erişim açıklamasını not et.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n4. ADIM — Telefon/batarya kaybına karşı koordinatları kâğıda da yaz.\nNE DEMEK? Hasarlı kablo, ıslak yüzey, uygunsuz şarj ve ısınan batarya hem yangın hem elektrik çarpması tehlikesidir.\nNASIL KONTROL EDERİM? Kılıf, bağlantı ve sıcaklık normal mi? Islak veya hasarlı ekipmanı ayır; elektrik tesisatına amatör müdahalede bulunma."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Örnek koordinat acil konum değildir; gerçek konumu cihazından doğrula. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Harita ya da cihazda enlem ve boylamı ondalık derece olarak bul.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Telefon/batarya kaybına karşı koordinatları kâğıda da yaz.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Örnek koordinat acil konum değildir; gerçek konumu cihazından doğrula."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Telefon/batarya kaybına karşı koordinatları kâğıda da yaz. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 8,
@@ -257,23 +325,37 @@
         "Kabloları su ve sıcak yüzeylerden uzak tut; profesyonel destek olmadan şebeke tesisatına müdahale etme."
       ],
       "warning": "Yanlış batarya bağlantısı yangına yol açabilir. Bu rehber kablolama şeması veya montaj talimatı değildir.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+          "title": "CDC — Elektrik kesintisinde güvenlik"
+        }
+      ],
       "review_status": "EDİTORYAL TASLAK",
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Güç kaynağı ve kablo güvenliği: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Güç kaynağı ve kablo güvenliği için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Kablolarda ezilme, açılmış yalıtım, ısınma, şişmiş batarya veya yanık kokusu varsa sistemi kullanma.\n\nPriz, kablo ve adaptörleri kuru tut; elektrikli bağlantıyı su birikintisi ve yanıcı malzemeden uzaklaştır.\n\nHasarlı güç kaynağını bantla onarıp denemeye çalışma. Yetkili teknik destek olmadan içini açma."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Cihazın giriş voltajını ve güç gereksinimini etiketinden doğrula.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n2. ADIM — Akü, şarj cihazı ve güneş panelinde uyumlu regülatör ve sigorta kullan.\nNE DEMEK? Hasarlı kablo, ıslak yüzey, uygunsuz şarj ve ısınan batarya hem yangın hem elektrik çarpması tehlikesidir.\nNASIL KONTROL EDERİM? Kılıf, bağlantı ve sıcaklık normal mi? Islak veya hasarlı ekipmanı ayır; elektrik tesisatına amatör müdahalede bulunma.\n\n3. ADIM — Hasarlı, şişmiş veya aşırı ısınan bataryayı kullanmayı durdur.\nNE DEMEK? Sarsıntıda düşen eşyalardan korunmak ve sonrasında hasarlı yapıya girmemek ikincil yaralanmaları önler. Çök–Kapan–Tutun, merdiven ve asansörden kaçınma temel kurallardır.\nNASIL KONTROL EDERİM? Düşen cisim, kırık cam, çatlak, duman ve gaz belirtisi var mı? Sarsıntı durduktan sonra güvenli çıkış ve toplanma alanı mevcut mu?\n\n4. ADIM — Kabloları su ve sıcak yüzeylerden uzak tut; profesyonel destek olmadan şebeke tesisatına müdahale etme.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yanlış batarya bağlantısı yangına yol açabilir. Bu rehber kablolama şeması veya montaj talimatı değildir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Cihazın giriş voltajını ve güç gereksinimini etiketinden doğrula.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Kabloları su ve sıcak yüzeylerden uzak tut; profesyonel destek olmadan şebeke tesisatına müdahale etme.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Yanlış batarya bağlantısı yangına yol açabilir. Bu rehber kablolama şeması veya montaj talimatı değildir."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Kabloları su ve sıcak yüzeylerden uzak tut; profesyonel destek olmadan şebeke tesisatına müdahale etme. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Suyu kaynatarak mikroplardan arındırma",
@@ -297,18 +379,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Suyu kaynatarak mikroplardan arındırma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Suyu kaynatarak mikroplardan arındırma için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Önce suyun kaynağını değerlendir; yakıt, kimyasal veya pestisit kuşkusu varsa kaynatmak onu içilebilir yapmaz.\n\nGörünür tortu varsa temiz bez veya uygun yöntemle ön süzme yap; bu aşama mikropları güvenilir biçimde gidermez.\n\nBerrak suyu güçlü biçimde kaynat; genel CDC önerisi 1 dakika, 2.000 metre üstünde 3 dakikadır. Soğutup temiz kapta sakla."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Önce ambalajlı, güvenilir içme suyu veya resmî olarak güvenli ilan edilen bir kaynağı tercih et.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n2. ADIM — Su bulanıksa temiz bez/kahve filtresinden geçirerek tortuyu uzaklaştır; bu işlem tek başına dezenfeksiyon değildir.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n3. ADIM — Berrak suyu güçlü kaynama noktasına getir; en az 1 dakika, 2.000 metreden yüksek rakımda 3 dakika kaynat.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n4. ADIM — Temiz, kapaklı bir kapta soğut ve güvenli depola.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yakıt, pestisit, ağır metal veya radyoaktif kirlilik şüphesi varsa kaynatmak güvenli içme suyu oluşturmaz. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Önce ambalajlı, güvenilir içme suyu veya resmî olarak güvenli ilan edilen bir kaynağı tercih et.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Temiz, kapaklı bir kapta soğut ve güvenli depola.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Yakıt, pestisit, ağır metal veya radyoaktif kirlilik şüphesi varsa kaynatmak güvenli içme suyu oluşturmaz."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Temiz, kapaklı bir kapta soğut ve güvenli depola. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Kimyasal kirlilik şüphesinde su kararı",
@@ -332,18 +423,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Kimyasal kirlilik şüphesinde su kararı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Kimyasal kirlilik şüphesinde su kararı için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Endüstriyel alan, tarımsal akış, yakıt sızıntısı veya kimyasal koku şüphesi bir 'dur' işaretidir.\n\nKaynatmak, çöktürmek veya sıradan sürahi filtresi kimyasal güvenlik onayı sağlamaz.\n\nBöyle durumlarda ambalajlı suya veya yetkililerin güvenli ilan ettiği kaynağa geç; şüpheli suyla yemek de hazırlama."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Suyun yakınında sanayi tesisi, yakıt döküntüsü, tarım ilacı veya sel nedeniyle kimyasal kirlenme ihtimalini değerlendir.\nNE DEMEK? Kimyasal risk, mikroplardan farklıdır; kaynatma ve basit süzme bu kimyasalları güvenli biçimde gidermez.\nNASIL KONTROL EDERİM? Bu suyu içme, pişirme, diş fırçalama veya bebek maması için kullanma; güvenilir kapalı su alternatifi ara.\n\n2. ADIM — Kirlilik şüphesi varsa suyu içme, yemek ve bebek maması için kullanma.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n3. ADIM — Kaynatma, bez filtre veya sıradan dezenfeksiyonla kimyasal kirlenmeyi giderdiğini varsayma.\nNE DEMEK? Kimyasal risk, mikroplardan farklıdır; kaynatma ve basit süzme bu kimyasalları güvenli biçimde gidermez.\nNASIL KONTROL EDERİM? Bu suyu içme, pişirme, diş fırçalama veya bebek maması için kullanma; güvenilir kapalı su alternatifi ara.\n\n4. ADIM — Ambalajlı su veya yetkililerin güvenli olduğunu belirttiği başka kaynak kullan.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kimyasal kirli suya güvenliymiş gibi görünüm/koku testi uygulama; bazen hiçbir belirti olmaz. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Suyun yakınında sanayi tesisi, yakıt döküntüsü, tarım ilacı veya sel nedeniyle kimyasal kirlenme ihtimalini değerlendir.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Ambalajlı su veya yetkililerin güvenli olduğunu belirttiği başka kaynak kullan.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Kimyasal kirli suya güvenliymiş gibi görünüm/koku testi uygulama; bazen hiçbir belirti olmaz."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Ambalajlı su veya yetkililerin güvenli olduğunu belirttiği başka kaynak kullan. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Güvenli su saklama ve stok kontrolü",
@@ -367,18 +467,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Güvenli su saklama ve stok kontrolü: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Güvenli su saklama ve stok kontrolü için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "İşlem görmüş içme suyuna ait kap ile ham su kabını kesin ayır; mümkünse üzerinde büyük ve okunur etiket olsun.\n\nKapağı sık kapanan gıda uygunluklu kap seç; el ve kirli kepçeyi suyun içine sokma.\n\nSu stoklarını tarihleyip düzenli kontrol et. Kap kirliliği suyun yeniden kirlenmesine neden olabilir."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — İçme suyu için daha önce gıda amaçlı kullanılmış temiz, sağlam ve kapaklı kapları ayır.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n2. ADIM — Su ile yakıt veya temizlik kimyasalı kaplarını kesinlikle karıştırma.\nNE DEMEK? Kimyasal risk, mikroplardan farklıdır; kaynatma ve basit süzme bu kimyasalları güvenli biçimde gidermez.\nNASIL KONTROL EDERİM? Bu suyu içme, pişirme, diş fırçalama veya bebek maması için kullanma; güvenilir kapalı su alternatifi ara.\n\n3. ADIM — Her kabın tarihini ve kaynağını not et; kapakları kapalı tut.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n4. ADIM — Su stoğunu kişi sayısına ve özel gereksinimlere göre düzenli gözden geçir.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Eski kimyasal kapları iyice yıkansa bile içme suyu için kullanma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “İçme suyu için daha önce gıda amaçlı kullanılmış temiz, sağlam ve kapaklı kapları ayır.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Su stoğunu kişi sayısına ve özel gereksinimlere göre düzenli gözden geçir.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Eski kimyasal kapları iyice yıkansa bile içme suyu için kullanma."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Su stoğunu kişi sayısına ve özel gereksinimlere göre düzenli gözden geçir. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Yağmur suyunu toplarken dikkat",
@@ -402,18 +511,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Yağmur suyunu toplarken dikkat: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Yağmur suyunu toplarken dikkat için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Çatıdaki veya oluklardaki kir, kuş dışkısı ve çevresel kirleticiler yağmur suyuna karışabilir.\n\nYağmur suyunu baştan içilebilir kabul etme; toplama yüzeyini ve çevredeki sanayi/kimyasal riskleri değerlendir.\n\nToplanan suyu içme dışı kullanım için ayrıca etiketle; içme amacı için güvenilir yöntem ve yetkili değerlendirme gerekir."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Kap/oluk/giriş yüzeylerinin temizliğini ve önceki kullanımını kontrol et.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n2. ADIM — Çatıdaki kuş dışkısı, toz ve metal kalıntılarının suyu kirletebileceğini hesaba kat.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n3. ADIM — Toplanan suyu otomatik olarak içilebilir sayma; önce kirlilik türünü değerlendir.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n4. ADIM — İçme suyu gerekiyorsa güvenilir kaynağı tercih et ve yerel sağlık uyarılarını izle.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yağmur suyunu basit kaynatma ile her türlü kimyasal kirden temizleyemezsin. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Kap/oluk/giriş yüzeylerinin temizliğini ve önceki kullanımını kontrol et.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “İçme suyu gerekiyorsa güvenilir kaynağı tercih et ve yerel sağlık uyarılarını izle.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Yağmur suyunu basit kaynatma ile her türlü kimyasal kirden temizleyemezsin."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. İçme suyu gerekiyorsa güvenilir kaynağı tercih et ve yerel sağlık uyarılarını izle. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Zeminden gelen soğuktan korunma",
@@ -437,18 +555,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Zeminden gelen soğuktan korunma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Zeminden gelen soğuktan korunma için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Soğuk zemine doğrudan yatmak vücuttan ısı kaybını artırabilir; önce kuru bir yalıtıcı katman yerleştir.\n\nUyku matı, kuru battaniye veya güvenli yalıtım malzemesini yerleştirirken hava ve nem dolaşımını da düşün.\n\nIslanan katmanları değiştir, titreme ve bilinç değişikliği gibi hipotermi belirtilerine dikkat et."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Gecelemeye karar vermeden önce sel yatağı, yamaç düşmesi ve hasarlı yapı riskini kontrol et.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n2. ADIM — Vücudu ıslak zeminden ayıran kuru ve sağlam bir yalıtım tabakası hazırla.\nNE DEMEK? Sel geçmişi ve gevşek zemin, alan kuru görünse bile tehlike oluşturur. Yukarıdaki yağmur akışı veya artçı sarsıntı riski hızla değiştirebilir.\nNASIL KONTROL EDERİM? Dere yatağından, çukurdan, heyelan izinden ve düşebilecek dallardan uzak mısın? Kaçış yolu açık mı?\n\n3. ADIM — Rüzgâr ve yağışa karşı barınağı güvenli şekilde konumlandır; çıkışını engelleme.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n4. ADIM — Islak giysileri mümkünse değiştir; titreme, bilinç bulanıklığı gibi ciddi soğuk belirtilerine dikkat et.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kapalı çadırda veya derme çatma barınakta mangal, ateş ya da yakıtlı ocak çalıştırma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Gecelemeye karar vermeden önce sel yatağı, yamaç düşmesi ve hasarlı yapı riskini kontrol et.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Islak giysileri mümkünse değiştir; titreme, bilinç bulanıklığı gibi ciddi soğuk belirtilerine dikkat et.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Kapalı çadırda veya derme çatma barınakta mangal, ateş ya da yakıtlı ocak çalıştırma."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Islak giysileri mümkünse değiştir; titreme, bilinç bulanıklığı gibi ciddi soğuk belirtilerine dikkat et. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Geçici barınakta havalandırma",
@@ -472,18 +599,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Geçici barınakta havalandırma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Geçici barınakta havalandırma için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Çadır veya geçici barınakta nem birikmesi ve havasızlık birbirinden farklı ama önemli sorunlardır.\n\nKarşılıklı güvenli hava açıklıklarını kapatma; yağış içeri girmeyecek şekilde havalandır.\n\nMangal, piknik tüpü, jeneratör ve yakıtlı sobayı çadır veya kapalı barınak içinde asla çalıştırma."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Açık ve yapı güvenliği sağlanmış bir alan seç; tehlikeli çatlaklar ve duvarlardan uzak kal.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n2. ADIM — Yoğuşma ve nem birikimini azaltmak için kontrollü hava geçişi sağla.\nNE DEMEK? Hava akımı nemi azaltırken rüzgâr ve yağmurdan koruma da gereklidir. Tamamen kapalı ve içinde yakıt yakılan çadır güvenli değildir.\nNASIL KONTROL EDERİM? Hava girişi/çıkışı açık mı? Yatak ve duvarlarda su birikiyor mu? Şiddetli fırtına için güvenli yapı alternatifi var mı?\n\n3. ADIM — Yanıcı malzemeleri ısı kaynaklarından uzaklaştır.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n4. ADIM — Tüm yakıtlı pişirme ve jeneratör işlemlerini açık havada, barınaktan uzakta gerçekleştir.\nNE DEMEK? Yakıtlı cihazın yanma ürünleri görünmez olabilir. Karbonmonoksiti kokuyla anlayamazsın; kapalı alanda kullanma.\nNASIL KONTROL EDERİM? Cihaz açık havada mı ve pencere/kapı/hava girişlerinden en az yaklaşık 6 m uzakta mı? İçeride duman veya maruziyet belirtisi var mı?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Karbonmonoksit renksiz ve kokusuzdur. Havalandırma açıklığı, iç mekânda jeneratör/ızgara kullanımını güvenli yapmaz. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Açık ve yapı güvenliği sağlanmış bir alan seç; tehlikeli çatlaklar ve duvarlardan uzak kal.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Tüm yakıtlı pişirme ve jeneratör işlemlerini açık havada, barınaktan uzakta gerçekleştir.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Karbonmonoksit renksiz ve kokusuzdur. Havalandırma açıklığı, iç mekânda jeneratör/ızgara kullanımını güvenli yapmaz."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Tüm yakıtlı pişirme ve jeneratör işlemlerini açık havada, barınaktan uzakta gerçekleştir. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Barınakta yangın çıkış planı",
@@ -507,18 +643,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Barınakta yangın çıkış planı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Barınakta yangın çıkış planı için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Barınakta herkes çıkışın nerede olduğunu ve karanlıkta hangi yoldan gideceğini bilsin.\n\nÇıkışları çanta, yakıt, kablo veya eşya ile kapatma. El fenerlerini erişilebilir tut.\n\nDuman veya alev görülürse eşyaları toplamaya çalışmadan güvenli tahliye yapıp 112'yi ara."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Her geçici barınaktan kaçış için aydınlatılmış, engelsiz bir çıkış belirle.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n2. ADIM — Kibrit, çakmak, ocak ve bataryaları çocukların ulaşamayacağı güvenli alanlarda sakla.\nNE DEMEK? Hasarlı kablo, ıslak yüzey, uygunsuz şarj ve ısınan batarya hem yangın hem elektrik çarpması tehlikesidir.\nNASIL KONTROL EDERİM? Kılıf, bağlantı ve sıcaklık normal mi? Islak veya hasarlı ekipmanı ayır; elektrik tesisatına amatör müdahalede bulunma.\n\n3. ADIM — Barınakta yanıcı eşya biriktirme; uyku alanını açık alevden uzak tut.\nNE DEMEK? Soğuk zemin, ıslak kumaş ve hava akımı ısı kaybını artırır. Kuru giysi ve alt yalıtım, kapalı alanda ateş yakmaktan daha güvenli ilk önlemlerdir.\nNASIL KONTROL EDERİM? Yattığın yer kuru mu? Islak giysi değiştirildi mi? Bilinç değişikliği varsa acil yardım çağrılıyor mu?\n\n4. ADIM — Aile bireyleriyle kısa bir çıkış ve buluşma provası yap.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Duman, kıvılcım veya gaz kokusunda güvenli biçimde alanı terk et; kapalı alanda müdahale etmeye çalışma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Her geçici barınaktan kaçış için aydınlatılmış, engelsiz bir çıkış belirle.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Aile bireyleriyle kısa bir çıkış ve buluşma provası yap.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Duman, kıvılcım veya gaz kokusunda güvenli biçimde alanı terk et; kapalı alanda müdahale etmeye çalışma."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Aile bireyleriyle kısa bir çıkış ve buluşma provası yap. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Jeneratörü bina dışında konumlandırma",
@@ -542,18 +687,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Jeneratörü bina dışında konumlandırma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Jeneratörü bina dışında konumlandırma için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Jeneratör egzozundan çıkan karbonmonoksit renksiz ve kokusuzdur; rüzgârla içeri girebilir.\n\nJeneratörü kapı, pencere ve hava girişlerinden en az yaklaşık 6 metre uzağa açık havada kur.\n\nİçeride egzoz kokusu olmaması güvenli olduğu anlamına gelmez; karbonmonoksit alarmı ve düzenli kontrol gerekir."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Jeneratörün üretici kullanım kılavuzunu ve yakıt güvenliği uyarılarını kontrol et.\nNE DEMEK? Yakıtlı cihazın yanma ürünleri görünmez olabilir. Karbonmonoksiti kokuyla anlayamazsın; kapalı alanda kullanma.\nNASIL KONTROL EDERİM? Cihaz açık havada mı ve pencere/kapı/hava girişlerinden en az yaklaşık 6 m uzakta mı? İçeride duman veya maruziyet belirtisi var mı?\n\n2. ADIM — Cihazı sadece tamamen açık dış ortamda, kapı, pencere ve havalandırma açıklıklarından uzağa yerleştir.\nNE DEMEK? Hava akımı nemi azaltırken rüzgâr ve yağmurdan koruma da gereklidir. Tamamen kapalı ve içinde yakıt yakılan çadır güvenli değildir.\nNASIL KONTROL EDERİM? Hava girişi/çıkışı açık mı? Yatak ve duvarlarda su birikiyor mu? Şiddetli fırtına için güvenli yapı alternatifi var mı?\n\n3. ADIM — Elektrik bağlantılarını kuru ve dış ortam kullanımına uygun tut; bina tesisatına doğrudan geri besleme yapma.\nNE DEMEK? Sarsıntıda düşen eşyalardan korunmak ve sonrasında hasarlı yapıya girmemek ikincil yaralanmaları önler. Çök–Kapan–Tutun, merdiven ve asansörden kaçınma temel kurallardır.\nNASIL KONTROL EDERİM? Düşen cisim, kırık cam, çatlak, duman ve gaz belirtisi var mı? Sarsıntı durduktan sonra güvenli çıkış ve toplanma alanı mevcut mu?\n\n4. ADIM — Karbonmonoksit alarmı kullan; baş ağrısı/baş dönmesi/bulantıda derhal temiz havaya çık ve yardım iste.\nNE DEMEK? Yakıtlı cihazın yanma ürünleri görünmez olabilir. Karbonmonoksiti kokuyla anlayamazsın; kapalı alanda kullanma.\nNASIL KONTROL EDERİM? Cihaz açık havada mı ve pencere/kapı/hava girişlerinden en az yaklaşık 6 m uzakta mı? İçeride duman veya maruziyet belirtisi var mı?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Garajda, balkonu kapalı alanda veya açık pencereli odada jeneratör çalıştırma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Jeneratörün üretici kullanım kılavuzunu ve yakıt güvenliği uyarılarını kontrol et.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Karbonmonoksit alarmı kullan; baş ağrısı/baş dönmesi/bulantıda derhal temiz havaya çık ve yardım iste.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Garajda, balkonu kapalı alanda veya açık pencereli odada jeneratör çalıştırma."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Karbonmonoksit alarmı kullan; baş ağrısı/baş dönmesi/bulantıda derhal temiz havaya çık ve yardım iste. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Batarya ve kablo hasarı kontrolü",
@@ -577,18 +731,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Batarya ve kablo hasarı kontrolü: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Batarya ve kablo hasarı kontrolü için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Hasarlı batarya, şişme, çatlak, sızıntı veya aşırı ısınma varsa şarja bağlama.\n\nŞarj cihazının voltaj ve bağlantı uyumunu üretici bilgilerine göre kontrol et; nemli yüzeyde şarj etme.\n\nŞüpheli lityum bataryayı delme, sıkıştırma, açma veya alevle müdahale etme; güvenli biçimde kullanımdan çıkar."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Şarj öncesinde kabloda kopuk, erime, yanık ve ıslaklık var mı bak.\nNE DEMEK? Yaşamı tehdit eden belirtilerde olay yerinin güvenliği ve 112 çağrısı en önde gelir. Yöntemler yaşa ve olaya göre değişir; bu metin pratik eğitimin yerini tutmaz.\nNASIL KONTROL EDERİM? Kişi yanıt veriyor mu, normal nefes alıyor mu, kanama sürüyor mu? Durum kötüleşirse veya eğitim dışı uygulama gerekiyorsa 112 yönlendirmesine geç.\n\n2. ADIM — Hasarlı, şişmiş veya aşırı ısınmış bataryayı kullanma ve şarj etme.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n3. ADIM — Şarjı yanmaz, kuru ve havadar yerde üretici talimatlarına uygun yap.\nNE DEMEK? Hasarlı kablo, ıslak yüzey, uygunsuz şarj ve ısınan batarya hem yangın hem elektrik çarpması tehlikesidir.\nNASIL KONTROL EDERİM? Kılıf, bağlantı ve sıcaklık normal mi? Islak veya hasarlı ekipmanı ayır; elektrik tesisatına amatör müdahalede bulunma.\n\n4. ADIM — Uyumsuz batarya/hücreleri gelişigüzel seri veya paralel bağlama.\nNE DEMEK? Hasarlı kablo, ıslak yüzey, uygunsuz şarj ve ısınan batarya hem yangın hem elektrik çarpması tehlikesidir.\nNASIL KONTROL EDERİM? Kılıf, bağlantı ve sıcaklık normal mi? Islak veya hasarlı ekipmanı ayır; elektrik tesisatına amatör müdahalede bulunma."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kısa devre, yangın ve hücre patlaması tehlikesi nedeniyle doğaçlama pil paketleri yapma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Şarj öncesinde kabloda kopuk, erime, yanık ve ıslaklık var mı bak.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Uyumsuz batarya/hücreleri gelişigüzel seri veya paralel bağlama.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Kısa devre, yangın ve hücre patlaması tehlikesi nedeniyle doğaçlama pil paketleri yapma."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Uyumsuz batarya/hücreleri gelişigüzel seri veya paralel bağlama. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Az ışıkla güvenli hareket",
@@ -612,18 +775,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Az ışıkla güvenli hareket: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Az ışıkla güvenli hareket için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Karanlıkta hızlanmak değil tehlikeleri önceden fark etmek gerekir: kırık cam, çukur, kablo ve kaygan yüzeyi düşün.\n\nKafa lambasıyla iki elini serbest tut, ayağının basacağı yeri aydınlat ve mümkünse eşli ilerle.\n\nBilinmeyen yapıya, gevşek zemine veya su basmış alana sırf kısa yol diye girme."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Hareket etmeden önce el feneri, yedek pil ve enerji durumunu kontrol et.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n2. ADIM — Hasarlı binalar, elektrik hatları, dik yamaçlar ve su basmış alanlardan uzak bir güzergâh seç.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n3. ADIM — Görüşün yetersizse hareketi durdur ve daha güvenli bir konumda kal.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n4. ADIM — Ailenin nerede olacağını önceden konuş; el fenerinin güç tasarruf ayarını kullan.\nNE DEMEK? Hasarlı kablo, ıslak yüzey, uygunsuz şarj ve ısınan batarya hem yangın hem elektrik çarpması tehlikesidir.\nNASIL KONTROL EDERİM? Kılıf, bağlantı ve sıcaklık normal mi? Islak veya hasarlı ekipmanı ayır; elektrik tesisatına amatör müdahalede bulunma."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Karanlıkta hasarlı yapıya malzeme almak için geri girme. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Hareket etmeden önce el feneri, yedek pil ve enerji durumunu kontrol et.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Ailenin nerede olacağını önceden konuş; el fenerinin güç tasarruf ayarını kullan.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Karanlıkta hasarlı yapıya malzeme almak için geri girme."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Ailenin nerede olacağını önceden konuş; el fenerinin güç tasarruf ayarını kullan. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Afet çantasında kişisel ihtiyaç kontrolü",
@@ -647,18 +819,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Afet çantasında kişisel ihtiyaç kontrolü: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Afet çantasında kişisel ihtiyaç kontrolü için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Kişiye özel ilaç, reçete kopyası, gözlük, bebek ve yaşlı ihtiyaçlarını genel çanta listesinden ayrı değerlendir.\n\nHer aile bireyi çantasını kendi taşıyabileceği ağırlıkta planlasın; ortak ekipmanların kimde olduğunu yaz.\n\nDüzenli ilaçların saklama koşullarını ve son kullanma tarihlerini kontrol et; rastgele ilaç değiştirme."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Her hane üyesi için su, dayanıklı gıda, uygun giysi, ışık ve hijyen malzemelerini listele.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n2. ADIM — Bebek, yaşlı, engelli veya kronik hastalığı olan kişilerin özel ihtiyaçlarını ayrıca yaz.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut.\n\n3. ADIM — Düzenli kullanılan reçeteli ilaçların erişim planını doktorla görüş; etiket ve son kullanma tarihini kontrol et.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n4. ADIM — Çantayı erişilebilir yerde tut ve en az altı ayda bir gözden geçir.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Acil çanta, hekim değerlendirmesi olmadan ilaç değişikliği veya saklanması gereken soğuk zincirin ihlali anlamına gelmez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Her hane üyesi için su, dayanıklı gıda, uygun giysi, ışık ve hijyen malzemelerini listele.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Çantayı erişilebilir yerde tut ve en az altı ayda bir gözden geçir.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Acil çanta, hekim değerlendirmesi olmadan ilaç değişikliği veya saklanması gereken soğuk zincirin ihlali anlamına gelmez."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Çantayı erişilebilir yerde tut ve en az altı ayda bir gözden geçir. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Evcil hayvanlı aile için hazırlık",
@@ -682,18 +863,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Evcil hayvanlı aile için hazırlık: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Evcil hayvanlı aile için hazırlık için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Evcil hayvanın kimlik, mama, su, taşıma ve ilaç gereksinimini aile planına dahil et.\n\nTasma, güvenli taşıma kutusu, dışkı poşeti ve veteriner iletişim bilgisini hazırla.\n\nAfet sırasında hayvanı serbest bırakmanın kaçma ve yaralanma riski yaratabileceğini unutma."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Evcil hayvan için su, uygun mama ve taşıma ekipmanı hazırla.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n2. ADIM — Kimlik, aşı ve veteriner belgelerinin kopyasını güvenli biçimde sakla.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n3. ADIM — Hayvanın ihtiyacı olan ilaçlar için veterinerle önceden acil durum planı oluştur.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n4. ADIM — Tahliye sırasında hayvanın kaçmasını veya kaybolmasını önleyecek güvenli taşıma hazırlığı yap.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? İnsan ilaçlarını veteriner önerisi olmadan hayvanlara verme. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Evcil hayvan için su, uygun mama ve taşıma ekipmanı hazırla.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Tahliye sırasında hayvanın kaçmasını veya kaybolmasını önleyecek güvenli taşıma hazırlığı yap.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. İnsan ilaçlarını veteriner önerisi olmadan hayvanlara verme."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Tahliye sırasında hayvanın kaçmasını veya kaybolmasını önleyecek güvenli taşıma hazırlığı yap. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Buluşma noktası ve kâğıt bilgi kartı",
@@ -717,18 +907,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Buluşma noktası ve kâğıt bilgi kartı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Buluşma noktası ve kâğıt bilgi kartı için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Buluşma noktasının adını söylemek yeterli olmayabilir; açık adres veya doğrulanmış koordinat yaz.\n\nKâğıt kartta yakın kişi, alternatif kişi, buluşma alanı ve önemli sağlık bilgisini gereğinden fazla kişisel veri açmadan taşı.\n\nBir nokta erişilemezse kullanılacak ikinci yer ve haberleşme yöntemini önceden belirle."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Aileyle ev yakınında ve mahalle dışında alternatif iki buluşma noktası kararlaştır.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut.\n\n2. ADIM — Acil iletişim numaralarını ve önemli sağlık notlarını küçük bir kâğıda yaz.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut.\n\n3. ADIM — Birbirine ulaşılmadığında kimin kime ve nasıl haber vereceğini belirle.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n4. ADIM — Planı tüm aile bireylerine öğret ve periyodik olarak güncelle.\nNE DEMEK? Acil durumda herkes aynı bilgiyi bulabilmelidir. Alternatif irtibat ve buluşma noktası, şebeke kesilmesine karşı önemlidir.\nNASIL KONTROL EDERİM? İsim, kişi sayısı, özel ihtiyaç, buluşma alanı ve alternatif kişiyi yaz. Kâğıt kopyayı erişilebilir bir yerde tut."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Özel sağlık verilerini herkesin görebileceği yerlere asma; kartı kaybolmaya karşı koru. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Aileyle ev yakınında ve mahalle dışında alternatif iki buluşma noktası kararlaştır.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Planı tüm aile bireylerine öğret ve periyodik olarak güncelle.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Özel sağlık verilerini herkesin görebileceği yerlere asma; kartı kaybolmaya karşı koru."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Planı tüm aile bireylerine öğret ve periyodik olarak güncelle. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Ellerin temizliği ve güvenli sanitasyon",
@@ -752,18 +951,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Ellerin temizliği ve güvenli sanitasyon: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Ellerin temizliği ve güvenli sanitasyon için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Temiz su, sabun ve tuvalet alanını birbirinden ayırarak hastalık yayılma riskini azalt.\n\nYemek hazırlamadan önce ve tuvalet sonrasında el temizliğini önceliklendir.\n\nKirli atıkları içme suyu depolarından ve yemek alanından uzak, güvenli biçimde yönet."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Tuvalet ve yemek hazırlama alanlarını birbirinden ayır.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n2. ADIM — Temiz su ve sabun varsa el temizliğini özellikle tuvalet sonrası ve yemek öncesi uygula.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n3. ADIM — Kirli yüzeyleri gıda ile temas ettirme; temiz ve kirli kapları ayır.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n4. ADIM — Atıkları çocuklardan, gıdadan ve su kaynaklarından uzak, kapalı biçimde topla.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kirli suyla el yıkamak enfeksiyon riskini artırabilir; resmî içme/kullanma suyu uyarılarını takip et. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Tuvalet ve yemek hazırlama alanlarını birbirinden ayır.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Atıkları çocuklardan, gıdadan ve su kaynaklarından uzak, kapalı biçimde topla.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Kirli suyla el yıkamak enfeksiyon riskini artırabilir; resmî içme/kullanma suyu uyarılarını takip et."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Atıkları çocuklardan, gıdadan ve su kaynaklarından uzak, kapalı biçimde topla. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Gıda bozulması şüphesinde karar",
@@ -787,18 +995,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Gıda bozulması şüphesinde karar: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Gıda bozulması şüphesinde karar için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Gıdanın iyi kokması güvenli olduğu anlamına gelmez; elektrik kesintisi ve saklama süresini kontrol et.\n\nÇiğ ve pişmiş ürünleri ayır, uygun sıcaklıkta saklanmayan bozulabilir yiyecekleri tüketme.\n\nŞüpheli konserveyi açıp tadına bakma; şişme, sızıntı ve hasarı risk işareti kabul et."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Sıcaklık kontrolü kaybolduysa özellikle et, süt ve hazır yemeklerin ne kadar süre uygunsuz koşulda kaldığını değerlendir.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n2. ADIM — Şüpheli gıdayı tat testine tabi tutma; koku veya görüntü güvenli olduğunu garanti etmez.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n3. ADIM — Kirli su değmiş gıda ambalajlarını güvenli kabul etme.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n4. ADIM — Mümkünse ambalajlı, dayanıklı ve son kullanma tarihi uygun gıdaya yönel.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Şüpheli gıda için “biraz ısıtınca düzelir” varsayımı tehlikelidir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Sıcaklık kontrolü kaybolduysa özellikle et, süt ve hazır yemeklerin ne kadar süre uygunsuz koşulda kaldığını değerlendir.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Mümkünse ambalajlı, dayanıklı ve son kullanma tarihi uygun gıdaya yönel.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Şüpheli gıda için “biraz ısıtınca düzelir” varsayımı tehlikelidir."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Mümkünse ambalajlı, dayanıklı ve son kullanma tarihi uygun gıdaya yönel. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "title": "Kötü hava koşullarında hareketi erteleme",
@@ -822,18 +1039,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Kötü hava koşullarında hareketi erteleme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Kötü hava koşullarında hareketi erteleme için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Şiddetli yağış, sel, karanlık, yıldırım veya aşırı rüzgârda yolculuk riskini yeniden değerlendir.\n\nGitmek zorundaysan güvenli güzergâh, geri dönüş ve iletişim planını oluştur; sel suyundan geçme.\n\nResmî tahliye talimatı varsa kendi planından önce onu uygula."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Güncel hava uyarısı, sel, yıldırım ve görüş durumunu kontrol etme imkânın varsa değerlendir.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n2. ADIM — Sel yatağı, dere geçidi ve heyelan tehdidi altındaki rotalardan kaçın.\nNE DEMEK? Sel geçmişi ve gevşek zemin, alan kuru görünse bile tehlike oluşturur. Yukarıdaki yağmur akışı veya artçı sarsıntı riski hızla değiştirebilir.\nNASIL KONTROL EDERİM? Dere yatağından, çukurdan, heyelan izinden ve düşebilecek dallardan uzak mısın? Kaçış yolu açık mı?\n\n3. ADIM — Görüş çok düşükse veya yer çok kaygansa güvenli bir yerde geçici barın.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n4. ADIM — Koordinatını ve planlanan hareket yönünü imkân varsa güvenilir kişiye bildir.\nNE DEMEK? Koordinatın enlem-boylam sırası ve yazım biçimi yanlışsa yanlış yere gidilebilir. Offline harita canlı yol kapanmalarını bilmez.\nNASIL KONTROL EDERİM? Haritadaki noktayı ikinci yöntemle doğrula, kâğıda ve telefona ayrı kaydet; güvenli alternatif güzergâhı düşün."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Su basmış yolda veya dere geçidinde akıntının derinliğini yürüyerek test etme. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Güncel hava uyarısı, sel, yıldırım ve görüş durumunu kontrol etme imkânın varsa değerlendir.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Koordinatını ve planlanan hareket yönünü imkân varsa güvenilir kişiye bildir.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Su basmış yolda veya dere geçidinde akıntının derinliğini yürüyerek test etme."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Koordinatını ve planlanan hareket yönünü imkân varsa güvenilir kişiye bildir. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 25,
@@ -857,18 +1083,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Yabani mantarın tehlike işaretleri değil, güvenlik kararı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Yabani mantarın tehlike işaretleri değil, güvenlik kararı için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Doğada mantarların yenilebilir görünümleri zehirli türlerle benzeşebilir; renk, koku ve hayvanların yemesi güvenli test değildir.\n\nFotoğrafa, mobil uygulamaya veya halk inanışlarına bakarak yabani mantarı yenilebilir ilan etme.\n\nGüvenilir ve etiketli kültür mantarını tercih et; tanımlanamayan yabani mantarı tüketme."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Şekil, renk, koku veya hayvanların yiyip yememesi güvenli tüketim ölçütü değildir.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n2. ADIM — Tehlikeli ve tehlikesiz türler birbirine çok benzeyebilir; telefondaki fotoğrafla teşhis ve uygulama tahmini yeterli değildir.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?\n\n3. ADIM — Kaynatma, kurutma veya pişirme tüm mantar toksinlerini etkisizleştirmez.\nNE DEMEK? Ön süzme görünen tortuyu azaltır, tek başına dezenfeksiyon değildir. Kimyasal kirlilik şüphesi yoksa berrak suyu tam kaynamada 1 dakika, yaklaşık 2.000 m üzerindeyse 3 dakika kaynat.\nNASIL KONTROL EDERİM? Suyun kaynağını, işlem sırasını, temiz kabını ve kirli suyla temasın kesildiğini doğrula; temiz suyu etiketle.\n\n4. ADIM — Yabani mantarı tüketme; gıda için etiketi ve son kullanma tarihi olan güvenilir kültür ürünü seç.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yabani mantarlar için KALE hiçbir tüketim tavsiyesi vermez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Şekil, renk, koku veya hayvanların yiyip yememesi güvenli tüketim ölçütü değildir.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Yabani mantarı tüketme; gıda için etiketi ve son kullanma tarihi olan güvenilir kültür ürünü seç.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Yabani mantarlar için KALE hiçbir tüketim tavsiyesi vermez."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Yabani mantarı tüketme; gıda için etiketi ve son kullanma tarihi olan güvenilir kültür ürünü seç. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 26,
@@ -892,18 +1127,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Şüpheli mantar yendiyse ilk bildirim: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Şüpheli mantar yendiyse ilk bildirim için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Yabani mantar yenmesi sonrası belirti olmasa bile ciddi zehirlenme ihtimali değerlendirilmeli.\n\n112 veya Ulusal Zehir Danışma Merkezi 114 ile görüş; kalan örneği güvenli biçimde saklamak tespit için yardımcı olabilir.\n\nKişiyi kusturmaya veya evde 'panzehir' denemeye çalışma; ne zaman ne kadar yenildiğini not et."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Şüpheli mantar yenmişse belirti başlamasını beklemeden 112 ve 114 ile iletişime geç.\nNE DEMEK? Renk, koku, hayvanların yemiş olması veya internet fotoğrafı bir türün yenilebilir olduğunu kanıtlamaz.\nNASIL KONTROL EDERİM? Uzman teşhisi yoksa tüketme. Şüpheli yutmada 114 zehir danışma hattını ara, ağır belirti varsa 112.\n\n2. ADIM — Yeme zamanı, miktar, etkilenen kişi sayısı ve mevcut belirtileri not al.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n3. ADIM — Kişiyi kusturmaya, evde panzehir veya bitkisel tedavi denemeye çalışma.\nNE DEMEK? Renk, koku, hayvanların yemiş olması veya internet fotoğrafı bir türün yenilebilir olduğunu kanıtlamaz.\nNASIL KONTROL EDERİM? Uzman teşhisi yoksa tüketme. Şüpheli yutmada 114 zehir danışma hattını ara, ağır belirti varsa 112.\n\n4. ADIM — Kalan ürün veya fotoğraf varsa güvenli biçimde sağlık ekiplerine ilet.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Belirti olmaması güvenli olduğu anlamına gelmez; karaciğer ve böbrek hasarı gecikmeli görülebilir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Şüpheli mantar yenmişse belirti başlamasını beklemeden 112 ve 114 ile iletişime geç.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Kalan ürün veya fotoğraf varsa güvenli biçimde sağlık ekiplerine ilet.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Belirti olmaması güvenli olduğu anlamına gelmez; karaciğer ve böbrek hasarı gecikmeli görülebilir."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Kalan ürün veya fotoğraf varsa güvenli biçimde sağlık ekiplerine ilet. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 27,
@@ -927,18 +1171,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Çocuklar ve hayvanlar için yabani bitki önlemleri: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Çocuklar ve hayvanlar için yabani bitki önlemleri için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Çocukların veya evcil hayvanların bilinmeyen bitki ve meyveleri ağızlarına götürmesini önle.\n\nBitkiyi elleyip sonra göz veya ağza dokunmamaya dikkat et; güvenli biçimde uzaklaş.\n\nYutma kuşkusu varsa zorla kusturma; 112 veya 114'ten yönlendirme iste."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Bahçe ve oyun alanındaki tanınmayan mantarları küçük çocukların erişebileceği yerde bırakma.\nNE DEMEK? Renk, koku, hayvanların yemiş olması veya internet fotoğrafı bir türün yenilebilir olduğunu kanıtlamaz.\nNASIL KONTROL EDERİM? Uzman teşhisi yoksa tüketme. Şüpheli yutmada 114 zehir danışma hattını ara, ağır belirti varsa 112.\n\n2. ADIM — Tanınmayan meyve, yaprak, tohum veya süs bitkilerini gıda olarak kullanma.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n3. ADIM — Temas ve olası tüketim olayında bitkinin fotoğrafı veya ambalaj bilgisi varsa kaydet.\nNE DEMEK? Renk, koku, hayvanların yemiş olması veya internet fotoğrafı bir türün yenilebilir olduğunu kanıtlamaz.\nNASIL KONTROL EDERİM? Uzman teşhisi yoksa tüketme. Şüpheli yutmada 114 zehir danışma hattını ara, ağır belirti varsa 112.\n\n4. ADIM — Zehirlenme şüphesinde 112 veya 114 üzerinden profesyonel yardım iste.\nNE DEMEK? Yaşamı tehdit eden belirtilerde olay yerinin güvenliği ve 112 çağrısı en önde gelir. Yöntemler yaşa ve olaya göre değişir; bu metin pratik eğitimin yerini tutmaz.\nNASIL KONTROL EDERİM? Kişi yanıt veriyor mu, normal nefes alıyor mu, kanama sürüyor mu? Durum kötüleşirse veya eğitim dışı uygulama gerekiyorsa 112 yönlendirmesine geç."
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Bitki veya mantarın “doğal” olması toksik olmadığını göstermez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Bahçe ve oyun alanındaki tanınmayan mantarları küçük çocukların erişebileceği yerde bırakma.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Zehirlenme şüphesinde 112 veya 114 üzerinden profesyonel yardım iste.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Bitki veya mantarın “doğal” olması toksik olmadığını göstermez."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Zehirlenme şüphesinde 112 veya 114 üzerinden profesyonel yardım iste. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 28,
@@ -962,18 +1215,27 @@
       "updated": "2026-11-07",
       "details": [
         {
-          "heading": "Bu konu neden önemli?",
-          "text": "Etiketli kültür mantarını güvenli değerlendirme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+          "heading": "Önce neyi anlamalıyım?",
+          "text": "Etiketli kültür mantarını güvenli değerlendirme için hedef yalnız adımları ezberlemek değildir; çevrenin ve kullanılan yöntemin güvenli olduğunu anlamaktır. \n\nBu rehberi mümkünse olay olmadan prova et. Olay sırasında önce güncel resmî uyarı ve çevre güvenliği gelir."
         },
         {
-          "heading": "Adım adım, anlaşılır açıklama",
-          "text": "Etiketli kültür mantarının üretim ve saklama bilgilerini kontrol et; yabani mantarla karıştırma.\n\nBozulma, uygun olmayan saklama ve çapraz bulaşma belirtilerinde tüketme.\n\nPişirmek yabani zehirli mantarı güvenilir biçimde güvenli hale getirmez; ayrımı önemlidir."
+          "heading": "Her adımın anlamı — uygulamalı anlatım",
+          "text": "1. ADIM — Yabani mantar yerine ambalajlı, etiketi bulunan kültür ürünlerini tercih et.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n2. ADIM — Ambalaj bütünlüğü ve son kullanma tarihini kontrol et; şüpheli ürünü kullanma.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n3. ADIM — Uygun saklama ve temiz gıda hazırlama kurallarına uy.\nNE DEMEK? Gıda güvenliğinde koku/tat testi güvenilir değildir. Buzdolabında kapak kapalıyken yaklaşık 4 saat, tam dondurucuda 48 ve yarım dolu dondurucuda 24 saat genel eşiklerdir; gerçek sıcaklık ve kapak geçmişi farklı olabilir.\nNASIL KONTROL EDERİM? Kesintinin saatini, ürün türünü, 4°C ve altındaki saklama durumunu ve buz kristali olup olmadığını not et; belirsiz bozulabilir ürünü at.\n\n4. ADIM — Şüpheli belirti varsa tüketimi durdur ve gerekirse sağlık desteği al.\nNE DEMEK? Bu adımın amacı tehlikeyi azaltırken yeni bir tehlike oluşturmamaktır. Özellikle resmî uyarılar ve güvenli tahliye koşulları önceliklidir.\nNASIL KONTROL EDERİM? Çevrede değişen risk var mı? Uygulama bittiğinde neyin iyileştiğini gözlemleyebiliyor musun?"
         },
         {
-          "heading": "Uygulamayı bitirmeden kontrol et",
-          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Etiketli ürün bile bozulabilir; çiğ tüketim ve uygunsuz saklama gıda güvenliği riski yaratabilir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+          "heading": "Günlük hayattan prova senaryosu",
+          "text": "Örnek: Elektrik veya iletişim kesilmiş, yanında bir kişi daha var. Bu başlığa başlamadan önce çevredeki tehlikeyi belirle. İlk olarak “Yabani mantar yerine ambalajlı, etiketi bulunan kültür ürünlerini tercih et.” adımını uygula. Bir problem görürsen işlemi otomatik sürdürme; durup alternatif güvenli seçeneği değerlendir. En sonda “Şüpheli belirti varsa tüketimi durdur ve gerekirse sağlık desteği al.” kontrolünü birlikte yapın. Yapamadığın adımı tamamlandı diye işaretleme."
+        },
+        {
+          "heading": "Kesinlikle yapma / durma işaretleri",
+          "text": "1. Etiketli ürün bile bozulabilir; çiğ tüketim ve uygunsuz saklama gıda güvenliği riski yaratabilir."
+        },
+        {
+          "heading": "İşlem bitince 4 maddelik kontrol",
+          "text": "1. Başlangıçta gördüğün tehlike ortadan kalktı mı, yoksa sadece görünmez mi oldu?\n2. Şüpheli belirti varsa tüketimi durdur ve gerekirse sağlık desteği al. gerçekten uygulandı mı?\n3. Kullandığın malzeme temiz, sağlam ve tekrar kullanılabilir mi?\n4. Bu konuda emin olmadığın bir şey varsa kimden ve nereden doğrulayacaksın?"
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     }
   ]
 }
