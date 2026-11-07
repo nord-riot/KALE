@@ -1,3 +1,30 @@
+## Sokaklar görünmüyorsa — doğrudan çözüm (7 Kasım 2026)
+
+Harita ekranındaki ülke/il özetleri **sokak değildir**. Gerçek sokaklar için
+BBBike'den alınan **Türkiye Shortbread OSM vektör MBTiles** dosyasının
+`data/maps/turkiye-street.mbtiles` konumuna kurulmuş olması gerekir. Paket
+yaklaşık **576 MB indirilecek ZIP** büyüklüğündedir (boyut değişebilir).
+
+**Termux / mevcut KALE kurulumunda yalnız sokakları yüklemek için:**
+
+```bash
+cd ~/KALE
+git pull --ff-only
+python3 tools/turkiye_full.py map
+python3 tools/check_streets.py
+```
+
+Bu işlem internet varken çalıştırılır; yüklendikten sonra
+`http://127.0.0.1:8090/harita.html` adresini yenile, yakınlığı
+**13–14** seviyesine getir. `check_streets.py` İzmir, İstanbul ve
+Ankara'da gerçek vektör karolardaki sokak katmanlarını doğrular;
+**karo bulunamazsa hata verir**.
+
+**Sıfırdan tek kurulum** için README'deki `bootstrap-termux.sh`
+kullanılır. Rota motorunda indirme hatası yaşanması artık sokak haritasının
+yerel sunucuda gösterilmesini engellemez. Harita internet olmadan, veriler
+kurulduğu sürece çalışır; canlı trafik/afet yol kapanmaları içermez.
+
 > **7 Kasım 2026 arayüz düzeltmesi:** Saha rehberlerinin detay penceresi mobil/masaüstünde taşmadan kaydırılır ve her rehber açılışında en üste döner. Harita artık sayfanın üst kısmında görünür. 5 adet USGS **Public Domain** görsel ilk çevrimiçi kurulumda cihaza alınır; indirilemezse KALE'nin özgün SVG'leri gösterilir. Kaynak ve görsel lisans bilgileri: [Açık lisanslı görseller](docs/ACIK-LISANSLI-GORSELLER.md).
 >
 > **Önemli:** Sayfa düzenlemesi Türkiye'nin gerçek sokak verisinin yerine geçmez. Harita boş/yalnız özet görünüyorsa, internet varken `python3 tools/turkiye_full.py check` ile durumu kontrol et; eksik veriler için README'deki Termux tek kurulumunu çalıştır. Gerçek Android saha testi ayrıca gereklidir.

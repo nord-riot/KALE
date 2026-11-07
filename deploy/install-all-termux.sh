@@ -18,22 +18,25 @@ if free<3*2**30:
     sys.exit('En az 3 GiB boş alan aç: harita ZIP + açılmış harita + rota dosyaları için gerekli.')
 PY
 fi
-printf '\n[1/5] Türkiye gerçek sokak haritası ve offline yol ağı indiriliyor...\n'
-python3 tools/turkiye_full.py all
-printf '\n[2/5] Gerçek harita ve rota bileşenleri denetleniyor...\n'
-python3 tools/turkiye_full.py check
+printf '\n[1/5] GERÇEK TÜRKİYE SOKAK HARİTASI (MBTiles) indiriliyor/doğrulanıyor...\n'
+# Street map is independent of BRouter routing. A route download failure
+# must never hide a successfully installed offline street map.
+python3 tools/turkiye_full.py map
 python3 - <<'PY'
-from pathlib import Path
-from routing import inspect_street_map,get_routing_status,ROUTING_DIR
-m=inspect_street_map();s=get_routing_status()
-if not m['installed']:
-    raise SystemExit('KURULUM TAM DEĞİL: Gerçek sokak MBTiles bulunamadı: '+m.get('message',''))
-if not s['full_turkey_data']:
-    raise SystemExit(f'KURULUM TAM DEĞİL: 10 rota bölgesinin yalnız {s["segments_found"]} tanesi var.')
-if not (ROUTING_DIR/'brouter.jar').is_file() or not (ROUTING_DIR/'profiles2/lookups.dat').is_file():
-    raise SystemExit('KURULUM TAM DEĞİL: BRouter motoru veya profilleri yok.')
-print(f'OK: sokak haritası {m["size_bytes"]/2**20:.0f} MiB / 10 rota bölgesi')
+from routing import inspect_street_map
+m=inspect_street_map()
+if not m.get('installed'):
+    raise SystemExit('SOKAK HARİTASI EKSİK: ' + m.get('message','Türkiye OSM paketi kurulamadı.'))
+print('OK: GERÇEK SOKAK HARİTASI',round(m['size_bytes']/2**20),'MiB')
 PY
+printf '\n[2/5] Offline rota motoru kurulumu deneniyor (haritadan bağımsız)...\n'
+route_deps=1
+python3 tools/turkiye_full.py segments || route_deps=0
+python3 tools/turkiye_full.py engine || route_deps=0
+if [[ "$route_deps" = 0 ]]; then
+  echo 'UYARI: Rota verileri eksik ama SOKAK HARİTASI HAZIR. Harita çalışacak.'
+fi
+python3 tools/turkiye_full.py check || true
 printf '\n[2b/5] Kamu malı USGS güvenlik görselleri yerel cihaza alınıyor...\n'
 python3 tools/install_open_images.py || echo 'UYARI: Bazı görseller indirilemedi; yerel SVG çizimleri kullanılacak.'
 printf '\n[3/5] KALE web uygulaması kontrol ediliyor...\n'
@@ -95,9 +98,9 @@ PY
   sleep 1
 done
 if [[ "$router" != 1 ]];then
-  echo 'UYARI: Harita kuruldu fakat BRouter sunucusu henüz rota hesaplamaya hazır değil.' >&2
-  echo 'Log: tail -n 80 ~/.cache/kale/supervisor.log ; java -version' >&2
-  exit 1
+  echo 'UYARI: Sokak haritası hazır; BRouter rota servisi bu cihazda henüz aktif değil.' >&2
+  echo 'Harita: http://127.0.0.1:8090/harita.html' >&2
+  echo 'Rota logu: tail -n 80 ~/.cache/kale/supervisor.log' >&2
 fi
 printf '\n*** KALE KURULDU ***\n'
 printf 'TELEFON: http://127.0.0.1:8090/harita.html\n'
