@@ -39,7 +39,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-01.svg"
+      "diagram": "/assets/diagrams/ge-01.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gıdada karar verirken görünüş ve koku tek başına güvenlik kanıtı değildir. Saklama süresini, sıcaklığı, ambalajı ve temiz hazırlığı birlikte değerlendir. Konu: Elektrik kesildiğinde buzdolabı. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Kapakların kapalı tutulması soğuk zincirin korunmasına yardım eder."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Elektriğin kesildiği saati not et ve buzdolabı kapağını mümkün olduğunca kapalı tut.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 2: Kapak kapalıysa yaklaşık 4 saatlik genel rehber sınırını aklında tut; gerçek sıcaklık ve ürün durumu farklı olabilir.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 3: Kesinti 4 saati geçtiğinde et, süt, yumurta, balık ve pişmiş yemek gibi soğutulan bozulabilir gıdaları güvenilir soğuk kaynak yoksa at.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 4: Geri gelen elektriği tek başına güvenlik kanıtı sayma; termometre ve ürüne özel değerlendirme yap.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Elektrik kesildiğinde buzdolabı\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve buzdolabı termometresi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Gıda uzun süre 4°C üstünde kaldıysa\n• Süre ve soğuk zincir geçmişi bilinmiyorsa\n• Asla tadına bakarak güvenlik testi yapma; 4 saat sınırı güvenlik garantisi değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Elektrik kesildiğinde buzdolabı: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 2,
@@ -71,7 +93,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-02.svg"
+      "diagram": "/assets/diagrams/ge-02.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gıdada karar verirken görünüş ve koku tek başına güvenlik kanıtı değildir. Saklama süresini, sıcaklığı, ambalajı ve temiz hazırlığı birlikte değerlendir. Konu: Derin dondurucuda kesinti yönetimi. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Dondurucu doluluğu ve kapak açma sıklığı soğuğun ne kadar korunacağını etkiler."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Dondurucu kapağını gereksiz açma, paketleri bir arada tut.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 2: Kapak kapalıysa tamamen dolu dondurucu için yaklaşık 48 saat, yarı dolu için yaklaşık 24 saat genel rehberi kullan.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 3: Kısmen çözülmüş ürünlerde buz kristali kalıp kalmadığını ve sıcaklığın 4°C veya altında olup olmadığını termometreyle değerlendir.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Süresi/ısısı belirsiz, bozulabilir gıdaları güvenli varsayma; şüphede at.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Derin dondurucuda kesinti yönetimi\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve dondurucu termometresi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Buz kristali yok ve 4°C üstü maruziyet şüphesi varsa\n• Paketin çözünme geçmişi bilinmiyorsa\n• 24/48 saat yalnız genel varsayımdır, her dondurucunun garantili saklama süresi değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Derin dondurucuda kesinti yönetimi: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 3,
@@ -103,7 +147,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-03.svg"
+      "diagram": "/assets/diagrams/ge-03.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gıdada karar verirken görünüş ve koku tek başına güvenlik kanıtı değildir. Saklama süresini, sıcaklığı, ambalajı ve temiz hazırlığı birlikte değerlendir. Konu: Soğuk zincir için buz aküsü. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Uzun kesintide yalıtımlı soğutucu ancak ölçülen düşük sıcaklıkla işe yarar."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Soğutulması gereken gıdaları buz akülü soğutucuya aktarırken soğuk zincir geçmişini kontrol et.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 2: Gıda ve buzları ayrı paketle, su sızıntısının gıdaya temas etmesini engelle.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: İç sıcaklığın 4°C veya altında kaldığını termometreyle kontrol et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Soğuk kaynak eridiğinde yenile veya bozulabilir ürünleri at; yalnızca dokunarak değerlendirme yapma.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Soğuk zincir için buz aküsü\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve yalıtımlı kutu kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Termometre yok ve güvenli maruziyet süresi bilinmiyorsa\n• 4°C üzerinde 2 saatten fazla beklediyse\n• Buz aküsü varlığı tek başına güvenlik onayı değildir; termometre kullan. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Soğuk zincir için buz aküsü: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 4,
@@ -134,7 +200,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-04.svg"
+      "diagram": "/assets/diagrams/ge-04.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gıdada karar verirken görünüş ve koku tek başına güvenlik kanıtı değildir. Saklama süresini, sıcaklığı, ambalajı ve temiz hazırlığı birlikte değerlendir. Konu: Dayanıklı kuru erzak rotasyonu. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Pirinç, bakliyat ve paketli gıdaları nem, böcek ve paket bozulmasına karşı izlemek gerekir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Gıdaları çeşidine ve açılma tarihine göre etiketle.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 2: Ambalaj yırtığı, nem, küf, haşere ve sızıntı olup olmadığını kontrol et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: İlk giren ilk çıkar düzeni uygula; ürün saklama talimatlarına uy.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Kirli su değmiş veya küflenmiş gıdayı güvenli sayma; şüpheliyse kullanma.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Dayanıklı kuru erzak rotasyonu\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kapaklı gıda kutuları kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Küf, haşere, ıslanma veya şüpheli koku fark edilirse\n• Nemlenmiş tahılı sadece kurutarak güvenli hâle getirdiğini varsayma. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Dayanıklı kuru erzak rotasyonu: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 5,
@@ -165,7 +253,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-05.svg"
+      "diagram": "/assets/diagrams/ge-05.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gıdada karar verirken görünüş ve koku tek başına güvenlik kanıtı değildir. Saklama süresini, sıcaklığı, ambalajı ve temiz hazırlığı birlikte değerlendir. Konu: Konserve ve ambalaj güvenliği. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Şişmiş, sızdıran, paslı veya hasarlı konserve tüketilmemelidir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Kapakta bombe, sızıntı, derin ezik veya ağır pas olup olmadığına bak.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 2: Ambalajın üretici tarihini ve saklama şartlarını kontrol et.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 3: Temiz saklanan, sağlam ambalajlı ürünleri rotasyonla kullan.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Şüpheli ambalajı açıp tatma; güvenli şekilde ayır.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Konserve ve ambalaj güvenliği\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve temiz raf kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Kutu şişmiş, sızdırıyor ya da ciddi biçimde hasarlıysa\n• Botulizm gibi ciddi risklerde görünüm ve koku yeterli test değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Konserve ve ambalaj güvenliği: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 6,
@@ -196,7 +306,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-06.svg"
+      "diagram": "/assets/diagrams/ge-06.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Gıdada karar verirken görünüş ve koku tek başına güvenlik kanıtı değildir. Saklama süresini, sıcaklığı, ambalajı ve temiz hazırlığı birlikte değerlendir. Konu: Sel sonrası gıda elemesi. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Sel suyu ve kanalizasyon teması gıdayı güvenli olmayan duruma getirebilir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Sel suyu veya kanalizasyonun temas ettiği gıdaları güvenli kabul etme.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 2: Su geçirmez, sağlam fabrika ambalajı olup olmadığını gıda güvenliği rehberiyle kontrol et.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Hazırlama yüzeylerini uygun şekilde temizle; temiz ve kirli malzemeleri ayır.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Şüpheli gıdalar için yerel sağlık otoritesinin talimatlarını izle.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Sel sonrası gıda elemesi\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve ayrı atık poşeti kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Sel suyu açık gıda veya geçirgen paketle temas ettiyse\n• Sel suyu değmiş gıda kaynatmayla otomatik olarak güvenli hâle gelmez. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Sel sonrası gıda elemesi: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 7,
@@ -229,7 +361,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-07.svg"
+      "diagram": "/assets/diagrams/ge-07.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Pişirme sırasında yangın, karbonmonoksit, sıcak yüzey ve çiğ gıdayla çapraz bulaşma risklerini ayrı ayrı düşün. Yakıtlı cihazı kapalı alanda kullanma. Konu: Dış ortamda ocak kullanma. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Piknik tüpü ve kamp ocağı açık havada, yangın tehlikesinden uzakta kullanılmalıdır."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Cihazı yalnız açık dış ortamda kullan; çadır, oda, araç, garaj ve kapalı balkonda kullanma.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 2: Üretici talimatına uygun yakıt, bağlantı ve stabil yüzey kontrolü yap.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Kuru ot ve yanıcı eşyalardan uzak tut; çocukları alandan uzaklaştır.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 4: Kullanım bittiğinde yakıtı güvenli biçimde kapat ve soğumasını bekle.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Dış ortamda ocak kullanma\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve üretici talimatı kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Gaz kokusu veya sızıntı şüphesi\n• Şiddetli rüzgâr/yangın yasağı\n• Kapalı alanda kullanım\n• Karbonmonoksit kokusuzdur. Açık pencere veya havalandırma kamp ocağını içeride güvenli yapmaz. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Dış ortamda ocak kullanma: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 8,
@@ -262,7 +416,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-08.svg"
+      "diagram": "/assets/diagrams/ge-08.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Pişirme sırasında yangın, karbonmonoksit, sıcak yüzey ve çiğ gıdayla çapraz bulaşma risklerini ayrı ayrı düşün. Yakıtlı cihazı kapalı alanda kullanma. Konu: Mangal ile pişirme güvenliği. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Kömür mangalı yalnız dış ortamda kullanılmalı, korların tamamen sönmesi beklenmelidir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Mangalın ev, garaj, çadır, kapalı balkon ve hava girişlerinden uzak açık yerde olduğundan emin ol.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 2: Rüzgârla savrulabilecek közlerin ve çevredeki yanıcı maddelerin riskini değerlendir.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Gıdanın iç sıcaklığını termometreyle doğrula; renk tek başına yeterli değildir.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 4: Közleri tamamen söndürüp soğumadan saklama veya taşıma.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Mangal ile pişirme güvenliği\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve güvenli açık alan kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Kapalı alan\n• Yangın yasağı / çok güçlü rüzgâr\n• Dumanın yaşam alanına dolması\n• Mangal ve kömür ısınmak amacıyla kapalı alana asla alınmamalıdır. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Mangal ile pişirme güvenliği: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 9,
@@ -294,7 +470,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-09.svg"
+      "diagram": "/assets/diagrams/ge-09.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Pişirme sırasında yangın, karbonmonoksit, sıcak yüzey ve çiğ gıdayla çapraz bulaşma risklerini ayrı ayrı düşün. Yakıtlı cihazı kapalı alanda kullanma. Konu: Gıda iç sıcaklığı termometresi. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Güvenli pişirmede gıdanın iç sıcaklığını ölçmek temel kontroldür."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Termometre ucunu gıdanın en kalın bölgesine yerleştir; kemiğe değdirmemeye çalış.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 2: Kanatlı eti için en az 74°C, kıyma için 71°C, bütün kırmızı et kesimleri için 63°C ve 3 dakika dinlenme kontrolünü uygula.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Pişmiş artan yemekleri tekrar ısıtırken 74°C hedefle; ürünün özel gereksinimlerine dikkat et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Farklı çiğ gıdalar arasında termometreyi temizle ve üretici talimatlarına uy.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Gıda iç sıcaklığı termometresi\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve gıda termometresi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Termometre yoksa ve ürünün iç sıcaklığı doğrulanamıyorsa\n• Çiğ/bozulmuş ürünü yalnız pişirerek kurtarmaya çalışma\n• Gıda daha önce uygunsuz saklandıysa pişirmek her tehlikeyi gidermez. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Gıda iç sıcaklığı termometresi: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 10,
@@ -326,7 +524,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-10.svg"
+      "diagram": "/assets/diagrams/ge-10.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Pişirme sırasında yangın, karbonmonoksit, sıcak yüzey ve çiğ gıdayla çapraz bulaşma risklerini ayrı ayrı düşün. Yakıtlı cihazı kapalı alanda kullanma. Konu: Çiğ ve pişmiş gıdayı ayırma. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Çapraz bulaşmayı önlemek mutfak hijyeninin temelidir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Çiğ et/tavuk/deniz ürünüyle temas eden gereçleri hazır gıdalardan ayır.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 2: Ellerini ve yüzeyleri güvenilir suyla uygun şekilde temizle.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Çiğ gıdanın suyunu hazır yemek veya temiz sebzeye temas ettirme.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Aynı ekipmanı kullanacaksan önce uygun biçimde temizle ve kurut.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Çiğ ve pişmiş gıdayı ayırma\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve ayrı kesme tahtaları kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Eller/yüzeyler kirliyse\n• Temizlik için güvenilir su yoksa\n• El dezenfektanı her gıda hazırlama kirliliğini tek başına gidermez. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Çiğ ve pişmiş gıdayı ayırma: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 11,
@@ -358,7 +578,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-11.svg"
+      "diagram": "/assets/diagrams/ge-11.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Pişirme sırasında yangın, karbonmonoksit, sıcak yüzey ve çiğ gıdayla çapraz bulaşma risklerini ayrı ayrı düşün. Yakıtlı cihazı kapalı alanda kullanma. Konu: Gıdayı güvenli çözdürme. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Bozulabilir gıdayı tezgâh üzerinde uzun süre çözmek güvenli değildir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Mümkünse buzdolabında kontrollü çözdür.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir.\n\nADIM 2: Alternatif soğuk su yönteminde ambalajı sızdırmaz tut ve suyu düzenli değiştir.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 3: Mikrodalga veya soğuk su ile çözdürülmüş gıdayı geciktirmeden pişir.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: Tümüyle çözdürülmüş ve sıcaklık geçmişi bilinmeyen ürünü güvenli varsayma.\nAÇIKLAMA: Yiyeceğin güvenliğini yalnız tadı veya kokusu belirlemez; zaman, sıcaklık ve ambalaj geçmişi de gerekir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Gıdayı güvenli çözdürme\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve buzdolabı kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Oda sıcaklığında uzun süre kalan bozulabilir ürün\n• Soğuk su kirliliği\n• Dış ortam soğuğu her zaman buzdolabı sıcaklığı değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Gıdayı güvenli çözdürme: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 12,
@@ -391,7 +633,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-12.svg"
+      "diagram": "/assets/diagrams/ge-12.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Pişirme sırasında yangın, karbonmonoksit, sıcak yüzey ve çiğ gıdayla çapraz bulaşma risklerini ayrı ayrı düşün. Yakıtlı cihazı kapalı alanda kullanma. Konu: Açık ateş ve yangın mesafesi. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Pişirme noktasını çevre yangını ve ani rüzgâr açısından kontrol et."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Yangın yasağı ve hava koşullarını öncelikle kontrol et.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 2: Yakın çevrede ağaç, kuru ot, barınak kumaşı ve yakıt depolarının konumunu değerlendir.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Erişimi ve tahliye yolunu açık tut; ocağı gözetimsiz bırakma.\nAÇIKLAMA: Tehlike koşulları değişebilir; önceden planlanan yolun kapanması ihtimaline karşı alternatif belirlemek gerekir.\n\nADIM 4: Yangın kontrol dışına çıkarsa müdahale etmek yerine güvenli mesafeye çekilip 112’yi ara.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Açık ateş ve yangın mesafesi\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve yanmaz taban kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Rüzgâr/yangın yasağı\n• Yangının büyümesi\n• Uygun söndürme imkânı yokluğu\n• Doğaçlama yanıcı sıvı hızlandırıcıları kullanma. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Açık ateş ve yangın mesafesi: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 13,
@@ -423,7 +687,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-13.svg"
+      "diagram": "/assets/diagrams/ge-13.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce hangi cihazın kaç watt harcadığını ve kaç saat çalışacağını belirle. Hasarlı batarya ve uyumsuz kabloyla deneme yapma. Konu: Powerbank enerji envanteri. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. mAh değeri tek başına cihazın çalışma saatini vermez."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Cihaz etiketinde belirtilen Wh değerini bul; yalnız mAh varsa pilin nominal voltajına ihtiyaç olduğunu not et.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 2: Her cihazın ortalama tüketimini Watt cinsinden ayrı kaydet.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 3: Dönüşüm kayıpları ve pil sağlığı nedeniyle teorik sürenin daha uzun olduğunu varsayma.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 4: Öncelik sırası belirle: haberleşme, güvenli aydınlatma ve kritik cihazlar.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Powerbank enerji envanteri\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve ürün etiketleri kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Hasarlı/şişmiş batarya\n• Üretici kapasitesi bilinmeyen şüpheli adaptör\n• Hesaplanan saat, üretici garantisi veya tıbbi cihaz çalışabilirliği kanıtı değildir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Powerbank enerji envanteri: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 14,
@@ -456,7 +742,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-14.svg"
+      "diagram": "/assets/diagrams/ge-14.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce hangi cihazın kaç watt harcadığını ve kaç saat çalışacağını belirle. Hasarlı batarya ve uyumsuz kabloyla deneme yapma. Konu: Wh ile çalışma süresi tahmini. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Wh kapasite, W tüketim ve verim varsayımıyla yaklaşık süre hesaplanabilir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Kullanılabilir enerji için Wh kapasitesini ve üretici sınırlarını kontrol et.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 2: Cihazın gerçek ortalama güç tüketimini Watt olarak belirle; ilk kalkış gücü farklı olabilir.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 3: İnverter/kablo kaybını ve ayrı tutulacak güvenlik rezervini hesaba kat.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 4: Teorik sonucu sahada gerçek tüketimle doğrula; kritik cihazlar için yedek plan tut.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Wh ile çalışma süresi tahmini\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve batarya/power station etiketi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Bilinmeyen güç girişi\n• Yüksek kalkış akımı\n• Tıbbi veya hayati cihaz\n• Batarya süresine dayanarak hayati güvenlik kararı verme. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Wh ile çalışma süresi tahmini: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 15,
@@ -489,7 +797,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-15.svg"
+      "diagram": "/assets/diagrams/ge-15.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce hangi cihazın kaç watt harcadığını ve kaç saat çalışacağını belirle. Hasarlı batarya ve uyumsuz kabloyla deneme yapma. Konu: Güneş paneli ve gölge kontrolü. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Panelin anlık gücü hava, açı, sıcaklık ve gölgeye bağlıdır."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Panel ve bataryanın giriş/çıkış voltajı, polaritesi ve akım sınırlarını üretici etiketinden eşleştir.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 2: Gölge, yağmur ve rüzgârın etkisini hesaba kat; paneli devrilmeyecek biçimde konumlandır.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Kablo hasarı, su teması ve ısınma olup olmadığını kontrol et.\nAÇIKLAMA: Bu ayrım önemlidir: görünür tortuyu uzaklaştırmak, mikropları veya kimyasalları güvenilir biçimde ortadan kaldırdığın anlamına gelmez.\n\nADIM 4: İhtiyaç duyduğun enerjiyi tek güneşli gün varsayımıyla planlama.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Güneş paneli ve gölge kontrolü\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve panel etiketi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Uyumsuz voltaj\n• Hasarlı kablo\n• Yüksekten düşme/çatı riski\n• Şebekeye/ev tesisatına doğaçlama bağlantı yapma; yangın ve elektrik çarpması riski vardır. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Güneş paneli ve gölge kontrolü: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 16,
@@ -521,7 +851,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-16.svg"
+      "diagram": "/assets/diagrams/ge-16.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce hangi cihazın kaç watt harcadığını ve kaç saat çalışacağını belirle. Hasarlı batarya ve uyumsuz kabloyla deneme yapma. Konu: Şarj önceliklendirme planı. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Sınırlı enerjide önce iletişim ve temel güvenlik ihtiyaçları değerlendirilmelidir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Aydınlatma, telsiz, telefon ve sağlık cihazı gibi temel ihtiyaçları öncelik sırasına koy.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 2: Gereksiz ekran/parlaklık ve bekleme modlarını azalt; kullanım saatlerini planla.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Cihaz şarjı bitmeden ikincil haberleşme yöntemini hazır tut.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 4: Günlük kullanılan Wh miktarını kaydedip planı yeniden değerlendir.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Şarj önceliklendirme planı\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve şarj listesi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Gerekli iletişim tamamen kesiliyorsa\n• Cihaz aşırı ısınıyorsa\n• Kritik tıbbi cihazların güç ihtiyacı için profesyonel yedek güç planı gerekir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Şarj önceliklendirme planı: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 17,
@@ -553,7 +905,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-17.svg"
+      "diagram": "/assets/diagrams/ge-17.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce hangi cihazın kaç watt harcadığını ve kaç saat çalışacağını belirle. Hasarlı batarya ve uyumsuz kabloyla deneme yapma. Konu: Lityum batarya hasar kontrolü. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Şişme, darbe, sıvı teması ve kontrolsüz ısınma yangın riskini yükseltir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Şarj öncesi kablo, adaptör, pil gövdesi ve bağlantıları görsel incele.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 2: Şişmiş, delinmiş, ıslanmış veya kokan bataryayı şarj etme.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 3: Bataryayı doğrudan güneşte, alev yanında veya kapalı sıcak araçta saklama.\nAÇIKLAMA: Elektriksel uyumsuzluk, ısınma ve hasar yangın ya da yaralanma riski oluşturabilir; teknik sınırlar önemlidir.\n\nADIM 4: Yangın/duman varsa güvenli uzaklığa çıkıp acil yardım çağır.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Lityum batarya hasar kontrolü\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve üretici kılavuzu kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Pil şişmesi/duman\n• Şarj sırasında aşırı sıcaklık\n• Hasarlı pil gövdesini açma ve doğaçlama pil paketi yapma. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Lityum batarya hasar kontrolü: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 18,
@@ -586,7 +960,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-18.svg"
+      "diagram": "/assets/diagrams/ge-18.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce hangi cihazın kaç watt harcadığını ve kaç saat çalışacağını belirle. Hasarlı batarya ve uyumsuz kabloyla deneme yapma. Konu: Jeneratörün güvenli dış yerleşimi. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Jeneratörün egzozu ve elektrik bağlantısı ciddi tehlike oluşturur."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Jeneratörü yalnız dışarıda, pencere, kapı ve hava girişlerinden en az yaklaşık 6 metre uzakta çalıştır.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 2: Garaj, çadır, kapalı balkon veya araç içinde çalıştırma; pencere açmak yeterli değildir.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 3: Yakıtı güvenli sakla, cihaz soğumadan yakıt ekleme.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Bina elektrik tesisatına doğrudan geri besleme yapma; uzman kurulumuna ihtiyaç vardır.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Jeneratörün güvenli dış yerleşimi\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve üretici kılavuzu kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• CO alarmı veya zehirlenme belirtileri\n• Kapalı alan\n• Uygunsuz kablo/bağlantı\n• Karbonmonoksit kokusuz ve renksizdir; maruziyet ölümcül olabilir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Jeneratörün güvenli dış yerleşimi: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 19,
@@ -618,7 +1014,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-19.svg"
+      "diagram": "/assets/diagrams/ge-19.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce kuru kalma, rüzgârdan korunma ve zeminden ısı kaybını azaltma işini çöz. Titreme, uyku hâli veya bilinç değişikliği ağır soğuk riskinin işareti olabilir. Konu: Kışlık katmanlı giyim. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Gevşek katmanlar ve kuru kıyafet vücut ısı kaybını azaltır."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Nemi cilde hapsetmeyen iç katmanı, sıcak tutan orta katmanı ve hava koşuluna uygun dış katmanı birlikte kullan.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 2: Baş, boyun, eller ve ayakları uygun şekilde koru.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Terleyip ıslanmaktan kaçın; ıslak giysiyle hareketsiz kalma.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 4: Karışıklık, aşırı yorgunluk veya konuşmada bozulma gibi ciddi belirtileri izle.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Kışlık katmanlı giyim\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kuru iç katman kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Bilinç değişikliği\n• Şiddetli titreme sonrası titremenin kaybolması\n• Hipotermi yalnız kar altında değil, soğuk-ıslak ortamda da gelişebilir. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Kışlık katmanlı giyim: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 20,
@@ -650,7 +1068,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-20.svg"
+      "diagram": "/assets/diagrams/ge-20.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce kuru kalma, rüzgârdan korunma ve zeminden ısı kaybını azaltma işini çöz. Titreme, uyku hâli veya bilinç değişikliği ağır soğuk riskinin işareti olabilir. Konu: Islak giysi ve zemin ısı kaybı. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Nemli kumaş ve soğuk zemine temas vücudun soğumasını hızlandırır."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Islak alandan ve rüzgârdan mümkün olan en güvenli şekilde uzaklaş.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 2: Islak giysileri kuru katmanlarla değiştir.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Yer ile teması azaltacak kuru yalıtım matını kullan.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 4: Vücut sıcaklığı sorunu belirtileri varsa tıbbi yardım iste.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Islak giysi ve zemin ısı kaybı\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kuru giysi kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Bilinç bulanıklığı/uyuklama\n• Süregelen kontrolsüz titreme\n• Ani aşırı sıcak yüzey veya doğrudan ısı kaynağıyla ısıtmaya çalışma. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Islak giysi ve zemin ısı kaybı: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 21,
@@ -683,7 +1123,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-21.svg"
+      "diagram": "/assets/diagrams/ge-21.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce kuru kalma, rüzgârdan korunma ve zeminden ısı kaybını azaltma işini çöz. Titreme, uyku hâli veya bilinç değişikliği ağır soğuk riskinin işareti olabilir. Konu: Hipotermi belirtilerini tanıma. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Hipotermi acil tıbbi değerlendirme gerektirebilir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Titreme, bitkinlik, koordinasyon bozukluğu, konuşma bozulması ve bilinç bulanıklığına dikkat et.\nAÇIKLAMA: Bu tür belirtiler hızla kötüleşebilir; kişinin durumunu ve 112 ile iletişim gereğini yeniden değerlendir.\n\nADIM 2: Belirtiler varsa 112’yi ara; kişiyi tehlikeden uzak, kuru ve ılık ortama al.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Islak giysileri değiştir; kişiyi kuru örtüyle ve nazikçe koru.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 4: Bilinci kapalı kişiye ağızdan sıvı/yiyecek verme; acil ekip yönlendirmesini izle.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Hipotermi belirtilerini tanıma\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve güvenli sıcak barınma kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Bilinç kaybı\n• Konuşma/koordinasyon bozukluğu\n• Şüpheli hipotermi\n• Alkol vererek ısıtmaya çalışma; hipotermi hayatı tehdit eden acil durumdur. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Hipotermi belirtilerini tanıma: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 22,
@@ -716,7 +1178,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-22.svg"
+      "diagram": "/assets/diagrams/ge-22.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce kuru kalma, rüzgârdan korunma ve zeminden ısı kaybını azaltma işini çöz. Titreme, uyku hâli veya bilinç değişikliği ağır soğuk riskinin işareti olabilir. Konu: Donma (frostbite) uyarıları. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Uyuşma, soluk/beyazlaşmış veya balmumu sertliğinde deri donma belirtisi olabilir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Parmaklar, ayak, burun ve kulaklarda uyuşma veya renk değişikliği olup olmadığını kontrol et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 2: Kişiyi güvenli sıcak ortama al; dar/ıslak kıyafetleri uygun şekilde gevşet.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 3: Etkilenmiş bölgeyi ovalama, masaj yapma veya açık alev/radyatöre yaklaştırma.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Donma şüphesinde mümkün olan en kısa sürede tıbbi yardım al; yeniden donma riski varsa özel değerlendirme gerekir.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Donma (frostbite) uyarıları\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kuru ve sıcak ortam kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Beyaz/gri-sert deri\n• Uyuşma ve ciddi ağrı\n• Yeniden donma olasılığı\n• Donmuş dokuya aşırı ısı uygulama veya sert biçimde ovma. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Donma (frostbite) uyarıları: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 23,
@@ -748,7 +1232,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-23.svg"
+      "diagram": "/assets/diagrams/ge-23.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce kuru kalma, rüzgârdan korunma ve zeminden ısı kaybını azaltma işini çöz. Titreme, uyku hâli veya bilinç değişikliği ağır soğuk riskinin işareti olabilir. Konu: Çocuk ve yaşlılarda soğuk riski. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Bebekler, yaşlılar ve bazı kronik hastalığı olanlar soğuğa daha hassas olabilir."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Hane üyelerinin ısı, kuru kıyafet ve barınma gereksinimini ayrı değerlendir.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 2: Bebekler ve hareket kısıtlı kişilerde belirtiler kolay fark edilmeyebilir; düzenli kontrol et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 3: Temel ilaç ve tıbbi cihazların saklama/enerji gereksinimini uzmanla planla.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Aşırı üşüme veya bilinç değişikliğinde acil tıbbi yardım iste.\nAÇIKLAMA: Bu tür belirtiler hızla kötüleşebilir; kişinin durumunu ve 112 ile iletişim gereğini yeniden değerlendir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Çocuk ve yaşlılarda soğuk riski\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve uygun kuru katman kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• Ciddi halsizlik ve bilinç değişimi\n• Bebekte olağandışı hareketsizlik\n• İlaçları/diyabet tedavisini KALE taslak listesine bakarak değiştirme. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Çocuk ve yaşlılarda soğuk riski: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     },
     {
       "id": 24,
@@ -781,7 +1287,29 @@
       ],
       "review_status": "EDİTORYAL TASLAK — UZMAN ONAYI BEKLİYOR",
       "updated": "2026-11-03",
-      "diagram": "/assets/diagrams/ge-24.svg"
+      "diagram": "/assets/diagrams/ge-24.svg",
+      "details": [
+        {
+          "heading": "Bu işe girişmeden önce",
+          "text": "Önce kuru kalma, rüzgârdan korunma ve zeminden ısı kaybını azaltma işini çöz. Titreme, uyku hâli veya bilinç değişikliği ağır soğuk riskinin işareti olabilir. Konu: Kapalı alanda güvenli ısınma. Gerekli malzemeleri topla; bulunmayan ekipmanı riskli bir yöntemle ikame etmeye çalışma. Mangal, kamp ocağı, jeneratör ve gazlı mutfak ocağı evi ısıtmak için kullanılmamalıdır."
+        },
+        {
+          "heading": "Adımları neden bu sırayla yapıyorum?",
+          "text": "ADIM 1: Önce güvenli, kuru barınma ve katmanlı giyim olanaklarını değerlendir.\nAÇIKLAMA: Islaklık ve hava akımı vücudun ısı kaybını artırabilir; malzemelerin kuru kalması ve güvenli havalandırma birlikte ele alınmalıdır.\n\nADIM 2: Mangal, portatif kamp ocağı, jeneratör ve gazlı fırını kapalı alanda ısıtma amacıyla kullanma.\nAÇIKLAMA: Bunun nedeni duman, yangın ve karbonmonoksit gibi görünmeyen tehlikelerin ortamı hızlıca güvensiz hâle getirebilmesidir.\n\nADIM 3: Karbonmonoksit alarmına ve baş ağrısı/baş dönmesi/bulantı belirtilerine dikkat et.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir.\n\nADIM 4: Güvenli ısınma sürdürülemiyorsa resmî sıcak barınma alanına geçiş seçeneklerini araştır.\nAÇIKLAMA: Bu adımı atlamamak, koşulları yeniden değerlendirmek ve aceleyle riskli bir karar vermemek için önemlidir."
+        },
+        {
+          "heading": "Örnek durum ve karar sırası",
+          "text": "\"Kapalı alanda güvenli ısınma\" konusuyla karşılaştığını düşün. Önce çevre güvenliği ve kuru battaniye kontrol et. Sonra ilk adımı uygula, sonuç değişiyorsa yeniden değerlendir. Malzemeler yoksa güvenilir alternatife geç; zorlayarak devam etme."
+        },
+        {
+          "heading": "Sık yapılan hatalar ve durma noktaları",
+          "text": "• CO alarmı\n• Baş ağrısı, bilinç bulanıklığı\n• Havalandırmasız/yakıtlı cihaz\n• Bir pencereyi açmak kapalı alanda yakıtlı cihaz kullanımını güvenli yapmaz. \nBu koşullardan biri gerçekleşirse işlemi sürdürmek yerine güvenli alana geç, resmî uyarıları ve gerekirse 112'yi izle."
+        },
+        {
+          "heading": "İşlem sonrası 30 saniyelik kontrol",
+          "text": "Kapalı alanda güvenli ısınma: Yapılan işlem gerçekten güvenli mi, gerekli malzemeler yerinde mi, sonraki tehlike işareti ne, bu işten sorumlu kişi kim? Gözlemlediğin belirsizliği gizleme; bu KALE rehberi uzman onayı bekleyen eğitim taslağıdır."
+        }
+      ]
     }
   ]
 }
