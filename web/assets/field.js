@@ -2,10 +2,38 @@
 const $=id=>document.getElementById(id);
 const tag=(name,cls,value)=>{const n=document.createElement(name);if(cls)n.className=cls;if(value!==undefined)n.textContent=value;return n;};
 let all=[];
+// The USGS files are public-domain reference imagery, downloaded locally by
+// tools/install_open_images.py during the online preparation stage.
+const OPEN_MEDIA={
+ 1:[
+  {file:'/assets/public-domain/drop-cover-holdon.png',caption:'Sarsıntı sırasında Çök–Kapan–Tutun · USGS (kamu malı)',source:'https://www.usgs.gov/media/images/drop-cover-and-hold'},
+  {file:'/assets/public-domain/earthquake-damage.jpg',caption:'Depremde hasarlı bina örneği · USGS (kamu malı)',source:'https://www.usgs.gov/media/images/earthquake-damaged-building'}
+ ],
+ 5:[{file:'/assets/public-domain/landslide.jpg',caption:'Heyelan riski taşıyan yamaç örneği · USGS / Jim Bowers (kamu malı)',source:'https://www.usgs.gov/media/images/landslide'}]
+};
+function primaryImage(g){
+ return OPEN_MEDIA[g.id]?.[0]?.file || g.diagram;
+}
+function guideVisuals(g){
+ const grid=tag('div','guide-visuals');
+ const diagram=tag('figure','guide-visual');
+ const sketch=tag('img');sketch.src=g.diagram;sketch.alt=g.title+' — yerel açıklayıcı şema';sketch.loading='lazy';
+ diagram.append(sketch,tag('figcaption','','KALE yerel şeması — çevrimdışı kullanılabilir'));grid.append(diagram);
+ for(const media of OPEN_MEDIA[g.id]||[]){
+  const fig=tag('figure','guide-visual'),img=tag('img');
+  img.src=media.file;img.alt=media.caption;img.loading='lazy';
+  img.addEventListener('error',()=>fig.remove(),{once:true});
+  const credit=tag('figcaption','',media.caption+' · ');
+  const link=tag('a','','Kaynak');link.href=media.source;link.target='_blank';link.rel='noopener noreferrer';
+  credit.append(link);fig.append(img,credit);grid.append(fig);
+ }
+ return grid;
+}
+
 function show(g){
  const target=$('guideDetail');target.replaceChildren();
  target.append(tag('h2','',g.title));
- const img=tag('img');img.src=g.diagram;img.alt=g.title+' için şematik çizim';target.append(img);
+ target.append(guideVisuals(g));
  target.append(tag('p','tag',g.review_status+' · '+g.updated));
  const steps=tag('ol');for(const t of g.steps)steps.append(tag('li','',t));target.append(steps);
  target.append(tag('p','alert strong','ÖNEMLİ: '+g.warning));
@@ -17,7 +45,9 @@ function show(g){
 }
 function render(){const q=$('guideSearch').value.toLocaleLowerCase('tr'),cat=$('guideCategory').value;const list=$('guideList');list.replaceChildren();
  let count=0;for(const g of all){if(cat&&g.category!==cat)continue;if(q&&!`${g.title} ${g.category} ${g.steps.join(' ')}`.toLocaleLowerCase('tr').includes(q))continue;
-  const card=tag('article','guide');const img=tag('img');img.src=g.diagram;img.loading='lazy';img.alt='Şematik '+g.title;card.append(img);const body=tag('div','guide-body');
+  const card=tag('article','guide');const img=tag('img');img.src=primaryImage(g);img.loading='lazy';img.alt='Görsel: '+g.title;
+  img.addEventListener('error',()=>{if(img.src!==new URL(g.diagram,location.href).href)img.src=g.diagram;},{once:true});
+  card.append(img);const body=tag('div','guide-body');
   body.append(tag('div','tag',g.category+' · '+g.review_status),tag('h2','',g.title),tag('p','',g.steps[0]),tag('p','warning','! '+g.warning));
   const btn=tag('button','','ADIMLARI GÖR →');btn.type='button';btn.addEventListener('click',()=>show(g));body.append(btn);card.append(body);list.append(card);count++;
  }
