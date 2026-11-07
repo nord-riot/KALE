@@ -34,6 +34,8 @@ if not (ROUTING_DIR/'brouter.jar').is_file() or not (ROUTING_DIR/'profiles2/look
     raise SystemExit('KURULUM TAM DEĞİL: BRouter motoru veya profilleri yok.')
 print(f'OK: sokak haritası {m["size_bytes"]/2**20:.0f} MiB / 10 rota bölgesi')
 PY
+printf '\n[2b/5] Kamu malı USGS güvenlik görselleri yerel cihaza alınıyor...\n'
+python3 tools/install_open_images.py || echo 'UYARI: Bazı görseller indirilemedi; yerel SVG çizimleri kullanılacak.'
 printf '\n[3/5] KALE web uygulaması kontrol ediliyor...\n'
 python3 server.py --selftest
 printf '\n[4/5] Android 7/24 başlatıcı ve yeniden başlatma desteği kuruluyor...\n'
