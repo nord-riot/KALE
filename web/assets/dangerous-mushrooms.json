@@ -19,22 +19,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Ölümcül köygöçüren (Amanita phalloides) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Ölümcül köygöçüren. Bilimsel ad: Amanita phalloides. Bildirilen tehlike: Amatoksin / ağır karaciğer hasarı ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Ölümcül köygöçüren veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Ölümcül köygöçüren için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Ölümcül köygöçüren kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 2,
@@ -53,22 +62,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Ölüm meleği grubu (Amanita virosa) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Ölüm meleği grubu. Bilimsel ad: Amanita virosa. Bildirilen tehlike: Amatoksin / ağır karaciğer hasarı ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Ölüm meleği grubu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Ölüm meleği grubu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Ölüm meleği grubu kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 3,
@@ -87,22 +105,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "İlkbahar amanitası (Amanita verna) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: İlkbahar amanitası. Bilimsel ad: Amanita verna. Bildirilen tehlike: Amatoksin / ağır karaciğer hasarı ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin İlkbahar amanitası veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "İlkbahar amanitası için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının İlkbahar amanitası kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 4,
@@ -121,22 +148,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Küçük galerina (Galerina marginata) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Küçük galerina. Bilimsel ad: Galerina marginata. Bildirilen tehlike: Amatoksin / ağır karaciğer hasarı ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Küçük galerina veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Küçük galerina için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Küçük galerina kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 5,
@@ -155,22 +191,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Küçük lepiota (Lepiota brunneoincarnata) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Küçük lepiota. Bilimsel ad: Lepiota brunneoincarnata. Bildirilen tehlike: Amatoksin / ağır karaciğer hasarı ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Küçük lepiota veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Küçük lepiota için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Küçük lepiota kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Amatoksin / ağır karaciğer hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 6,
@@ -189,22 +234,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Örümcek mantarı (Cortinarius orellanus) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Orellanin / gecikmiş böbrek hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Örümcek mantarı. Bilimsel ad: Cortinarius orellanus. Bildirilen tehlike: Orellanin / gecikmiş böbrek hasarı ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Örümcek mantarı veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Örümcek mantarı için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Örümcek mantarı kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Orellanin / gecikmiş böbrek hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 7,
@@ -223,22 +277,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Kırmızı örümcek mantarı (Cortinarius rubellus) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Orellanin / gecikmiş böbrek hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Kırmızı örümcek mantarı. Bilimsel ad: Cortinarius rubellus. Bildirilen tehlike: Orellanin / gecikmiş böbrek hasarı ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Kırmızı örümcek mantarı veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Kırmızı örümcek mantarı için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Kırmızı örümcek mantarı kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Orellanin / gecikmiş böbrek hasarı ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 8,
@@ -257,22 +320,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Yalancı kuzugöbeği (Gyromitra esculenta) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Gyromitrin / ciddi nörolojik ve organ toksisitesi ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Yalancı kuzugöbeği. Bilimsel ad: Gyromitra esculenta. Bildirilen tehlike: Gyromitrin / ciddi nörolojik ve organ toksisitesi ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Yalancı kuzugöbeği veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Yalancı kuzugöbeği için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Yalancı kuzugöbeği kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Gyromitrin / ciddi nörolojik ve organ toksisitesi ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 9,
@@ -291,22 +363,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Kırmızı sinek mantarı (Amanita muscaria) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Merkezi sinir sistemi etkileri; güvenli tüketim veya hazırlama yöntemi yok. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Kırmızı sinek mantarı. Bilimsel ad: Amanita muscaria. Bildirilen tehlike: Merkezi sinir sistemi etkileri; güvenli tüketim veya hazırlama yöntemi yok. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Kırmızı sinek mantarı veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Kırmızı sinek mantarı için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Kırmızı sinek mantarı kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Merkezi sinir sistemi etkileri; güvenli tüketim veya hazırlama yöntemi yok. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 10,
@@ -325,22 +406,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Panter mantarı (Amanita pantherina) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Merkezi sinir sistemi etkileri; bilinç değişikliği ve zehirlenme. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Panter mantarı. Bilimsel ad: Amanita pantherina. Bildirilen tehlike: Merkezi sinir sistemi etkileri; bilinç değişikliği ve zehirlenme. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Panter mantarı veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Panter mantarı için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Panter mantarı kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Merkezi sinir sistemi etkileri; bilinç değişikliği ve zehirlenme. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 11,
@@ -359,22 +449,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Huni mantarı grubu (Clitocybe rivulosa) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Muskarinik zehirlenme / aşırı salgı, terleme, ciddi belirtiler. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Huni mantarı grubu. Bilimsel ad: Clitocybe rivulosa. Bildirilen tehlike: Muskarinik zehirlenme / aşırı salgı, terleme, ciddi belirtiler. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Huni mantarı grubu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Huni mantarı grubu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Huni mantarı grubu kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Muskarinik zehirlenme / aşırı salgı, terleme, ciddi belirtiler. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 12,
@@ -393,22 +492,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Lifli mantar grubu (Inocybe spp.) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Bazı türlerde muskarinik zehirlenme / ağır belirtiler. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Lifli mantar grubu. Bilimsel ad: Inocybe spp.. Bildirilen tehlike: Bazı türlerde muskarinik zehirlenme / ağır belirtiler. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Lifli mantar grubu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Lifli mantar grubu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Lifli mantar grubu kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Bazı türlerde muskarinik zehirlenme / ağır belirtiler. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 13,
@@ -427,22 +535,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Zeytin mantarı grubu (Omphalotus olearius) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Ciddi mide-bağırsak zehirlenmesi riski. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Zeytin mantarı grubu. Bilimsel ad: Omphalotus olearius. Bildirilen tehlike: Ciddi mide-bağırsak zehirlenmesi riski. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Zeytin mantarı grubu veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Zeytin mantarı grubu için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Zeytin mantarı grubu kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Ciddi mide-bağırsak zehirlenmesi riski. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 14,
@@ -461,22 +578,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Ağulu çıntar sanılabilen mantar (Entoloma sinuatum) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Ciddi mide-bağırsak zehirlenmesi riski. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Ağulu çıntar sanılabilen mantar. Bilimsel ad: Entoloma sinuatum. Bildirilen tehlike: Ciddi mide-bağırsak zehirlenmesi riski. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Ağulu çıntar sanılabilen mantar veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Ağulu çıntar sanılabilen mantar için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Ağulu çıntar sanılabilen mantar kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Ciddi mide-bağırsak zehirlenmesi riski. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 15,
@@ -495,22 +621,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Kıvrık şapkalı mantar (Paxillus involutus) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Ağır bağışıklık ilişkili reaksiyon ve hemoliz ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Kıvrık şapkalı mantar. Bilimsel ad: Paxillus involutus. Bildirilen tehlike: Ağır bağışıklık ilişkili reaksiyon ve hemoliz ihtimali. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Kıvrık şapkalı mantar veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Kıvrık şapkalı mantar için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Kıvrık şapkalı mantar kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Ağır bağışıklık ilişkili reaksiyon ve hemoliz ihtimali. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     },
     {
       "id": 16,
@@ -529,22 +664,31 @@
       "review_status": "MİKOLOG / HEKİM ONAYI BEKLİYOR",
       "details": [
         {
-          "heading": "Bu kaydı niye okuyorum?",
-          "text": "Sarı lekelenen agarik (Agaricus xanthodermus) olası zehirlenme riski taşıyan kayıtlar arasındadır. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Mide-bağırsak zehirlenmesi riski. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez. Bu bilgi bir fotoğrafla kesin tür teşhisi yapmak için kullanılmamalıdır."
+          "heading": "1. Bu kayıt neyi anlatıyor?",
+          "text": "Adı: Sarı lekelenen agarik. Bilimsel ad: Agaricus xanthodermus. Bildirilen tehlike: Mide-bağırsak zehirlenmesi riski. Buradaki adlandırma olası bir zehirlenme riskini tanıtmak içindir, sahada fotoğrafa bakarak kesin teşhis koydurmaz. Bir türün bulunduğu bölge ve dönemi, yalnız genel habitata bakarak doğrulanamaz."
         },
         {
-          "heading": "Nerede karşılaşılabilir, nelere dikkat edilmeli?",
-          "text": "Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi Bitki/mantarın bulunduğu yer, rengi, şekli veya bir hayvanın yemiş olması güvenli tüketim kanıtı değildir. Özellikle çocukları ve hayvanları bilinmeyen örneklerden uzak tut."
+          "heading": "2. Nerede ve hangi koşulda karşılaşılabilir?",
+          "text": "Veritabanında geçen ortam: Doğal alanlarda karşılaşılabilen grup; türün yerel dağılımı teyit edilmedi. Bitkinin ya da mantarın bulunduğu yer tek başına teşhis değildir. Aynı görünüşe sahip başka bir tür bulunabilir; yaşına, yetiştiği toprağa, ışığa ve mevsime göre şekil değişebilir. Özellikle çocukların, evcil hayvanların ve bilgi sahibi olmayan kişilerin teması önlenmeli."
         },
         {
-          "heading": "Şüpheli temas veya yutma olursa",
-          "text": "Bir kişinin Sarı lekelenen agarik veya benzeri bilinmeyen bir örneği yutmuş olabileceğinden şüpheleniyorsan ağızdan 'ev ilacı' verme ve kusturmaya çalışma. Ağır belirti varsa 112'yi ara; Türkiye'de 114 Ulusal Zehir Danışma Merkezi yönlendirmesinden yararlan. Ne zaman, hangi miktarda ve nasıl temas edildiğini not et. Kalan mantar örneği varsa güvenli biçimde saklamak tür değerlendirmesine yardımcı olabilir."
+          "heading": "3. Uygulamada ne yapmalıyım?",
+          "text": "1) Bilinmeyen örneği yiyecek ve içme suyundan ayrı tut; kesin teşhis yoksa tüketme.\n2) Çocuğa veya merak eden birine denemesi için verme; “bir parça tadına bakmak” bir tanı yöntemi değildir.\n3) Temas/yutma şüphesinde zamanı, yaklaşık miktarı ve belirtileri not al. Örneğin fotoğrafı varsa bunu yalnız sağlık personeline bilgi sağlamak amacıyla göster; fotoğraftan güvenlik kararı verme.\n4) Sağlık kuruluşu veya zehir danışma merkezi yönlendirmesi olmadan kusturma, içecek/ilaç vererek etkisini giderme denemesi yapma."
         },
         {
-          "heading": "Güvenli karar özeti",
-          "text": "Sarı lekelenen agarik için uzman teşhisi ve güvenilir ürün kaynağı yoksa tüketme. KALE türü teşhis etmez, yenilebilirlik onayı vermez; fotoğrafa veya halk inanışlarına göre karar verme."
+          "heading": "4. Hangi belirtilerde acil davranmalıyım?",
+          "text": "Yutma şüphesinde belirtinin başlamasını beklemeden Türkiye'de 114 Ulusal Zehir Danışma Merkezi'nden bilgi iste. Nefes güçlüğü, bayılma, bilinç değişikliği, nöbet, şiddetli kusma veya hızla kötüleşme varsa 112'yi ara. Bazı mantar zehirlenmelerinde belirtiler gecikebilir; başlangıçta iyi görünmek tehlikeyi dışlamaz."
+        },
+        {
+          "heading": "5. Çok yapılan yanlışlar",
+          "text": "• “Hayvan yedi, ben de yiyebilirim” güvenli değildir.\n• “Haşlama/kızartma bütün zehri yok eder” doğru kabul edilemez.\n• “Kokusu güzel, rengi normal” teşhis değildir.\n• Bir internet fotoğrafının Sarı lekelenen agarik kaydıyla benzemesi, örneğin bu tür olduğunu kanıtlamaz.\n• Bu içerik botanik/mikoloji ve tıbbi uzman onayı olmadan tüketim kararı vermek için kullanılmaz."
+        },
+        {
+          "heading": "6. Kısa güvenlik kontrolü",
+          "text": "Türün uzman tarafından teşhisi var mı? Ürünün güvenilir, etiketli bir tedarik kaynağı var mı? Kişide temas veya yutma şüphesi var mı? Bunlardan birine güvenle yanıt veremiyorsan tüketim ya da deney yapma. Doğadan toplanan mantarlarda benzer türler ciddi şekilde karıştırılabilir. Mide-bağırsak zehirlenmesi riski. Yeme, deneme, tadına bakma; pişirme toksinleri güvenilir biçimde yok etmez."
         }
-      ]
+      ],
+      "updated_editorial": "2026-11-07"
     }
   ]
 }
