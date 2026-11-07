@@ -263,7 +263,7 @@ def canada_rows():
         if not isinstance(x,dict) or not x.get("drug_code"):
             continue
         # DPD also covers animals/disinfectants. Keep human medicines only.
-        if str(x.get("class_name") or "").strip().lower()!="human":
+        if not str(x.get("class_name") or "").strip().lower().startswith("human"):
             continue
         code=str(x["drug_code"])
         din=str(x.get("drug_identification_number") or "")
@@ -358,20 +358,20 @@ def read_xlsx(path):
 
 
 FIELDS={
- "name":("product name","product short name","medicine name","medicinal product","trade name","ticari adı","ticari ad",
+ "name":("product name","product short name","medicine name","medicinal product","trade name","ticari adı","ticari ad","satış adı","販売名","الاسم التجاري",
          "brand name","brand_name","artg name","name of medicine","ilaç adı","urun adi",
          "ürün adı","ilacın adı","beşeri tıbbi ürün adı","tradeName","prequalified product","product"),
  "ingredient":("active substance","active ingredient","active substances","active substance(s)",
-               "active ingredient name","scientific name","scientificname","generic name",
+               "active ingredient name","scientific name","scientificname","generic name","一般名","الاسم العلمي",
                "inn","inn name","inn, dosage form and strength","etkin madde","etken madde","generic_name","active_substance"),
  "code":("registration number","authorization number","marketing authorisation number",
          "marketing authorization number","ruhsat no","ruhsat numarası","pl number",
          "register number","regno","artg number","who reference number",
-         "approval number","product licence","license number","drug_identification_number"),
+         "approval number","product licence","license number","承認番号","drug_identification_number"),
  "status":("authorisation status","authorization status","marketing status",
            "product status","status","ruhsat durumu","approval status","licence status"),
  "form":("pharmaceutical form","dosage form","form","route of administration",
-         "pharmaceuticalform","dosage_form"),
+         "pharmaceuticalform","dosage_form","剤形"),
  "market":("country of authorisation","country of authorization","country","market"),
  "updated":("date","updated","date of authorisation","date of authorization",
              "approval date","küb onay tarihi","kt onay tarihi","last update date"),
@@ -397,6 +397,9 @@ def pick(row,aliases):
 
 def generic_row(data,regulator):
     name=pick(data,FIELDS["name"])
+    if not name and regulator=="WHO":
+        # WHO's official export may use a combined INN/form/strength column.
+        name=pick(data,("INN, Dosage Form and Strength","INN"))
     if not name:
         return None
     ingredient=pick(data,FIELDS["ingredient"])
@@ -446,6 +449,8 @@ def do_import(conn,path,regulator,official_list=False):
             conn.commit()
     conn.commit()
     print("İçe alınamayan ürün adı satırları:",skipped)
+    if count==0:
+        raise ValueError("Sütun eşleştirme başarısız; hiçbir ürün aktarılmadı. Resmî dosyanın başlıklarını kontrol et.")
     return count,"Resmî dosyadan aktarıldı; sütun doğrulaması gerekli"
 
 
@@ -483,6 +488,8 @@ def do_fda_json(conn,path):
                 if row and write_record(conn,imported_at=now(),**row):
                     count+=1
         conn.commit()
+    if count==0:
+        raise ValueError("FDA JSON arşivinde uygun ilaç etiket kaydı bulunmadı")
     return count,"FDA etiket arşivinden aktarıldı; FDA ruhsat kararı değildir"
 
 
