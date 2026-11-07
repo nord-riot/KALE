@@ -20,7 +20,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Deprem sonrası ilk kontrol: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Deprem sırasında önce bulunduğun noktanın güvenliğine odaklan: pencerelerden, devrilebilecek dolaplardan ve düşebilecek eşyalardan korun; mümkünse Çök–Kapan–Tutun uygula.\n\nSarsıntı durduğunda kırık camlara ve düşen parçalara karşı ayakkabı giy; çıkış yolunu gözle değerlendir. Duman, gaz kokusu, çatlama veya yapısal hasar görürsen asansörü kullanma.\n\nBuluşma yerine vardığında aile bireylerini say, yaralıları ve eksikleri not et, kısa konum mesajını yakınlarına gönder. Artçı sarsıntı ihtimalini unutma."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Ağır hasarlı yapılara kesinlikle girmeyin. Acil yardım için Türkiye’de 112. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 2,
@@ -41,7 +55,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "72 saatlik afet çantası: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Çanta bir depoya kaldırılacak eşya değildir: çıkış yolunda, kolay erişilebilir ve evdekilerin bildiği bir noktada durmalı.\n\nHer kişi için su, dayanıklı gıda, mevsime uygun giysi, düzenli kullanılan kişisel ilaçlar ve temel hijyen malzemelerini ayrı kontrol et.\n\nÇantayı ayda bir gözden geçir; son kullanma tarihlerini, pil durumunu, çocuk ve evcil hayvan ihtiyaçlarını yazılı listeye işle."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Çantayı erişilemeyecek bir yere koyma; ilaçları saklama koşullarına uygun tut. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 3,
@@ -62,7 +90,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Şüpheli suyu güvenli değerlendirme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Suyun berrak görünmesi temiz olduğu anlamına gelmez. Özellikle afet sonrası kanalizasyon, yakıt, tarım ilacı veya sanayi sızıntısı olasılığını kontrol et.\n\nKaynatma mikroplara karşı bir işlemdir; kimyasal kirleticileri güvenilir biçimde uzaklaştırmaz. Kimyasal şüphede kaynatıp içme.\n\nMikrobiyolojik risk için uygun kaynatma sonrası suyu temiz, kapaklı ve içme suyuna ayrılmış kaba aktar; işlem görmemiş suyla karıştırma."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Bilinmeyen filtre kimyasal zehri güvenle gidermez. Kaynak kuşkuluysa başka su ara. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 4,
@@ -83,7 +125,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Jeneratör ve karbonmonoksit: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Jeneratör ve mangal açık kapı veya pencerenin yanında bile risk oluşturabilir; egzoz gazı içeri taşınabilir.\n\nJeneratörü açık havada, kapı, pencere ve hava girişlerinden en az yaklaşık 6 metre uzakta tut; üretici talimatına uy.\n\nBaş ağrısı, sersemlik, bulantı gibi belirtilerde önce güvenli biçimde temiz havaya çık, çevredekileri uyar ve 112'yi ara."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Karbonmonoksit kokusuz ve renksizdir; hissedememeniz ortamın güvenli olduğu anlamına gelmez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 5,
@@ -108,7 +164,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Geçici barınak yeri seçimi: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Düz zemin tek başına güvenli zemin değildir. Dere yatağı, sel izi, gevşek yamaç, devrilme ihtimali olan ağaç ve enerji hattını birlikte değerlendir.\n\nGece karanlığında seçilen alana gündüz yeniden bak. Yağmurda suyun hangi yönden akacağını ve tahliye çıkışını belirle.\n\nTehlike varsa çadırı güçlendirmeye çalışmak yerine daha güvenli yer seç. Barınakta alevli cihaz kullanma."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yerel sel, yangın ve toprak kayması uyarıları önceliklidir. Bu kart yer seçimi için ön kontrol listesidir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 6,
@@ -129,7 +199,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Aile haberleşme ve buluşma planı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "İki buluşma noktası belirle: biri ev yakınında güvenli açık alan, diğeri mahalleye erişim kesilirse kullanılacak alternatif.\n\nHerkesin yanında kâğıt iletişim kartı bulunsun. Telefon numarası, ilaç gereksinimi, buluşma noktası ve yakın irtibat kişisini yaz.\n\nSinyal yokken sürekli aramak yerine önceden anlaşılan kısa mesaj ve zaman aralıklarını kullan; resmî uyarıları önceliklendir."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Afet anında güncel resmî tahliye talimatları önceliklidir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 7,
@@ -145,7 +229,21 @@
       "warning": "Örnek koordinat acil konum değildir; gerçek konumu cihazından doğrula.",
       "sources": [],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Koordinatı doğru kaydetme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Koordinatları 'enlem, boylam' şeklinde açık etiketle; örneğin 38.4237, 27.1428 bir adres değil iki sayıdır.\n\nKonumu kaydetmeden önce GPS doğruluk değerini ve haritada işaretin gerçekten bulunduğun konumda olup olmadığını kontrol et.\n\nKâğıt yedek oluştururken tarih ve yer adını yaz. Yanlış işaretlenen konumun ekipleri yanlış yere yönlendirebileceğini unutma."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Örnek koordinat acil konum değildir; gerçek konumu cihazından doğrula. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 8,
@@ -161,7 +259,21 @@
       "warning": "Yanlış batarya bağlantısı yangına yol açabilir. Bu rehber kablolama şeması veya montaj talimatı değildir.",
       "sources": [],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Güç kaynağı ve kablo güvenliği: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Kablolarda ezilme, açılmış yalıtım, ısınma, şişmiş batarya veya yanık kokusu varsa sistemi kullanma.\n\nPriz, kablo ve adaptörleri kuru tut; elektrikli bağlantıyı su birikintisi ve yanıcı malzemeden uzaklaştır.\n\nHasarlı güç kaynağını bantla onarıp denemeye çalışma. Yetkili teknik destek olmadan içini açma."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yanlış batarya bağlantısı yangına yol açabilir. Bu rehber kablolama şeması veya montaj talimatı değildir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Suyu kaynatarak mikroplardan arındırma",
@@ -182,7 +294,21 @@
       "id": 9,
       "diagram": "/assets/diagrams/guide-09.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Suyu kaynatarak mikroplardan arındırma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Önce suyun kaynağını değerlendir; yakıt, kimyasal veya pestisit kuşkusu varsa kaynatmak onu içilebilir yapmaz.\n\nGörünür tortu varsa temiz bez veya uygun yöntemle ön süzme yap; bu aşama mikropları güvenilir biçimde gidermez.\n\nBerrak suyu güçlü biçimde kaynat; genel CDC önerisi 1 dakika, 2.000 metre üstünde 3 dakikadır. Soğutup temiz kapta sakla."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yakıt, pestisit, ağır metal veya radyoaktif kirlilik şüphesi varsa kaynatmak güvenli içme suyu oluşturmaz. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Kimyasal kirlilik şüphesinde su kararı",
@@ -203,7 +329,21 @@
       "id": 10,
       "diagram": "/assets/diagrams/guide-10.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Kimyasal kirlilik şüphesinde su kararı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Endüstriyel alan, tarımsal akış, yakıt sızıntısı veya kimyasal koku şüphesi bir 'dur' işaretidir.\n\nKaynatmak, çöktürmek veya sıradan sürahi filtresi kimyasal güvenlik onayı sağlamaz.\n\nBöyle durumlarda ambalajlı suya veya yetkililerin güvenli ilan ettiği kaynağa geç; şüpheli suyla yemek de hazırlama."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kimyasal kirli suya güvenliymiş gibi görünüm/koku testi uygulama; bazen hiçbir belirti olmaz. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Güvenli su saklama ve stok kontrolü",
@@ -224,7 +364,21 @@
       "id": 11,
       "diagram": "/assets/diagrams/guide-11.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Güvenli su saklama ve stok kontrolü: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "İşlem görmüş içme suyuna ait kap ile ham su kabını kesin ayır; mümkünse üzerinde büyük ve okunur etiket olsun.\n\nKapağı sık kapanan gıda uygunluklu kap seç; el ve kirli kepçeyi suyun içine sokma.\n\nSu stoklarını tarihleyip düzenli kontrol et. Kap kirliliği suyun yeniden kirlenmesine neden olabilir."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Eski kimyasal kapları iyice yıkansa bile içme suyu için kullanma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Yağmur suyunu toplarken dikkat",
@@ -245,7 +399,21 @@
       "id": 12,
       "diagram": "/assets/diagrams/guide-12.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Yağmur suyunu toplarken dikkat: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Çatıdaki veya oluklardaki kir, kuş dışkısı ve çevresel kirleticiler yağmur suyuna karışabilir.\n\nYağmur suyunu baştan içilebilir kabul etme; toplama yüzeyini ve çevredeki sanayi/kimyasal riskleri değerlendir.\n\nToplanan suyu içme dışı kullanım için ayrıca etiketle; içme amacı için güvenilir yöntem ve yetkili değerlendirme gerekir."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yağmur suyunu basit kaynatma ile her türlü kimyasal kirden temizleyemezsin. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Zeminden gelen soğuktan korunma",
@@ -266,7 +434,21 @@
       "id": 13,
       "diagram": "/assets/diagrams/guide-13.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Zeminden gelen soğuktan korunma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Soğuk zemine doğrudan yatmak vücuttan ısı kaybını artırabilir; önce kuru bir yalıtıcı katman yerleştir.\n\nUyku matı, kuru battaniye veya güvenli yalıtım malzemesini yerleştirirken hava ve nem dolaşımını da düşün.\n\nIslanan katmanları değiştir, titreme ve bilinç değişikliği gibi hipotermi belirtilerine dikkat et."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kapalı çadırda veya derme çatma barınakta mangal, ateş ya da yakıtlı ocak çalıştırma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Geçici barınakta havalandırma",
@@ -287,7 +469,21 @@
       "id": 14,
       "diagram": "/assets/diagrams/guide-14.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Geçici barınakta havalandırma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Çadır veya geçici barınakta nem birikmesi ve havasızlık birbirinden farklı ama önemli sorunlardır.\n\nKarşılıklı güvenli hava açıklıklarını kapatma; yağış içeri girmeyecek şekilde havalandır.\n\nMangal, piknik tüpü, jeneratör ve yakıtlı sobayı çadır veya kapalı barınak içinde asla çalıştırma."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Karbonmonoksit renksiz ve kokusuzdur. Havalandırma açıklığı, iç mekânda jeneratör/ızgara kullanımını güvenli yapmaz. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Barınakta yangın çıkış planı",
@@ -308,7 +504,21 @@
       "id": 15,
       "diagram": "/assets/diagrams/guide-15.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Barınakta yangın çıkış planı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Barınakta herkes çıkışın nerede olduğunu ve karanlıkta hangi yoldan gideceğini bilsin.\n\nÇıkışları çanta, yakıt, kablo veya eşya ile kapatma. El fenerlerini erişilebilir tut.\n\nDuman veya alev görülürse eşyaları toplamaya çalışmadan güvenli tahliye yapıp 112'yi ara."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Duman, kıvılcım veya gaz kokusunda güvenli biçimde alanı terk et; kapalı alanda müdahale etmeye çalışma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Jeneratörü bina dışında konumlandırma",
@@ -329,7 +539,21 @@
       "id": 16,
       "diagram": "/assets/diagrams/guide-16.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Jeneratörü bina dışında konumlandırma: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Jeneratör egzozundan çıkan karbonmonoksit renksiz ve kokusuzdur; rüzgârla içeri girebilir.\n\nJeneratörü kapı, pencere ve hava girişlerinden en az yaklaşık 6 metre uzağa açık havada kur.\n\nİçeride egzoz kokusu olmaması güvenli olduğu anlamına gelmez; karbonmonoksit alarmı ve düzenli kontrol gerekir."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Garajda, balkonu kapalı alanda veya açık pencereli odada jeneratör çalıştırma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Batarya ve kablo hasarı kontrolü",
@@ -350,7 +574,21 @@
       "id": 17,
       "diagram": "/assets/diagrams/guide-17.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Batarya ve kablo hasarı kontrolü: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Hasarlı batarya, şişme, çatlak, sızıntı veya aşırı ısınma varsa şarja bağlama.\n\nŞarj cihazının voltaj ve bağlantı uyumunu üretici bilgilerine göre kontrol et; nemli yüzeyde şarj etme.\n\nŞüpheli lityum bataryayı delme, sıkıştırma, açma veya alevle müdahale etme; güvenli biçimde kullanımdan çıkar."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kısa devre, yangın ve hücre patlaması tehlikesi nedeniyle doğaçlama pil paketleri yapma. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Az ışıkla güvenli hareket",
@@ -371,7 +609,21 @@
       "id": 18,
       "diagram": "/assets/diagrams/guide-18.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Az ışıkla güvenli hareket: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Karanlıkta hızlanmak değil tehlikeleri önceden fark etmek gerekir: kırık cam, çukur, kablo ve kaygan yüzeyi düşün.\n\nKafa lambasıyla iki elini serbest tut, ayağının basacağı yeri aydınlat ve mümkünse eşli ilerle.\n\nBilinmeyen yapıya, gevşek zemine veya su basmış alana sırf kısa yol diye girme."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Karanlıkta hasarlı yapıya malzeme almak için geri girme. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Afet çantasında kişisel ihtiyaç kontrolü",
@@ -392,7 +644,21 @@
       "id": 19,
       "diagram": "/assets/diagrams/guide-19.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Afet çantasında kişisel ihtiyaç kontrolü: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Kişiye özel ilaç, reçete kopyası, gözlük, bebek ve yaşlı ihtiyaçlarını genel çanta listesinden ayrı değerlendir.\n\nHer aile bireyi çantasını kendi taşıyabileceği ağırlıkta planlasın; ortak ekipmanların kimde olduğunu yaz.\n\nDüzenli ilaçların saklama koşullarını ve son kullanma tarihlerini kontrol et; rastgele ilaç değiştirme."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Acil çanta, hekim değerlendirmesi olmadan ilaç değişikliği veya saklanması gereken soğuk zincirin ihlali anlamına gelmez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Evcil hayvanlı aile için hazırlık",
@@ -413,7 +679,21 @@
       "id": 20,
       "diagram": "/assets/diagrams/guide-20.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Evcil hayvanlı aile için hazırlık: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Evcil hayvanın kimlik, mama, su, taşıma ve ilaç gereksinimini aile planına dahil et.\n\nTasma, güvenli taşıma kutusu, dışkı poşeti ve veteriner iletişim bilgisini hazırla.\n\nAfet sırasında hayvanı serbest bırakmanın kaçma ve yaralanma riski yaratabileceğini unutma."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? İnsan ilaçlarını veteriner önerisi olmadan hayvanlara verme. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Buluşma noktası ve kâğıt bilgi kartı",
@@ -434,7 +714,21 @@
       "id": 21,
       "diagram": "/assets/diagrams/guide-21.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Buluşma noktası ve kâğıt bilgi kartı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Buluşma noktasının adını söylemek yeterli olmayabilir; açık adres veya doğrulanmış koordinat yaz.\n\nKâğıt kartta yakın kişi, alternatif kişi, buluşma alanı ve önemli sağlık bilgisini gereğinden fazla kişisel veri açmadan taşı.\n\nBir nokta erişilemezse kullanılacak ikinci yer ve haberleşme yöntemini önceden belirle."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Özel sağlık verilerini herkesin görebileceği yerlere asma; kartı kaybolmaya karşı koru. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Ellerin temizliği ve güvenli sanitasyon",
@@ -455,7 +749,21 @@
       "id": 22,
       "diagram": "/assets/diagrams/guide-22.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Ellerin temizliği ve güvenli sanitasyon: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Temiz su, sabun ve tuvalet alanını birbirinden ayırarak hastalık yayılma riskini azalt.\n\nYemek hazırlamadan önce ve tuvalet sonrasında el temizliğini önceliklendir.\n\nKirli atıkları içme suyu depolarından ve yemek alanından uzak, güvenli biçimde yönet."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Kirli suyla el yıkamak enfeksiyon riskini artırabilir; resmî içme/kullanma suyu uyarılarını takip et. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Gıda bozulması şüphesinde karar",
@@ -476,7 +784,21 @@
       "id": 23,
       "diagram": "/assets/diagrams/guide-23.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Gıda bozulması şüphesinde karar: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Gıdanın iyi kokması güvenli olduğu anlamına gelmez; elektrik kesintisi ve saklama süresini kontrol et.\n\nÇiğ ve pişmiş ürünleri ayır, uygun sıcaklıkta saklanmayan bozulabilir yiyecekleri tüketme.\n\nŞüpheli konserveyi açıp tadına bakma; şişme, sızıntı ve hasarı risk işareti kabul et."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Şüpheli gıda için “biraz ısıtınca düzelir” varsayımı tehlikelidir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "title": "Kötü hava koşullarında hareketi erteleme",
@@ -497,7 +819,21 @@
       "id": 24,
       "diagram": "/assets/diagrams/guide-24.svg",
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Kötü hava koşullarında hareketi erteleme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Şiddetli yağış, sel, karanlık, yıldırım veya aşırı rüzgârda yolculuk riskini yeniden değerlendir.\n\nGitmek zorundaysan güvenli güzergâh, geri dönüş ve iletişim planını oluştur; sel suyundan geçme.\n\nResmî tahliye talimatı varsa kendi planından önce onu uygula."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Su basmış yolda veya dere geçidinde akıntının derinliğini yürüyerek test etme. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 25,
@@ -518,7 +854,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Yabani mantarın tehlike işaretleri değil, güvenlik kararı: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Doğada mantarların yenilebilir görünümleri zehirli türlerle benzeşebilir; renk, koku ve hayvanların yemesi güvenli test değildir.\n\nFotoğrafa, mobil uygulamaya veya halk inanışlarına bakarak yabani mantarı yenilebilir ilan etme.\n\nGüvenilir ve etiketli kültür mantarını tercih et; tanımlanamayan yabani mantarı tüketme."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Yabani mantarlar için KALE hiçbir tüketim tavsiyesi vermez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 26,
@@ -539,7 +889,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Şüpheli mantar yendiyse ilk bildirim: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Yabani mantar yenmesi sonrası belirti olmasa bile ciddi zehirlenme ihtimali değerlendirilmeli.\n\n112 veya Ulusal Zehir Danışma Merkezi 114 ile görüş; kalan örneği güvenli biçimde saklamak tespit için yardımcı olabilir.\n\nKişiyi kusturmaya veya evde 'panzehir' denemeye çalışma; ne zaman ne kadar yenildiğini not et."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Belirti olmaması güvenli olduğu anlamına gelmez; karaciğer ve böbrek hasarı gecikmeli görülebilir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 27,
@@ -560,7 +924,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Çocuklar ve hayvanlar için yabani bitki önlemleri: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Çocukların veya evcil hayvanların bilinmeyen bitki ve meyveleri ağızlarına götürmesini önle.\n\nBitkiyi elleyip sonra göz veya ağza dokunmamaya dikkat et; güvenli biçimde uzaklaş.\n\nYutma kuşkusu varsa zorla kusturma; 112 veya 114'ten yönlendirme iste."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Bitki veya mantarın “doğal” olması toksik olmadığını göstermez. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     },
     {
       "id": 28,
@@ -581,7 +959,21 @@
         }
       ],
       "review_status": "EDİTORYAL TASLAK",
-      "updated": "2026-11-03"
+      "updated": "2026-11-07",
+      "details": [
+        {
+          "heading": "Bu konu neden önemli?",
+          "text": "Etiketli kültür mantarını güvenli değerlendirme: Afet sırasında küçük bir ihmal daha büyük risk yaratabilir. Bu kartı olay gerçekleşmeden önce okuyup hazırlık yap; olay anında önce çevre güvenliğini ve resmî uyarıları değerlendir."
+        },
+        {
+          "heading": "Adım adım, anlaşılır açıklama",
+          "text": "Etiketli kültür mantarının üretim ve saklama bilgilerini kontrol et; yabani mantarla karıştırma.\n\nBozulma, uygun olmayan saklama ve çapraz bulaşma belirtilerinde tüketme.\n\nPişirmek yabani zehirli mantarı güvenilir biçimde güvenli hale getirmez; ayrımı önemlidir."
+        },
+        {
+          "heading": "Uygulamayı bitirmeden kontrol et",
+          "text": "Bu adımları uygulayacak kişi malzemeleri ve çıkış yolunu biliyor mu? Etiketli ürün bile bozulabilir; çiğ tüketim ve uygunsuz saklama gıda güvenliği riski yaratabilir. Emin olmadığın noktada işlemi zorlamadan güvenli alternatife ve resmî yardıma yönel."
+        }
+      ]
     }
   ]
 }
