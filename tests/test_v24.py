@@ -114,6 +114,23 @@ class MapV24(unittest.TestCase):
             p=subprocess.run(['bash','-n',str(ROOT/'deploy/bootstrap-termux.sh'),str(ROOT/'deploy/install-all-termux.sh'),str(ROOT/'deploy/install-24x7.sh')],capture_output=True,text=True)
             self.assertEqual(p.returncode,0,p.stderr)
 
+    def test_optional_java_and_official_mirror_repair(self):
+        bootstrap=(ROOT/'deploy/bootstrap-termux.sh').read_text('utf-8')
+        installer=(ROOT/'deploy/install-all-termux.sh').read_text('utf-8')
+        self.assertIn('https://packages.termux.dev/apt/termux-main stable main',bootstrap)
+        self.assertIn('source_list.kale-backup-',bootstrap)
+        self.assertIn('pkg install -y openjdk-17',bootstrap)
+        self.assertIn('pkg install -y openjdk-21',bootstrap)
+        self.assertIn('if ! command -v java',installer)
+        self.assertNotIn("Java eksik. Önce pkg install openjdk-17';exit 2",installer)
+        self.assertIn('if [[ "$route_deps" = 1 ]]',installer)
+        if shutil.which('bash'):
+            result=subprocess.run(['bash','-n',
+                str(ROOT/'deploy/bootstrap-termux.sh'),
+                str(ROOT/'deploy/install-all-termux.sh')],
+                capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+
     def test_readme_and_service_worker_version(self):
         self.assertIn('v2.4', (ROOT/'README.md').read_text())
         self.assertIn('kale-v2.',(ROOT/'web/sw.js').read_text())
