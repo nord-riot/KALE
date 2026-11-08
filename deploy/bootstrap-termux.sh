@@ -8,7 +8,31 @@ fi
 printf '\n  KALE 2.4 · TÜRKİYE OFFLINE SOKAKLAR + ROTA + Wi-Fi SOHBET\n'
 printf '  İlk kurulumda internet gerekir. Sonrasında sistem internetsiz çalışır.\n\n'
 pkg update -y
-pkg install -y git python openjdk-17 curl unzip termux-api
+# Do not make the entire KALE installation fail due to an out-of-date JDK mirror.
+# The current official Termux main repository publishes openjdk-17 and openjdk-21.
+pkg install -y git python curl unzip termux-api
+if ! command -v java >/dev/null 2>&1; then
+  if ! apt-cache show openjdk-17 >/dev/null 2>&1 && ! apt-cache show openjdk-21 >/dev/null 2>&1; then
+    echo 'UYARI: Seçili Termux paketi deposunda Java görünmüyor.'
+    echo 'Resmî Termux ana paket deposuna geçiliyor (eski yapılandırma yedeklenecek).'
+    source_list="${PREFIX}/etc/apt/sources.list"
+    mkdir -p "$(dirname "$source_list")"
+    if [[ -f "$source_list" ]]; then
+      cp -p "$source_list" "$source_list.kale-backup-$(date +%Y%m%d-%H%M%S)"
+    fi
+    printf '%s\n' 'deb https://packages.termux.dev/apt/termux-main stable main' > "$source_list"
+    pkg update -y || echo 'UYARI: Resmî paket deposuna ulaşılamadı.'
+  fi
+  if pkg install -y openjdk-17; then
+    echo 'Java 17 kuruldu.'
+  elif pkg install -y openjdk-21; then
+    echo 'Java 21 kuruldu.'
+  else
+    echo 'UYARI: Java kurulamadı; KALE harita, rehber ve iletişim ekranları kurulacak.'
+    echo 'Yalnız çevrimdışı yol rotası Java kurulana kadar kullanılamaz.'
+    echo 'Gerekirse Termux içinde: termux-change-repo'
+  fi
+fi
 if [[ -d "$HOME/KALE/.git" ]]; then
   echo 'Mevcut KALE bulundu; verileri silmeden güncelliyorum.'
   git -C "$HOME/KALE" pull --ff-only || {
