@@ -8,7 +8,9 @@ if [[ "${PREFIX:-}" != */com.termux/files/usr ]]; then
   echo 'Bu kurulum Android Termux içindir.' >&2;exit 2
 fi
 command -v python3 >/dev/null || { echo 'Python eksik. Önce pkg install python';exit 2; }
-command -v java >/dev/null || { echo 'Java eksik. Önce pkg install openjdk-17';exit 2; }
+if ! command -v java >/dev/null 2>&1; then
+  echo 'UYARI: Java yok. Sokak haritası ve KALE kurulacak; rota servisi şimdilik kapalı.'
+fi
 if [[ ! -f data/maps/turkiye-street.mbtiles ]]; then
   python3 - <<'PY'
 import shutil,sys
@@ -30,11 +32,16 @@ if not m.get('installed'):
 print('OK: GERÇEK SOKAK HARİTASI',round(m['size_bytes']/2**20),'MiB')
 PY
 printf '\n[2/5] Offline rota motoru kurulumu deneniyor (haritadan bağımsız)...\n'
-route_deps=1
-python3 tools/turkiye_full.py segments || route_deps=0
-python3 tools/turkiye_full.py engine || route_deps=0
+route_deps=0
+if command -v java >/dev/null 2>&1; then
+  route_deps=1
+  python3 tools/turkiye_full.py segments || route_deps=0
+  python3 tools/turkiye_full.py engine || route_deps=0
+else
+  echo 'UYARI: Rota verilerinin büyük indirmesi Java bulunmadığından atlanıyor.'
+fi
 if [[ "$route_deps" = 0 ]]; then
-  echo 'UYARI: Rota verileri eksik ama SOKAK HARİTASI HAZIR. Harita çalışacak.'
+  echo 'UYARI: Çevrimdışı rota şu an aktif değil ama GERÇEK SOKAK HARİTASI çalışacak.'
 fi
 python3 tools/turkiye_full.py check || true
 printf '\n[2b/5] Kamu malı USGS güvenlik görselleri yerel cihaza alınıyor...\n'
@@ -88,6 +95,7 @@ PY
 fi
 # The routing backend is a separate local Java process and may need startup time.
 router=0
+if [[ "$route_deps" = 1 ]]; then
 for attempt in $(seq 1 20);do
   if python3 - <<'PY' 2>/dev/null
 from urllib.request import urlopen
@@ -98,6 +106,7 @@ PY
   then router=1;break;fi
   sleep 1
 done
+fi
 if [[ "$router" != 1 ]];then
   echo 'UYARI: Sokak haritası hazır; BRouter rota servisi bu cihazda henüz aktif değil.' >&2
   echo 'Harita: http://127.0.0.1:8090/harita.html' >&2
